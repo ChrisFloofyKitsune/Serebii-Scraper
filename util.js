@@ -1,4 +1,4 @@
-const nameChanges = [
+const moveNameChanges = [
     { Old: "AncientPower", New: "Ancient Power" },
     { Old: "BubbleBeam", New: "Bubble Beam" },
     { Old: "DoubleSlap", New: "Double Slap" },
@@ -43,11 +43,33 @@ function MoveNameFix(moveName) {
 
     moveName = moveName.replace(/E$/, "");
 
-    let nameChange = nameChanges.find(nc => nc.Old.toUpperCase() == moveName.toUpperCase());
+    let nameChange = moveNameChanges.find(nc => nc.Old.toUpperCase() == moveName.toUpperCase());
 
     if (nameChange)
         moveName = nameChange.New;
 
     return moveName;
 }
-exports.MoveNameFix = MoveNameFix;
+
+function PokemonNameFix(name) {
+    if (name == "Nidoran (F)")
+        return "Nidoran♀";
+
+    if (name == "Nidoran (M)")
+        return "Nidoran♂";
+
+    if (name == "Ho-oh")
+        return "Ho-Oh";
+
+    if (name == "Flab�b�")
+        return "Flabébé";
+
+    return name;
+}
+
+exports = {
+    MoveNameFix,
+    PokemonNameFix
+};
+
+

@@ -2386,6 +2386,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Meteor Beam",
         "Forms": [
           "Normal"
@@ -4077,6 +4083,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Dual Wingbeat",
         "Forms": [
@@ -8596,6 +8608,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Steel Roller",
         "Forms": [
           "Normal"
@@ -12384,7 +12402,14 @@
         ]
       }
     ],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Rest",
@@ -15173,7 +15198,14 @@
       }
     ],
     "EggMoves": [],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Iron Defense",
@@ -17978,6 +18010,18 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Blast Burn",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Fire Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Coaching",
         "Forms": [
@@ -26560,6 +26604,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Meteor Beam",
         "Forms": [
@@ -36047,6 +36097,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Fire Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Coaching",
         "Forms": [
@@ -47704,6 +47760,18 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Scale Shot",
         "Forms": [
           "Normal"
@@ -48976,6 +49044,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Alolan"
+        ]
+      },
       {
         "Name": "Scorching Sands",
         "Forms": [
@@ -51343,6 +51417,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Scale Shot",
         "Forms": [
           "Normal"
@@ -51717,6 +51797,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Dual Wingbeat",
         "Forms": [
@@ -53487,6 +53573,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Scale Shot",
         "Forms": [
@@ -56502,6 +56594,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Alolan"
+        ]
+      },
       {
         "Name": "Scorching Sands",
         "Forms": [
@@ -64196,6 +64294,13 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal",
+          "Eternamax"
+        ]
+      },
+      {
         "Name": "Meteor Beam",
         "Forms": [
           "Normal",
@@ -65313,6 +65418,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Alolan"
+        ]
+      },
       {
         "Name": "Terrain Pulse",
         "Forms": [
@@ -71638,6 +71749,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Scorching Sands",
         "Forms": [
           "Normal"
@@ -73394,6 +73511,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Scorching Sands",
         "Forms": [
           "Normal"
@@ -75114,7 +75237,18 @@
       }
     ],
     "EggMoves": [],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal",
+          "Normal",
+          "Normal",
+          "Normal",
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Fly",
@@ -76194,6 +76328,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Scorching Sands",
         "Forms": [
           "Normal"
@@ -76852,6 +76992,13 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Altered Forme",
+          "Origin Forme"
+        ]
+      },
       {
         "Name": "Dual Wingbeat",
         "Forms": [
@@ -85445,6 +85592,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Grass Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Grassy Glide",
         "Forms": [
           "Normal"
@@ -86726,6 +86879,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Corrosive Gas",
         "Forms": [
@@ -99252,7 +99411,44 @@
         ]
       }
     ],
-    "EggMoves": [],
+    "EggMoves": [
+      {
+        "Name": "Acid Armor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Confuse Ray",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Pain Split",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Mist",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Bubble Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Strength Sap",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "TutorMoves": [
       {
         "Name": "Poltergeist",
@@ -103621,7 +103817,14 @@
       }
     ],
     "EggMoves": [],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Giga Impact",
@@ -109212,6 +109415,14 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal",
+          "Black",
+          "White"
+        ]
+      },
+      {
         "Name": "Dual Wingbeat",
         "Forms": [
           "Normal",
@@ -109736,6 +109947,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Steel Roller",
         "Forms": [
@@ -112173,6 +112390,12 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Dual Wingbeat",
         "Forms": [
           "Normal"
@@ -112638,6 +112861,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Dual Wingbeat",
         "Forms": [
@@ -130356,7 +130585,14 @@
         ]
       }
     ],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Water Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Mega Punch",
@@ -132374,6 +132610,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Galarian"
+        ]
+      },
+      {
         "Name": "Lash Out",
         "Forms": [
           "Normal",
@@ -133239,6 +133481,12 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Expanding Force",
         "Forms": [
           "Normal"
@@ -133616,6 +133864,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Expanding Force",
         "Forms": [
@@ -142051,7 +142305,14 @@
         ]
       }
     ],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Water Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Dig",
@@ -143768,6 +144029,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Dual Wingbeat",
         "Forms": [
@@ -153799,6 +154066,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Dual Wingbeat",
         "Forms": [
@@ -168367,12 +168640,6 @@
     ],
     "TutorMoves": [
       {
-        "Name": "Steel Beam",
-        "Forms": [
-          "Alolan"
-        ]
-      },
-      {
         "Name": "Rising Voltage",
         "Forms": [
           "Normal",
@@ -170974,6 +171241,12 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Scale Shot",
         "Forms": [
           "Normal"
@@ -172190,6 +172463,12 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Meteor Beam",
         "Forms": [
           "Normal"
@@ -173224,6 +173503,12 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Scorching Sands",
         "Forms": [
@@ -180581,6 +180866,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Dual Wingbeat",
         "Forms": [
           "Normal"
@@ -183073,6 +183364,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Alolan"
+        ]
+      },
+      {
         "Name": "Scorching Sands",
         "Forms": [
           "Normal"
@@ -184242,6 +184539,18 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Frenzy Plant",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Grass Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Grassy Glide",
         "Forms": [
@@ -189358,7 +189667,14 @@
         ]
       }
     ],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Rest",
@@ -204109,6 +204425,12 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Meteor Beam",
         "Forms": [
           "Normal"
@@ -206936,6 +207258,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Steel Beam",
+        "Forms": [
+          "Galarian"
+        ]
+      },
+      {
         "Name": "Lash Out",
         "Forms": [
           "Normal",
@@ -208781,6 +209109,18 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Hydro Cannon",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Water Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Flip Turn",
         "Forms": [
@@ -218440,7 +218780,14 @@
         ]
       }
     ],
-    "TutorMoves": [],
+    "TutorMoves": [
+      {
+        "Name": "Fire Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "MachineMoves": [
       {
         "Name": "Mega Punch",
@@ -221847,6 +222194,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Grass Pledge",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Grassy Glide",
         "Forms": [
           "Normal"
@@ -224777,6 +225130,12 @@
     ],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Meteor Beam",
         "Forms": [
           "Normal"
@@ -225441,6 +225800,12 @@
       }
     ],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
       {
         "Name": "Meteor Beam",
         "Forms": [
@@ -232100,7 +232465,26 @@
         ]
       }
     ],
-    "EggMoves": [],
+    "EggMoves": [
+      {
+        "Name": "Harden",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Absorb",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Thrash",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ],
     "TutorMoves": [
       {
         "Name": "Dual Wingbeat",
@@ -232849,12 +233233,6 @@
       }
     ],
     "TutorMoves": [
-      {
-        "Name": "Steel Beam",
-        "Forms": [
-          "Alolan"
-        ]
-      },
       {
         "Name": "Burning Jealousy",
         "Forms": [
@@ -235333,49 +235711,57 @@
       {
         "Name": "Psybeam",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Pain Split",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Grudge",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Spite",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Curse",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Stockpile",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Swallow",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       },
       {
         "Name": "Spit Up",
         "Forms": [
-          "Normal"
+          "Normal",
+          "Galarian"
         ]
       }
     ],
@@ -243315,6 +243701,12 @@
     "EggMoves": [],
     "TutorMoves": [
       {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
         "Name": "Rising Voltage",
         "Forms": [
           "Normal"
@@ -246101,6 +246493,14 @@
     ],
     "EggMoves": [],
     "TutorMoves": [
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "50% Forme",
+          "10% Forme",
+          "Complete Forme"
+        ]
+      },
       {
         "Name": "Scorching Sands",
         "Forms": [
