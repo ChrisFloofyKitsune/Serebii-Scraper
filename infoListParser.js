@@ -55,7 +55,8 @@ class PokeInfoParser extends PokeParser {
             Forms: this.GetFormInfos(),
             DefaultFormName: this.GetDefaultForm(),
             GenderRatioM,
-            GenderRatioF
+            GenderRatioF,
+            EggGroups: this.GetEggGroups()
         }
 
         //TODO, maybe make a more sensible list of these infos sometime.
@@ -228,6 +229,26 @@ class PokeInfoParser extends PokeParser {
         return [ability1, ability2, hiddenAbility];
     }
 
+    GetEggGroups() {
+        let output = [];
+
+        let $eggGroups = this.$("table.dextable").eq(4).find("tr").eq(1).find("td.fooinfo");
+
+        if ($eggGroups.text().includes("cannot breed")) {
+            return ["Unbreedable"];
+        }
+
+        $eggGroups.find("a").each((i, e) => {
+            output.push(this.$(e).text());
+        });
+
+        if (output.length == 0) {
+            console.error(`Could not find egg groups for ${this.name}.`);
+        }
+
+        return output;
+    }
+
     AttachExtraInfo(output) {
         for (let form of output.Forms) {
             let searchKey = `${form.FormName}${this.GetName()}`
@@ -384,7 +405,7 @@ let bar = new cliProgress.SingleBar({
 
 bar.start(paths.length, 0, { current: "" });
 
-let output = [];
+let infoOutput = [];
 
 //DEBUG
 //paths = paths.filter((p, i) => (i + 1) % 100 == 0);
@@ -398,7 +419,7 @@ for (let path of paths) {
 
     try {
         parser.LoadPage(path);
-        output.push(parser.GetPokemonData());
+        infoOutput.push(parser.GetPokemonData());
     } catch (e) {
         console.error(`\n\nError on parsing file ${path}`);
         throw e;
@@ -450,7 +471,7 @@ for (let path of paths) {
 
 bar.stop();
 
-PatchPokemonForms(output, megaFormsPatch);
+PatchPokemonForms(infoOutput, megaFormsPatch);
 
 //Verify against the existing list
 
@@ -460,7 +481,7 @@ let oldPokemonList = require("./oldPokemonList.json");
 //console.log(oldPokemonList);
 const { diff } = require("just-diff");
 
-for (let entry of output) {
+for (let entry of infoOutput) {
 
     //copy array.
     let forms = [...entry.Forms].sort((a, b) => a.FormName.localeCompare(b.FormName));
@@ -475,7 +496,7 @@ for (let entry of output) {
 
     let diffs = diff(oldEntry, tempEntry);
 
-    diffs = diffs.filter(d => !d.path[0].match(/Gender/));
+    diffs = diffs.filter(d => !d.path[0].match(/Gender|EggGroups/));
 
     //console.log(diffs);
     if (diffs.length > 0) {
@@ -485,7 +506,7 @@ for (let entry of output) {
 }
 
 //Sort forms!
-output.forEach(entry => entry.Forms.sort(SuperFormComparer));
+infoOutput.forEach(entry => entry.Forms.sort(SuperFormComparer));
 
 //Patch in custom Fizzy Dex Pokemon and Forms, don't sort after this so they always appear last.
 console.log("PATCHING IN CUSTOM FIZZY BUBBLES POKEMON AND FORMS");
@@ -501,7 +522,7 @@ fizzyDexCustom.forEach(customEntry => {
         //Addition to existing pokemon.
         let dexNum = parseInt(customEntry.DexNum);
 
-        let baseEntry = output.find(e => e.DexNum == parseInt(customEntry.DexNum));
+        let baseEntry = infoOutput.find(e => e.DexNum == parseInt(customEntry.DexNum));
         if (!baseEntry) {
             console.error("Could not find the base entry to patch for:...");
             console.error(customEntry);
@@ -546,4 +567,4 @@ fizzyDexCustom.forEach(customEntry => {
     }
 });
 
-fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+fs.writeFileSync(outputPath, JSON.stringify(infoOutput, null, 2));
