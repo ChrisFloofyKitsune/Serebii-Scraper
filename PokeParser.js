@@ -1,7 +1,5 @@
 const fs = require("fs");
 const cheerio = require("cheerio");
-const path = require("path");
-const { toArabic }  = require("roman-numerals");
 
 const { CURRENT_GENERATION, PokemonNameFix } = require("./util");
 
