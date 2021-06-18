@@ -2,7 +2,8 @@ const fs = require("fs");
 const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const { MoveNameFix } = require("./util");
+const { MoveNameFix } = require("./util.js");
+const { PokeParser } = require("./PokeParser.js");
 
 const inputPath = "./rawHTML"
 const outputPath = "./genMoveLists"
@@ -22,153 +23,7 @@ const outputPath = "./genMoveLists"
 // ----Parse Machine Moves
 // ------Parse Move
 
-// GEN 3 IS FUCKED, PULLED IN BULBAPEDIA TO FIX THIS
-// UPDATE: GEN 3 HAS BEEN UPDATED AND IS NO LONGER FUCKED
-//         PULLING IN BULBA FUCKED OTHER THINGS THO
-//         gonna stop using bulba
-// No event moves
-
-class PokeMoveParser {
-    $ = null;
-    hasAltForms = false;
-    name = "";
-    dexNum = 0;
-    forms = [];
-
-    LoadPage(pagePath) {
-        this.$ = cheerio.load(fs.readFileSync(pagePath));
-
-        this.name = this.$('table.dextable tr:contains("Name")+tr td:nth-child(1)').first().text().trim();
-
-        let $dexNums = this.$('table.dextable tr:contains("No.")+tr td:nth-child(3)');
-        //console.log($dexNums.text());
-        this.dexNum = parseInt($dexNums.text().match(/#(\d\d\d)/)[1], 10);
-
-        this.forms = [];
-        this.forms = this.ParseForms();
-    }
-
-    GetName() {
-        return this.name;
-    }
-
-    GetDexNum() {
-        return this.dexNum;
-    }
-
-    FormNameFix(formName) {
-        if (formName.includes("Form") && !formName.includes("Forme"))
-            formName = formName.substring(0, formName.indexOf(" Form"));
-
-        formName = formName.replace(this.name, "").trim();
-
-        formName = formName.replace(/ ?(Kantonian|Johtonian|Hoennian|Unovan) ?/, "").trim();
-
-        if (formName == "Alola")
-            formName = "Alolan";
-
-        if (this.name == "Burmy" && formName == "No Cloak")
-            formName = "Plant Cloak";
-        else if (this.name == "Arceus")
-            formName = formName.replace("-type", "");
-        else if (this.name == "Silvally")
-            formName = formName.replace("Type: ", "");
-        else if (this.name == "Vivillon")
-            formName = formName.replace(" Pattern", "").replace("é", "e");
-        else if (this.name == "Darmanitan")
-            formName = formName.replace("Standard Mode", "").trim();
-        else if (this.name == "Wishiwashi" && formName == "School")
-            formName = "Schooling";
-        else if (this.name == "Furfrou" && formName == "Deputante Trim")
-            formName = "Debutante Trim";
-        else if (this.name == "Greninja" && formName == "Ash-")
-            formName = "Ash";
-        else if (this.name == "Unown" && formName == "Normal")
-            formName = "A";
-        else if (this.name == "Pikachu" && formName == "Ph. D.")
-            formName = "Ph. D";
-        else if (this.name == "Pikachu" && (formName == "Cosplay" || formName == "Partner  Only"))
-            formName = "Normal";
-        else if (this.name == "Eevee" && formName == "Partner  Only")
-            formName = "Normal";
-        else if (this.name == "Keldeo" && formName == "Ordinary")
-            formName = "Normal";
-        else if (this.name == "Xerneas" && formName == "Neutral Mode")
-            formName = "Normal";
-        else if (this.name == "Xerneas" && formName == "Active Mode")
-            formName = "Active";
-        else if (this.name == "Zygarde" && formName == "Normal")
-            formName = "50% Forme"
-        else if (this.name == "Sinistea" || this.name == "Polteageist")
-            formName = "Normal";
-        else if (this.name == "Genesect")
-            formName = "Normal";
-        else if (this.name == "Morpeko")
-            formName = formName.replace(" Mode", "");
-
-        if (formName == "")
-            formName = "Normal";
-
-        //Only works once the forms for the pokemon have been determined
-        //...by running them through this function.
-        //So, this check doesn't work on the first run, which is intentional.
-        if (this.forms.length != 0 && formName == "Normal")
-            return this.GetDefaultForm();
-
-        return formName;
-    }
-
-    ParseForms() {
-        let query = 'table.dextable tr:contains("Alternate Forms")';
-        if (this.name == "Indeedee" || this.name == "Meowstic" || this.name == "Pyroar")
-            query = 'table.dextable tr:contains("Gender Differences")';
-
-        let $formHeader = this.$(query);
-        //console.log($formHeader);
-
-        let forms = [];
-        if ($formHeader.length == 0)
-            forms = ["Normal"];
-        else {
-            forms = [...new Set($formHeader.next('tr')
-                .find('td.pkmn b')
-                .map((i, e) => {
-                    return this.$(e).text();
-                }).get())];
-        }
-
-        forms = forms.map(f => this.FormNameFix(f));
-
-        if (this.dexNum == 25)
-            forms = [...new Set(["Normal", ...forms])];
-
-        //Mega form(s) check!
-        if (this.$('td.fooevo b:contains("Mega Evolution")') != 0) {
-            forms.push(...((this.name == "Charizard" || this.name == "Mewtwo") ? ["Mega X", "Mega Y"] : ["Mega"]));
-        }
-
-        //GMax form check!
-        if (this.$('h2:contains("Gigantamax")').length != 0) {
-            forms.push(...((this.name == "Urshifu") ? ["Gigantamax Single Strike Style", "Gigantamax Rapid Strike Style"] : ["Gigantamax"]));
-        }
-
-        //Fix form ordering for certain Pokemon
-        if (forms.length > 1 && (this.name == "Aegislash" || this.name == "Zygarde" || this.name == "Pumpkaboo" || this.name == "Gourgeist")) {
-            let temp = forms[0];
-            forms[0] = forms[1];
-            forms[1] = temp;
-        }
-
-        return forms;
-    }
-
-    GetForms() {
-        return this.forms;
-    }
-
-    GetDefaultForm() {
-        return this.forms[0];
-    }
+class PokeMoveParser extends PokeParser {
 
     GetLevelUpMoves() {
         /*
@@ -194,8 +49,11 @@ class PokeMoveParser {
             let $table = this.$(table);
             let headerText = $table.find('td:contains("Level Up")').text();
 
-            if (headerText == "Level Up - Shadow Rid")
-                headerText = "Level Up - Shadow Rider";
+            headerText = headerText.replace(/.*?Level Up - /,"");
+            headerText = headerText.replace(/Ultra/g,"");
+
+            if (headerText == "Shadow Rid")
+                headerText = "Shadow Rider";
 
             if (headerText.includes("Alola"))
                 headerText = "Alolan";
@@ -210,7 +68,7 @@ class PokeMoveParser {
                 form = this.forms[formIndex];
             }
 
-            if (this.name == "Meloetta" || (this.name == "Darmanitan" && form == "Zen Mode"))
+            if (this.name == "Meloetta" || this.name == "Unown" || (this.name == "Darmanitan" && form == "Zen Mode"))
                 form = this.GetDefaultForm();
 
             let LevelUpMoves = $table.find('tr~tr:nth-child(2n-1)').map((i, e) => {
@@ -303,10 +161,7 @@ class PokeMoveParser {
 
     GetPokemonData() {
         return {
-            Name: this.GetName(),
-            DexNum: this.GetDexNum(),
-            DefaultForm: this.GetDefaultForm(),
-            AltForms: this.GetForms(),
+            ...super.GetPokemonData(),
             LevelUpMoveLists: this.GetLevelUpMoves(),
             EggMoves: this.GetEggMoves(),
             TutorMoves: this.GetTutorMoves(),
@@ -479,14 +334,14 @@ const GenParsers = [
 ];
 
 const generationPaths = [
-    // { index: 1, path: "generation1" },
-    // { index: 2, path: "generation2" },
+    { index: 1, path: "generation1" },
+    { index: 2, path: "generation2" },
     { index: 3, path: "generation3" },
-    // { index: 4, path: "generation4" },
-    // { index: 5, path: "generation5" },
-    // { index: 6, path: "generation6" },
-    // { index: 7, path: "generation7" },
-    // { index: 8, path: "generation8" }
+    { index: 4, path: "generation4" },
+    { index: 5, path: "generation5" },
+    { index: 6, path: "generation6" },
+    { index: 7, path: "generation7" },
+    { index: 8, path: "generation8" }
 ];
 
 if (!fs.existsSync(outputPath))

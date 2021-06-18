@@ -1,3 +1,5 @@
+const CURRENT_GENERATION = 8;
+
 const moveNameChanges = [
     { Old: "AncientPower", New: "Ancient Power" },
     { Old: "BubbleBeam", New: "Bubble Beam" },
@@ -31,6 +33,10 @@ const moveNameChanges = [
     { Old: "Roar Of Time", New: "Roar of Time" },
 ];
 
+const abilityNameChanges = [
+    { Old: "Compoundeyes", New: "Compound Eyes" }
+]
+
 function MoveNameFix(moveName) {
     moveName = moveName.trim();
 
@@ -51,6 +57,17 @@ function MoveNameFix(moveName) {
     return moveName;
 }
 
+function AbilityNameFix(abilityName) {
+    abilityName = abilityName.trim();
+
+    let nameChange = abilityNameChanges.find(nc => nc.Old.toUpperCase() == abilityName.toUpperCase());
+
+    if (nameChange)
+        abilityName = nameChange.New;
+
+    return abilityName;
+}
+
 function PokemonNameFix(name) {
     if (name == "Nidoran (F)")
         return "Nidoran♀";
@@ -67,8 +84,10 @@ function PokemonNameFix(name) {
     return name;
 }
 
-exports = {
+module.exports = {
+    CURRENT_GENERATION,
     MoveNameFix,
+    AbilityNameFix,
     PokemonNameFix
 };
 

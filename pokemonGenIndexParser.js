@@ -19,7 +19,7 @@ const generationPaths = [
 
 /* 
     {
-        "###": [1, 2, 3, 4, 5, 6, 7, 8] //List of generations the pokemon appears in.
+        "###": [{"1": "gen1filePath"}, {"2": "gen2filePath"}, etc}] //List of generations the pokemon appears in.
     }
 
 */
@@ -64,17 +64,20 @@ function ParsePage(filePath, genIndex) {
         dexNum = parseInt($dexNums.text().match(/#(\d\d\d)/)[1], 10);
     }
 
-    CreateOrAddGenIndex(dexNum, genIndex);
+    CreateOrAddGenIndex(dexNum, genIndex, filePath);
 
     return dexNum;
 }
 
-function CreateOrAddGenIndex(dexNum, genIndex) {
+function CreateOrAddGenIndex(dexNum, genIndex, filePath) {
     if (!output[dexNum]) {
         output[dexNum] = [];
     }
 
-    output[dexNum].push(genIndex);
+    let entry = {};
+    entry[genIndex] = filePath;
+
+    output[dexNum].push(entry);
 }
 
 fs.writeFileSync(outputPath, JSON.stringify(output), null, 2);

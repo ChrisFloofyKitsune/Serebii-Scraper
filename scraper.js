@@ -11,7 +11,7 @@ const outputPath = "./rawHTML"
 const generationDexMainPages = [
     { index: 1, link: "https://www.serebii.net/pokedex/" },
     { index: 2, link: "https://www.serebii.net/pokedex-gs/"},
-    // { index: 3, link: "https://www.serebii.net/pokedex-rs/"},
+    { index: 3, link: "https://www.serebii.net/pokedex-rs/"},
     { index: 4, link: "https://www.serebii.net/pokedex-dp/"},
     { index: 5, link: "https://www.serebii.net/pokedex-bw/"},
     { index: 6, link: "https://www.serebii.net/pokedex-xy/"},

@@ -3,7 +3,7 @@
     "Name": "Bulbasaur",
     "DexNum": 1,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -241,7 +241,7 @@
     "Name": "Ivysaur",
     "DexNum": 2,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -487,7 +487,7 @@
     "Name": "Venusaur",
     "DexNum": 3,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -749,7 +749,7 @@
     "Name": "Charmander",
     "DexNum": 4,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -1020,7 +1020,7 @@
     "Name": "Charmeleon",
     "DexNum": 5,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -1295,7 +1295,7 @@
     "Name": "Charizard",
     "DexNum": 6,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -1614,7 +1614,7 @@
     "Name": "Squirtle",
     "DexNum": 7,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -1895,7 +1895,7 @@
     "Name": "Wartortle",
     "DexNum": 8,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2184,7 +2184,7 @@
     "Name": "Blastoise",
     "DexNum": 9,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2495,7 +2495,7 @@
     "Name": "Caterpie",
     "DexNum": 10,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2521,7 +2521,7 @@
     "Name": "Metapod",
     "DexNum": 11,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2547,7 +2547,7 @@
     "Name": "Butterfree",
     "DexNum": 12,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2738,7 +2738,7 @@
     "Name": "Weedle",
     "DexNum": 13,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2764,7 +2764,7 @@
     "Name": "Kakuna",
     "DexNum": 14,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2790,7 +2790,7 @@
     "Name": "Beedrill",
     "DexNum": 15,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -2955,7 +2955,7 @@
     "Name": "Pidgey",
     "DexNum": 16,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -3151,7 +3151,7 @@
     "Name": "Pidgeotto",
     "DexNum": 17,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -3355,7 +3355,7 @@
     "Name": "Pidgeot",
     "DexNum": 18,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -3569,7 +3569,7 @@
     "Name": "Rattata",
     "DexNum": 19,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -3828,7 +3828,7 @@
     "Name": "Raticate",
     "DexNum": 20,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -4109,7 +4109,7 @@
     "Name": "Spearow",
     "DexNum": 21,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -4311,7 +4311,7 @@
     "Name": "Fearow",
     "DexNum": 22,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -4527,7 +4527,7 @@
     "Name": "Ekans",
     "DexNum": 23,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -4735,7 +4735,7 @@
     "Name": "Arbok",
     "DexNum": 24,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -4957,7 +4957,7 @@
     "Name": "Pikachu",
     "DexNum": 25,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -5220,7 +5220,7 @@
     "Name": "Raichu",
     "DexNum": 26,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -5467,7 +5467,7 @@
     "Name": "Sandshrew",
     "DexNum": 27,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -5729,7 +5729,7 @@
     "Name": "Sandslash",
     "DexNum": 28,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -6005,7 +6005,7 @@
     "Name": "Nidoran♀",
     "DexNum": 29,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -6244,7 +6244,7 @@
     "Name": "Nidorina",
     "DexNum": 30,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -6501,7 +6501,7 @@
     "Name": "Nidoqueen",
     "DexNum": 31,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -6836,7 +6836,7 @@
     "Name": "Nidoran♂",
     "DexNum": 32,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -7075,7 +7075,7 @@
     "Name": "Nidorino",
     "DexNum": 33,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -7332,7 +7332,7 @@
     "Name": "Nidoking",
     "DexNum": 34,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -7661,7 +7661,7 @@
     "Name": "Clefairy",
     "DexNum": 35,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -7998,7 +7998,7 @@
     "Name": "Clefable",
     "DexNum": 36,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -8317,7 +8317,7 @@
     "Name": "Vulpix",
     "DexNum": 37,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -8520,7 +8520,7 @@
     "Name": "Ninetales",
     "DexNum": 38,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -8723,7 +8723,7 @@
     "Name": "Jigglypuff",
     "DexNum": 39,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -9032,7 +9032,7 @@
     "Name": "Wigglytuff",
     "DexNum": 40,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -9327,7 +9327,7 @@
     "Name": "Zubat",
     "DexNum": 41,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -9519,7 +9519,7 @@
     "Name": "Golbat",
     "DexNum": 42,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -9725,7 +9725,7 @@
     "Name": "Oddish",
     "DexNum": 43,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -9927,7 +9927,7 @@
     "Name": "Gloom",
     "DexNum": 44,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -10137,7 +10137,7 @@
     "Name": "Vileplume",
     "DexNum": 45,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -10329,7 +10329,7 @@
     "Name": "Paras",
     "DexNum": 46,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -10573,7 +10573,7 @@
     "Name": "Parasect",
     "DexNum": 47,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -10831,7 +10831,7 @@
     "Name": "Venonat",
     "DexNum": 48,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -11039,7 +11039,7 @@
     "Name": "Venomoth",
     "DexNum": 49,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -11267,7 +11267,7 @@
     "Name": "Diglett",
     "DexNum": 50,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -11475,7 +11475,7 @@
     "Name": "Dugtrio",
     "DexNum": 51,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -11746,7 +11746,7 @@
     "Name": "Meowth",
     "DexNum": 52,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -11997,7 +11997,7 @@
     "Name": "Persian",
     "DexNum": 53,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -12264,7 +12264,7 @@
     "Name": "Psyduck",
     "DexNum": 54,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -12545,7 +12545,7 @@
     "Name": "Golduck",
     "DexNum": 55,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -12850,7 +12850,7 @@
     "Name": "Mankey",
     "DexNum": 56,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -13133,7 +13133,7 @@
     "Name": "Primeape",
     "DexNum": 57,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -13434,7 +13434,7 @@
     "Name": "Growlithe",
     "DexNum": 58,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -13655,7 +13655,7 @@
     "Name": "Arcanine",
     "DexNum": 59,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -13870,7 +13870,7 @@
     "Name": "Poliwag",
     "DexNum": 60,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -14097,7 +14097,7 @@
     "Name": "Poliwhirl",
     "DexNum": 61,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -14362,7 +14362,7 @@
     "Name": "Poliwrath",
     "DexNum": 62,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -14623,7 +14623,7 @@
     "Name": "Abra",
     "DexNum": 63,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -14833,7 +14833,7 @@
     "Name": "Kadabra",
     "DexNum": 64,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -15085,7 +15085,7 @@
     "Name": "Alakazam",
     "DexNum": 65,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -15343,7 +15343,7 @@
     "Name": "Machop",
     "DexNum": 66,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -15596,7 +15596,7 @@
     "Name": "Machoke",
     "DexNum": 67,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -15853,7 +15853,7 @@
     "Name": "Machamp",
     "DexNum": 68,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -16116,7 +16116,7 @@
     "Name": "Bellsprout",
     "DexNum": 69,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -16326,7 +16326,7 @@
     "Name": "Weepinbell",
     "DexNum": 70,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -16544,7 +16544,7 @@
     "Name": "Victreebel",
     "DexNum": 71,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -16736,7 +16736,7 @@
     "Name": "Tentacool",
     "DexNum": 72,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -16955,7 +16955,7 @@
     "Name": "Tentacruel",
     "DexNum": 73,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -17188,7 +17188,7 @@
     "Name": "Geodude",
     "DexNum": 74,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -17431,7 +17431,7 @@
     "Name": "Graveler",
     "DexNum": 75,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -17682,7 +17682,7 @@
     "Name": "Golem",
     "DexNum": 76,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -17943,7 +17943,7 @@
     "Name": "Ponyta",
     "DexNum": 77,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -18150,7 +18150,7 @@
     "Name": "Rapidash",
     "DexNum": 78,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -18379,7 +18379,7 @@
     "Name": "Slowpoke",
     "DexNum": 79,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -18688,7 +18688,7 @@
     "Name": "Slowbro",
     "DexNum": 80,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -19021,7 +19021,7 @@
     "Name": "Magnemite",
     "DexNum": 81,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -19191,7 +19191,7 @@
     "Name": "Magneton",
     "DexNum": 82,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -19432,7 +19432,7 @@
     "Name": "Farfetch'd",
     "DexNum": 83,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -19664,7 +19664,7 @@
     "Name": "Doduo",
     "DexNum": 84,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -19860,7 +19860,7 @@
     "Name": "Dodrio",
     "DexNum": 85,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -20070,7 +20070,7 @@
     "Name": "Seel",
     "DexNum": 86,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -20281,7 +20281,7 @@
     "Name": "Dewgong",
     "DexNum": 87,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -20506,7 +20506,7 @@
     "Name": "Grimer",
     "DexNum": 88,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -20743,7 +20743,7 @@
     "Name": "Muk",
     "DexNum": 89,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -20990,7 +20990,7 @@
     "Name": "Shellder",
     "DexNum": 90,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -21193,7 +21193,7 @@
     "Name": "Cloyster",
     "DexNum": 91,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -21419,7 +21419,7 @@
     "Name": "Gastly",
     "DexNum": 92,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -21644,7 +21644,7 @@
     "Name": "Haunter",
     "DexNum": 93,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -21873,7 +21873,7 @@
     "Name": "Gengar",
     "DexNum": 94,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -22150,7 +22150,7 @@
     "Name": "Onix",
     "DexNum": 95,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -22346,7 +22346,7 @@
     "Name": "Drowzee",
     "DexNum": 96,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -22580,7 +22580,7 @@
     "Name": "Hypno",
     "DexNum": 97,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -22828,7 +22828,7 @@
     "Name": "Krabby",
     "DexNum": 98,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -23061,7 +23061,7 @@
     "Name": "Kingler",
     "DexNum": 99,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -23308,7 +23308,7 @@
     "Name": "Voltorb",
     "DexNum": 100,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -23484,7 +23484,7 @@
     "Name": "Electrode",
     "DexNum": 101,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -23678,7 +23678,7 @@
     "Name": "Exeggcute",
     "DexNum": 102,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -23920,7 +23920,7 @@
     "Name": "Exeggutor",
     "DexNum": 103,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -24152,7 +24152,7 @@
     "Name": "Cubone",
     "DexNum": 104,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -24451,7 +24451,7 @@
     "Name": "Marowak",
     "DexNum": 105,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -24768,7 +24768,7 @@
     "Name": "Hitmonlee",
     "DexNum": 106,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -24976,7 +24976,7 @@
     "Name": "Hitmonchan",
     "DexNum": 107,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -25210,7 +25210,7 @@
     "Name": "Lickitung",
     "DexNum": 108,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -25539,7 +25539,7 @@
     "Name": "Koffing",
     "DexNum": 109,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -25758,7 +25758,7 @@
     "Name": "Weezing",
     "DexNum": 110,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -25991,7 +25991,7 @@
     "Name": "Rhyhorn",
     "DexNum": 111,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -26278,7 +26278,7 @@
     "Name": "Rhydon",
     "DexNum": 112,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -26609,7 +26609,7 @@
     "Name": "Chansey",
     "DexNum": 113,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -26926,7 +26926,7 @@
     "Name": "Tangela",
     "DexNum": 114,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -27160,7 +27160,7 @@
     "Name": "Kangaskhan",
     "DexNum": 115,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -27481,7 +27481,7 @@
     "Name": "Horsea",
     "DexNum": 116,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -27698,7 +27698,7 @@
     "Name": "Seadra",
     "DexNum": 117,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -27927,7 +27927,7 @@
     "Name": "Goldeen",
     "DexNum": 118,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -28122,7 +28122,7 @@
     "Name": "Seaking",
     "DexNum": 119,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -28323,7 +28323,7 @@
     "Name": "Staryu",
     "DexNum": 120,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -28557,7 +28557,7 @@
     "Name": "Starmie",
     "DexNum": 121,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -28777,7 +28777,7 @@
     "Name": "Mr. Mime",
     "DexNum": 122,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -29052,7 +29052,7 @@
     "Name": "Scyther",
     "DexNum": 123,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -29280,7 +29280,7 @@
     "Name": "Jynx",
     "DexNum": 124,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -29535,7 +29535,7 @@
     "Name": "Electabuzz",
     "DexNum": 125,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -29814,7 +29814,7 @@
     "Name": "Magmar",
     "DexNum": 126,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -30081,7 +30081,7 @@
     "Name": "Pinsir",
     "DexNum": 127,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -30271,7 +30271,7 @@
     "Name": "Tauros",
     "DexNum": 128,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -30501,7 +30501,7 @@
     "Name": "Magikarp",
     "DexNum": 129,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -30531,7 +30531,7 @@
     "Name": "Gyarados",
     "DexNum": 130,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -30775,7 +30775,7 @@
     "Name": "Lapras",
     "DexNum": 131,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -31038,7 +31038,7 @@
     "Name": "Ditto",
     "DexNum": 132,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -31060,7 +31060,7 @@
     "Name": "Eevee",
     "DexNum": 133,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -31287,7 +31287,7 @@
     "Name": "Vaporeon",
     "DexNum": 134,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -31534,7 +31534,7 @@
     "Name": "Jolteon",
     "DexNum": 135,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -31769,7 +31769,7 @@
     "Name": "Flareon",
     "DexNum": 136,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -31998,7 +31998,7 @@
     "Name": "Porygon",
     "DexNum": 137,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -32232,7 +32232,7 @@
     "Name": "Omanyte",
     "DexNum": 138,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -32459,7 +32459,7 @@
     "Name": "Omastar",
     "DexNum": 139,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -32700,7 +32700,7 @@
     "Name": "Kabuto",
     "DexNum": 140,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -32915,7 +32915,7 @@
     "Name": "Kabutops",
     "DexNum": 141,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -33174,7 +33174,7 @@
     "Name": "Aerodactyl",
     "DexNum": 142,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -33419,7 +33419,7 @@
     "Name": "Snorlax",
     "DexNum": 143,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -33738,7 +33738,7 @@
     "Name": "Articuno",
     "DexNum": 144,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -33946,7 +33946,7 @@
     "Name": "Zapdos",
     "DexNum": 145,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -34160,7 +34160,7 @@
     "Name": "Moltres",
     "DexNum": 146,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -34362,7 +34362,7 @@
     "Name": "Dratini",
     "DexNum": 147,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -34621,7 +34621,7 @@
     "Name": "Dragonair",
     "DexNum": 148,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -34888,7 +34888,7 @@
     "Name": "Dragonite",
     "DexNum": 149,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -35237,7 +35237,7 @@
     "Name": "Mewtwo",
     "DexNum": 150,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -35535,7 +35535,7 @@
     "Name": "Mew",
     "DexNum": 151,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -35939,7 +35939,7 @@
     "Name": "Chikorita",
     "DexNum": 152,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -36185,7 +36185,7 @@
     "Name": "Bayleef",
     "DexNum": 153,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -36445,7 +36445,7 @@
     "Name": "Meganium",
     "DexNum": 154,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -36717,7 +36717,7 @@
     "Name": "Cyndaquil",
     "DexNum": 155,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -36968,7 +36968,7 @@
     "Name": "Quilava",
     "DexNum": 156,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -37229,7 +37229,7 @@
     "Name": "Typhlosion",
     "DexNum": 157,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -37524,7 +37524,7 @@
     "Name": "Totodile",
     "DexNum": 158,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -37809,7 +37809,7 @@
     "Name": "Croconaw",
     "DexNum": 159,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -38098,7 +38098,7 @@
     "Name": "Feraligatr",
     "DexNum": 160,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -38397,7 +38397,7 @@
     "Name": "Sentret",
     "DexNum": 161,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -38661,7 +38661,7 @@
     "Name": "Furret",
     "DexNum": 162,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -38945,7 +38945,7 @@
     "Name": "Hoothoot",
     "DexNum": 163,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -39175,7 +39175,7 @@
     "Name": "Noctowl",
     "DexNum": 164,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -39419,7 +39419,7 @@
     "Name": "Ledyba",
     "DexNum": 165,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -39653,7 +39653,7 @@
     "Name": "Ledian",
     "DexNum": 166,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -39891,7 +39891,7 @@
     "Name": "Spinarak",
     "DexNum": 167,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -40152,7 +40152,7 @@
     "Name": "Ariados",
     "DexNum": 168,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -40435,7 +40435,7 @@
     "Name": "Crobat",
     "DexNum": 169,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -40647,7 +40647,7 @@
     "Name": "Chinchou",
     "DexNum": 170,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -40854,7 +40854,7 @@
     "Name": "Lanturn",
     "DexNum": 171,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -41071,7 +41071,7 @@
     "Name": "Pichu",
     "DexNum": 172,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -41292,7 +41292,7 @@
     "Name": "Cleffa",
     "DexNum": 173,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -41561,7 +41561,7 @@
     "Name": "Igglybuff",
     "DexNum": 174,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -41806,7 +41806,7 @@
     "Name": "Togepi",
     "DexNum": 175,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -42071,7 +42071,7 @@
     "Name": "Togetic",
     "DexNum": 176,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -42354,7 +42354,7 @@
     "Name": "Natu",
     "DexNum": 177,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -42576,7 +42576,7 @@
     "Name": "Xatu",
     "DexNum": 178,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -42814,7 +42814,7 @@
     "Name": "Mareep",
     "DexNum": 179,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -43043,7 +43043,7 @@
     "Name": "Flaaffy",
     "DexNum": 180,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -43294,7 +43294,7 @@
     "Name": "Ampharos",
     "DexNum": 181,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -43559,7 +43559,7 @@
     "Name": "Bellossom",
     "DexNum": 182,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -43749,7 +43749,7 @@
     "Name": "Marill",
     "DexNum": 183,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -44024,7 +44024,7 @@
     "Name": "Azumarill",
     "DexNum": 184,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -44323,7 +44323,7 @@
     "Name": "Sudowoodo",
     "DexNum": 185,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -44557,7 +44557,7 @@
     "Name": "Politoed",
     "DexNum": 186,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -44824,7 +44824,7 @@
     "Name": "Hoppip",
     "DexNum": 187,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -45091,7 +45091,7 @@
     "Name": "Skiploom",
     "DexNum": 188,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -45378,7 +45378,7 @@
     "Name": "Jumpluff",
     "DexNum": 189,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -45671,7 +45671,7 @@
     "Name": "Aipom",
     "DexNum": 190,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -45988,7 +45988,7 @@
     "Name": "Sunkern",
     "DexNum": 191,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -46151,7 +46151,7 @@
     "Name": "Sunflora",
     "DexNum": 192,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -46324,7 +46324,7 @@
     "Name": "Yanma",
     "DexNum": 193,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -46571,7 +46571,7 @@
     "Name": "Wooper",
     "DexNum": 194,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -46816,7 +46816,7 @@
     "Name": "Quagsire",
     "DexNum": 195,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -47073,7 +47073,7 @@
     "Name": "Espeon",
     "DexNum": 196,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -47319,7 +47319,7 @@
     "Name": "Umbreon",
     "DexNum": 197,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -47571,7 +47571,7 @@
     "Name": "Murkrow",
     "DexNum": 198,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -47807,7 +47807,7 @@
     "Name": "Slowking",
     "DexNum": 199,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -48134,7 +48134,7 @@
     "Name": "Misdreavus",
     "DexNum": 200,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -48373,8 +48373,35 @@
     "Name": "Unown",
     "DexNum": 201,
     "DefaultForm": "A",
-    "AltForms": [
-      "A"
+    "Forms": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "!",
+      "?"
     ],
     "LevelUpMoveLists": [
       {
@@ -48395,7 +48422,7 @@
     "Name": "Wobbuffet",
     "DexNum": 202,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -48429,7 +48456,7 @@
     "Name": "Girafarig",
     "DexNum": 203,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -48700,7 +48727,7 @@
     "Name": "Pineco",
     "DexNum": 204,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -48918,7 +48945,7 @@
     "Name": "Forretress",
     "DexNum": 205,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -49146,7 +49173,7 @@
     "Name": "Dunsparce",
     "DexNum": 206,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -49417,7 +49444,7 @@
     "Name": "Gligar",
     "DexNum": 207,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -49643,7 +49670,7 @@
     "Name": "Steelix",
     "DexNum": 208,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -49879,7 +49906,7 @@
     "Name": "Snubbull",
     "DexNum": 209,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -50176,7 +50203,7 @@
     "Name": "Granbull",
     "DexNum": 210,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -50479,7 +50506,7 @@
     "Name": "Qwilfish",
     "DexNum": 211,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -50747,7 +50774,7 @@
     "Name": "Scizor",
     "DexNum": 212,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -50993,7 +51020,7 @@
     "Name": "Shuckle",
     "DexNum": 213,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -51197,7 +51224,7 @@
     "Name": "Heracross",
     "DexNum": 214,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -51421,7 +51448,7 @@
     "Name": "Sneasel",
     "DexNum": 215,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -51769,7 +51796,7 @@
     "Name": "Teddiursa",
     "DexNum": 216,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -52053,7 +52080,7 @@
     "Name": "Ursaring",
     "DexNum": 217,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -52351,7 +52378,7 @@
     "Name": "Slugma",
     "DexNum": 218,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -52530,7 +52557,7 @@
     "Name": "Magcargo",
     "DexNum": 219,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -52735,7 +52762,7 @@
     "Name": "Swinub",
     "DexNum": 220,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -52993,7 +53020,7 @@
     "Name": "Piloswine",
     "DexNum": 221,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -53281,7 +53308,7 @@
     "Name": "Corsola",
     "DexNum": 222,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -53520,7 +53547,7 @@
     "Name": "Remoraid",
     "DexNum": 223,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -53735,7 +53762,7 @@
     "Name": "Octillery",
     "DexNum": 224,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -53960,7 +53987,7 @@
     "Name": "Delibird",
     "DexNum": 225,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -54153,7 +54180,7 @@
     "Name": "Mantine",
     "DexNum": 226,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -54374,7 +54401,7 @@
     "Name": "Skarmory",
     "DexNum": 227,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -54584,7 +54611,7 @@
     "Name": "Houndour",
     "DexNum": 228,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -54853,7 +54880,7 @@
     "Name": "Houndoom",
     "DexNum": 229,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -55134,7 +55161,7 @@
     "Name": "Kingdra",
     "DexNum": 230,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -55375,7 +55402,7 @@
     "Name": "Phanpy",
     "DexNum": 231,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -55589,7 +55616,7 @@
     "Name": "Donphan",
     "DexNum": 232,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -55809,7 +55836,7 @@
     "Name": "Porygon2",
     "DexNum": 233,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -56049,7 +56076,7 @@
     "Name": "Stantler",
     "DexNum": 234,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -56289,7 +56316,7 @@
     "Name": "Smeargle",
     "DexNum": 235,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -56347,7 +56374,7 @@
     "Name": "Tyrogue",
     "DexNum": 236,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -56521,7 +56548,7 @@
     "Name": "Hitmontop",
     "DexNum": 237,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -56733,7 +56760,7 @@
     "Name": "Smoochum",
     "DexNum": 238,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -56968,7 +56995,7 @@
     "Name": "Elekid",
     "DexNum": 239,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -57219,7 +57246,7 @@
     "Name": "Magby",
     "DexNum": 240,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -57456,7 +57483,7 @@
     "Name": "Miltank",
     "DexNum": 241,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -57765,7 +57792,7 @@
     "Name": "Blissey",
     "DexNum": 242,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -58070,7 +58097,7 @@
     "Name": "Raikou",
     "DexNum": 243,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -58312,7 +58339,7 @@
     "Name": "Entei",
     "DexNum": 244,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -58554,7 +58581,7 @@
     "Name": "Suicune",
     "DexNum": 245,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -58843,7 +58870,7 @@
     "Name": "Larvitar",
     "DexNum": 246,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -59059,7 +59086,7 @@
     "Name": "Pupitar",
     "DexNum": 247,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -59283,7 +59310,7 @@
     "Name": "Tyranitar",
     "DexNum": 248,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -59604,7 +59631,7 @@
     "Name": "Lugia",
     "DexNum": 249,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -59928,7 +59955,7 @@
     "Name": "Ho-Oh",
     "DexNum": 250,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
@@ -60222,7 +60249,7 @@
     "Name": "Celebi",
     "DexNum": 251,
     "DefaultForm": "Normal",
-    "AltForms": [
+    "Forms": [
       "Normal"
     ],
     "LevelUpMoveLists": [
