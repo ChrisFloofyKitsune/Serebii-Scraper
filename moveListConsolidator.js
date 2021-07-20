@@ -259,6 +259,15 @@ fizzyDexCustom.forEach(customEntry => {
     }
 });
 
+//FINAL PATCH FOR EXTRA/MISSING MOVES
+//Staryu Egg Moves
+{
+    let staryuEntry = pokemonMoveList[119]; //#120
+    ["Aurora Beam", "Barrier", "Supersonic"].forEach(m => {
+        AddMove(staryuEntry.EggMoves, m, ["Normal"]);
+    });
+}
+
 //ADD MOVES FROM EVOLUTION CHAIN
 
 var evolutionChains = [];
