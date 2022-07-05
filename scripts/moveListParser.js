@@ -5,8 +5,8 @@ const cliProgress = require("cli-progress");
 const { MoveNameFix } = require("../src/util.js");
 const { PokeParser } = require("../src/PokeParser.js");
 
-const inputPath = "../rawHTML"
-const outputPath = "../genMoveLists"
+const inputPath = path.resolve(__dirname, "../rawHTML");
+const outputPath = path.resolve(__dirname, "../genMoveLists");
 
 //Function layout
 // Parse Page

@@ -1,4 +1,3 @@
-"use strict"
 const fs = require("fs");
 const cheerio = require("cheerio");
 const path = require("path");
@@ -10,14 +9,13 @@ const pokemonGenIndex = require("../data/pokemonGenIndex.json");
 const extraPokemonInfo = require("../data/extraPokeFormInfo.json");
 const evolutionChains = require("../data/evolutionChains.json");
 const formChanges = require("../data/formChanges.json");
-
-const fizzyDexCustom = require("../fizzyDexCustom.json");
+const fizzyDexCustom = require("../data/fizzyDexCustom.json");
 
 ////////////////////////
 // DECLARATIONS
 ////////////////////////
 
-const outputPath = "./output/pokemonList.json"
+const outputPath = path.resolve(__dirname, "../output/pokemonList.json");
 
 //Layout
 /*

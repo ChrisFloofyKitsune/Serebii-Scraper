@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const cliProgress = require("cli-progress");
 const pokemonList = require("../output/pokemonList.json");
-const fizzyDexCustom = require("../fizzyDexCustom.json");
+const fizzyDexCustom = require("../data/fizzyDexCustom.json");
 
 const { PokemonNameFix } = require("../src/util");
 
@@ -10,11 +10,11 @@ const { PokemonNameFix } = require("../src/util");
 // DECLARATIONS
 ////////////////////////////////////////////
 
-const inputPath = './genMoveLists';
+const inputPath = path.resolve(__dirname, '../genMoveLists');
 
-const pokemonMoveListOutput = './output/pokemonMoveList.json';
-const machineMoveListOutput = './output/machineMoveList.json';
-const tutorMoveListOutput = './output/tutorMoveList.json';
+const pokemonMoveListOutput = path.resolve(__dirname, '../output/pokemonMoveList.json');
+const machineMoveListOutput = path.resolve(__dirname, '../output/machineMoveList.json');
+const tutorMoveListOutput = path.resolve(__dirname, '../output/tutorMoveList.json');
 
 const NonTransferableMoves = [
     "Zippy Zap",
