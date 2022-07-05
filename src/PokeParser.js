@@ -13,6 +13,8 @@ class PokeParser {
     generation = 0;
 
     LoadPage(pagePath) {
+        this.generation = parseInt(pagePath.match(/generation(\d)/)[1]);
+
         this.$ = cheerio.load(fs.readFileSync(pagePath));
 
         this.name = PokemonNameFix(this.$('table.dextable tr:contains("Name")+tr td:nth-child(1)').first().text().trim());
@@ -23,8 +25,6 @@ class PokeParser {
 
         this.forms = [];
         this.forms = this.ParseForms();
-
-        this.generation = parseInt(pagePath.match(/generation(\d)/)[1]);
     }
 
     GetName() {
@@ -88,9 +88,7 @@ class PokeParser {
         if (formName == "")
             formName = "Normal";
 
-        //Only works once the forms for the pokemon have been determined
-        //...by running them through this function.
-        //So, this check doesn't work on the first run, which is intentional.
+        
         if (this.forms.length != 0 && formName == "Normal")
             return this.GetDefaultForm();
 
@@ -104,7 +102,7 @@ class PokeParser {
         }
 
         let query = 'table.dextable tr:contains("Alternate Forms")';
-        if (this.name == "Indeedee" || this.name == "Meowstic" || this.name == "Pyroar")
+        if (this.name == "Indeedee" || this.name == "Meowstic" || this.name == "Pyroar" || this.name == "Basculegion")
             query = 'table.dextable tr:contains("Gender Differences")';
 
         let $formHeader = this.$(query);
@@ -123,8 +121,9 @@ class PokeParser {
 
         forms = forms.map(f => this.FormNameFix(f));
 
+        //PIKACHUUUUU
         if (this.dexNum == 25)
-            forms = [...new Set(["Normal", ...forms])];
+            forms = Array.from(new Set(["Normal", ...forms]));
 
         //Mega form(s) check!
         if (this.$('td.fooevo b:contains("Mega Evolution")') != 0) {
@@ -180,7 +179,7 @@ class PokeParser {
         }
 
         //Get rid of duplicates
-        return [...new Set(forms)];
+        return Array.from(new Set(forms));
     }
 
     GetForms() {
@@ -189,137 +188,6 @@ class PokeParser {
 
     GetDefaultForm() {
         return this.forms[0];
-    }
-
-    GetLevelUpMoves() {
-        /*
-        LevelUpMoves: [
-            { 
-                Form: "form",
-                LevelUpMoves: [
-                    { 
-                        Name: "name", 
-                        Level: number 
-                    }, 
-                    ...
-                ] 
-            },
-            ...
-        ]
-        */
-
-        let result = [];
-        let $levelUpTables = this.$('table.dextable').has('td:contains("Level Up")');
-
-        $levelUpTables.each((i, table) => {
-            let $table = this.$(table);
-            let headerText = $table.find('td:contains("Level Up")').text();
-
-            if (headerText == "Level Up - Shadow Rid")
-                headerText = "Level Up - Shadow Rider";
-
-            if (headerText.includes("Alola"))
-                headerText = "Alolan";
-
-            if (headerText.includes("Galar"))
-                headerText = "Galarian";
-
-            let form = this.GetDefaultForm();
-
-            let formIndex = this.forms.findIndex(s => headerText.includes(s));
-            if (formIndex != -1) {
-                form = this.forms[formIndex];
-            }
-
-            if (this.name == "Meloetta" || (this.name == "Darmanitan" && form == "Zen Mode"))
-                form = this.GetDefaultForm();
-
-            let LevelUpMoves = $table.find('tr~tr:nth-child(2n-1)').map((i, e) => {
-                let $tr = this.$(e);
-                return {
-                    Name: MoveNameFix($tr.find('a').first().text()),
-                    Level: $tr.find('td').first().text()
-                }
-            }).get();
-
-            if (this.name == "Giratina") {
-                result.push({
-                    Form: "Origin Forme",
-                    LevelUpMoves
-                });
-            }
-
-            result.push({
-                Form: form,
-                LevelUpMoves
-            });
-
-        });
-
-        return result;
-    }
-
-    GetEggMoves() {
-        return this.GetNonLevelUpMoves(this.$('table.dextable').has('td.fooevo:contains("Egg Move")'), 1);
-    }
-
-    GetTutorMoves() {
-        return this.GetNonLevelUpMoves(this.$('table.dextable').has('td.fooevo:contains("Tutor")'), 1);
-    }
-
-    GetMachineMoves() {
-        return this.GetNonLevelUpMoves(this.$('table.dextable').has('td.fooevo:contains("Technical"), td.fooevo:contains("TM")'), 2);
-    }
-
-    GetNonLevelUpMoves($tables, nameCol = 1) {
-        /*
-        Moves: [
-            {
-                Name: "name",
-                Forms: [
-                    "form1", 
-                    "form2"
-                ]
-        }
-        */
-
-        let results = [];
-
-        $tables.each((i, e) => {
-            this.$(e).find('tr~tr:nth-child(2n-1)').each((i, tr) => {
-                let $tr = this.$(tr);
-
-                let name = MoveNameFix($tr.find(`td:nth-child(${nameCol})`).first().text());
-
-                //console.log($tr.find('td:last-child').find('img').length);
-
-                let forms = $tr.find('td:last-child').find('img').map((i, img) => {
-                    let form = this.$(img).attr("alt");
-                    if (!form)
-                        form = this.$(img).attr("title");
-                    return form;
-                }).get().map(f => this.FormNameFix(f));
-
-                //console.log(forms);
-
-                if (forms.length == 0) {
-                    forms = this.GetForms();
-                }
-
-                let existing = results.find(r => r.Name == name);
-                if (!existing) {
-                    results.push({
-                        Name: name,
-                        Forms: forms
-                    });
-                }
-                else {
-                    existing.Forms.push(...forms.filter(f => !existing.Forms.includes(f)));
-                }
-            })
-        })
-
-        return results;
     }
 
     GetPokemonData() {

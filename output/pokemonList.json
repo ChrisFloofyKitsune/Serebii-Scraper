@@ -2402,6 +2402,13 @@
                 "Stage2Method": "Fire Stone",
                 "Stage2DexNum": 59,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 58,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Fire Stone",
+                "Stage2DexNum": 59,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -2440,6 +2447,13 @@
                 "Stage2Method": "Fire Stone",
                 "Stage2DexNum": 59,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 58,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Fire Stone",
+                "Stage2DexNum": 59,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -3996,6 +4010,13 @@
                 "Stage2Method": "Level 30",
                 "Stage2DexNum": 101,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 100,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Leaf Stone",
+                "Stage2DexNum": 101,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -4034,6 +4055,13 @@
                 "Stage2Method": "Level 30",
                 "Stage2DexNum": 101,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 100,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Leaf Stone",
+                "Stage2DexNum": 101,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -4786,6 +4814,13 @@
                 "Stage1Form": "Normal",
                 "Stage2Method": "Trade holding Metal Coat",
                 "Stage2DexNum": 212,
+                "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 123,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Black Augurite",
+                "Stage2DexNum": 900,
                 "Stage2Form": "Normal"
             }
         ]
@@ -5850,6 +5885,16 @@
                 "Stage3Method": "Level 36",
                 "Stage3DexNum": 157,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 155,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 14",
+                "Stage2DexNum": 156,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 157,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -5881,6 +5926,16 @@
                 "Stage3Method": "Level 36",
                 "Stage3DexNum": 157,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 155,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 14",
+                "Stage2DexNum": 156,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 157,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -5920,6 +5975,16 @@
                 "Stage3Method": "Level 36",
                 "Stage3DexNum": 157,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 155,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 14",
+                "Stage2DexNum": 156,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 157,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -7743,6 +7808,15 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Water 2"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 211,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Know Barb Barrage",
+                "Stage2DexNum": 904,
+                "Stage2Form": "Normal"
+            }
         ]
     },
     {
@@ -7881,6 +7955,13 @@
                 "Stage2Method": "Level up holding Razor Claw at night",
                 "Stage2DexNum": 461,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 215,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Level up holding Razor Claw at day",
+                "Stage2DexNum": 903,
+                "Stage2Form": "Normal"
             }
         ]
     },
@@ -7909,7 +7990,10 @@
                 "Stage1Form": "Normal",
                 "Stage2Method": "Level 30",
                 "Stage2DexNum": 217,
-                "Stage2Form": "Normal"
+                "Stage2Form": "Normal",
+                "Stage3Method": "Peat Block",
+                "Stage3DexNum": 901,
+                "Stage3Form": "Normal"
             }
         ]
     },
@@ -7938,7 +8022,10 @@
                 "Stage1Form": "Normal",
                 "Stage2Method": "Level 30",
                 "Stage2DexNum": 217,
-                "Stage2Form": "Normal"
+                "Stage2Form": "Normal",
+                "Stage3Method": "Peat Block",
+                "Stage3DexNum": 901,
+                "Stage3Form": "Normal"
             }
         ]
     },
@@ -8452,6 +8539,15 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Field"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 234,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Know Pyshield Bash",
+                "Stage2DexNum": 899,
+                "Stage2Form": "Normal"
+            }
         ]
     },
     {
@@ -16312,6 +16408,13 @@
         "GenderRatioF": null,
         "EggGroups": [
             "Unbreedable"
+        ],
+        "FormChanges": [
+            {
+                "StartForm": "Altered Forme",
+                "ChangeMethod": "Use Adamant Crystal",
+                "EndForm": "Origin Forme"
+            }
         ]
     },
     {
@@ -16339,6 +16442,13 @@
         "GenderRatioF": null,
         "EggGroups": [
             "Unbreedable"
+        ],
+        "FormChanges": [
+            {
+                "StartForm": "Altered Forme",
+                "ChangeMethod": "Use Lustrous Globe",
+                "EndForm": "Origin Forme"
+            }
         ]
     },
     {
@@ -16966,6 +17076,16 @@
                 "Stage3Method": "Level 36",
                 "Stage3DexNum": 503,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 501,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 17",
+                "Stage2DexNum": 502,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 502,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -16997,6 +17117,16 @@
                 "Stage3Method": "Level 36",
                 "Stage3DexNum": 503,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 501,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 17",
+                "Stage2DexNum": 502,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 502,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -18405,6 +18535,13 @@
                 "Stage2Method": "Sun Stone",
                 "Stage2DexNum": 549,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 548,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Sun Stone (Hisui)",
+                "Stage2DexNum": 549,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -18443,6 +18580,13 @@
                 "Stage2Method": "Sun Stone",
                 "Stage2DexNum": 549,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 548,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Sun Stone (Hisui)",
+                "Stage2DexNum": 549,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -18469,7 +18613,7 @@
             {
                 "FormName": "White-Striped",
                 "PrimaryType": "Water",
-                "Ability1": "Reckless",
+                "Ability1": "Rattled",
                 "Ability2": "Adaptability",
                 "HiddenAbility": "Mold Breaker",
                 "MoveSet": "White-Striped"
@@ -18480,6 +18624,22 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Water 2"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 550,
+                "Stage1Form": "White-Striped",
+                "Stage2Method": "Know Wave Crash (Male)",
+                "Stage2DexNum": 902,
+                "Stage2Form": "Male"
+            },
+            {
+                "Stage1DexNum": 550,
+                "Stage1Form": "White-Striped",
+                "Stage2Method": "Know Wave Crash (Female)",
+                "Stage2DexNum": 902,
+                "Stage2Form": "Female"
+            }
         ]
     },
     {
@@ -19151,6 +19311,13 @@
                 "Stage2Method": "Level 30",
                 "Stage2DexNum": 571,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 570,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Level 30",
+                "Stage2DexNum": 571,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -19185,6 +19352,13 @@
                 "Stage2Method": "Level 30",
                 "Stage2DexNum": 571,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 570,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Level 30",
+                "Stage2DexNum": 571,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -20936,6 +21110,13 @@
                 "Stage2Method": "Level 54",
                 "Stage2DexNum": 628,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 627,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 54 (Hisui)",
+                "Stage2DexNum": 628,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -20975,6 +21156,13 @@
                 "Stage2Method": "Level 54",
                 "Stage2DexNum": 628,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 627,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 54 (Hisui)",
+                "Stage2DexNum": 628,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -24308,6 +24496,16 @@
                 "Stage3Method": "Level 50 in rain or fog",
                 "Stage3DexNum": 706,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 704,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 40 (Hisui)",
+                "Stage2DexNum": 705,
+                "Stage2Form": "Hisuian",
+                "Stage3Method": "Level 50",
+                "Stage3DexNum": 706,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -24349,6 +24547,16 @@
                 "Stage3Method": "Level 50 in rain or fog",
                 "Stage3DexNum": 706,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 704,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 40 (Hisui)",
+                "Stage2DexNum": 705,
+                "Stage2Form": "Hisuian",
+                "Stage3Method": "Level 50",
+                "Stage3DexNum": 706,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -24390,6 +24598,16 @@
                 "Stage3Method": "Level 50 in rain or fog",
                 "Stage3DexNum": 706,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 704,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 40 (Hisui)",
+                "Stage2DexNum": 705,
+                "Stage2Form": "Hisuian",
+                "Stage3Method": "Level 50",
+                "Stage3DexNum": 706,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -24660,6 +24878,13 @@
                 "Stage2Method": "Level 37",
                 "Stage2DexNum": 713,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 712,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 37 (Hisui)",
+                "Stage2DexNum": 713,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -24699,6 +24924,13 @@
                 "Stage2Method": "Level 37",
                 "Stage2DexNum": 713,
                 "Stage2Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 712,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 37 (Hisui)",
+                "Stage2DexNum": 713,
+                "Stage2Form": "Hisuian"
             }
         ]
     },
@@ -24969,6 +25201,16 @@
                 "Stage3Method": "Level 34",
                 "Stage3DexNum": 724,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 722,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 17",
+                "Stage2DexNum": 723,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 724,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -25001,6 +25243,16 @@
                 "Stage3Method": "Level 34",
                 "Stage3DexNum": 724,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 722,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 17",
+                "Stage2DexNum": 723,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 724,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -25042,6 +25294,16 @@
                 "Stage3Method": "Level 34",
                 "Stage3DexNum": 724,
                 "Stage3Form": "Normal"
+            },
+            {
+                "Stage1DexNum": 722,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 17",
+                "Stage2DexNum": 723,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Level 36 (Hisui)",
+                "Stage3DexNum": 724,
+                "Stage3Form": "Hisuian"
             }
         ]
     },
@@ -30936,6 +31198,15 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Field"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 234,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Know Pyshield Bash",
+                "Stage2DexNum": 899,
+                "Stage2Form": "Normal"
+            }
         ]
     },
     {
@@ -30957,6 +31228,15 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Bug"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 123,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Black Augurite",
+                "Stage2DexNum": 900,
+                "Stage2Form": "Normal"
+            }
         ]
     },
     {
@@ -30978,6 +31258,18 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Field"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 216,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 30",
+                "Stage2DexNum": 217,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Peat Block",
+                "Stage3DexNum": 901,
+                "Stage3Form": "Normal"
+            }
         ]
     },
     {
@@ -30985,20 +31277,44 @@
         "DexNum": 902,
         "Forms": [
             {
-                "FormName": "Normal",
+                "FormName": "Male",
                 "PrimaryType": "Water",
                 "SecondaryType": "Ghost",
                 "Ability1": "Rattled",
                 "Ability2": "Adaptability",
                 "HiddenAbility": "Mold Breaker",
-                "MoveSet": "Normal"
+                "MoveSet": "Male"
+            },
+            {
+                "FormName": "Female",
+                "PrimaryType": "Water",
+                "SecondaryType": "Ghost",
+                "Ability1": "Rattled",
+                "Ability2": "Adaptability",
+                "HiddenAbility": "Mold Breaker"
             }
         ],
-        "DefaultFormName": "Normal",
+        "DefaultFormName": "Male",
         "GenderRatioM": 50,
         "GenderRatioF": 50,
         "EggGroups": [
             "Water 2"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 550,
+                "Stage1Form": "White-Striped",
+                "Stage2Method": "Know Wave Crash (Male)",
+                "Stage2DexNum": 902,
+                "Stage2Form": "Male"
+            },
+            {
+                "Stage1DexNum": 550,
+                "Stage1Form": "White-Striped",
+                "Stage2Method": "Know Wave Crash (Female)",
+                "Stage2DexNum": 902,
+                "Stage2Form": "Female"
+            }
         ]
     },
     {
@@ -31019,6 +31335,15 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Field"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 215,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Level up holding Razor Claw at day",
+                "Stage2DexNum": 903,
+                "Stage2Form": "Normal"
+            }
         ]
     },
     {
@@ -31040,6 +31365,15 @@
         "GenderRatioF": 49.8,
         "EggGroups": [
             "Water 2"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 211,
+                "Stage1Form": "Hisuian",
+                "Stage2Method": "Know Barb Barrage",
+                "Stage2DexNum": 904,
+                "Stage2Form": "Normal"
+            }
         ]
     },
     {
@@ -31066,6 +31400,13 @@
         "GenderRatioF": 100,
         "EggGroups": [
             "Unbreedable"
+        ],
+        "FormChanges": [
+            {
+                "StartForm": "Incarnate Forme",
+                "ChangeMethod": "Use Reveal Glass",
+                "EndForm": "Therian Forme"
+            }
         ]
     }
 ]

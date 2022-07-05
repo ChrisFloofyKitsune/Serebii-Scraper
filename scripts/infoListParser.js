@@ -254,6 +254,7 @@ class PokeInfoParser extends PokeParser {
             { Name: "Meowstic", FormIncludes: "Male", Result: ["Keen Eye", "Infiltrator", "Prankster"] },
             { Name: "Basculin", FormIncludes: "Red", Result: ["Reckless", "Adaptability", "Mold Breaker"] },
             { Name: "Basculin", FormIncludes: "Blue", Result: ["Rock Head", "Adaptability", "Mold Breaker"] },
+            { Name: "Basculin", FormIncludes: "White", Result: ["Rattled", "Adaptability", "Mold Breaker"] },
             { Name: "Rockruff", FormIncludes: "Own Tempo", Result: ["Own Tempo", null, null] },
             { Name: "Greninja", FormIncludes: "Battle Bond", Result: ["Battle Bond", null, null] },
             { Name: "Gengar", FormIncludes: "Normal", Result: ["Cursed Body", "Levitate", null] },

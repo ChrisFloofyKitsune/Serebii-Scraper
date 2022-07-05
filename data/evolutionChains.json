@@ -5904,7 +5904,7 @@
             "DexNum": 211,
             "Form": "Hisuian"
         },
-        "Stage2Method": "Level up knowing Barb Barrage",
+        "Stage2Method": "Know Barb Barrage",
         "Stage2": {
             "Name": "Overqwil",
             "DexNum": 904,
@@ -6039,7 +6039,7 @@
             "DexNum": 234,
             "Form": "Normal"
         },
-        "Stage2Method": "Level up knowing Pyshield Bash",
+        "Stage2Method": "Know Pyshield Bash",
         "Stage2": {
             "Name": "Wyrdeer",
             "DexNum": 899,
@@ -6065,7 +6065,7 @@
             "DexNum": 550,
             "Form": "White-Striped"
         },
-        "Stage2Method": "Level up knowing Wave Crash (Male)",
+        "Stage2Method": "Know Wave Crash (Male)",
         "Stage2": {
             "Name": "Basculegion",
             "DexNum": 902,
@@ -6078,7 +6078,7 @@
             "DexNum": 550,
             "Form": "White-Striped"
         },
-        "Stage2Method": "Level up knowing Wave Crash (Female)",
+        "Stage2Method": "Know Wave Crash (Female)",
         "Stage2": {
             "Name": "Basculegion",
             "DexNum": 902,
