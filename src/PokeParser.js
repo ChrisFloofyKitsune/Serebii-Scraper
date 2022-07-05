@@ -57,6 +57,8 @@ class PokeParser {
 
         if (this.name == "Burmy" && formName == "No Cloak")
             formName = "Plant Cloak";
+        else if (this.name == "Wormadam" && formName && !formName.includes("Cloak"))
+            formName = formName + " Cloak";
         else if (this.name == "Arceus")
             formName = formName.replace("-type", "");
         else if (this.name == "Silvally")
@@ -105,7 +107,8 @@ class PokeParser {
     }
 
     ParseForms() {
-        if (this.generation === 3) {
+        if (this.generation <= 3) {
+            // Forms didn't exist until gen3... in which they were only for Deoxys via hacky weirdness
             if (this.name == "Deoxys")
                 return ["Normal Forme", "Attack Forme", "Defense Forme", "Speed Forme"];
 

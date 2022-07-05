@@ -472,10 +472,12 @@ let paths = Object.values(pokemonGenIndex).map(array => {
     }
 
     return path;
+
+    //TODO: Dexit proof this by figuring what exact pages we need to read to get info for the pokemon's forms
 });
 // console.log(paths);
 
-console.log("PARSING LATEST GEN PAGES FOR ALL POKEMON");
+console.log("PARSING POKEMON PAGES");
 
 let bar = new cliProgress.SingleBar({
     format: `{bar} {percentage}% | ETA: {eta}s | {value}/{total} | {current}`

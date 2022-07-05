@@ -59,7 +59,7 @@ function CheckAndFixNames(entryData, pokemonData) {
 
         let oldName = entryData.DefaultForm;
         let newName = pokemonData.DefaultFormName;
-        console.log(`WARNING: Default Form Mismatch in ${filePath} for ${entryData.Name} (${oldName}) and (${newName}). Fixing!`);
+        //console.log(`WARNING: Default Form Mismatch in ${filePath} for ${entryData.Name} (${oldName}) and (${newName}). Setting to Form from later gen!`);
 
         entryData.DefaultForm = newName;
         entryData.Forms[0] = newName;

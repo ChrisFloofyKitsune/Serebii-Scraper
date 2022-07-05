@@ -25,6 +25,7 @@ const generationPaths = [
 
 */
 
+const pokeParser = new PokeParser();
 let output = { };
 
 for (let genPath of generationPaths) {
@@ -53,14 +54,13 @@ for (let genPath of generationPaths) {
     bar.stop();
 }
 
-const pokeParser = new PokeParser();
 function ParsePage(filePath, genIndex) {
     pokeParser.LoadPage(filePath);
     const data = pokeParser.GetPokemonData();
 
     CreateOrAddGenIndex(data, genIndex, filePath);
 
-    return dexNum;
+    return data.DexNum;
 }
 
 /**
@@ -74,15 +74,16 @@ function ParsePage(filePath, genIndex) {
  * @param {*} filePath 
  */
 function CreateOrAddGenIndex(pokeData, genIndex, filePath) {
-    if (!output[pokeData.DexNum]) {
-        output[pokeData.DexNum] = [];
-    }
-
     let entry = {};
     entry[genIndex] = filePath;
     entry["Forms"] = pokeData.Forms;
 
-    output[dexNum].push(entry);
+
+    if (!output[pokeData.DexNum]) {
+        output[pokeData.DexNum] = [];
+    }
+
+    output[pokeData.DexNum].push(entry);
 }
 
-fs.writeFileSync(outputPath, JSON.stringify(output), null, 2);
+fs.writeFileSync(outputPath, JSON.stringify(output, null, 4));
