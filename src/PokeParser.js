@@ -1,13 +1,15 @@
 const fs = require("fs");
 const cheerio = require("cheerio");
 
-const { CURRENT_GENERATION, PokemonNameFix } = require("./util");
+const { PokemonNameFix } = require("./util");
 
 class PokeParser {
+    /** @type {cheerio.CheerioAPI} */
     $ = null;
     hasAltForms = false;
     name = "";
     dexNum = 0;
+    /** @type {string[]} */
     forms = [];
 
     generation = 0;
@@ -17,11 +19,18 @@ class PokeParser {
 
         this.$ = cheerio.load(fs.readFileSync(pagePath));
 
-        this.name = PokemonNameFix(this.$('table.dextable tr:contains("Name")+tr td:nth-child(1)').first().text().trim());
+        if (this.generation !== 3) {
+            this.name = PokemonNameFix(this.$('table.dextable tr:contains("Name")+tr td:nth-child(1)').first().text().trim());
 
-        let $dexNums = this.$('table.dextable tr:contains("No.")+tr td:nth-child(3)');
-        //console.log($dexNums.text());
-        this.dexNum = parseInt($dexNums.text().match(/#(\d\d\d)/)[1], 10);
+            let $dexNums = this.$('table.dextable tr:contains("No.")+tr td:nth-child(3)');
+            this.dexNum = parseInt($dexNums.text().match(/#(\d\d\d)/)[1], 10);
+        } else {
+            // Serebii started at gen 3. There is some... "early installment weirdness" to account for in page layout.
+            this.name = PokemonNameFix(this.$('table tr:contains("English name")+tr td:nth-child(4)').first().text().trim());
+
+            let $dexNum = this.$('table tr:contains("National No.")+tr td:nth-child(2)');
+            this.dexNum = parseInt($dexNum.text().trim().match(/(\d\d\d)/)[1], 10);
+        }
 
         this.forms = [];
         this.forms = this.ParseForms();
@@ -96,6 +105,16 @@ class PokeParser {
     }
 
     ParseForms() {
+        if (this.generation === 3) {
+            if (this.name == "Deoxys")
+                return ["Normal Forme", "Attack Forme", "Defense Forme", "Speed Forme"];
+
+            if (this.name == "Unown")
+                return ["A"];
+
+            return ["Normal"];
+        }
+
         //Unown gets special handling for the lols and because we have all their sprites.
         if (this.name == "Unown") {
             return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!?'.split('');

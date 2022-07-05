@@ -1,5 +1,4 @@
 const fs = require("fs");
-const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
 const { MoveNameFix } = require("../src/util.js");
@@ -74,10 +73,12 @@ class PokeMoveParser extends PokeParser {
             let LevelUpMoves = $table.find('tr~tr:nth-child(2n-1)').map((i, e) => {
                 let $tr = this.$(e);
                 let $td = $tr.find('td').first();
+
+                // If we're on the PLA page, then there's an image in the level up table!
                 if ($td.find('img').length > 0) {
-                    //console.log($td.text(), $td.contents().filter((_, e) => e.type == "text").text());
                     return {
                         Name: MoveNameFix($tr.find('a').first().text()),
+                        //Get the direct text descendant, the mastery level is wrapped an <i> tag
                         Level: $td.contents().filter((_, e) => e.type == "text").text()
                     }
                 } else {
@@ -110,7 +111,7 @@ class PokeMoveParser extends PokeParser {
     }
 
     GetTutorMoves() {
-        return this.GetNonLevelUpMoves(this.$('table.dextable').has('td.fooevo:contains("Tutor")'), 1);
+        return this.GetNonLevelUpMoves(this.$('table.dextable').has('td.fooevo:contains("Tutor"), td.fooevo:contains("Move Shop")'), 1);
     }
 
     GetMachineMoves() {
@@ -132,7 +133,8 @@ class PokeMoveParser extends PokeParser {
         let results = [];
 
         $tables.each((i, e) => {
-            this.$(e).find('tr~tr:nth-child(2n-1)').each((i, tr) => {
+            let $e = this.$(e);
+            $e.find('tr~tr:nth-child(2n-1)').each((i, tr) => {
                 let $tr = this.$(tr);
 
                 let name = MoveNameFix($tr.find(`td:nth-child(${nameCol})`).first().text());
@@ -147,9 +149,20 @@ class PokeMoveParser extends PokeParser {
                 }).get().map(f => this.FormNameFix(f));
 
                 //console.log(forms);
-
+                
+                // No specific form info found, assume that the move belongs to ALL the pokemon's forms!
                 if (forms.length == 0) {
-                    forms = this.GetForms();
+                    // Unless it's Gen8, then we exclude the Hisuian form if we're not on the PLA listing
+                    if (this.generation === 8) {
+                        let subpageId = $e.parent('div[id*="swsh"], div[id*="legends"]').attr('id');
+                        if (subpageId && !subpageId.includes('legends')) {
+                            forms = this.GetForms().filter(f => f !== 'Hisuian');
+                        } else {
+                            forms = this.GetForms();
+                        }
+                    } else {
+                        forms = this.GetForms();
+                    }
                 }
 
                 let existing = results.find(r => r.Name == name);
@@ -180,28 +193,6 @@ class PokeMoveParser extends PokeParser {
 }
 
 class Gen3MoveParser extends PokeMoveParser {
-
-    LoadPage(pagePath) {
-        this.$ = cheerio.load(fs.readFileSync(pagePath));
-
-        this.name = this.$('table tr:contains("English name")+tr td:nth-child(4)').first().text().trim();
-
-        let $dexNum = this.$('table tr:contains("National No.")+tr td:nth-child(2)');
-        //console.log($dexNums.text());
-        this.dexNum = parseInt($dexNum.text().trim().match(/(\d\d\d)/)[1], 10);
-
-        this.forms = this.ParseForms();
-    }
-
-    ParseForms() {
-        if (this.name == "Deoxys")
-            return ["Normal Forme", "Attack Forme", "Defense Forme", "Speed Forme"];
-
-        if (this.name == "Unown")
-            return ["A"];
-
-        return ["Normal"];
-    }
 
     GetLevelUpMoves() {
         /*

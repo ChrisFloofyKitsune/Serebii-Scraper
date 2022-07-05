@@ -2,6 +2,7 @@ const fs = require("fs");
 const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
+const { PokeParser } = require("../src/PokeParser");
 
 const inputPath = path.resolve(__dirname, "../rawHTML");
 const outputPath = path.resolve(__dirname, "../data/pokemonGenIndex.json");
@@ -52,30 +53,34 @@ for (let genPath of generationPaths) {
     bar.stop();
 }
 
+const pokeParser = new PokeParser();
 function ParsePage(filePath, genIndex) {
-    const $ = cheerio.load(fs.readFileSync(filePath));
+    pokeParser.LoadPage(filePath);
+    const data = pokeParser.GetPokemonData();
 
-    let dexNum;
-    if (genIndex == 3) {
-        let $dexNum = $('table tr:contains("National No.")+tr td:nth-child(2)');
-        dexNum = parseInt($dexNum.text().trim().match(/(\d\d\d)/)[1], 10);
-    } else {
-        let $dexNums = $('table.dextable tr:contains("No.")+tr td:nth-child(3)');
-        dexNum = parseInt($dexNums.text().match(/#(\d\d\d)/)[1], 10);
-    }
-
-    CreateOrAddGenIndex(dexNum, genIndex, filePath);
+    CreateOrAddGenIndex(data, genIndex, filePath);
 
     return dexNum;
 }
 
-function CreateOrAddGenIndex(dexNum, genIndex, filePath) {
-    if (!output[dexNum]) {
-        output[dexNum] = [];
+/**
+ * 
+ * @param {object} pokeData
+ * @param {string} pokeData.Name
+ * @param {number} pokeData.DexNum
+ * @param {string} pokeData.DefaultForm
+ * @param {string[]} pokeData.Forms
+ * @param {*} genIndex 
+ * @param {*} filePath 
+ */
+function CreateOrAddGenIndex(pokeData, genIndex, filePath) {
+    if (!output[pokeData.DexNum]) {
+        output[pokeData.DexNum] = [];
     }
 
     let entry = {};
     entry[genIndex] = filePath;
+    entry["Forms"] = pokeData.Forms;
 
     output[dexNum].push(entry);
 }
