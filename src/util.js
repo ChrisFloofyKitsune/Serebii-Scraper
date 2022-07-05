@@ -34,7 +34,8 @@ const moveNameChanges = [
 ];
 
 const abilityNameChanges = [
-    { Old: "Compoundeyes", New: "Compound Eyes" }
+    { Old: "Compoundeyes", New: "Compound Eyes" },
+    { Old: "Lightningrod", New: "Lightning Rod"}
 ]
 
 function MoveNameFix(moveName) {

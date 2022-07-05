@@ -17,6 +17,49 @@ const fizzyDexCustom = require("../data/fizzyDexCustom.json");
 
 const outputPath = path.resolve(__dirname, "../output/pokemonList.json");
 
+//Detect if the current form (or Pokemon in general) has a unique moveset and mark it as such.
+//I don't want to talk about these regexes...
+const moveSetFormRegex = new RegExp([
+    /Alolan$/,
+    /Galarian$/,
+    /Hisuian$/,
+    /Low Key$/,
+    /Amped$/,
+    /Midday$/,
+    /Midnight$/,
+    /Dusk$/,
+    /Confined$/,
+    /Unbound$/,
+    /^Single Strike Style$/,
+    /^Rapid Strike Style$/,
+    /Red Flower/,
+    /Eternal Flower/,
+    /Vanilla Cream$/,
+    /Natural$/,
+    /Land Forme$/,
+    /Sky Forme$/,
+    /White$/,
+    /Black$/,
+    /Spring$/,
+    /A$/,
+    /Meadow$/,
+    /West Sea$/,
+    /Average Size$/,
+    /Baile Style$/,
+    /Disguised$/,
+    /Rider$/,
+    /^Solo/,
+    /White-Striped$/
+].map(r => r.source).join('|'));
+
+const pokemonNameRegex = new RegExp([
+    /Giratina$/,
+    /Deoxys$/,
+    /Wormadam$/,
+    /Indeedee$/,
+    /Meowstic$/
+].map(r => r.source).join('|'));
+
 //Layout
 /*
 {
@@ -61,11 +104,36 @@ class PokeInfoParser extends PokeParser {
 
         let evoChains = evolutionChains.filter(ec => ec.Stage1.DexNum === output.DexNum || ec.Stage2.DexNum === output.DexNum || (ec.Stage3 && ec.Stage3.DexNum === output.DexNum));
         if (evoChains.length > 0) {
+            evoChains = evoChains.map(ec => { 
+                const result = {
+                    Stage1DexNum: ec.Stage1.DexNum,
+                    Stage1Form: ec.Stage1.Form,
+                    Stage2Method: ec.Stage2Method,
+                    Stage2DexNum: ec.Stage2.DexNum,
+                    Stage2Form: ec.Stage2.Form,
+                };
+
+                if (ec.Stage3Method) {
+                    Object.assign(result, {
+                        Stage3Method: ec.Stage3Method,
+                        Stage3DexNum: ec.Stage3.DexNum,
+                        Stage3Form: ec.Stage3.Form
+                    })
+                }
+                
+                return result;
+            });
+
             output["EvolutionChains"] = evoChains;
         }
 
         let _formChanges = formChanges.filter(fc => fc.DexNum === output.DexNum);
         if (_formChanges.length > 0) {
+            _formChanges = _formChanges.map(fc => { return {
+                StartForm: fc.StartForm,
+                ChangeMethod: fc.ChangeMethod,
+                EndForm: fc.EndForm
+            }});
             output["FormChanges"] = _formChanges;
         }
 
@@ -130,11 +198,6 @@ class PokeInfoParser extends PokeParser {
             if (hiddenAbility != null) {
                 output["HiddenAbility"] = hiddenAbility;
             }
-
-            //Detect if the current form (or Pokemon in general) has a unique moveset and mark it as such.
-            //I don't want to talk about these regexes...
-            let moveSetFormRegex = /Alolan$|Galarian$|Hisuian$|Low Key$|Amped$|Midday$|Midnight$|Dusk$|Confined$|Unbound$|^Single Strike Style$|^Rapid Strike Style$|Red Flower|Eternal Flower|Vanilla Cream$|Natural$|Land Forme$|Sky Forme$|White$|Black$|Spring$|A$|Meadow$|West Sea$|Average Size$|Baile Style$|Disguised$|Rider$|^Solo|White-Striped$/;
-            let pokemonNameRegex = /Giratina$|Deoxys$|Wormadam$|Indeedee$|Meowstic$/;
 
             if (form == this.GetDefaultForm() || form.match(moveSetFormRegex) || this.GetName().match(pokemonNameRegex)) {
                 output["MoveSet"] = form;
@@ -487,38 +550,6 @@ bar.stop();
 
 PatchPokemonForms(infoOutput, megaFormsPatch);
 
-//Verify against the existing list
-
-console.log("CHECKING DATA AGAINST OLD VERSION OF POKEMON LIST");
-
-let oldPokemonList = require("./oldPokemonList.json");
-//console.log(oldPokemonList);
-const { diff } = require("just-diff");
-
-for (let entry of infoOutput) {
-
-    //copy array.
-    let forms = [...entry.Forms].sort((a, b) => a.FormName.localeCompare(b.FormName));
-
-    let tempEntry = {
-        ...entry,
-        Forms: forms
-    }
-
-    let oldEntry = oldPokemonList[tempEntry.DexNum - 1];
-    oldEntry.Forms.sort((a, b) => a.FormName.localeCompare(b.FormName))
-
-    let diffs = diff(oldEntry, tempEntry);
-
-    diffs = diffs.filter(d => !d.path[0].match(/Gender|EggGroups/));
-
-    //console.log(diffs);
-    if (diffs.length > 0) {
-        console.log(`Diff in ${tempEntry.Name}`);
-        console.log(diffs);
-    }
-}
-
 //Sort forms!
 infoOutput.forEach(entry => entry.Forms.sort(SuperFormComparer));
 
@@ -581,4 +612,55 @@ fizzyDexCustom.forEach(customEntry => {
     }
 });
 
-fs.writeFileSync(outputPath, JSON.stringify(infoOutput, null, 2));
+//Diff against the old/existing list
+
+console.log("CHECKING DATA AGAINST LAST VERSION OF POKEMON LIST");
+
+const oldPokemonList = require("../output/pokemonList.old.json") ?? require("../output/pokemonList.json");
+
+if (oldPokemonList) {
+    const { diff } = require("just-diff");
+
+    for (let entry of infoOutput) {
+
+        let oldEntry = oldPokemonList[entry.DexNum - 1];
+        if (!oldEntry) {
+            console.log(`Added new entry for: ${entry.Name}`);
+            continue;
+        }
+
+        function sortForms(a, b) {
+            const firsts = ["Normal", "Kalosian"];
+            if (firsts.some(f => a === f)) {
+                a = "_" + a;
+            }
+            if (firsts.some(f => b === f)) {
+                b = "_" + b;
+            }
+        }
+
+        //copy array.
+        let forms = entry.Forms.slice().sort(sortForms);
+
+        let tempEntry = {
+            ...entry,
+            Forms: forms
+        }
+        
+        oldEntry.Forms.sort(sortForms)
+
+        let diffs = diff(oldEntry, tempEntry);
+
+        diffs = diffs.filter(d => !d.path[0].match(/Gender|EggGroups/));
+
+        //console.log(diffs);
+        if (diffs.length > 0) {
+            console.log(`Diff in ${tempEntry.Name}`);
+            console.log(diffs);
+        }
+    }
+} else {
+    console.log("NO EXISTING LIST FOUND.");
+}
+
+fs.writeFileSync(outputPath, JSON.stringify(infoOutput, null, 4));
