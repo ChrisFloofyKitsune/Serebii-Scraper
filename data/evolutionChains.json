@@ -1791,6 +1791,12 @@
             "Name": "Ursaring",
             "DexNum": 217,
             "Form": "Normal"
+        },
+        "Stage3Method": "Peat Block",
+        "Stage3": {
+            "Name": "Ursaluna",
+            "DexNum": 901,
+            "Form": "Normal"
         }
     },
     {
@@ -5845,6 +5851,238 @@
             "Name": "Urshifu",
             "DexNum": 892,
             "Form": "Rapid Strike Style"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Growlithe",
+            "DexNum": 58,
+            "Form": "Hisuian"
+        },
+        "Stage2Method": "Fire Stone",
+        "Stage2": {
+            "Name": "Arcanine",
+            "DexNum": 59,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Voltorb",
+            "DexNum": 100,
+            "Form": "Hisuian"
+        },
+        "Stage2Method": "Leaf Stone",
+        "Stage2": {
+            "Name": "Electrode",
+            "DexNum": 101,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Cyndaquil",
+            "DexNum": 155,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level 14",
+        "Stage2": {
+            "Name": "Quilava",
+            "DexNum": 156,
+            "Form": "Normal"
+        },
+        "Stage3Method": "Level 36 (Hisui)",
+        "Stage3": {
+            "Name": "Typhlosion",
+            "DexNum": 157,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Qwilfish",
+            "DexNum": 211,
+            "Form": "Hisuian"
+        },
+        "Stage2Method": "Level up knowing Barb Barrage",
+        "Stage2": {
+            "Name": "Overqwil",
+            "DexNum": 904,
+            "Form": "Normal"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Sneasel",
+            "DexNum": 215,
+            "Form": "Hisuian"
+        },
+        "Stage2Method": "Level up holding Razor Claw at day",
+        "Stage2": {
+            "Name": "Sneasler",
+            "DexNum": 903,
+            "Form": "Normal"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Oshawott",
+            "DexNum": 501,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level 17",
+        "Stage2": {
+            "Name": "Dewott",
+            "DexNum": 502,
+            "Form": "Normal"
+        },
+        "Stage3Method": "Level 36 (Hisui)",
+        "Stage3": {
+            "Name": "Samurott",
+            "DexNum": 502,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Petilil",
+            "DexNum": 548,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Sun Stone (Hisui)",
+        "Stage2": {
+            "Name": "Lilligant",
+            "DexNum": 549,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Zorua",
+            "DexNum": 570,
+            "Form": "Hisuian"
+        },
+        "Stage2Method": "Level 30",
+        "Stage2": {
+            "Name": "Zoroark",
+            "DexNum": 571,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Rufflet",
+            "DexNum": 627,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level 54 (Hisui)",
+        "Stage2": {
+            "Name": "Braviary",
+            "DexNum": 628,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Goomy",
+            "DexNum": 704,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level 40 (Hisui)",
+        "Stage2": {
+            "Name": "Sliggoo",
+            "DexNum": 705,
+            "Form": "Hisuian"
+        },
+        "Stage3Method": "Level 50",
+        "Stage3": {
+            "Name": "Goodra",
+            "DexNum": 706,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Bergmite",
+            "DexNum": 712,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level 37 (Hisui)",
+        "Stage2": {
+            "Name": "Avalugg",
+            "DexNum": 713,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Rowlet",
+            "DexNum": 722,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level 17",
+        "Stage2": {
+            "Name": "Dartrix",
+            "DexNum": 723,
+            "Form": "Normal"
+        },
+        "Stage3Method": "Level 36 (Hisui)",
+        "Stage3": {
+            "Name": "Decidueye",
+            "DexNum": 724,
+            "Form": "Hisuian"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Stantler",
+            "DexNum": 234,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Level up knowing Pyshield Bash",
+        "Stage2": {
+            "Name": "Wyrdeer",
+            "DexNum": 899,
+            "Form": "Normal"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Scyther",
+            "DexNum": 123,
+            "Form": "Normal"
+        },
+        "Stage2Method": "Black Augurite",
+        "Stage2": {
+            "Name": "Kleavor",
+            "DexNum": 900,
+            "Form": "Normal"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Basculin",
+            "DexNum": 550,
+            "Form": "White-Striped"
+        },
+        "Stage2Method": "Level up knowing Wave Crash (Male)",
+        "Stage2": {
+            "Name": "Basculegion",
+            "DexNum": 902,
+            "Form": "Male"
+        }
+    },
+    {
+        "Stage1": {
+            "Name": "Basculin",
+            "DexNum": 550,
+            "Form": "White-Striped"
+        },
+        "Stage2Method": "Level up knowing Wave Crash (Female)",
+        "Stage2": {
+            "Name": "Basculegion",
+            "DexNum": 902,
+            "Form": "Female"
         }
     }
 ]

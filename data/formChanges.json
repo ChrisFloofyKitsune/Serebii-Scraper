@@ -1272,5 +1272,26 @@
         "StartForm": "Normal",
         "ChangeMethod": "Combine with Spectrier",
         "EndForm": "Shadow Rider"
+    },
+    {
+        "Name": "Dialga",
+        "DexNum": 483,
+        "StartForm": "Altered Forme",
+        "ChangeMethod": "Use Adamant Crystal",
+        "EndForm": "Origin Forme"
+    },
+    {
+        "Name": "Palkia",
+        "DexNum": 484,
+        "StartForm": "Altered Forme",
+        "ChangeMethod": "Use Lustrous Globe",
+        "EndForm": "Origin Forme"
+    },
+    {
+        "Name": "Enamorus",
+        "DexNum": 905,
+        "StartForm": "Incarnate Forme",
+        "ChangeMethod": "Use Reveal Glass",
+        "EndForm": "Therian Forme"
     }
 ]
