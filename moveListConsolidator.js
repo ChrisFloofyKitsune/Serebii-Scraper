@@ -97,7 +97,7 @@ function CheckAndFixNames(entryData, pokemonData) {
 function AddLevelUpMove(pokemonEntry, move, form, level) {
     let levelNum = parseInt(level, 10);
     if (isNaN(levelNum)) {
-        levelNum = (level == "Evolve" ? 0 : 1);
+        levelNum = (level.includes("Evolve") ? 0 : 1);
         if (level == "N/A") {
             console.log("WARNING: Fixed " + level + " to " + levelNum + " for " + pokemonEntry.Name + " for move " + move);
         }

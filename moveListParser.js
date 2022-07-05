@@ -73,9 +73,18 @@ class PokeMoveParser extends PokeParser {
 
             let LevelUpMoves = $table.find('tr~tr:nth-child(2n-1)').map((i, e) => {
                 let $tr = this.$(e);
-                return {
-                    Name: MoveNameFix($tr.find('a').first().text()),
-                    Level: $tr.find('td').first().text()
+                let $td = $tr.find('td').first();
+                if ($td.find('img').length > 0) {
+                    //console.log($td.text(), $td.contents().filter((_, e) => e.type == "text").text());
+                    return {
+                        Name: MoveNameFix($tr.find('a').first().text()),
+                        Level: $td.contents().filter((_, e) => e.type == "text").text()
+                    }
+                } else {
+                    return {
+                        Name: MoveNameFix($tr.find('a').first().text()),
+                        Level: $td.text()
+                    }
                 }
             }).get();
 
@@ -334,13 +343,13 @@ const GenParsers = [
 ];
 
 const generationPaths = [
-    { index: 1, path: "generation1" },
-    { index: 2, path: "generation2" },
-    { index: 3, path: "generation3" },
-    { index: 4, path: "generation4" },
-    { index: 5, path: "generation5" },
-    { index: 6, path: "generation6" },
-    { index: 7, path: "generation7" },
+    // { index: 1, path: "generation1" },
+    // { index: 2, path: "generation2" },
+    // { index: 3, path: "generation3" },
+    // { index: 4, path: "generation4" },
+    // { index: 5, path: "generation5" },
+    // { index: 6, path: "generation6" },
+    // { index: 7, path: "generation7" },
     { index: 8, path: "generation8" }
 ];
 

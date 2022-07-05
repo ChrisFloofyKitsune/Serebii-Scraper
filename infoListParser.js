@@ -103,7 +103,11 @@ class PokeInfoParser extends PokeParser {
 
             let [primaryType, secondaryType] = this.GetTypesForForm($types, form);
             if (primaryType === undefined) {
-                console.error(`\n\n${this.GetName()} - ${form} failed to have it's type parsed!!`);
+                console.log(`\n\n${this.GetName()} - ${form} failed to have it's type parsed for form ${form}, defaulting to checking for "Normal"`);
+                [primaryType, secondaryType] = this.GetTypesForForm($types, "Normal");
+                if (primaryType) {
+                    console.log("Fallback successful");
+                }
             }
 
             output["PrimaryType"] = primaryType;
@@ -113,8 +117,12 @@ class PokeInfoParser extends PokeParser {
 
 
             let [ability1, ability2, hiddenAbility] = this.GetAbilitiesForForm($abilities, form);
-            if (primaryType === undefined) {
-                console.error(`\n\n${this.GetName()} - ${form} failed to have it's Abilities parsed!!`);
+            if (!ability1) {
+                console.log(`\n\n${this.GetName()} - ${form} failed to have it's Abilities parsed for form ${form}, defaulting to checking for "Normal"`);
+                [ability1, ability2, hiddenAbility] = this.GetAbilitiesForForm($abilities, this.GetDefaultForm());
+                if (ability1) {
+                    console.log("Fallback successful");
+                }
             }
 
             output["Ability1"] = ability1;
@@ -127,7 +135,7 @@ class PokeInfoParser extends PokeParser {
 
             //Detect if the current form (or Pokemon in general) has a unique moveset and mark it as such.
             //I don't want to talk about these regexes...
-            let moveSetFormRegex = /Alolan$|Galarian$|Low Key$|Amped$|Midday$|Midnight$|Dusk$|Confined$|Unbound$|^Single Strike Style$|^Rapid Strike Style$|Red Flower|Eternal Flower|Vanilla Cream$|Natural$|Land Forme$|Sky Forme$|White$|Black$|Spring$|A$|Meadow$|West Sea$|Average Size$|Baile Style$|Disguised$|Rider$|^Solo/;
+            let moveSetFormRegex = /Alolan$|Galarian$|Hisuian$|Low Key$|Amped$|Midday$|Midnight$|Dusk$|Confined$|Unbound$|^Single Strike Style$|^Rapid Strike Style$|Red Flower|Eternal Flower|Vanilla Cream$|Natural$|Land Forme$|Sky Forme$|White$|Black$|Spring$|A$|Meadow$|West Sea$|Average Size$|Baile Style$|Disguised$|Rider$|^Solo|White-Striped$/;
             let pokemonNameRegex = /Giratina$|Deoxys$|Wormadam$|Indeedee$|Meowstic$/;
 
             if (form == this.GetDefaultForm() || form.match(moveSetFormRegex) || this.GetName().match(pokemonNameRegex)) {
@@ -394,7 +402,15 @@ function SuperFormComparer(a, b) {
 //////////////////
 
 const parser = new PokeInfoParser();
-let paths = Object.values(pokemonGenIndex).map(array => Object.values(array[array.length - 1])[0]);
+let paths = Object.values(pokemonGenIndex).map(array => {
+    //hacky patch to get the gen7 page instead for select pokemon
+    let path = Object.values(array[array.length - 1])[0];
+    if (path.match(/rattata|raticate|geodude|graveler|golem|grimer|muk/)) {
+        path = array.find(v => Object.keys(v).includes("7"))["7"];
+    }
+
+    return path;
+});
 // console.log(paths);
 
 console.log("PARSING LATEST GEN PAGES FOR ALL POKEMON");
@@ -536,7 +552,7 @@ fizzyDexCustom.forEach(customEntry => {
             "FormName": customEntry.Form
         };
 
-        const FORM_PROPS_TO_COPY = ["Alias", "PrimaryType", "SecondaryType", "Ability1", "Ability2", "HiddenAbility", "HumpySpriteURL", "HumpyShinyURL", "ArtworkURL"];
+        const FORM_PROPS_TO_COPY = ["Alias", "PrimaryType", "SecondaryType", "Ability1", "Ability2", "HiddenAbility", "ExtraMove", "HumpySpriteURL", "HumpyShinyURL", "ArtworkURL"];
         FORM_PROPS_TO_COPY.forEach(prop => {
             if (customEntry[prop] !== undefined) {
                 formPatch[prop] = customEntry[prop];

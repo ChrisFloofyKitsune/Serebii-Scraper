@@ -18,6 +18,7 @@
         "SecondaryType": "Poison",
         "Ability1": "Overgrow",
         "Ability2": "Cursed Body",
+        "ExtraMove": "Pumpkin Bomb",
         "HumpySpriteURL": "https://i.imgur.com/9t1Jv28.gif",
         "HumpyShinyURL": "https://i.imgur.com/zAjpWTi.gif",
         "ArtworkURL": "https://i.imgur.com/vzB96zv.png",
@@ -73,6 +74,7 @@
         "SecondaryType": "Ghost",
         "Ability1": "Overgrow",
         "Ability2": "Cursed Body",
+        "ExtraMove": "Pumpkin Bomb",
         "HumpySpriteURL": "https://i.imgur.com/PhRNPCA.gif",
         "HumpyShinyURL": "https://i.imgur.com/bOSoVYC.gif",
         "ArtworkURL": "https://i.imgur.com/WZ2qhgd.png",
@@ -144,6 +146,10 @@
         "SecondaryType": "Ghost",
         "Ability1": "Overgrow",
         "Ability2": "Cursed Body",
+        "ExtraMove": "Pumpkin Bomb",
+        "HumpySpriteURL": "https://i.imgur.com/H2SqSm8.gif",
+        "HumpyShinyURL": "https://i.imgur.com/JxIomll.gif",
+        "ArtworkURL": "https://i.imgur.com/czBvSEW.png",
         "MoveSet": "Fizzytopian"
       }
     ],

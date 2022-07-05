@@ -44,6 +44,9 @@ function MoveNameFix(moveName) {
     moveName = moveName.replace(" - HGSS Only", "");
     moveName = moveName.replace("(ΩRαS) Only", "");
     moveName = moveName.replace("USUM Only", "");
+    moveName = moveName.replace("SWSH Only", "");
+    moveName = moveName.replace("BDSP Only", "");
+
     if (moveName.includes("Only"))
         console.log(`Need to fix: ${moveName}`);
 
