@@ -1,10 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const pokemonList = require("./output/pokemonList.json");
-const fizzyDexCustom = require("./fizzyDexCustom.json");
+const pokemonList = require("../output/pokemonList.json");
+const fizzyDexCustom = require("../fizzyDexCustom.json");
 
-const { PokemonNameFix } = require("./util");
+const { PokemonNameFix } = require("../src/util");
 
 ////////////////////////////////////////////
 // DECLARATIONS

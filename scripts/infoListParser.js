@@ -1,15 +1,17 @@
+"use strict"
 const fs = require("fs");
 const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const { PokeParser } = require("./PokeParser.js");
-const { AbilityNameFix } = require("./util");
+const { PokeParser } = require("../src/PokeParser.js");
+const { AbilityNameFix } = require("../src/util");
 
-const pokemonGenIndex = require("./pokemonGenIndex.json");
-const extraPokemonInfo = require("./extraPokeFormInfo.json");
-const oldPokemonInfo = require("./oldPokemonList.json");
+const pokemonGenIndex = require("../data/pokemonGenIndex.json");
+const extraPokemonInfo = require("../data/extraPokeFormInfo.json");
+const evolutionChains = require("../data/evolutionChains.json");
+const formChanges = require("../data/formChanges.json");
 
-const fizzyDexCustom = require("./fizzyDexCustom.json");
+const fizzyDexCustom = require("../fizzyDexCustom.json");
 
 ////////////////////////
 // DECLARATIONS
@@ -59,16 +61,14 @@ class PokeInfoParser extends PokeParser {
             EggGroups: this.GetEggGroups()
         }
 
-        //TODO, maybe make a more sensible list of these infos sometime.
-        //How about when the next generation and/or new Pokemon roll around huh?
-        let oldEvoChains = oldPokemonInfo[this.GetDexNum() - 1].EvolutionChains;
-        if (oldEvoChains) {
-            output["EvolutionChains"] = oldEvoChains;
+        let evoChains = evolutionChains.filter(ec => ec.Stage1.DexNum === output.DexNum || ec.Stage2.DexNum === output.DexNum || (ec.Stage3 && ec.Stage3.DexNum === output.DexNum));
+        if (evoChains.length > 0) {
+            output["EvolutionChains"] = evoChains;
         }
 
-        let oldFormChanges = oldPokemonInfo[this.GetDexNum() - 1].FormChanges;
-        if (oldFormChanges) {
-            output["FormChanges"] = oldFormChanges;
+        let _formChanges = formChanges.filter(fc => fc.DexNum === output.DexNum);
+        if (_formChanges.length > 0) {
+            output["FormChanges"] = _formChanges;
         }
 
         this.AttachExtraInfo(output);
@@ -546,7 +546,7 @@ fizzyDexCustom.forEach(customEntry => {
         }
 
         console.log(`Patching in new form to "${baseEntry.Name}": "${customEntry.Form}"`);
-        
+
         //Assemble the form patch!
         let formPatch = {
             "FormName": customEntry.Form

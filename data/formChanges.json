@@ -1,0 +1,1276 @@
+[
+    {
+        "Name": "Venusaur",
+        "DexNum": 3,
+        "StartForm": "Normal",
+        "ChangeMethod": "Venusaurite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Venusaur",
+        "DexNum": 3,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Charizard",
+        "DexNum": 6,
+        "StartForm": "Normal",
+        "ChangeMethod": "Charizardite X",
+        "EndForm": "Mega X"
+    },
+    {
+        "Name": "Charizard",
+        "DexNum": 6,
+        "StartForm": "Normal",
+        "ChangeMethod": "Charizardite Y",
+        "EndForm": "Mega Y"
+    },
+    {
+        "Name": "Charizard",
+        "DexNum": 6,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Blastoise",
+        "DexNum": 9,
+        "StartForm": "Normal",
+        "ChangeMethod": "Blastoisinite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Blastoise",
+        "DexNum": 9,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Butterfree",
+        "DexNum": 12,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Beedrill",
+        "DexNum": 15,
+        "StartForm": "Normal",
+        "ChangeMethod": "Beedrillite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Pidgeot",
+        "DexNum": 18,
+        "StartForm": "Normal",
+        "ChangeMethod": "Pidgeotite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Pikachu",
+        "DexNum": 25,
+        "StartForm": "Normal",
+        "ChangeMethod": "Dress in Rock Star costume",
+        "EndForm": "Rock Star"
+    },
+    {
+        "Name": "Pikachu",
+        "DexNum": 25,
+        "StartForm": "Normal",
+        "ChangeMethod": "Dress in Southern Belle costume",
+        "EndForm": "Belle"
+    },
+    {
+        "Name": "Pikachu",
+        "DexNum": 25,
+        "StartForm": "Normal",
+        "ChangeMethod": "Dress in Pop Star costume",
+        "EndForm": "Pop Star"
+    },
+    {
+        "Name": "Pikachu",
+        "DexNum": 25,
+        "StartForm": "Normal",
+        "ChangeMethod": "Dress in Professor costume",
+        "EndForm": "Ph. D"
+    },
+    {
+        "Name": "Pikachu",
+        "DexNum": 25,
+        "StartForm": "Normal",
+        "ChangeMethod": "Dress in Luchador costume",
+        "EndForm": "Libre"
+    },
+    {
+        "Name": "Pikachu",
+        "DexNum": 25,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Meowth",
+        "DexNum": 52,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Alakazam",
+        "DexNum": 65,
+        "StartForm": "Normal",
+        "ChangeMethod": "Alakazite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Machamp",
+        "DexNum": 68,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Slowbro",
+        "DexNum": 80,
+        "StartForm": "Normal",
+        "ChangeMethod": "Slowbronite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Gengar",
+        "DexNum": 94,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gengarite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Gengar",
+        "DexNum": 94,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Kingler",
+        "DexNum": 99,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Kangaskhan",
+        "DexNum": 115,
+        "StartForm": "Normal",
+        "ChangeMethod": "Kangaskhanite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Pinsir",
+        "DexNum": 127,
+        "StartForm": "Normal",
+        "ChangeMethod": "Pinsirite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Gyarados",
+        "DexNum": 130,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gyaradosite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Lapras",
+        "DexNum": 131,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Eevee",
+        "DexNum": 133,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Aerodactyl",
+        "DexNum": 142,
+        "StartForm": "Normal",
+        "ChangeMethod": "Aerodactylite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Snorlax",
+        "DexNum": 143,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Mewtwo",
+        "DexNum": 150,
+        "StartForm": "Normal",
+        "ChangeMethod": "Mewtwonite X",
+        "EndForm": "Mega X"
+    },
+    {
+        "Name": "Mewtwo",
+        "DexNum": 150,
+        "StartForm": "Normal",
+        "ChangeMethod": "Mewtwonite Y",
+        "EndForm": "Mega Y"
+    },
+    {
+        "Name": "Ampharos",
+        "DexNum": 181,
+        "StartForm": "Normal",
+        "ChangeMethod": "Ampharosite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Steelix",
+        "DexNum": 208,
+        "StartForm": "Normal",
+        "ChangeMethod": "Steelixite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Scizor",
+        "DexNum": 212,
+        "StartForm": "Normal",
+        "ChangeMethod": "Scizorite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Heracross",
+        "DexNum": 214,
+        "StartForm": "Normal",
+        "ChangeMethod": "Heracronite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Houndoom",
+        "DexNum": 229,
+        "StartForm": "Normal",
+        "ChangeMethod": "Houndoominite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Tyranitar",
+        "DexNum": 248,
+        "StartForm": "Normal",
+        "ChangeMethod": "Tyranitarite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Sceptile",
+        "DexNum": 254,
+        "StartForm": "Normal",
+        "ChangeMethod": "Sceptilite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Blaziken",
+        "DexNum": 257,
+        "StartForm": "Normal",
+        "ChangeMethod": "Blazikenite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Swampert",
+        "DexNum": 260,
+        "StartForm": "Normal",
+        "ChangeMethod": "Swampertite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Gardevoir",
+        "DexNum": 282,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gardevoirite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Sableye",
+        "DexNum": 302,
+        "StartForm": "Normal",
+        "ChangeMethod": "Sablenite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Mawile",
+        "DexNum": 303,
+        "StartForm": "Normal",
+        "ChangeMethod": "Mawilite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Aggron",
+        "DexNum": 306,
+        "StartForm": "Normal",
+        "ChangeMethod": "Aggronite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Medicham",
+        "DexNum": 308,
+        "StartForm": "Normal",
+        "ChangeMethod": "Medichamite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Manectric",
+        "DexNum": 310,
+        "StartForm": "Normal",
+        "ChangeMethod": "Manectite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Sharpedo",
+        "DexNum": 319,
+        "StartForm": "Normal",
+        "ChangeMethod": "Sharpedonite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Camerupt",
+        "DexNum": 323,
+        "StartForm": "Normal",
+        "ChangeMethod": "Cameruptite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Altaria",
+        "DexNum": 334,
+        "StartForm": "Normal",
+        "ChangeMethod": "Altarianite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Castform",
+        "DexNum": 351,
+        "StartForm": "Normal",
+        "ChangeMethod": "Activate Forecast Ability by being in harsh sunlight",
+        "EndForm": "Sunny"
+    },
+    {
+        "Name": "Castform",
+        "DexNum": 351,
+        "StartForm": "Normal",
+        "ChangeMethod": "Activate Forecast Ability by being in rain",
+        "EndForm": "Rainy"
+    },
+    {
+        "Name": "Castform",
+        "DexNum": 351,
+        "StartForm": "Normal",
+        "ChangeMethod": "Activate Forecast Ability by being in hail",
+        "EndForm": "Snowy"
+    },
+    {
+        "Name": "Banette",
+        "DexNum": 354,
+        "StartForm": "Normal",
+        "ChangeMethod": "Banettite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Absol",
+        "DexNum": 359,
+        "StartForm": "Normal",
+        "ChangeMethod": "Absolite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Glalie",
+        "DexNum": 362,
+        "StartForm": "Normal",
+        "ChangeMethod": "Glalitite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Salamence",
+        "DexNum": 373,
+        "StartForm": "Normal",
+        "ChangeMethod": "Salamencite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Metagross",
+        "DexNum": 376,
+        "StartForm": "Normal",
+        "ChangeMethod": "Metagrossite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Latias",
+        "DexNum": 380,
+        "StartForm": "Normal",
+        "ChangeMethod": "Latiasite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Latios",
+        "DexNum": 381,
+        "StartForm": "Normal",
+        "ChangeMethod": "Latiosite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Kyogre",
+        "DexNum": 382,
+        "StartForm": "Normal",
+        "ChangeMethod": "Blue Orb",
+        "EndForm": "Primal"
+    },
+    {
+        "Name": "Groudon",
+        "DexNum": 383,
+        "StartForm": "Normal",
+        "ChangeMethod": "Red Orb",
+        "EndForm": "Primal"
+    },
+    {
+        "Name": "Rayquaza",
+        "DexNum": 384,
+        "StartForm": "Normal",
+        "ChangeMethod": "Knows Dragon Ascent",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Burmy",
+        "DexNum": 412,
+        "StartForm": "Any",
+        "ChangeMethod": "Battle in grassy or water area",
+        "EndForm": "Plant Cloak"
+    },
+    {
+        "Name": "Burmy",
+        "DexNum": 412,
+        "StartForm": "Any",
+        "ChangeMethod": "Battle in rocky or sandy area",
+        "EndForm": "Sandy Cloak"
+    },
+    {
+        "Name": "Burmy",
+        "DexNum": 412,
+        "StartForm": "Any",
+        "ChangeMethod": "Battle in a building or urban area",
+        "EndForm": "Trash Cloak"
+    },
+    {
+        "Name": "Cherrim",
+        "DexNum": 421,
+        "StartForm": "Overcast",
+        "ChangeMethod": "Harsh sunlight in battle",
+        "EndForm": "Sunshine"
+    },
+    {
+        "Name": "Lopunny",
+        "DexNum": 428,
+        "StartForm": "Normal",
+        "ChangeMethod": "Lopunnite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Garchomp",
+        "DexNum": 445,
+        "StartForm": "Normal",
+        "ChangeMethod": "Garchompite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Lucario",
+        "DexNum": 448,
+        "StartForm": "Normal",
+        "ChangeMethod": "Lucarionite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Abomasnow",
+        "DexNum": 460,
+        "StartForm": "Normal",
+        "ChangeMethod": "Abomasite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Gallade",
+        "DexNum": 475,
+        "StartForm": "Normal",
+        "ChangeMethod": "Galladite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Rotom",
+        "DexNum": 479,
+        "StartForm": "Normal",
+        "ChangeMethod": "Use Microwave Oven",
+        "EndForm": "Heat"
+    },
+    {
+        "Name": "Rotom",
+        "DexNum": 479,
+        "StartForm": "Normal",
+        "ChangeMethod": "Use Washing Machine",
+        "EndForm": "Wash"
+    },
+    {
+        "Name": "Rotom",
+        "DexNum": 479,
+        "StartForm": "Normal",
+        "ChangeMethod": "Use Refrigerator",
+        "EndForm": "Frost"
+    },
+    {
+        "Name": "Rotom",
+        "DexNum": 479,
+        "StartForm": "Normal",
+        "ChangeMethod": "Use Electric Fan",
+        "EndForm": "Fan"
+    },
+    {
+        "Name": "Rotom",
+        "DexNum": 479,
+        "StartForm": "Normal",
+        "ChangeMethod": "Use Lawn Mower",
+        "EndForm": "Mow"
+    },
+    {
+        "Name": "Giratina",
+        "DexNum": 487,
+        "StartForm": "Altered Forme",
+        "ChangeMethod": "In Distortion World or Hold Griseous Orb",
+        "EndForm": "Origin Forme"
+    },
+    {
+        "Name": "Shaymin",
+        "DexNum": 492,
+        "StartForm": "Land Forme",
+        "ChangeMethod": "Use Gracidea",
+        "EndForm": "Sky Forme"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Draco Plate or Dragonium Z",
+        "EndForm": "Dragon"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Dread Plate or Darkinium Z",
+        "EndForm": "Dark"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Earth Plate or Groundium Z",
+        "EndForm": "Ground"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Fist Plate or Fightinium Z",
+        "EndForm": "Fighting"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Flame Plate or Firium Z",
+        "EndForm": "Fire"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Icicle Plate or Icium Z",
+        "EndForm": "Ice"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Insect Plate or Buginium Z",
+        "EndForm": "Bug"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Iron Plate or Steelium Z",
+        "EndForm": "Steel"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Meadow Plate or Grassium Z",
+        "EndForm": "Grass"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Mind Plate or Psychium Z",
+        "EndForm": "Psychic"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Pixie Plate or Fairium Z",
+        "EndForm": "Fairy"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Sky Plate or Flyinium Z",
+        "EndForm": "Flying"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Splash Plate or Waterium Z",
+        "EndForm": "Water"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Spooky Plate or Ghostium Z",
+        "EndForm": "Ghost"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Stone Plate or Rockium Z",
+        "EndForm": "Rock"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Toxic Plate or Poisonium Z",
+        "EndForm": "Poison"
+    },
+    {
+        "Name": "Arceus",
+        "DexNum": 493,
+        "StartForm": "Normal",
+        "ChangeMethod": "Hold Zap Plate or Electrium Z",
+        "EndForm": "Electric"
+    },
+    {
+        "Name": "Audino",
+        "DexNum": 531,
+        "StartForm": "Normal",
+        "ChangeMethod": "Audinite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Darmanitan",
+        "DexNum": 555,
+        "StartForm": "Normal",
+        "ChangeMethod": "Activate Zen Mode Ability by being below 50% HP",
+        "EndForm": "Zen Mode"
+    },
+    {
+        "Name": "Darmanitan",
+        "DexNum": 555,
+        "StartForm": "Galarian",
+        "ChangeMethod": "Activate Zen Mode Ability by being below 50% HP",
+        "EndForm": "Galarian Zen Mode"
+    },
+    {
+        "Name": "Garbodor",
+        "DexNum": 569,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Tornadus",
+        "DexNum": 641,
+        "StartForm": "Incarnate Forme",
+        "ChangeMethod": "Use Reveal Glass",
+        "EndForm": "Therian Forme"
+    },
+    {
+        "Name": "Thundurus",
+        "DexNum": 642,
+        "StartForm": "Incarnate Forme",
+        "ChangeMethod": "Use Reveal Glass",
+        "EndForm": "Therian Forme"
+    },
+    {
+        "Name": "Landorus",
+        "DexNum": 645,
+        "StartForm": "Incarnate Forme",
+        "ChangeMethod": "Use Reveal Glass",
+        "EndForm": "Therian Forme"
+    },
+    {
+        "Name": "Kyurem",
+        "DexNum": 646,
+        "StartForm": "Normal",
+        "ChangeMethod": "Merge with Reshiram",
+        "EndForm": "Black"
+    },
+    {
+        "Name": "Kyurem",
+        "DexNum": 646,
+        "StartForm": "Normal",
+        "ChangeMethod": "Merge with Zekrom",
+        "EndForm": "White"
+    },
+    {
+        "Name": "Keldeo",
+        "DexNum": 647,
+        "StartForm": "Normal",
+        "ChangeMethod": "Learn Secret Sword",
+        "EndForm": "Resolute"
+    },
+    {
+        "Name": "Meloetta",
+        "DexNum": 648,
+        "StartForm": "Aria Forme",
+        "ChangeMethod": "Use move Relic Song in battle",
+        "EndForm": "Pirouette Forme"
+    },
+    {
+        "Name": "Greninja",
+        "DexNum": 658,
+        "StartForm": "Battle Bond",
+        "ChangeMethod": "Activate Battle Bond Ability by KOing another Pokemon in Battle",
+        "EndForm": "Ash"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Heart Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Star Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Diamond Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Debutante Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Matron Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Dandy Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "La Reine Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Kabuki Trim"
+    },
+    {
+        "Name": "Furfrou",
+        "DexNum": 676,
+        "StartForm": "Natural",
+        "ChangeMethod": "Get a trim at the Boutique",
+        "EndForm": "Pharaoh Trim"
+    },
+    {
+        "Name": "Aegislash",
+        "DexNum": 681,
+        "StartForm": "Shield Forme",
+        "ChangeMethod": "Use a damaging move in battle",
+        "EndForm": "Blade Forme"
+    },
+    {
+        "Name": "Xerneas",
+        "DexNum": 716,
+        "StartForm": "Normal",
+        "ChangeMethod": "Be in battle",
+        "EndForm": "Active"
+    },
+    {
+        "Name": "Zygarde",
+        "DexNum": 718,
+        "StartForm": "50% Forme",
+        "ChangeMethod": "Activate Power Construct Ability by being at or under 50% HP",
+        "EndForm": "Complete Forme"
+    },
+    {
+        "Name": "Zygarde",
+        "DexNum": 718,
+        "StartForm": "10% Forme",
+        "ChangeMethod": "Activate Power Construct Ability by being at or under 50% HP",
+        "EndForm": "Complete Forme"
+    },
+    {
+        "Name": "Diancie",
+        "DexNum": 719,
+        "StartForm": "Normal",
+        "ChangeMethod": "Diancite",
+        "EndForm": "Mega"
+    },
+    {
+        "Name": "Wishiwashi",
+        "DexNum": 746,
+        "StartForm": "Solo",
+        "ChangeMethod": "Activate Schooling Ability by being above 25% HP",
+        "EndForm": "Schooling"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Bug Memory",
+        "EndForm": "Bug"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Dark Memory",
+        "EndForm": "Dark"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Dragon Memory",
+        "EndForm": "Dragon"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Electric Memory",
+        "EndForm": "Electric"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Fairy Memory",
+        "EndForm": "Fairy"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Fighting Memory",
+        "EndForm": "Fighting"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Fire Memory",
+        "EndForm": "Fire"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Flying Memory",
+        "EndForm": "Flying"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Ghost Memory",
+        "EndForm": "Ghost"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Grass Memory",
+        "EndForm": "Grass"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Ground Memory",
+        "EndForm": "Ground"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Ice Memory",
+        "EndForm": "Ice"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Poison Memory",
+        "EndForm": "Poison"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Psychic Memory",
+        "EndForm": "Psychic"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Rock Memory",
+        "EndForm": "Rock"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Steel Memory",
+        "EndForm": "Steel"
+    },
+    {
+        "Name": "Silvally",
+        "DexNum": 773,
+        "StartForm": "Normal",
+        "ChangeMethod": "Holding Water Memory",
+        "EndForm": "Water"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Red Core"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Orange Core"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Yellow Core"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Green Core"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Blue Core"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Indigo Core"
+    },
+    {
+        "Name": "Minior",
+        "DexNum": 774,
+        "StartForm": "Meteor",
+        "ChangeMethod": "Activate Shields Down Ability by being below 50% HP",
+        "EndForm": "Violet Core"
+    },
+    {
+        "Name": "Mimikyu",
+        "DexNum": 778,
+        "StartForm": "Disguised",
+        "ChangeMethod": "Activate Disguise Ability by taking damage from an attack",
+        "EndForm": "Busted"
+    },
+    {
+        "Name": "Necrozma",
+        "DexNum": 800,
+        "StartForm": "Normal",
+        "ChangeMethod": "Merge with Solgaleo",
+        "EndForm": "Dusk Mane"
+    },
+    {
+        "Name": "Necrozma",
+        "DexNum": 800,
+        "StartForm": "Normal",
+        "ChangeMethod": "Merge with Lunala",
+        "EndForm": "Dawn Wings"
+    },
+    {
+        "Name": "Necrozma",
+        "DexNum": 800,
+        "StartForm": "Dusk Mane",
+        "ChangeMethod": "Ultra Burst with Ultranecrozium Z",
+        "EndForm": "Ultra"
+    },
+    {
+        "Name": "Necrozma",
+        "DexNum": 800,
+        "StartForm": "Dawn Wings",
+        "ChangeMethod": "Ultra Burst with Ultranecrozium Z",
+        "EndForm": "Ultra"
+    },
+    {
+        "Name": "Melmetal",
+        "DexNum": 809,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Rillaboom",
+        "DexNum": 812,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Cinderace",
+        "DexNum": 815,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Inteleon",
+        "DexNum": 818,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Corviknight",
+        "DexNum": 823,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Orbeetle",
+        "DexNum": 826,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Drednaw",
+        "DexNum": 834,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Coalossal",
+        "DexNum": 839,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Flapple",
+        "DexNum": 841,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Appletun",
+        "DexNum": 842,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Sandaconda",
+        "DexNum": 844,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Cramorant",
+        "DexNum": 845,
+        "StartForm": "Normal",
+        "ChangeMethod": "Activate Gulp Missle Ability by using Surf or Dive over 50% HP",
+        "EndForm": "Gulping"
+    },
+    {
+        "Name": "Cramorant",
+        "DexNum": 845,
+        "StartForm": "Normal",
+        "ChangeMethod": "Activate Gulp Missle Ability by using Surf or Dive under or equal 50% HP",
+        "EndForm": "Gorging"
+    },
+    {
+        "Name": "Toxtricity",
+        "DexNum": 849,
+        "StartForm": "Amped",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Toxtricity",
+        "DexNum": 849,
+        "StartForm": "Low Key",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Centiskorch",
+        "DexNum": 851,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Hatterene",
+        "DexNum": 858,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Grimmsnarl",
+        "DexNum": 861,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Alcremie",
+        "DexNum": 869,
+        "StartForm": "Any",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Eiscue",
+        "DexNum": 875,
+        "StartForm": "Ice Face",
+        "ChangeMethod": "Activate Ice Face Ability by getting hit by a physical move",
+        "EndForm": "Noice Face"
+    },
+    {
+        "Name": "Morpeko",
+        "DexNum": 877,
+        "StartForm": "Full Belly",
+        "ChangeMethod": "Alternates every turn",
+        "EndForm": "Hangry"
+    },
+    {
+        "Name": "Copperajah",
+        "DexNum": 879,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Duraludon",
+        "DexNum": 884,
+        "StartForm": "Normal",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax"
+    },
+    {
+        "Name": "Zacian",
+        "DexNum": 888,
+        "StartForm": "Hero of Many Battles",
+        "ChangeMethod": "Hold Rusted Sword",
+        "EndForm": "Crowned Sword"
+    },
+    {
+        "Name": "Zamazenta",
+        "DexNum": 889,
+        "StartForm": "Hero of Many Battles",
+        "ChangeMethod": "Hold Rusted Shield",
+        "EndForm": "Crowned Shield"
+    },
+    {
+        "Name": "Eternatus",
+        "DexNum": 890,
+        "StartForm": "Normal",
+        "ChangeMethod": "Eternamax",
+        "EndForm": "Eternamax"
+    },
+    {
+        "Name": "Urshifu",
+        "DexNum": 892,
+        "StartForm": "Single Strike Style",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax Single Strike Style"
+    },
+    {
+        "Name": "Urshifu",
+        "DexNum": 892,
+        "StartForm": "Rapid Strike Style",
+        "ChangeMethod": "Gigantamax",
+        "EndForm": "Gigantamax Rapid Strike Style"
+    },
+    {
+        "Name": "Calyrex",
+        "DexNum": 898,
+        "StartForm": "Normal",
+        "ChangeMethod": "Combine with Glastrier",
+        "EndForm": "Ice Rider"
+    },
+    {
+        "Name": "Calyrex",
+        "DexNum": 898,
+        "StartForm": "Normal",
+        "ChangeMethod": "Combine with Spectrier",
+        "EndForm": "Shadow Rider"
+    }
+]

@@ -2,11 +2,11 @@ const fs = require("fs");
 const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const { MoveNameFix } = require("./util.js");
-const { PokeParser } = require("./PokeParser.js");
+const { MoveNameFix } = require("../src/util.js");
+const { PokeParser } = require("../src/PokeParser.js");
 
-const inputPath = "./rawHTML"
-const outputPath = "./genMoveLists"
+const inputPath = "../rawHTML"
+const outputPath = "../genMoveLists"
 
 //Function layout
 // Parse Page
