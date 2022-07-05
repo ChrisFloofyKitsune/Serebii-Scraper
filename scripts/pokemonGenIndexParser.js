@@ -3,8 +3,8 @@ const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
 
-const inputPath = "../rawHTML"
-const outputPath = "../pokemonGenIndex.json"
+const inputPath = path.resolve(__dirname, "../rawHTML");
+const outputPath = path.resolve(__dirname, "../data/pokemonGenIndex.json");
 
 const generationPaths = [
     { index: 1, path: "generation1" },
