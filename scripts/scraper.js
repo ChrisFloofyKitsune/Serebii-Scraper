@@ -4,7 +4,7 @@ const { default: Axios } = require("axios");
 const cheerio = require("cheerio");
 const async = require("async");
 const cliProgress = require("cli-progress");
-const { Mutex } = require("async-mutex");
+const { throttledPageGet } = require("../src/util");
 
 const outputPath = "./rawHTML"
 
@@ -18,24 +18,6 @@ const generationDexMainPages = [
     { index: 7, link: "https://www.serebii.net/pokedex-sm/"},
     { index: 8, link: "https://www.serebii.net/pokedex-swsh/" }
 ];
-
-const serebiiGetLock = new Mutex();
-//const serebiiGetLock = new Semaphore(2);
-async function throttledPageGet(path) {
-    
-    var release = await serebiiGetLock.acquire();
-    var result;
-     
-    try {
-        result = await Axios.get(path);
-        release();
-    } catch(err) {
-        release();
-        throw err;
-    }
-
-    return result;
-}
 
 if (!fs.existsSync(outputPath))
     fs.mkdirSync(outputPath);

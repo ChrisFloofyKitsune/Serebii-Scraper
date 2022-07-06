@@ -1,3 +1,6 @@
+const { default: Axios } = require("axios");
+const { Mutex } = require("async-mutex");
+
 const CURRENT_GENERATION = 8;
 
 const moveNameChanges = [
@@ -88,11 +91,30 @@ function PokemonNameFix(name) {
     return name;
 }
 
+const serebiiGetLock = new Mutex();
+//const serebiiGetLock = new Semaphore(2);
+async function throttledPageGet(path) {
+    
+    var release = await serebiiGetLock.acquire();
+    var result;
+     
+    try {
+        result = await Axios.get(path);
+        release();
+    } catch(err) {
+        release();
+        throw err;
+    }
+
+    return result;
+}
+
 module.exports = {
     CURRENT_GENERATION,
     MoveNameFix,
     AbilityNameFix,
-    PokemonNameFix
+    PokemonNameFix,
+    throttledPageGet
 };
 
 
