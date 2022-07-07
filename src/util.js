@@ -114,7 +114,9 @@ module.exports = {
     MoveNameFix,
     AbilityNameFix,
     PokemonNameFix,
-    throttledPageGet
+    throttledPageGet,
+    ZMoves,
+    StatusZMoveIndex,
 };
 
 

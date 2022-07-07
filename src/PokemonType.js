@@ -22,6 +22,4 @@ const PokemonType = {
     Shadow: 'Shadow'
 }
 
-module.exports = {
-    default: PokemonType,
-}
+module.exports = PokemonType;

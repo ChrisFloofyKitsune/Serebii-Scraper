@@ -1,0 +1,520 @@
+[
+    {
+        "Name": "Blazing Breath",
+        "Type": "Fire",
+        "Category": "Special",
+        "BasePower": 90,
+        "BattleEffect": "The user belches out a blazing hot breath of bubbles, scalding the foe. The user then has a 50% chance to hiccup, letting out a smaller stream that will deal 60 BP. If the user does hiccup, there is then an additional 50% chance to hiccup out the last remains, the last breath dealing 40 BP. This move counts as a multi-hit move for the purposes of Skill Link.",
+        "ZMovePowerOrEffect": "175"
+    },
+    {
+        "Name": "Blow-back",
+        "Type": "Flying",
+        "Category": "Special",
+        "BasePower": 65,
+        "BattleEffect": "The Pokemon inhales and blows forth a powerful wind, strong enough to knock the lightest Pokemon (Pokemon that make Grass Knot have 20 BP) off of their feet. The force of the winds will blow back projectiles when the move is used outside of battle.",
+        "SecondaryEffect": "Entry hazards on the user’s side of the battlefield are moved to the opponent’s side and the move doubles in power if any are blown back.",
+        "ZMovePowerOrEffect": "120"
+    },
+    {
+        "Name": "Brain Freeze",
+        "Type": "Ice",
+        "Category": "Special",
+        "BasePower": 50,
+        "BattleEffect": "The user breathes a cloud of condensed freezing air toward the opponent, which when inhaled causes swelling and discomfort to the bloodstream and nerves around the target’s nasal passage. In the next turn, they will get a severe brain freeze, damaging their nervous system. For the next five rounds, they will be under the Brain Freeze volatile status condition, in which there is a 20% chance at the end of the opponent’s turn that their last ordered move will become disabled.",
+        "SecondaryEffect": "This move will break two shields in a raid battle, if Brain Freeze would hit that round.",
+        "ZMovePowerOrEffect": "100"
+    },
+    {
+        "Name": "Can't Catch Me",
+        "Type": "Fairy",
+        "Category": "Status",
+        "BattleEffect": "The user casts a magical illusion upon themselves to appear as a tiny cookie and emits an enticing scent that draws the attention of all opponents. Throughout the duration of the effect, the user has a 50% chance to dodge the first attack that targets it, and biting moves used against the user are doubled in damage. Energy used by this move is equivalent to that of a Minimize.",
+        "ZMovePowerOrEffect": "Evasion & Speed +1 Stage"
+    },
+    {
+        "Name": "Chocolate Bomb",
+        "Type": "Fairy",
+        "Category": "Physical",
+        "BasePower": 100,
+        "BattleEffect": "The user produces a chocolate heart in front of them which they then proceed to throw at an opposing target. Upon contact, the heart explodes into four pieces, one that hits the user, one that hits the opponent, and two that will hit random targets, either friend or foe (excluding the user or target). Allied Pokemon will be healed for a tenth of their maximum HP while opposing Pokemon will take the damage dealt by the move.",
+        "ZMovePowerOrEffect": "180"
+    },
+    {
+        "Name": "Chocolate Magic",
+        "Type": "Fairy",
+        "Category": "Special",
+        "BasePower": 65,
+        "BattleEffect": "The user fires off a molten chocolate blast that coats the target in a sticky, gooey (albeit tasty) mess. After the chocolate makes contact, it begins to congeal and harden, reducing the target’s mobility and halving their speed and evasion. The effect is temporary and lasts until it is washed away or dried out.",
+        "ZMovePowerOrEffect": "120"
+    },
+    {
+        "Name": "Crossfire",
+        "Type": "Fire",
+        "Category": "Physical",
+        "BasePower": 100,
+        "BattleEffect": "Similar to the move Cross Chop, the user powerfully chops their foe with crossed arms engulfed in flames.",
+        "SecondaryEffect": "Small chance (10%) of burning the opponent. If the user is not a Fire type, it also takes a small amount of damage (equivalent to Flame Burst’s splash damage) from the move and also has a small chance (10%) of being burned.",
+        "EffectRate": "10 %",
+        "MakesPhysicalContact": "Yes",
+        "ZMovePowerOrEffect": "180"
+    },
+    {
+        "Name": "Dynamic Duo",
+        "Type": "Normal",
+        "Category": "Status",
+        "BattleEffect": "The user selects one allied Pokemon and forms a bond with them. Any damage that either the user or ally receives is split evenly. Damage is split after damage calculation including type effectiveness. The effects of the move last until either Pokemon is knocked out or are switched out. Only one bond can be active at a time.",
+        "ZMovePowerOrEffect": "Fully Restores HP before use."
+    },
+    {
+        "Name": "Einherjar",
+        "Type": "Fairy",
+        "Category": "Special",
+        "BasePower": 90,
+        "BattleEffect": "User coats their wings with light, or temporarily creates wings of light. It then flaps its wings, sending the light out as blades of fairy energy, cutting through the foe.",
+        "SecondaryEffect": "Move has an increased critical hit ratio.",
+        "CriticalHitRate": "12.5%",
+        "ZMovePowerOrEffect": "175"
+    },
+    {
+        "Name": "Embers Resonance",
+        "Type": "Fire",
+        "Category": "Special",
+        "BasePower": 90,
+        "BattleEffect": "A echoing shout is let loose with such a frequency and heat within it that it may kindle flames.",
+        "SecondaryEffect": "It has a small chance (10%) to burn the opponent, and if the user is not a fire type, it has the same small chance to burn the user if they're not careful!",
+        "ZMovePowerOrEffect": "175"
+    },
+    {
+        "Name": "Fatal Attraction",
+        "Type": "Dark",
+        "Category": "Status",
+        "BasePower": 0,
+        "BattleEffect": "The user emits a potent pheromone which causes opponents of the opposite gender to become Infatuated with the user. In addition to the normal effects of Infatuation (50% chance failure rate of moves), this target is thrust into a berserk state where they become fixated on the user (as in Follow Me status) and damage against the user is increased by two stages. The Infatuation also takes a large mental toll on the target, causing them to suffer psychological anguish that deals increasing damage over time equivalent to that of a Toxic. If the Infatuation is broken, the target's mental state returns to normal. This effect is considered a non-volatile status condition and cannot be stacked with standard Infatuation. This move will fail against targets immune to Infatuation.",
+        "ZMovePowerOrEffect": "Resets lowered stat modifications"
+    },
+    {
+        "Name": "Fire Shield",
+        "Type": "Fire",
+        "Category": "Status",
+        "BasePower": 0,
+        "BattleEffect": "The user creates a barrier of flame that protects it from one attack. Once hit, the shield will disappear. If an opponent makes physical contact with the Fire Shield, it will become burned. Using the shield in succession halves its success chance with each use. This move shares success chances with other Protection moves.",
+        "ZMovePowerOrEffect": "Defense +1 Stage"
+    },
+    {
+        "Name": "Firestream",
+        "Type": "Fire",
+        "Category": "Special",
+        "BasePower": 25,
+        "BattleEffect": "The user belches forth a stream of bubbles of molten lava. The bubbles hit the opponent 2 to 5 times, dealing damage similar to Rock Blast. Each hit has a small chance (10%) of burning the target. This attack is affected by the ability Skill Link. Each hit consumes about as much energy as an Ember.",
+        "EffectRate":"10 %",
+        "ZMovePowerOrEffect": "140"
+    },
+    {
+        "Name": "Ice Barrier",
+        "Type": "Ice",
+        "Category": "Status",
+        "BasePower": 0,
+        "BattleEffect": "The user creates a barrier of ice that protects it from one attack. Once hit, the shield will disappear. If an opponent makes physical contact with the Ice Barrier, it will have a 30% to become frozen. Using the shield in succession halves its success chance with each use. This move shares success chances with other Protection moves.",
+        "EffectRate": "30 %",
+        "ZMovePowerOrEffect": "Defense +1 Stage"
+    },
+    {
+        "Name": "Light Ring",
+        "Type": "Dark",
+        "Category": "Special",
+        "BasePower": 100,
+        "BattleEffect": "The user creates a large ring of light so bright as to eclipse other light sources, making all other surroundings appear extremely dark.",
+        "SecondaryEffect": "This move does Dark and Fairy damage simultaneously and has a 30% chance to reduce the target's critical hit ratio by one stage.",
+        "ZMovePowerOrEffect": "180"
+    },
+    {
+        "Name": "Phantom Step",
+        "Type": "Ghost",
+        "Category": "Status",
+        "BasePower": 0,
+        "BattleEffect": "The user moves quickly and quietly, allowing it to slip through the opponent’s defenses.",
+        "SecondaryEffect": "The user's attacks will bypass Light Screen, Reflect, Mist, Safeguard, Aurora Veil, Substitute, Defensive Shield, and Sunscreen for 5 turns.",
+        "ZMovePowerOrEffect": "Speed +2 Stage"
+    },
+    {
+        "Name": "Pinch Punch",
+        "Type": "Fighting",
+        "Category": "Physical",
+        "BasePower": 1,
+        "BattleEffect": "The user lashes out with a punch (considered a Punching move for Iron Fist). Although normally not very powerful, the attack gets stronger when the user is in a tough spot, scaling in power based on how low their HP is, maxing out at 150 BP at 1 HP. The power additionally increases by 25 BP for every entry hazard on the user's side of the field and every screen on the target's side of the field.",
+        "MakesPhysicalContact": "Yes",
+        "ZMovePowerOrEffect": "100"
+    },
+    {
+        "Name": "Pixel Shot",
+        "Type": "Electric",
+        "Category": "Physical",
+        "BasePower": 20,
+        "BattleEffect": "The user shoots out a barrage of pixels, entrapping the foe within. These pixels will deal 1/8th of a foe's health per turn. This will last between 4 to 5 rounds and cannot stack with other trapping moves.",
+        "SecondaryEffect": "Traps opponent.",
+        "ZMovePowerOrEffect": "100"
+    },
+    {
+        "Name": "Psysplit",
+        "Type": "Psychic",
+        "Category": "Status",
+        "BasePower": 0,
+        "BattleEffect": "The user sacrifices half of its remaining health to summon two copies of itself. The copies move, breathe, talk, and attack at the same time as the user, also using the same attack(s) ordered to the original Pokémon. The user's attack inflicts normal damage, with each clone inflicting half of that. When a copy is hit, the copy will disappear. The other copy will remain until hit. Each copy can be targeted, but the foe will not know if it is a copy or the real Pokemon. The clones are unaffected by stat buffs and are unable to perform Status moves. The move \"Psysplit\" can be used only once per battle, and the copies disappear after the third round or once they've been hit. The copies will also disappear if the user faints within that time frame or is switched out through any means.",
+        "ZMovePowerOrEffect": "Restores HP before use"
+    },
+    {
+        "Name": "Razor Snow",
+        "Type": "Ice",
+        "Category": "Physical",
+        "BasePower": 55,
+        "BattleEffect": "The user fires off a flurry of razor-sharp snowflakes at the opponent. If used during a Hailstorm, Razor Snow’s power becomes doubled (110 BP) and the target becomes frostbitten. Pokemon ailing from Frostbite take damage over time equivalent to Poison. Frostbite can be cured the same as Freeze, and Ice type Pokemon are immune to its effects. Frostbite is considered a non-volatile status condition.",
+        "ZMovePowerOrEffect": "100"
+    },
+    {
+        "Name": "Savage Skewer",
+        "Type": "Ghost",
+        "Category": "Physical",
+        "BasePower": 75,
+        "BattleEffect": "The user strikes the opponent with a sharp appendage, if this move critically strikes the opponent, the user's Attack is raised one stage.",
+        "MakesPhysicalContact": "Yes",
+        "ZMovePowerOrEffect": "140"
+    },
+    {
+        "Name": "Sunblock",
+        "Type": "Fire",
+        "Category": "Status",
+        "BattleEffect": "The user creates a protective, white barrier around either itself or a chosen ally. This barrier neutralizes the harmful effects of the Harsh Sunlight weather condition. This will protect the target from having their water-type moves deal reduced damage, any damage from the Dry Skin or Solar Power abilities, accuracy loss for their Hurricane and Thunder Moves, and neutralizes the boost oncoming fire-type moves get. Sunblock only lasts while in the sun, can only be used in the sun, and can be broken by Brick Break.",
+        "ZMovePowerOrEffect": "Increases Special Defense by 1 stage."
+    },
+    {
+        "Name": "Sunshower",
+        "Type": "Fairy",
+        "Category": "Special",
+        "BasePower": 110,
+        "BattleEffect": "The user rains down brilliant beams or dazzling sunlight onto all adjacent foes, scorching them with blinding radiance. Has a 10% chance of inflicting Burn onto the foe.",
+        "ZMovePowerOrEffect": "180"
+    },
+    {
+        "Name": "Thorns",
+        "Type": "Grass",
+        "Category": "Status",
+        "BattleEffect": "The user embeds the opponent with a flurry of stinging thorns, which embed into the target. Once embedded, the opponent will be under the condition Thorns and will receive damage over time (about 1/16th of their health per turn) while affected until cured or fainted. Status can be cured by using Rapid Spin. Grass-type Pokemon are immune to the effect. This is considered a volatile status condition.",
+        "ZMovePowerOrEffect": "Defense +1 Stage"
+    },
+    {
+        "Name": "Unfinished Symphony",
+        "Type": "Ghost",
+        "Category": "Status",
+        "BattleEffect": "The user sings a haunting melody that causes a cloud of ghostly energy to swirl around the heads of all listeners. All Pokemon besides the user that hear this move will become confused, and take damage equivalent to Nightmare while confused. This effect ends when confusion is cleared, and this move is considered a Sound move.",
+        "ZMovePowerOrEffect": "Special Attack +1 Stage"
+    },
+    {
+        "Name": "Voodoo Bugaloo",
+        "Type": "Psychic",
+        "Category": "Status",
+        "BattleEffect": "The user expends a quarter of their maximum health to create a doll that is psychically linked to a targeted ally or opponent. Any damage the doll receives, and any stat changes or status conditions that are applied to the doll are applied to the target as well. Additionally, this doll will activate abilities of the target (i.e Flash Fire, Clear Body, Levitate, etc.). The doll lasts until it breaks and features the same durability and energy consumption as a Substitute doll. This doll is an additional target that can be targeted in raid battles and is counted as part of the user’s side of the field.",
+        "ZMovePowerOrEffect": "Resets lowered stat modifications"
+    },
+    {
+        "Name": "Gummi Bomb",
+        "Type": "Unknown",
+        "Category": "Physical",
+        "BattleEffect": "The user creates a physical bomblet of their latent inner energy and throws it at the foe, doing moderate damage. The move's type is dependent on the user's own hidden power. The move consumes the same amount of energy as Hidden Power.",
+        "ZMovePowerOrEffect": "120"
+    },
+    {
+        "Name": "Guardian Terrain",
+        "Type": "Unknown",
+        "Category": "Status",
+        "BattleEffect": "The user draws upon their bond with their trainer, causing it to manifest as a terrain that surrounds the battlefield. While Guardian Terrain is in effect, Grounded Pokemon take 50% less damage from the user's types. This damage reduction is calculated after weaknesses and resistances. Additionally, Grounded Pokemon are immune to being Burned or Frozen. The moves Terrain Pulse and Camouflage, and the ability Mimicry will become the primary typing of the Pokemon that used Guardian Terrain. If that pokemon is dual-typed, with Normal as its primary typing, these moves/ability will use the secondary-typing of the user of Guardian Terrain. Guardian Terrain is affected by the Terrain Extender and will override any terrain effect currently up.",
+        "ZMovePowerOrEffect": "Defense & Special Defense +1 Stage"
+    },
+    {
+        "Name": "Defensive Shield",
+        "Type": "Unknown",
+        "Category": "Status",
+        "BattleEffect": "The user summons ten defensive platelets that hover around either their selected target (which can be themselves), or their side of the field. These platelets are typed based on one of the user's types, of their choice. The platelets will reduce incoming damage to the selected target(s) by 25% and will lose a number of platelets for each attack that has its damage reduced. The number of platelets lost is dependent on type effectiveness of the attack versus the type of the platelets, with a neutral attack destroying two platelets, a super effective attack destroying three platelets, a resisted attack destroying one platelet, and an immune attack not destroying any platelets. Additionally, if the platelets are surrounding the user's side of the field and the blocked attack is a multi-target attack, one additional platelet will be lost, regardless of typing. If the user is holding a Light Clay, the number of summoned platelets is increased to fifteen.",
+        "ZMovePowerOrEffect": "Restores HP before use"
+    },
+    {
+        "Name": "Soulstained Penumbra",
+        "Type": "Shadow",
+        "Category": "Status",
+        "BasePower": 1,
+        "BattleEffect": "The user fully closes off its heart and rushes the target with Shadow energy in a series of savage strikes.",
+        "IsSuperMove": "Yes"
+    },
+    {
+        "Name": "Max Shadowsquall",
+        "Type": "Shadow",
+        "Category": "Status",
+        "BasePower": 1,
+        "BattleEffect": "The user summons a massive wind of Shadow energy to envelop the target. This attack changes the weather to Shadow Sky.",
+        "IsSuperMove": "Yes"
+    },
+    {
+        "Name": "Pumpkin Bomb",
+        "Type": "Grass",
+        "Category": "Physical",
+        "BasePower": 100,
+        "BattleEffect": "[Usable only by Pumpkasaur and its evolutions] The user launches a Pumpkin seed into the air, upon falling the seed plants itself onto the opponent’s side of the arena, upon the end of the second round of battle a large pumpkin finishes growing. The pumpkin immediately begins flashing, and after the third round the pumpkin explodes, dealing spread damage that hits all opponents and Burns them.",
+        "ZMovePowerOrEffect": "180"
+    },
+    {
+        "Name": "Fists of Fury",
+        "Type": "Fighting",
+        "Category": "Physical",
+        "BasePower": 20,
+        "BattleEffect": "[Usable only by TheKnightsFury’s Infernape] A Fighting Type variant of Power Trip. Its power increases by 20 for each positive stat stage the user has in any stat, and does not decrease in power due to any negative stat stages. All stat changes are cleared after the use of this move.",
+        "SecondaryEffect": "It can reach a maximum power of 860 (20 + 20 × ( 7 × 6 )), if all seven stats (Attack, Defense, Special Attack, Special Defense, Speed, evasion, and accuracy) are at their maximum stage.",
+        "MakesPhysicalContact": "Yes",
+        "ZMovePowerOrEffect": "160"
+    },
+    {
+        "Name": "Protean Blade",
+        "Type": "Water",
+        "Category": "Physical",
+        "BasePower": 40,
+        "BattleEffect": "[Usable only by TheKnightsFury’s Greninja] The user creates a thin blade of energy which it uses to slash the opponent. This attack’s Type changes to match the user's current Primary Type.",
+        "SecondaryEffect": "Protean Blade is always treated as Water-type for Z-Move mechanics, and can be upgraded to Hydro Vortex by a Waterium Z.",
+        "MakesPhysicalContact": "Yes",
+        "ZMovePowerOrEffect": "100"
+    },
+    {
+        "Name": "Roaring Punch",
+        "Type": "Fighting",
+        "Category": "Physical",
+        "BasePower": 90,
+        "BattleEffect": "[Usable only by Maskerade’s Infernape] The user channels all of its fighting spirit into a single, overwhelming punch.",
+        "SecondaryEffect": "This attack has a 10% chance to lower the target's Defense and Special Defense stats by 1 stage.",
+        "MakesPhysicalContact": "Yes",
+        "ZMovePowerOrEffect": "160"
+    },
+    {
+        "Name": "Barb Barrage",
+        "Type": "Poison",
+        "Category": "Physical",
+        "BasePower": "60",
+        "Accuracy": "100",
+        "BattleEffect": "The user launches countless toxic barbs to inflict damage. This may also poison the target. This move's power is doubled if the target has a status condition.",
+        "SecondaryEffect": "30% Poison",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Bitter Malice",
+        "Type": "Ghost",
+        "Category": "Special",
+        "BasePower": "60",
+        "Accuracy": "100",
+        "BattleEffect": "The user attacks its target with spine-chilling resentment. This may also leave the target with frostbite. This move's power is doubled if the target has a status condition.",
+        "SecondaryEffect": "30% Frostbite",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Bleakwind Storm",
+        "Type": "Flying",
+        "Category": "Special",
+        "BasePower": "90",
+        "Accuracy": "85",
+        "BattleEffect": "The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also leave the target with frostbite.",
+        "SecondaryEffect": "30% Frostbite",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Ceaseless Edge",
+        "Type": "Dark",
+        "Category": "Physical",
+        "BasePower": "65",
+        "Accuracy": "90",
+        "BattleEffect": "The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack will continue to damage the target for several turns.",
+        "SecondaryEffect": "+Crit, DoT",
+        "CriticalHitRate": "12.5%",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Chloroblast",
+        "Type": "Grass",
+        "Category": "Special",
+        "BasePower": "140",
+        "Accuracy": "90",
+        "BattleEffect": "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.",
+        "SecondaryEffect": "Recoil [50% of HP]"
+    },
+    {
+        "Name": "Dire Claw",
+        "Type": "Poison",
+        "Category": "Physical",
+        "BasePower": "60",
+        "Accuracy": "100",
+        "BattleEffect": "The user lashes out at the target with ruinous claws, aiming to land a critical hit. This may also leave the target poisoned, paralyzed, or drowsy.",
+        "SecondaryEffect": "30% Poison/Paralyse/Drowsy",
+        "EffectRate": "30 %",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Esper Wing",
+        "Type": "Psychic",
+        "Category": "Special",
+        "BasePower": "75",
+        "Accuracy": "90",
+        "BattleEffect": "The user slashes the target with aura-enriched wings. This has a chance to raise the user's speed. This move has a heightened chance of landing a critical hit.",
+        "SecondaryEffect": "+Crit, 10% +1 Spd",
+        "CriticalHitRate": "12.5%"
+    },
+    {
+        "Name": "Headlong Rush",
+        "Type": "Ground",
+        "Category": "Physical",
+        "BasePower": "120",
+        "Accuracy": "100",
+        "BattleEffect": "The user smashes into the target in a full-body tackle. This also lowers the user's defensive stats.",
+        "SecondaryEffect": "-1 Def/SpDef",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Infernal Parade",
+        "Type": "Ghost",
+        "Category": "Special",
+        "BasePower": "60",
+        "Accuracy": "100",
+        "BattleEffect": "The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition.",
+        "SecondaryEffect": "30% Burn",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Lunar Blessing",
+        "Type": "Psychic",
+        "Category": "Status",
+        "BattleEffect": "The user heals its own status conditions and restores its HP. Incoming moves also become more likely to miss.",
+        "SecondaryEffect": "Clear Status, Restore 50% of max HP, +1 Evasion"
+    },
+    {
+        "Name": "Mountain Gale",
+        "Type": "Ice",
+        "Category": "Physical",
+        "BasePower": "110",
+        "Accuracy": "85",
+        "BattleEffect": "The user hurls giant chunks of ice at the target to inflict damage. This may cause the target to flinch.",
+        "SecondaryEffect": "30% chance of Flinch",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Mystical Power",
+        "Type": "Psychic",
+        "Category": "Special",
+        "BasePower": "70",
+        "Accuracy": "90",
+        "BattleEffect": "The user strengthens itself with a mysterious power. If it excels in offense, its offensive stats are raised. If it excels in defense, its defensive stats are raised.",
+        "SecondaryEffect": "Either +1 Atk/SpAtk or +1 Def/SpDef"
+    },
+    {
+        "Name": "Power Shift",
+        "Type": "Normal",
+        "Category": "Status",
+        "BattleEffect": "The user swaps its offensive and defensive stats.",
+        "SecondaryEffect": "Swaps Atk and Def buffs, swaps SpAtk and SpDef buffs"
+    },
+    {
+        "Name": "Psyshield Bash",
+        "Type": "Psychic",
+        "Category": "Physical",
+        "BasePower": "70",
+        "Accuracy": "90",
+        "BattleEffect": "Cloaking itself in psychic energy, the user slams into the target. This may also raise the user's defensive stats.",
+        "SecondaryEffect": "+1 Def",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Raging Fury",
+        "Type": "Fire",
+        "Category": "Physical",
+        "BasePower": "120",
+        "Accuracy": "100",
+        "BattleEffect": "The user rampages and spews vicious flames to inflict damage on the target, then becomes fixated on using this move for two to three turns. The user then becomes confused.",
+        "SecondaryEffect": "Locks move for 2-3 turns before confusing user"
+    },
+    {
+        "Name": "Sandsear Storm",
+        "Type": "Ground",
+        "Category": "Special",
+        "BasePower": "90",
+        "Accuracy": "85",
+        "BattleEffect": "The user attacks by wrapping the target in fierce winds and searingly hot sand. This also leaves the target with a burn.",
+        "SecondaryEffect": "30% Burn",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Shelter",
+        "Type": "Steel",
+        "Category": "Status",
+        "BattleEffect": "The user makes its skin as hard as an iron shield, raising its defensive stats. Incoming moves also become more likely to miss.",
+        "SecondaryEffect": "+1 Def, +1 SpDef, +1 Evasion"
+    },
+    {
+        "Name": "Springtide Storm",
+        "Type": "Fairy",
+        "Category": "Special",
+        "BasePower": "90",
+        "Accuracy": "85",
+        "BattleEffect": "The user attacks by wrapping the target in fierce winds brimming with love and hate. This move's additional effects depend on the user's form.",
+        "SecondaryEffect": "30% +Atk/Def/SpAtk/SpDef/Spd [for Incarnate] OR 30% -1 Def/SpDef [If Therian]",
+        "EffectRate": "30 %"
+    },
+    {
+        "Name": "Stone Axe",
+        "Type": "Rock",
+        "Category": "Physical",
+        "BasePower": "65",
+        "Accuracy": "90",
+        "BattleEffect": "The user swings its stone axes at the target, aiming to land a critical hit. Stone splinters left behind by this attack continue to damage the target for several turns.",
+        "SecondaryEffect": "+Crit, DoT",
+        "CriticalHitRate": "12.5%",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Take Heart",
+        "Type": "Psychic",
+        "Category": "Status",
+        "BattleEffect": "The user lifts its spirits, healing its own status conditions and raising its offensive and defensive stats.",
+        "SecondaryEffect": "Clear Status, +1 Atk/Def/SpAtk/SpDef"
+    },
+    {
+        "Name": "Triple Arrows",
+        "Type": "Fighting",
+        "Category": "Physical",
+        "BasePower": "50",
+        "Accuracy": "100",
+        "BattleEffect": "The user delivers an axe kick, then fires three arrows. This raises the chance of its future attacks landing critical hits and also lowers the target's defensive stats.",
+        "SecondaryEffect": "+Crit, -1 Def",
+        "CriticalHitRate": "12.5%",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Victory Dance",
+        "Type": "Fighting",
+        "Category": "Status",
+        "BattleEffect": "The user performs a dance to usher in victory. This raises the user's offensive and defensive stats and increases the damage dealt by the user's moves by 50 percent.",
+        "SecondaryEffect": "+1 Atk/Def/Spd"
+    },
+    {
+        "Name": "Wave Crash",
+        "Type": "Water",
+        "Category": "Physical",
+        "BasePower": "75",
+        "Accuracy": "100",
+        "BattleEffect": "The user shrouds itself in water and slams into the target with its whole body to inflict damage. This also damages the user and raises the user's action speed.",
+        "SecondaryEffect": "Recoil [1/3rd inflicted], +1 Spd",
+        "MakesPhysicalContact": "Yes"
+    },
+    {
+        "Name": "Wildbolt Storm",
+        "Type": "Electric",
+        "Category": "Special",
+        "BasePower": "90",
+        "Accuracy": "85",
+        "BattleEffect": "The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave the target with paralysis.",
+        "SecondaryEffect": "30% Paralysis",
+        "EffectRate": "30 %"
+    }
+]
