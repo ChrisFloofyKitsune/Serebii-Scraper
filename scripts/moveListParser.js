@@ -334,13 +334,13 @@ const GenParsers = [
 ];
 
 const generationPaths = [
-    // { index: 1, path: "generation1" },
-    // { index: 2, path: "generation2" },
-    // { index: 3, path: "generation3" },
-    // { index: 4, path: "generation4" },
-    // { index: 5, path: "generation5" },
-    // { index: 6, path: "generation6" },
-    // { index: 7, path: "generation7" },
+    { index: 1, path: "generation1" },
+    { index: 2, path: "generation2" },
+    { index: 3, path: "generation3" },
+    { index: 4, path: "generation4" },
+    { index: 5, path: "generation5" },
+    { index: 6, path: "generation6" },
+    { index: 7, path: "generation7" },
     { index: 8, path: "generation8" }
 ];
 

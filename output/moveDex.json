@@ -4381,6 +4381,23 @@
         "ZMovePowerOrEffect": "120"
     },
     {
+        "Name": "Floaty Fall",
+        "Type": "Flying",
+        "Category": "Physical",
+        "BasePower": 90,
+        "Accuracy": 95,
+        "BattleEffect": "The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch.",
+        "SecondaryEffect": "May cause opponent to flinch.",
+        "EffectRate": "30 %",
+        "SpeedPriority": "0",
+        "CriticalHitRate": "4.17%",
+        "Target": "Selected Target",
+        "MakesPhysicalContact": "No",
+        "IsSuperMove": "No",
+        "MaxMovePower": 130,
+        "ZMovePowerOrEffect": "175"
+    },
+    {
         "Name": "Floral Healing",
         "Type": "Fairy",
         "Category": "Status",

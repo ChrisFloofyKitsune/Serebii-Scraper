@@ -34,6 +34,7 @@ const moveNameChanges = [
     { Old: "Wake-up Slap", New: "Wake-Up Slap" },
     { Old: "Lock-on", New: "Lock-On" },
     { Old: "Roar Of Time", New: "Roar of Time" },
+    { Old: "Baby-doll Eyes", New: "Baby-Doll Eyes" },
 ];
 
 const abilityNameChanges = [
@@ -114,9 +115,7 @@ module.exports = {
     MoveNameFix,
     AbilityNameFix,
     PokemonNameFix,
-    throttledPageGet,
-    ZMoves,
-    StatusZMoveIndex,
+    throttledPageGet
 };
 
 
