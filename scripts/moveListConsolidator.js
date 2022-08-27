@@ -13,41 +13,6 @@ const inputPath = path.resolve(__dirname, '../genMoveLists');
 
 const pokemonMoveListOutput = path.resolve(__dirname, '../output/pokemonMoveList.json');
 
-const NonTransferableMoves = [
-    "Zippy Zap",
-    "Splishy Splash",
-    "Floaty Fall",
-    "Pika Papow",
-    "Bouncy Bubble",
-    "Buzzy Buzz",
-    "Sizzly Slide",
-    "Glitzy Glow",
-    "Baddy Bad",
-    "Sappy Seed",
-    "Freezy Frost",
-    "Sparkly Swirl",
-    "Veevee Volley"
-]
-
-const UniqueTutorMoves = [
-    "Zippy Zap",
-    "Splishy Splash",
-    "Floaty Fall",
-    "Pika Papow",
-    "Bouncy Bubble",
-    "Buzzy Buzz",
-    "Sizzly Slide",
-    "Glitzy Glow",
-    "Baddy Bad",
-    "Sappy Seed",
-    "Freezy Frost",
-    "Sparkly Swirl",
-    "Veevee Volley",
-    "Relic Song",
-    "Secret Sword",
-    "Dragon Ascent"
-]
-
 let filePath;
 
 function CheckAndFixNames(entryData, pokemonData) {
@@ -149,12 +114,12 @@ function ProcessPreEvolutionMoves(pokemon, form, evolvedPokemon, evolvedForm) {
 
     //console.log(`Adding Moves from ${pokemon.Name} (${form}) to ${evolvedPokemon.Name} (${evolvedForm})`);
 
-    pokemon.LevelUpMoveLists.find(l => l.Form === form).LevelUpMoves.filter(m => !NonTransferableMoves.includes(m.Name)).forEach(m => {
+    pokemon.LevelUpMoveLists.find(l => l.Form === form).LevelUpMoves.forEach(m => {
         AddLevelUpMove(evolvedPokemon, m.Name, evolvedForm, m.Level)
     });
 
     function AddPreEvolvedMoves(moveList, evolvedMoveList) {
-        moveList.filter(m => !NonTransferableMoves.includes(m.Name) && m.Forms.includes(form) && !evolvedMoveList.some(m2 => m.Name === m2.Name && m2.Forms.includes(evolvedForm)))
+        moveList.filter(m => m.Forms.includes(form) && !evolvedMoveList.some(m2 => m.Name === m2.Name && m2.Forms.includes(evolvedForm)))
             .forEach(m => AddMove(evolvedMoveList, m.Name, [evolvedForm]));
     }
 
@@ -307,7 +272,7 @@ evolutionChains.forEach(ec => {
 // Checking move names.
 
 const machineMoveSet = new Set(pokemonMoveList.flatMap(p => p.MachineMoves.map(m => m.Name)));
-const tutorMoveSet = new Set(pokemonMoveList.flatMap(p => p.TutorMoves.map(m => m.Name)).filter(m => !UniqueTutorMoves.includes(m)).sort());
+const tutorMoveSet = new Set(pokemonMoveList.flatMap(p => p.TutorMoves.map(m => m.Name)).sort());
 
 pokemonMoveList.forEach(pokemon => {
     //console.log(`Finshing up on... ${pokemon.Name}`)
