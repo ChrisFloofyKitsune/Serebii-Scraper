@@ -1,4 +1,4 @@
-const { expect, test } = require('@jest/globals');
+const { beforeAll, expect, test } = require('@jest/core');
 
 const pokemonMoveList = require('../output/pokemonMoveList.json');
 const pokemonList = require('../output/pokemonList.json');

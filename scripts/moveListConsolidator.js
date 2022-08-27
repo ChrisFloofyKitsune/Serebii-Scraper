@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const cliProgress = require("cli-progress");
 const pokemonList = require("../output/pokemonList.json");
 const fizzyDexCustom = require("../data/fizzyDexCustom.json");
 
@@ -13,8 +12,6 @@ const { PokemonNameFix } = require("../src/util");
 const inputPath = path.resolve(__dirname, '../genMoveLists');
 
 const pokemonMoveListOutput = path.resolve(__dirname, '../output/pokemonMoveList.json');
-const machineMoveListOutput = path.resolve(__dirname, '../output/machineMoveList.json');
-const tutorMoveListOutput = path.resolve(__dirname, '../output/tutorMoveList.json');
 
 const NonTransferableMoves = [
     "Zippy Zap",
@@ -32,7 +29,7 @@ const NonTransferableMoves = [
     "Veevee Volley"
 ]
 
-const IllegalTutorMoves = [
+const UniqueTutorMoves = [
     "Zippy Zap",
     "Splishy Splash",
     "Floaty Fall",
@@ -51,11 +48,13 @@ const IllegalTutorMoves = [
     "Dragon Ascent"
 ]
 
-function CheckAndFixNames(entryData, pokemonData) {
-    if (entryData.Name != pokemonData.Name)
-        throw "NAME MISMATCH " + entryData.Name + " " + pokemonData.Name;
+let filePath;
 
-    if (entryData.DefaultForm != pokemonData.DefaultFormName) {
+function CheckAndFixNames(entryData, pokemonData) {
+    if (entryData.Name !== pokemonData.Name)
+        throw new Error("NAME MISMATCH " + entryData.Name + " " + pokemonData.Name);
+
+    if (entryData.DefaultForm !== pokemonData.DefaultFormName) {
 
         let oldName = entryData.DefaultForm;
         let newName = pokemonData.DefaultFormName;
@@ -64,7 +63,7 @@ function CheckAndFixNames(entryData, pokemonData) {
         entryData.DefaultForm = newName;
         entryData.Forms[0] = newName;
 
-        entryData.LevelUpMoveLists.filter(l => l.Form == oldName).forEach(l => {
+        entryData.LevelUpMoveLists.filter(l => l.Form === oldName).forEach(l => {
             l.Form = newName;
         });
 
@@ -98,19 +97,19 @@ function AddLevelUpMove(pokemonEntry, move, form, level) {
     let levelNum = parseInt(level, 10);
     if (isNaN(levelNum)) {
         levelNum = (level.includes("Evolve") ? 0 : 1);
-        if (level == "N/A") {
+        if (level === "N/A") {
             console.log("WARNING: Fixed " + level + " to " + levelNum + " for " + pokemonEntry.Name + " for move " + move);
         }
     }
     
-    let list = pokemonEntry.LevelUpMoveLists.find(l => l.Form == form);
+    let list = pokemonEntry.LevelUpMoveLists.find(l => l.Form === form);
 
     if (!list) {
         list = { Form: form, LevelUpMoves: [] };
         pokemonEntry.LevelUpMoveLists.push(list);
     }
 
-    let existingMove = list.LevelUpMoves.find(m => m.Name == move);
+    let existingMove = list.LevelUpMoves.find(m => m.Name === move);
     if (existingMove) {
         if (levelNum < existingMove.Level) {
             existingMove.Note = "Was lowered from " + existingMove.Level;
@@ -126,7 +125,7 @@ function AddLevelUpMove(pokemonEntry, move, form, level) {
 }
 
 function AddMove(moveList, move, forms) {
-    let moveEntry = moveList.find(m => m.Name == move);
+    let moveEntry = moveList.find(m => m.Name === move);
     if (moveEntry) {
         moveEntry.Forms.push(...forms.filter(f => !moveEntry.Forms.includes(f)));
     }
@@ -139,8 +138,8 @@ function AddMove(moveList, move, forms) {
 }
 
 function ProcessPreEvolutionMoves(pokemon, form, evolvedPokemon, evolvedForm) {
-    var moveSet = pokemonList[pokemon.DexNum - 1].Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
-    var evolvedMoveSet = pokemonList[evolvedPokemon.DexNum - 1].Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
+    const moveSet = pokemonList[pokemon.DexNum - 1].Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
+    const evolvedMoveSet = pokemonList[evolvedPokemon.DexNum - 1].Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
 
     if (!moveSet.includes(form))
         form = pokemon.DefaultForm;
@@ -150,13 +149,12 @@ function ProcessPreEvolutionMoves(pokemon, form, evolvedPokemon, evolvedForm) {
 
     //console.log(`Adding Moves from ${pokemon.Name} (${form}) to ${evolvedPokemon.Name} (${evolvedForm})`);
 
-    var levelUpMoveList = pokemon.LevelUpMoveLists.find(l => l.Form == form);
-    var evolvedLevelUpMoveList = evolvedPokemon.LevelUpMoveLists.find(l => l.Form == evolvedForm);
+    pokemon.LevelUpMoveLists.find(l => l.Form === form).LevelUpMoves.filter(m => !NonTransferableMoves.includes(m.Name)).forEach(m => {
+        AddLevelUpMove(evolvedPokemon, m.Name, evolvedForm, m.Level)
+    });
 
-    evolvedLevelUpMoveList.LevelUpMoves.push(...levelUpMoveList.LevelUpMoves.filter(m => !NonTransferableMoves.includes(m.Name) && !evolvedLevelUpMoveList.LevelUpMoves.some(m2 => m2.Name == m.Name)));
-
-    var AddPreEvolvedMoves = (moveList, evolvedMoveList) => {
-        moveList.filter(m => !NonTransferableMoves.includes(m.Name) && m.Forms.includes(form) && !evolvedMoveList.some(m2 => m.Name == m2.Name && m2.Forms.includes(evolvedForm)))
+    function AddPreEvolvedMoves(moveList, evolvedMoveList) {
+        moveList.filter(m => !NonTransferableMoves.includes(m.Name) && m.Forms.includes(form) && !evolvedMoveList.some(m2 => m.Name === m2.Name && m2.Forms.includes(evolvedForm)))
             .forEach(m => AddMove(evolvedMoveList, m.Name, [evolvedForm]));
     }
 
@@ -170,19 +168,19 @@ function ProcessPreEvolutionMoves(pokemon, form, evolvedPokemon, evolvedForm) {
 // FUNCTIONAL CODE
 //////////////////////
 
-var filePaths = fs.readdirSync(inputPath).map(file => path.join(inputPath, file))
+const filePaths = fs.readdirSync(inputPath).map(file => path.join(inputPath, file))
     .filter(filePath => fs.lstatSync(filePath).isFile()).sort();
 
 console.log(filePaths);
 
-var pokemonMoveList = [];
+const pokemonMoveList = [];
 
-for (var pokemon of pokemonList) {
+for (const pokemon of pokemonList) {
     pokemonMoveList.push({
         Name: pokemon.Name,
         DexNum: pokemon.DexNum,
         DefaultForm: pokemon.DefaultFormName,
-        AltForms: pokemon.Forms.filter(f => f.MoveSet).map(f => f.MoveSet).filter(f => f != pokemon.DefaultFormName),
+        AltForms: pokemon.Forms.filter(f => f.MoveSet).map(f => f.MoveSet).filter(f => f !== pokemon.DefaultFormName),
         LevelUpMoveLists: [],
         EggMoves: [],
         TutorMoves: [],
@@ -190,13 +188,13 @@ for (var pokemon of pokemonList) {
     })
 }
 
-for (var filePath of filePaths) {
+for (const filePath of filePaths) {
     console.log(`Parsing file ${filePath}`);
-    var fileData = JSON.parse(fs.readFileSync(filePath));
+    const fileData = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-    for (var entryData of fileData) {
-        var pokemonData = pokemonList[entryData.DexNum - 1];
-        var pokemonMoveListEntry = pokemonMoveList[entryData.DexNum - 1];
+    for (const entryData of fileData) {
+        const pokemonData = pokemonList[entryData.DexNum - 1];
+        const pokemonMoveListEntry = pokemonMoveList[entryData.DexNum - 1];
 
         //console.log(pokemonMoveListEntry);
 
@@ -204,14 +202,14 @@ for (var filePath of filePaths) {
 
         CheckAndFixNames(entryData, pokemonData);
 
-        var moveSets = pokemonData.Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
+        const moveSets = pokemonData.Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
 
         const filterForms = _forms => {
             return _forms.filter(_f => moveSets.includes(_f))
         };
 
         const getFormOrDefault = formName => {
-            return !moveSets.some(ms => ms == formName) ? entryData.DefaultForm : formName;
+            return !moveSets.some(ms => ms === formName) ? entryData.DefaultForm : formName;
         }
 
         entryData.LevelUpMoveLists.forEach(l => {
@@ -225,7 +223,7 @@ for (var filePath of filePaths) {
         entryData.TutorMoves.forEach(m => AddMove(pokemonMoveListEntry.TutorMoves, m.Name, filterForms(m.Forms)));
         entryData.MachineMoves.forEach(m => AddMove(pokemonMoveListEntry.MachineMoves, m.Name, filterForms(m.Forms)));
     }
-};
+}
 
 //PATCH IN CUSTOM FB MOVE LISTS
 
@@ -238,7 +236,7 @@ fizzyDexCustom.forEach(customEntry => {
         let dexNum = parseInt(customEntry.DexNum);
         let form = customEntry.Form;
 
-        let baseEntry = pokemonMoveList.find(e => e.DexNum == dexNum);
+        let baseEntry = pokemonMoveList.find(e => e.DexNum === dexNum);
         if (!baseEntry) {
             console.error("Could not find base entry to patch for:...");
             console.error(customEntry);
@@ -270,16 +268,16 @@ fizzyDexCustom.forEach(customEntry => {
 
 //ADD MOVES FROM EVOLUTION CHAIN
 
-var evolutionChains = [];
+const evolutionChains = [];
 pokemonList.filter(p => p.EvolutionChains).flatMap(p => p.EvolutionChains).forEach(ec1 => {
     //Don't add an evolution chain if it's already in our master list as the chains are, in fact, duplicated across every pokemon in that chain.
     if (!evolutionChains.some(ec2 => {
         //console.log(ec1);
-        let alreadyExists = ec1.Stage1DexNum == ec2.Stage1DexNum && ec1.Stage1Form == ec2.Stage1Form &&
-            ec1.Stage2DexNum == ec2.Stage2DexNum && ec1.Stage2Form == ec2.Stage2Form;
+        let alreadyExists = ec1.Stage1DexNum === ec2.Stage1DexNum && ec1.Stage1Form === ec2.Stage1Form &&
+            ec1.Stage2DexNum === ec2.Stage2DexNum && ec1.Stage2Form === ec2.Stage2Form;
 
         if (alreadyExists && (ec1.Stage3DexNum !== undefined || ec2.Stage3DexNum !== undefined))
-            alreadyExists = ec1.Stage3DexNum == ec2.Stage3DexNum && ec1.Stage3Form == ec2.Stage3Form;
+            alreadyExists = ec1.Stage3DexNum === ec2.Stage3DexNum && ec1.Stage3Form === ec2.Stage3Form;
 
         return alreadyExists;
     })) {
@@ -288,17 +286,17 @@ pokemonList.filter(p => p.EvolutionChains).flatMap(p => p.EvolutionChains).forEa
 });
 
 evolutionChains.forEach(ec => {
-    var pokemonStage1 = pokemonMoveList[ec.Stage1DexNum - 1];
-    var formStage1 = ec.Stage1Form;
+    const pokemonStage1 = pokemonMoveList[ec.Stage1DexNum - 1];
+    const formStage1 = ec.Stage1Form;
 
-    var pokemonStage2 = pokemonMoveList[ec.Stage2DexNum - 1];
-    var formStage2 = ec.Stage2Form;
+    const pokemonStage2 = pokemonMoveList[ec.Stage2DexNum - 1];
+    const formStage2 = ec.Stage2Form;
 
     ProcessPreEvolutionMoves(pokemonStage1, formStage1, pokemonStage2, formStage2);
 
     if (ec.Stage3DexNum !== undefined) {
-        var pokemonStage3 = pokemonMoveList[ec.Stage3DexNum - 1];
-        var formStage3 = ec.Stage3Form;
+        const pokemonStage3 = pokemonMoveList[ec.Stage3DexNum - 1];
+        const formStage3 = ec.Stage3Form;
 
         ProcessPreEvolutionMoves(pokemonStage2, formStage2, pokemonStage3, formStage3);
     }
@@ -308,8 +306,8 @@ evolutionChains.forEach(ec => {
 // Adding cross generation tutor/machine moves.
 // Checking move names.
 
-var machineMoveSet = new Set(pokemonMoveList.flatMap(p => p.MachineMoves.map(m => m.Name)));
-var tutorMoveSet = new Set(pokemonMoveList.flatMap(p => p.TutorMoves.map(m => m.Name)).filter(m => !IllegalTutorMoves.includes(m)).sort());
+const machineMoveSet = new Set(pokemonMoveList.flatMap(p => p.MachineMoves.map(m => m.Name)));
+const tutorMoveSet = new Set(pokemonMoveList.flatMap(p => p.TutorMoves.map(m => m.Name)).filter(m => !UniqueTutorMoves.includes(m)).sort());
 
 pokemonMoveList.forEach(pokemon => {
     //console.log(`Finshing up on... ${pokemon.Name}`)
@@ -321,7 +319,7 @@ pokemonMoveList.forEach(pokemon => {
 
     [...allLevelUpMoves, ...allEggMoves, ...allTutorMoves]
         .filter(m => machineMoveSet.has(m.Name)) //Is it a machine move?
-        .filter(m => !allMachineMoves.some(m2 => m.Name == m2.Name && m.Form == m2.Form)) //Does it NOT already exist under the Form we're checking?
+        .filter(m => !allMachineMoves.some(m2 => m.Name === m2.Name && m.Form === m2.Form)) //Does it NOT already exist under the Form we're checking?
         .forEach(m => {
 
             if (!pokemon.OtherGenerationMachineMoves) {
@@ -334,7 +332,7 @@ pokemonMoveList.forEach(pokemon => {
 
     [...allLevelUpMoves, ...allEggMoves, ...allMachineMoves]
         .filter(m => tutorMoveSet.has(m.Name))
-        .filter(m => !allTutorMoves.some(m2 => m.Name == m2.Name && m.Form == m2.Form))
+        .filter(m => !allTutorMoves.some(m2 => m.Name === m2.Name && m.Form === m2.Form))
         .forEach(m => {
 
             if (!pokemon.OtherGenerationTutorMoves) {
@@ -352,7 +350,7 @@ pokemonMoveList.forEach(pokemon => {
         }
     })
 
-    pokemon.LevelUpMoveLists.forEach(l => l.LevelUpMoves.sort((a, b) => (a.Level != b.Level) ? a.Level - b.Level : a.Name.localeCompare(b.Name)));
+    pokemon.LevelUpMoveLists.forEach(l => l.LevelUpMoves.sort((a, b) => (a.Level !== b.Level) ? a.Level - b.Level : a.Name.localeCompare(b.Name)));
     pokemon.EggMoves.sort((a, b) => a.Name.localeCompare(b.Name));
     pokemon.TutorMoves.sort((a, b) => a.Name.localeCompare(b.Name));
     pokemon.MachineMoves.sort((a, b) => a.Name.localeCompare(b.Name));

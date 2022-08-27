@@ -1,5 +1,4 @@
 const fs = require("fs");
-const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
 const { PokeParser } = require("../src/PokeParser.js");
@@ -199,7 +198,7 @@ class PokeInfoParser extends PokeParser {
                 output["HiddenAbility"] = hiddenAbility;
             }
 
-            if (form == this.GetDefaultForm() || form.match(moveSetFormRegex) || this.GetName().match(pokemonNameRegex)) {
+            if (form === this.GetDefaultForm() || form.match(moveSetFormRegex) || this.GetName().match(pokemonNameRegex)) {
                 output["MoveSet"] = form;
             }
 
@@ -452,7 +451,7 @@ function SuperFormComparer(a, b) {
     if (b.FormName.includes("Gigantamax"))
         bSort++;
 
-    if (aSort > 0 && aSort == bSort) {
+    if (aSort > 0 && aSort === bSort) {
         return a.FormName.localeCompare(b.FormName);
     }
 
@@ -570,7 +569,7 @@ fizzyDexCustom.forEach(customEntry => {
         //Addition to existing pokemon.
         let dexNum = parseInt(customEntry.DexNum);
 
-        let baseEntry = infoOutput.find(e => e.DexNum == parseInt(customEntry.DexNum));
+        let baseEntry = infoOutput.find(e => e.DexNum === parseInt(customEntry.DexNum));
         if (!baseEntry) {
             console.error("Could not find the base entry to patch for:...");
             console.error(customEntry);
@@ -619,7 +618,7 @@ fizzyDexCustom.forEach(customEntry => {
 
 console.log("CHECKING DATA AGAINST LAST VERSION OF POKEMON LIST");
 
-const oldPokemonList = require("../output/pokemonList.old.json") ?? require("../output/pokemonList.json");
+const oldPokemonList = require("../old/pokemonList.old.json") ?? require("../output/pokemonList.json");
 
 if (oldPokemonList) {
     const { diff } = require("just-diff");

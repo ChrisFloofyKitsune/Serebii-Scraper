@@ -51,7 +51,7 @@ class PokeMoveParser extends PokeParser {
             headerText = headerText.replace(/.*?Level Up - /,"");
             headerText = headerText.replace(/Ultra/g,"");
 
-            if (headerText == "Shadow Rid")
+            if (headerText === "Shadow Rid")
                 headerText = "Shadow Rider";
 
             if (headerText.includes("Alola"))
@@ -63,11 +63,11 @@ class PokeMoveParser extends PokeParser {
             let form = this.GetDefaultForm();
 
             let formIndex = this.forms.findIndex(s => headerText.includes(s));
-            if (formIndex != -1) {
+            if (formIndex !== -1) {
                 form = this.forms[formIndex];
             }
 
-            if (this.name == "Meloetta" || this.name == "Unown" || (this.name == "Darmanitan" && form == "Zen Mode"))
+            if (this.name === "Meloetta" || this.name === "Unown" || (this.name === "Darmanitan" && form === "Zen Mode"))
                 form = this.GetDefaultForm();
 
             let LevelUpMoves = $table.find('tr~tr:nth-child(2n-1)').map((i, e) => {
@@ -79,7 +79,7 @@ class PokeMoveParser extends PokeParser {
                     return {
                         Name: MoveNameFix($tr.find('a').first().text()),
                         //Get the direct text descendant, the mastery level is wrapped an <i> tag
-                        Level: $td.contents().filter((_, e) => e.type == "text").text()
+                        Level: $td.contents().filter((_, e) => e.type === "text").text()
                     }
                 } else {
                     return {
@@ -89,7 +89,7 @@ class PokeMoveParser extends PokeParser {
                 }
             }).get();
 
-            if (this.name == "Giratina") {
+            if (this.name === "Giratina") {
                 result.push({
                     Form: "Origin Forme",
                     LevelUpMoves
@@ -151,7 +151,7 @@ class PokeMoveParser extends PokeParser {
                 //console.log(forms);
                 
                 // No specific form info found, assume that the move belongs to ALL the pokemon's forms!
-                if (forms.length == 0) {
+                if (forms.length === 0) {
                     // Unless it's Gen8, then we exclude the Hisuian form if we're not on the PLA listing
                     if (this.generation === 8) {
                         let subpageId = $e.parent('div[id*="swsh"], div[id*="legends"]').attr('id');
@@ -165,7 +165,7 @@ class PokeMoveParser extends PokeParser {
                     }
                 }
 
-                let existing = results.find(r => r.Name == name);
+                let existing = results.find(r => r.Name === name);
                 if (!existing) {
                     results.push({
                         Name: name,
@@ -213,7 +213,7 @@ class Gen3MoveParser extends PokeMoveParser {
 
         let result = [];
         let $levelUpTables = this.$('table.dextable').filter((i, e) => {
-            return this.$(e).find('thead tr:first-child').text().match(/Level Up|^Leaf Green$|^Emerald$/);
+            return !!this.$(e).find('thead tr:first-child').text().match(/Level Up|^Leaf Green$|^Emerald$/);
         });
 
         $levelUpTables.each((i, table) => {
@@ -221,7 +221,7 @@ class Gen3MoveParser extends PokeMoveParser {
             let headerText = $table.find('thead tr:first-child').text();
 
             let forms = this.forms;
-            if (this.name == "Deoxys") {
+            if (this.name === "Deoxys") {
                 forms = this.GetDeoxysForms(headerText);
                 //console.log(headerText);
             }
@@ -264,7 +264,7 @@ class Gen3MoveParser extends PokeMoveParser {
             let headerText = $table.find('thead tr:first-child').text();
 
             let forms = this.forms;
-            if (this.name == "Deoxys") {
+            if (this.name === "Deoxys") {
                 forms = this.GetDeoxysForms(headerText);
             }
 
@@ -273,11 +273,11 @@ class Gen3MoveParser extends PokeMoveParser {
 
                 let name = MoveNameFix($tr.find(`td:nth-child(${nameCol})`).first().text());
 
-                if (forms.length == 0) {
+                if (forms.length === 0) {
                     forms = this.GetForms();
                 }
 
-                let existing = results.find(r => r.Name == name);
+                let existing = results.find(r => r.Name === name);
                 if (!existing) {
                     results.push({
                         Name: name,
@@ -312,7 +312,7 @@ class Gen3MoveParser extends PokeMoveParser {
             forms.push("Speed Forme");
         }
 
-        if (forms.length == 0) {
+        if (forms.length === 0) {
             return this.forms;
         }
 
@@ -353,24 +353,24 @@ for (let genPath of generationPaths) {
     if (!fs.existsSync(folderPath))
         console.error(`Path: ${folderPath} doesn't exist`);
 
-    let parser = GenParsers.find(p => p.index == genPath.index).parser;
+    let parser = GenParsers.find(p => p.index === genPath.index).parser;
     //console.log(parser);
 
     let bar = new cliProgress.SingleBar({
         format: `{bar} {percentage}% | ETA: {eta}s | {value}/{total} | Gen${genPath.index}: {current}`
     }, cliProgress.Presets.shades_classic);
 
-    var files = fs.readdirSync(folderPath).filter(file => file != "mainPage.html");
+    const files = fs.readdirSync(folderPath).filter(file => file !== "mainPage.html");
 
     //files = files.slice(200,201);
 
     bar.start(files.length, 0, { current: " - " });
 
-    var pokemonData = files.map(file => path.join(folderPath, file))
+    const pokemonData = files.map(file => path.join(folderPath, file))
         .filter(filePath => fs.lstatSync(filePath).isFile())
         .map(filePath => {
             parser.LoadPage(filePath);
-            bar.increment(1, { current: `${parser.GetName()} - ${parser.GetDexNum()}` });
+            bar.increment(1, {current: `${parser.GetName()} - ${parser.GetDexNum()}`});
             return parser.GetPokemonData();
         });
 

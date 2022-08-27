@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A custom-built webscraper to pull data from Serebii.net for my Pokemon Movelist Project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd scripts && node ./runAllScripts.js"
   },
   "author": "ChrisClark13",
   "license": "ISC",
