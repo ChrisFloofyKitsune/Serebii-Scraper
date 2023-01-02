@@ -75,7 +75,7 @@
     {
         "Name": "Acid Downpour",
         "Type": "Poison",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force. The power varies, depending on the original move.",
@@ -221,7 +221,7 @@
     {
         "Name": "All-Out Pummeling",
         "Type": "Fighting",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user rams an energy orb created by its Z-Power into the target with full force. The power varies, depending on the original move.",
@@ -729,7 +729,7 @@
     {
         "Name": "Black Hole Eclipse",
         "Type": "Dark",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user gathers dark energy using its Z-Power and sucks the target into it. The power varies, depending on the original move.",
@@ -802,7 +802,7 @@
     {
         "Name": "Bloom Doom",
         "Type": "Grass",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user collects energy from plants using its Z-Power and attacks the target with full force. The power varies, depending on the original move.",
@@ -965,7 +965,7 @@
     {
         "Name": "Breakneck Blitz",
         "Type": "Normal",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user builds up its momentum using its Z-Power and crashes into the target at full speed. The power varies, depending on the original move.",
@@ -1490,7 +1490,7 @@
     {
         "Name": "Continental Crush",
         "Type": "Rock",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force. The power varies, depending on the original move.",
@@ -1561,7 +1561,7 @@
     {
         "Name": "Corkscrew Crash",
         "Type": "Steel",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user spins very fast and rams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
@@ -1909,7 +1909,7 @@
     {
         "Name": "Devastating Drake",
         "Type": "Dragon",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user materializes its aura using its Z-Power and attacks the target with full force. The power varies, depending on the original move.",
@@ -3602,7 +3602,7 @@
     {
         "Name": "Gigavolt Havoc",
         "Type": "Electric",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user hits the target with a powerful electric current collected by its Z-Power. The power varies, depending on the original move.",
@@ -4354,7 +4354,7 @@
     {
         "Name": "Hydro Vortex",
         "Type": "Water",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user creates a huge whirling current using its Z-Power to swallow the target with full force. The power varies, depending on the original move.",
@@ -4651,7 +4651,7 @@
     {
         "Name": "Inferno Overdrive",
         "Type": "Fire",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user breathes a stream of intense fire toward the target with the full force of its Z-Power. The power varies depending on the original move.",
@@ -5985,7 +5985,7 @@
     {
         "Name": "Never-Ending Nightmare",
         "Type": "Ghost",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "Deep-seated grudges summoned by the user's Z-Power trap the target. The power varies, depending on the original move.",
@@ -7653,7 +7653,7 @@
     {
         "Name": "Savage Spin-Out",
         "Type": "Bug",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user binds the target with full force with threads of silk that the user spits using its Z-Power. The power varies, depending on the original move.",
@@ -7947,7 +7947,7 @@
     {
         "Name": "Shattered Psyche",
         "Type": "Psychic",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user controls the target with its Z-Power and hurts the target with full force. The power varies, depending on the original move.",
@@ -9093,7 +9093,7 @@
     {
         "Name": "Subzero Slammer",
         "Type": "Ice",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user dramatically drops the temperature using its Z-Power and freezes the target with full force. The power varies, depending on the original move.",
@@ -9195,7 +9195,7 @@
     {
         "Name": "Supersonic Skystrike",
         "Type": "Flying",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user soars up with its Z-Power and plummets toward the target at full speed. The power varies, depending on the original move.",
@@ -9482,7 +9482,7 @@
     {
         "Name": "Tectonic Rage",
         "Type": "Ground",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user burrows deep into the ground and slams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
@@ -9917,7 +9917,7 @@
     {
         "Name": "Twinkle Tackle",
         "Type": "Fairy",
-        "Category": "Special",
+        "Category": "Physical",
         "BasePower": 1,
         "Accuracy": 0,
         "BattleEffect": "The user creates a very charming space using its Z-Power and totally toys with the target. The power varies, depending on the original move.",

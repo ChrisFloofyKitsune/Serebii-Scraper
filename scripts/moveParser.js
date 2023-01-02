@@ -1,24 +1,30 @@
-const { readdir, readFile, writeFile } = require('fs/promises');
+const {readdir, readFile, writeFile} = require('fs/promises');
 const fs = require('fs');
 const cheerio = require('cheerio');
-const { Presets, MultiBar } = require('cli-progress');
+const {Presets, MultiBar} = require('cli-progress');
 const path = require('path');
 
 const baseHtmlDir = path.resolve(__dirname, '../rawHTML/attackdex/');
-const progressMultiBar = new MultiBar({ 
+const progressMultiBar = new MultiBar({
     format: '{bar} {percentage}% | ETA: {eta}s | {value}/{total} | {current}',
     fps: 60
-}, Presets.shades_classic );
+}, Presets.shades_classic);
 const outputPath = path.resolve(__dirname, '../genMoveDexes/');
 
 if (!fs.existsSync(outputPath))
-    fs.mkdirSync(outputPath, { recursive: true });
+    fs.mkdirSync(outputPath, {recursive: true});
 
-const genIndexes = [7, 8];
+const genIndexes = [
+    // 7,
+    // 8,
+    9
+];
 
 async function main() {
 
-    await Promise.all(genIndexes.map(async genIndex => { await parseGenPages(genIndex); }));
+    await Promise.all(genIndexes.map(async genIndex => {
+        await parseGenPages(genIndex);
+    }));
 
     progressMultiBar.stop();
 
@@ -32,7 +38,7 @@ async function parseGenPages(genIndex) {
 
     const filePaths = (await readdir(htmlDir)).filter(p => !p.includes('mainPage'));
 
-    const myBar = progressMultiBar.create(filePaths.length, 0, { current: 'starting...' });
+    const myBar = progressMultiBar.create(filePaths.length, 0, {current: 'starting...'});
 
     function removeBadProps(obj) {
         const keysToDelete = Object.keys(obj).filter(k => typeof obj[k] === 'string' && obj[k] === '');
@@ -63,7 +69,7 @@ async function parseGenPages(genIndex) {
  */
 
 /**
- * @param {string} pathFragment 
+ * @param {string} pathFragment
  * @param {string} genIndex
  * @param {import('cli-progress').Bar} bar
  * @returns {MoveEntry}
@@ -75,23 +81,23 @@ async function parseFile(pathFragment, genIndex, bar) {
     const entry = {
         Name: $('table.dextab:nth-of-type(1) td:nth-child(1)').text().trim()
     }
-    
-    const $headerRows = $('table.dextable').slice(0,2).find('tr:nth-child(2n-1)');
+
+    const $headerRows = $('table.dextable').slice(0, 2).find('tr:nth-child(2n-1)');
 
     if ($headerRows.next().find(`td:contains("This move can't be used.")`).length) {
         //A victim of dexit, RIP.
-        bar.increment(1, { current: `SKIPPED ${pathFragment}`});
+        bar.increment(1, {current: `SKIPPED ${pathFragment}`});
         return null;
     }
 
     /**
      * Finds a header with the given text and adds the result of the callback to the entry (if the header exists)
-     * @param {string} headerText 
-     * @param {PropertyKey} prop 
+     * @param {string} headerText
+     * @param {PropertyKey} prop
      * @param {($cell: cheerio.Cheerio<cheerio.Element>) => string | number} extractCallback
-     * @returns 
+     * @returns
      */
-    function addInfoByHeader(headerText, prop, extractCallback = ($cell) => $cell.text().trim()) {        
+    function addInfoByHeader(headerText, prop, extractCallback = ($cell) => $cell.text().trim()) {
         // find the cell in the header rows that contains our text.
         const $headerCell = $headerRows.find(`td:contains(${headerText})`);
 
@@ -103,7 +109,11 @@ async function parseFile(pathFragment, genIndex, bar) {
         const $cell = $headerCell.parent('tr').next().find(`td:nth-child(${cellIndex + 1})`);
 
         if ($cell.length) {
-            entry[prop] = extractCallback($cell);
+            try {
+                entry[prop] = extractCallback($cell);
+            } catch {
+                console.error(`\nError getting "${prop}" from ${pathFragment}`);
+            }
         }
     }
 
@@ -126,7 +136,7 @@ async function parseFile(pathFragment, genIndex, bar) {
         "ZMovePowerOrEffect": "100"
     } */
 
-    
+
     function extractFromImgSrc($cell) {
         let result = $cell.find('img').attr('src');
         result = path.parse(result).name;
@@ -149,7 +159,7 @@ async function parseFile(pathFragment, genIndex, bar) {
     addInfoByHeader('Base Power', 'BasePower', extractInt);
     addInfoByHeader('Accuracy', 'Accuracy', extractInt);
     addInfoByHeader('Battle Effect:', 'BattleEffect');
-    addInfoByHeader('Secondary Effect:','SecondaryEffect');
+    addInfoByHeader('Secondary Effect:', 'SecondaryEffect');
     addInfoByHeader('Effect Rate:', 'EffectRate');
     addInfoByHeader('Speed Priority', 'SpeedPriority');
     addInfoByHeader('Base Critical Hit Rate', 'CriticalHitRate');
@@ -158,9 +168,15 @@ async function parseFile(pathFragment, genIndex, bar) {
     addInfoByHeader('MaxMove Power:', 'MaxMovePower', extractInt);
     addInfoByHeader('Z-Move Power:', "ZMovePowerOrEffect");
 
-    bar.increment(1, { current: pathFragment });
-    
+    bar.increment(1, {current: pathFragment});
+
     return entry;
 }
 
-(async () => { await main() })().catch(err => { console.error(err); }).finally(() => { progressMultiBar.stop() });
+(async () => {
+    await main()
+})().catch(err => {
+    console.error(err);
+}).finally(() => {
+    progressMultiBar.stop()
+});

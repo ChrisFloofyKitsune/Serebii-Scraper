@@ -323,14 +323,15 @@ class Gen3MoveParser extends PokeMoveParser {
 const defaultParser = new PokeMoveParser();
 
 const GenParsers = [
-    { index: 1, parser: defaultParser },
-    { index: 2, parser: defaultParser },
-    { index: 3, parser: new Gen3MoveParser() },
-    { index: 4, parser: defaultParser },
-    { index: 5, parser: defaultParser },
-    { index: 6, parser: defaultParser },
-    { index: 7, parser: defaultParser },
+    // { index: 1, parser: defaultParser },
+    // { index: 2, parser: defaultParser },
+    // { index: 3, parser: new Gen3MoveParser() },
+    // { index: 4, parser: defaultParser },
+    // { index: 5, parser: defaultParser },
+    // { index: 6, parser: defaultParser },
+    // { index: 7, parser: defaultParser },
     { index: 8, parser: defaultParser },
+    { index: 9, parser: defaultParser },
 ];
 
 const generationPaths = [
