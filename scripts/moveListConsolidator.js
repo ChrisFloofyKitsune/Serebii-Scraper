@@ -13,8 +13,6 @@ const inputPath = path.resolve(__dirname, '../genMoveLists');
 
 const pokemonMoveListOutput = path.resolve(__dirname, '../output/pokemonMoveList.json');
 
-let filePath;
-
 function CheckAndFixNames(entryData, pokemonData) {
     if (entryData.Name !== pokemonData.Name)
         throw new Error("NAME MISMATCH " + entryData.Name + " " + pokemonData.Name);
@@ -47,14 +45,14 @@ function CheckAndFixNames(entryData, pokemonData) {
 
     for (let formToCheck of entryFormsToCheck) {
         if (!pokemonDataFormsToCheck.includes(formToCheck))
-            console.log(`Form Error in ${filePath} for ${entryData.Name}. Did not find form ${formToCheck} in the pokemon's data.`);
+            console.log(`Form Error for ${entryData.Name}. Did not find form ${formToCheck} in the pokemon's data.`);
     }
 
     let pokemonDataMoveSetsToCheck = pokemonData.Forms.filter(f => f.MoveSet).map(f => f.MoveSet);
 
     for (let move of movesToCheck) {
         if (!move.Forms.some(f => pokemonDataMoveSetsToCheck.includes(f)))
-            console.log(`Move Form Error in ${filePath} for ${entryData.Name}. Did not find any of thes forms ${move.Forms.join(", ")} for move ${move.Name} with forms in the pokemon's unique MoveSet list.`);
+            console.log(`Move Form Error for ${entryData.Name}. Did not find any of thes forms ${move.Forms.join(", ")} for move ${move.Name} with forms in the pokemon's unique MoveSet list.`);
     }
 }
 

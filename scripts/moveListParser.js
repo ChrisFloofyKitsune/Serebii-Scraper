@@ -60,6 +60,18 @@ class PokeMoveParser extends PokeParser {
             if (headerText.includes("Galar"))
                 headerText = "Galarian";
 
+            if (this.GetName() === "Tauros") {
+                if (headerText.includes("Paldean")) {
+                    headerText = "Paldean Combat Breed"
+                }
+                if (headerText.includes("Blaze")) {
+                    headerText = "Paldean Blaze Breed"
+                }
+                if (headerText.includes("Aqua")) {
+                    headerText = "Paldean Aqua Breed"
+                }
+            }
+
             let form = this.GetDefaultForm();
 
             let formIndex = this.forms.findIndex(s => headerText.includes(s));
@@ -330,19 +342,19 @@ const GenParsers = [
     // { index: 5, parser: defaultParser },
     // { index: 6, parser: defaultParser },
     // { index: 7, parser: defaultParser },
-    { index: 8, parser: defaultParser },
+    // { index: 8, parser: defaultParser },
     { index: 9, parser: defaultParser },
 ];
 
 const generationPaths = [
-    { index: 1, path: "generation1" },
-    { index: 2, path: "generation2" },
-    { index: 3, path: "generation3" },
-    { index: 4, path: "generation4" },
-    { index: 5, path: "generation5" },
-    { index: 6, path: "generation6" },
-    { index: 7, path: "generation7" },
-    { index: 8, path: "generation8" },
+    // { index: 1, path: "generation1" },
+    // { index: 2, path: "generation2" },
+    // { index: 3, path: "generation3" },
+    // { index: 4, path: "generation4" },
+    // { index: 5, path: "generation5" },
+    // { index: 6, path: "generation6" },
+    // { index: 7, path: "generation7" },
+    // { index: 8, path: "generation8" },
     { index: 9, path: "generation9" },
 ];
 

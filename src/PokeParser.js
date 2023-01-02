@@ -94,8 +94,16 @@ class PokeParser {
             formName = "Normal";
         else if (this.name === "Morpeko")
             formName = formName.replace(" Mode", "");
-        else if (this.name === "Tauros" && formName.includes("Paldean"))
+        else if (this.name === "Tauros" && /Paldean\S/.test(formName))
             formName = formName.replace("Paldean", "Paldean ");
+        else if (this.name === "Tauros" && formName === "Regular")
+            formName = "Normal";
+        else if (this.name === "Tauros" && formName === "Paldean")
+            formName = "Paldean Combat Breed";
+        else if (this.name === "Tauros" && formName === "Blaze Breed")
+            formName = "Paldean Blaze Breed";
+        else if (this.name === "Tauros" && formName === "Aqua Breed")
+            formName = "Paldean Aqua Breed";
 
         if (formName === "")
             formName = "Normal";

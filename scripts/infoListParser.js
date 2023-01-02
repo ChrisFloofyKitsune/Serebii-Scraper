@@ -50,7 +50,10 @@ const moveSetFormRegex = new RegExp([
     /Disguised$/,
     /Rider$/,
     /^Solo/,
-    /White-Striped$/
+    /White-Striped$/,
+    /Paldean Combat Breed$/,
+    /Paldean Blaze Breed$/,
+    /Paldean Aqua Breed$/,
 ].map(r => r.source).join('|'));
 
 const pokemonNameRegex = new RegExp([
@@ -59,7 +62,7 @@ const pokemonNameRegex = new RegExp([
     /Wormadam$/,
     /Indeedee$/,
     /Meowstic$/,
-    /Oinkologne$/
+    /Oinkologne$/,
 ].map(r => r.source).join('|'));
 
 //Layout
@@ -223,7 +226,15 @@ class PokeInfoParser extends PokeParser {
                 output.HiddenAbility = hiddenAbility;
             }
 
-            if (form === this.GetDefaultForm() || form.match(moveSetFormRegex) || this.GetName().match(pokemonNameRegex)) {
+            if (
+                form === this.GetDefaultForm() ||
+                form.match(moveSetFormRegex) ||
+                this.GetName().match(pokemonNameRegex) ||
+                (this.generation >= 9 && (
+                    this.GetName() === "Basculegion" ||
+                    this.GetName() === "Gastrodon"
+                ))
+            ) {
                 output.MoveSet = form;
             }
 

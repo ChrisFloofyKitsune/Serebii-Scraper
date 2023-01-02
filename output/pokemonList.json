@@ -4968,7 +4968,8 @@
                 "PrimaryType": "Fighting",
                 "Ability1": "Intimidate",
                 "Ability2": "Anger Point",
-                "HiddenAbility": "Sheer Force"
+                "HiddenAbility": "Sheer Force",
+                "MoveSet": "Paldean Combat Breed"
             },
             {
                 "FormName": "Paldean Blaze Breed",
@@ -4976,7 +4977,8 @@
                 "SecondaryType": "Fire",
                 "Ability1": "Intimidate",
                 "Ability2": "Anger Point",
-                "HiddenAbility": "Sheer Force"
+                "HiddenAbility": "Sheer Force",
+                "MoveSet": "Paldean Blaze Breed"
             },
             {
                 "FormName": "Paldean Aqua Breed",
@@ -4984,7 +4986,8 @@
                 "SecondaryType": "Water",
                 "Ability1": "Intimidate",
                 "Ability2": "Anger Point",
-                "HiddenAbility": "Sheer Force"
+                "HiddenAbility": "Sheer Force",
+                "MoveSet": "Paldean Aqua Breed"
             }
         ],
         "DefaultFormName": "Normal",
@@ -14559,7 +14562,8 @@
                 "SecondaryType": "Ground",
                 "Ability1": "Sticky Hold",
                 "Ability2": "Storm Drain",
-                "HiddenAbility": "Sand Force"
+                "HiddenAbility": "Sand Force",
+                "MoveSet": "East Sea"
             }
         ],
         "DefaultFormName": "West Sea",
@@ -31350,7 +31354,8 @@
                 "SecondaryType": "Ghost",
                 "Ability1": "Swift Swim",
                 "Ability2": "Adaptability",
-                "HiddenAbility": "Mold Breaker"
+                "HiddenAbility": "Mold Breaker",
+                "MoveSet": "Female"
             }
         ],
         "DefaultFormName": "Male",
