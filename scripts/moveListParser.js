@@ -197,15 +197,15 @@ class Gen3MoveParser extends PokeMoveParser {
     GetLevelUpMoves() {
         /*
         LevelUpMoves: [
-            { 
+            {
                 Form: "form",
                 LevelUpMoves: [
-                    { 
-                        Name: "name", 
-                        Level: number 
-                    }, 
+                    {
+                        Name: "name",
+                        Level: number
+                    },
                     ...
-                ] 
+                ]
             },
             ...
         ]
@@ -252,7 +252,7 @@ class Gen3MoveParser extends PokeMoveParser {
             {
                 Name: "name",
                 Forms: [
-                    "form1", 
+                    "form1",
                     "form2"
                 ]
         }
@@ -342,7 +342,8 @@ const generationPaths = [
     { index: 5, path: "generation5" },
     { index: 6, path: "generation6" },
     { index: 7, path: "generation7" },
-    { index: 8, path: "generation8" }
+    { index: 8, path: "generation8" },
+    { index: 9, path: "generation9" },
 ];
 
 if (!fs.existsSync(outputPath))

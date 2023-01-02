@@ -36,6 +36,11 @@
         "Link": "https://www.serebii.net/abilitydex/angerpoint.shtml"
     },
     {
+        "Name": "Anger Shell",
+        "GameText": "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats.",
+        "Link": "https://www.serebii.net/abilitydex/angershell.shtml"
+    },
+    {
         "Name": "Anticipation",
         "GameText": "The Pokémon can sense an opposing Pokémon's dangerous moves.",
         "EffectDetail": "Warns when the foe knows 1-hit KO or super-effective moves.",
@@ -47,6 +52,11 @@
         "EffectDetail": "The opponent cannot run nor switch. Flying-type Pokémon and Pokémon with the Levitate special ability are unaffected. If this Pokémon switches, the opponent is still trapped for that turn. The opponent may still switch by using Baton Pass.",
         "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%.",
         "Link": "https://www.serebii.net/abilitydex/arenatrap.shtml"
+    },
+    {
+        "Name": "Armor Tail",
+        "GameText": "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies.",
+        "Link": "https://www.serebii.net/abilitydex/armortail.shtml"
     },
     {
         "Name": "Aroma Veil",
@@ -91,8 +101,14 @@
     },
     {
         "Name": "Battle Bond",
-        "GameText": "Defeating an opposing Pokémon strengthens the Pokémon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.",
+        "GameText": "Defeating an opposing Pokémon strengthens the Pokémon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.In Scarlet & Violet, changes to boost Attack, Speed and Special Attack when opponents are knocked out.",
+        "EffectDetail": "When the user knocks out a target, its Attack, Sp. Attack and Speed stats are boosted by 1 stage",
         "Link": "https://www.serebii.net/abilitydex/battlebond.shtml"
+    },
+    {
+        "Name": "Beads of Ruin",
+        "GameText": "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself.",
+        "Link": "https://www.serebii.net/abilitydex/beadsofruin.shtml"
     },
     {
         "Name": "Beast Boost",
@@ -127,6 +143,11 @@
         "Link": "https://www.serebii.net/abilitydex/cheekpouch.shtml"
     },
     {
+        "Name": "Chilling Neigh",
+        "GameText": "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "Link": "https://www.serebii.net/abilitydex/chillingneigh.shtml"
+    },
+    {
         "Name": "Chlorophyll",
         "GameText": "Boosts the Pokémon's Speed stat in sunshine.",
         "EffectDetail": "When sunny, the Pokémon’s Speed doubles.",
@@ -157,6 +178,12 @@
         "Link": "https://www.serebii.net/abilitydex/comatose.shtml"
     },
     {
+        "Name": "Commander",
+        "GameText": "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there.",
+        "EffectDetail": "Tatsugiri will go into Dondozo's mouth and be unable to be damaged from attacks. Dondozo can no longer switch out. Dondozo's stats all raise by 2 stages",
+        "Link": "https://www.serebii.net/abilitydex/commander.shtml"
+    },
+    {
         "Name": "Competitive",
         "GameText": "Boosts the Sp. Atk stat sharply when a stat is lowered.",
         "EffectDetail": "Raises Sp. Atk stat by two stages whenever a stat is lowered",
@@ -181,9 +208,24 @@
         "Link": "https://www.serebii.net/abilitydex/corrosion.shtml"
     },
     {
+        "Name": "Costar",
+        "GameText": "When the Pokémon enters a battle, it copies an ally's stat changes.",
+        "Link": "https://www.serebii.net/abilitydex/costar.shtml"
+    },
+    {
         "Name": "Cotton Down",
         "GameText": "When the Pokémon is hit by an attack, it scatters cotton fluff around and lowers the Speed stat of all Pokémon except itself.",
         "Link": "https://www.serebii.net/abilitydex/cottondown.shtml"
+    },
+    {
+        "Name": "Cud Chew",
+        "GameText": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.",
+        "Link": "https://www.serebii.net/abilitydex/cudchew.shtml"
+    },
+    {
+        "Name": "Curious Medicine",
+        "GameText": "When the Pokémon  is brought into battle, any stat alterations of allies are removed",
+        "Link": "https://www.serebii.net/abilitydex/curiousmedicine.shtml"
     },
     {
         "Name": "Cursed Body",
@@ -205,7 +247,7 @@
         "Link": "https://www.serebii.net/abilitydex/damp.shtml"
     },
     {
-        "Name": "Dancer\n\t\tDragon Dance\n\t\t",
+        "Name": "Dancer\n\t\tAqua Step\n\t\t",
         "GameText": "When another Pokémon uses a dance move, it can use a dance move following it regardless of its Speed.",
         "Link": "https://www.serebii.net/abilitydex/dancer.shtml"
     },
@@ -217,7 +259,7 @@
     },
     {
         "Name": "Dauntless Shield",
-        "GameText": "Boosts the Pokémon's Defense stat when the Pokémon enters a battle.",
+        "GameText": "Boosts the Pokémon's Defense stat the first time that the Pokémon enters a battle.",
         "Link": "https://www.serebii.net/abilitydex/dauntlessshield.shtml"
     },
     {
@@ -293,6 +335,12 @@
         "Link": "https://www.serebii.net/abilitydex/earlybird.shtml"
     },
     {
+        "Name": "Earth Eater",
+        "GameText": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage.",
+        "EffectDetail": "The user recovers 25% of its maximum Hit Points when a Ground-type move is used against it",
+        "Link": "https://www.serebii.net/abilitydex/eartheater.shtml"
+    },
+    {
         "Name": "Effect Spore",
         "GameText": "Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.",
         "EffectDetail": "The opponent has a 10% chance of being induced by PARALYZE, POISON, or SLEEP when using an attack, that requires physical contact, against this Pokémon.",
@@ -303,6 +351,11 @@
         "GameText": "Turns the ground into Electric Terrain when the Pokémon enters a battle.",
         "EffectDetail": "Activates Electric Terrain for 5 turns when the Pokémon enters a battle.",
         "Link": "https://www.serebii.net/abilitydex/electricsurge.shtml"
+    },
+    {
+        "Name": "Electromorphosis",
+        "GameText": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses.",
+        "Link": "https://www.serebii.net/abilitydex/electromorphosis.shtml"
     },
     {
         "Name": "Emergency Exit",
@@ -361,7 +414,7 @@
     {
         "Name": "Forecast",
         "GameText": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice.",
-        "EffectDetail": "This Pokémon’ changes its form and type if Harsh Sunlight, Heavy Rain or Hail is in effect.",
+        "EffectDetail": "This Pokémon’ changes its form and type if Harsh Sunlight, Heavy Rain or Snow is in effect.",
         "Link": "https://www.serebii.net/abilitydex/forecast.shtml"
     },
     {
@@ -411,6 +464,11 @@
         "Link": "https://www.serebii.net/abilitydex/gluttony.shtml"
     },
     {
+        "Name": "Good as Gold",
+        "GameText": "A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.",
+        "Link": "https://www.serebii.net/abilitydex/goodasgold.shtml"
+    },
+    {
         "Name": "Gooey",
         "GameText": "Contact with the Pokémon lowers the attacker's Speed stat.",
         "EffectDetail": "Lowers the opponent's Speed by one stage when it makes physical contact.",
@@ -435,6 +493,16 @@
         "Link": "https://www.serebii.net/abilitydex/grassysurge.shtml"
     },
     {
+        "Name": "Grim Neigh",
+        "GameText": "When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Special Attack stat.",
+        "Link": "https://www.serebii.net/abilitydex/grimneigh.shtml"
+    },
+    {
+        "Name": "Guard Dog",
+        "GameText": "Boosts the Pokémon's Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work.",
+        "Link": "https://www.serebii.net/abilitydex/guarddog.shtml"
+    },
+    {
         "Name": "Gulp Missile",
         "GameText": "When the Pokémon uses Surf or Dive, it will come back with prey. When it takes damage, it will spit out the prey to attack.",
         "EffectDetail": "When using Surf or Dive, it will change into Gulping Form if it has over 50% max HP or Gorging Form if it has less than 50% max HP. If hit afterwards, form reverts and it shoots out its prey to attack, doing 1/4th of opponent's maximum HP in damage. If the Cramorant was in Gulping Form, the opponent's Defense is lowered 1 stage. If the Cramorant was in Gorging Form, the opponent is paralyzed.",
@@ -445,6 +513,11 @@
         "GameText": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
         "EffectDetail": "Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn’s effect of lowering Attack is not applied.",
         "Link": "https://www.serebii.net/abilitydex/guts.shtml"
+    },
+    {
+        "Name": "Hadron Engine",
+        "GameText": "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat on Electric Terrain.",
+        "Link": "https://www.serebii.net/abilitydex/hadronengine.shtml"
     },
     {
         "Name": "Harvest",
@@ -508,14 +581,14 @@
     },
     {
         "Name": "Ice Body",
-        "GameText": "The Pokémon gradually regains HP in a hailstorm.",
-        "EffectDetail": "HP is restored by 1/16th of maximum HP when its hailing.",
+        "GameText": "The Pokémon gradually regains HP in a Snowstorm.",
+        "EffectDetail": "HP is restored by 1/16th of maximum HP when its Snowing.",
         "Link": "https://www.serebii.net/abilitydex/icebody.shtml"
     },
     {
         "Name": "Ice Face",
-        "GameText": "The Pokémon's ice head can take a physical attack as a substitute, but the attack also changes the Pokémon's appearance. The ice will be restored when it hails.",
-        "EffectDetail": "Has a protective barrier that protects against Physical Attacks once and will change form to Noice Face after breaking. Confusion also breaks the barrier. Setting Hail or being sent out during hail will restore the Ice Face and change form to Ice Face",
+        "GameText": "The Pokémon's ice head can take a physical attack as a substitute, but the attack also changes the Pokémon's appearance. The ice will be restored when it Snows.",
+        "EffectDetail": "Has a protective barrier that protects against Physical Attacks once and will change form to Noice Face after breaking. Confusion also breaks the barrier. Setting Snow or being sent out during Snow will restore the Ice Face and change form to Ice Face",
         "Link": "https://www.serebii.net/abilitydex/iceface.shtml"
     },
     {
@@ -579,7 +652,7 @@
     },
     {
         "Name": "Intrepid Sword",
-        "GameText": "Boosts the Pokémon's Attack stat when the Pokémon enters a battle.",
+        "GameText": "Boosts the Pokémon's Attack stat the first time that the Pokémon enters a battle.",
         "Link": "https://www.serebii.net/abilitydex/intrepidsword.shtml"
     },
     {
@@ -589,7 +662,7 @@
         "Link": "https://www.serebii.net/abilitydex/ironbarbs.shtml"
     },
     {
-        "Name": "Iron FistBullet Punch",
+        "Name": "Iron Fist\n\t\tBullet Punch\n\t\t",
         "GameText": "Powers up punching moves.",
         "EffectDetail": "The power of punching moves is increased by 20%.",
         "Link": "https://www.serebii.net/abilitydex/ironfist.shtml"
@@ -628,6 +701,7 @@
     {
         "Name": "Libero",
         "GameText": "Changes the Pokémon's type to the type of the move it's about to use.",
+        "EffectDetail": "Before the Pokémon uses a move, it becomes a pure Pokémon of that type. This only works once per switch in.",
         "Link": "https://www.serebii.net/abilitydex/libero.shtml"
     },
     {
@@ -647,6 +721,11 @@
         "GameText": "Its limber body protects the Pokémon from paralysis.",
         "EffectDetail": "The Pokémon cannot be Paralysed while having this ability.",
         "Link": "https://www.serebii.net/abilitydex/limber.shtml"
+    },
+    {
+        "Name": "Lingering Aroma",
+        "GameText": "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma.",
+        "Link": "https://www.serebii.net/abilitydex/lingeringaroma.shtml"
     },
     {
         "Name": "Liquid Ooze",
@@ -776,6 +855,12 @@
         "Link": "https://www.serebii.net/abilitydex/mummy.shtml"
     },
     {
+        "Name": "Mycelium Might",
+        "GameText": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target.",
+        "EffectDetail": "If the Pokémon uses a Status move, it will move last in the Speed bracket, but its moves aren't affected by the Ability of the target",
+        "Link": "https://www.serebii.net/abilitydex/myceliummight.shtml"
+    },
+    {
         "Name": "Natural Cure",
         "GameText": "All status conditions heal when the Pokémon switches out.",
         "EffectDetail": "The Pokémon’s status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.",
@@ -796,7 +881,7 @@
         "Name": "No Guard",
         "GameText": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
         "EffectDetail": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases by 50%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases by 100%.",
         "Link": "https://www.serebii.net/abilitydex/noguard.shtml"
     },
     {
@@ -810,6 +895,16 @@
         "GameText": "The Pokémon is oblivious, and that keeps it from being infatuated or falling for taunts.",
         "EffectDetail": "The Pokémon cannot be under the Attract condition, Intimidated, or be taunted, while having this ability.",
         "Link": "https://www.serebii.net/abilitydex/oblivious.shtml"
+    },
+    {
+        "Name": "Opportunist",
+        "GameText": "If an opponent's stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself.",
+        "Link": "https://www.serebii.net/abilitydex/opportunist.shtml"
+    },
+    {
+        "Name": "Orichalcum Pulse",
+        "GameText": "Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat in harsh sunlight.",
+        "Link": "https://www.serebii.net/abilitydex/orichalcumpulse.shtml"
     },
     {
         "Name": "Overcoat",
@@ -936,8 +1031,14 @@
     {
         "Name": "Protean",
         "GameText": "Changes the Pokémon's type to the type of the move it's about to use.",
-        "EffectDetail": "Before the Pokémon uses a move, it becomes a pure Pokémon of that type.",
+        "EffectDetail": "Before the Pokémon uses a move, it becomes a pure Pokémon of that type. This only works once per switch in.",
         "Link": "https://www.serebii.net/abilitydex/protean.shtml"
+    },
+    {
+        "Name": "Protosynthesis",
+        "GameText": "Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.",
+        "EffectDetail": "Increases the user's highest stat by 30% (or 50% for Speed) while Sunny Day is activated or if the Booster Energy is attached",
+        "Link": "https://www.serebii.net/abilitydex/protosynthesis.shtml"
     },
     {
         "Name": "Psychic Surge",
@@ -956,6 +1057,17 @@
         "GameText": "Using its pure power, the Pokémon doubles its Attack stat.",
         "EffectDetail": "The Pokémon’s Attack stat is doubled in battle while having this ability.",
         "Link": "https://www.serebii.net/abilitydex/purepower.shtml"
+    },
+    {
+        "Name": "Purifying Salt",
+        "GameText": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
+        "Link": "https://www.serebii.net/abilitydex/purifyingsalt.shtml"
+    },
+    {
+        "Name": "Quark Drive",
+        "GameText": "Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.",
+        "EffectDetail": "Increases the user's highest stat by 30% (or 50% for Speed) while Electric Terrain is activated or if the Booster Energy is attached",
+        "Link": "https://www.serebii.net/abilitydex/quarkdrive.shtml"
     },
     {
         "Name": "Queenly Majesty",
@@ -1034,6 +1146,12 @@
         "Link": "https://www.serebii.net/abilitydex/rockhead.shtml"
     },
     {
+        "Name": "Rocky Payload",
+        "GameText": "Powers up Rock-type moves.",
+        "EffectDetail": "Increases the power of Rock-type moves used by this Pokémon by 50%",
+        "Link": "https://www.serebii.net/abilitydex/rockypayload.shtml"
+    },
+    {
         "Name": "Rough Skin",
         "GameText": "This Pokémon inflicts damage with its rough skin to the attacker on contact.",
         "EffectDetail": "The opponent is hurt by 1/8th of his maxium Hit Points of recoil when using an attack, that requires physical contact, against this Pokémon.",
@@ -1099,6 +1217,11 @@
         "Link": "https://www.serebii.net/abilitydex/screencleaner.shtml"
     },
     {
+        "Name": "Seed Sower",
+        "GameText": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
+        "Link": "https://www.serebii.net/abilitydex/seedsower.shtml"
+    },
+    {
         "Name": "Serene Grace",
         "GameText": "Boosts the likelihood of additional effects occurring  when attacking.",
         "EffectDetail": "The chances of a move having a secondary effect is doubled.",
@@ -1115,6 +1238,12 @@
         "GameText": "This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping.",
         "EffectDetail": "The opponent cannot run nor switch while this Pokémon is in play. The opponent may still switch by using Baton Pass, U-turn or Volt Switch, if it is holding a Shed Shell or is a Ghost-type.",
         "Link": "https://www.serebii.net/abilitydex/shadowtag.shtml"
+    },
+    {
+        "Name": "Sharpness\n\t\tAerial Ace\n\t\t",
+        "GameText": "Powers up slicing moves.",
+        "EffectDetail": "Increases the power of Slicing moves used by this Pokémon by 50%",
+        "Link": "https://www.serebii.net/abilitydex/sharpness.shtml"
     },
     {
         "Name": "Shed Skin",
@@ -1166,8 +1295,8 @@
     },
     {
         "Name": "Slush Rush",
-        "GameText": "Boosts the Pokémon's Speed stat in a hailstorm.",
-        "EffectDetail": "Doubles the Pokémon's Speed when Hail is in effect",
+        "GameText": "Boosts the Pokémon's Speed stat in a Snowstorm.",
+        "EffectDetail": "Doubles the Pokémon's Speed when Snow is in effect",
         "Link": "https://www.serebii.net/abilitydex/slushrush.shtml"
     },
     {
@@ -1178,15 +1307,15 @@
     },
     {
         "Name": "Snow Cloak",
-        "GameText": "Boosts evasion in a hailstorm.",
-        "EffectDetail": "Raises the Pokémon’s evasion during a hailstorm by one level.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon during a hailstorm decreases to 50%.",
+        "GameText": "Boosts evasion in a Snowstorm.",
+        "EffectDetail": "Raises the Pokémon’s evasion during a Snowstorm by one level.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon during a Snowstorm decreases to 50%.",
         "Link": "https://www.serebii.net/abilitydex/snowcloak.shtml"
     },
     {
         "Name": "Snow Warning",
-        "GameText": "The Pokémon summons a hailstorm when it enters a battle.",
-        "EffectDetail": "Hailstorm blows when the Pokémon enters battle. As of X & Y, this lasts 5 turns.",
+        "GameText": "The Pokémon summons a Snowstorm when it enters a battle.",
+        "EffectDetail": "Snowstorm blows when the Pokémon enters battle. As of X & Y, this lasts 5 turns.",
         "Link": "https://www.serebii.net/abilitydex/snowwarning.shtml"
     },
     {
@@ -1324,6 +1453,11 @@
         "Link": "https://www.serebii.net/abilitydex/superluck.shtml"
     },
     {
+        "Name": "Supreme Overlord",
+        "GameText": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+        "Link": "https://www.serebii.net/abilitydex/supremeoverlord.shtml"
+    },
+    {
         "Name": "Surge Surfer",
         "GameText": "Doubles the Pokémon's Speed stat on Electric Terrain.",
         "Link": "https://www.serebii.net/abilitydex/surgesurfer.shtml"
@@ -1347,6 +1481,11 @@
         "Link": "https://www.serebii.net/abilitydex/swiftswim.shtml"
     },
     {
+        "Name": "Sword of Ruin",
+        "GameText": "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself.",
+        "Link": "https://www.serebii.net/abilitydex/swordofruin.shtml"
+    },
+    {
         "Name": "Symbiosis",
         "GameText": "The Pokémon passes its item to an ally that has used up an item.",
         "EffectDetail": "Passes the Pokémon's hold item to its adjacent ally when that ally consumes its hold item",
@@ -1356,8 +1495,12 @@
         "Name": "Synchronize",
         "GameText": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
         "EffectDetail": "When this Pokémon becomes Poisoned, Paralyzed, or Burned, so does the opponent. However, Fire-type and Water Veil ability Pokémon cannot be Burned, Poison-type and Steel-type and Immunity ability Pokémon cannot be Poisoned, and Limber ability Pokémon cannot be Paralyzed.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon with the same nature will be 100%.",
         "Link": "https://www.serebii.net/abilitydex/synchronize.shtml"
+    },
+    {
+        "Name": "Tablets of Ruin",
+        "GameText": "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself.",
+        "Link": "https://www.serebii.net/abilitydex/tabletsofruin.shtml"
     },
     {
         "Name": "Tangled Feet",
@@ -1389,6 +1532,11 @@
         "Link": "https://www.serebii.net/abilitydex/teravolt.shtml"
     },
     {
+        "Name": "Thermal Exchange",
+        "GameText": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned.",
+        "Link": "https://www.serebii.net/abilitydex/thermalexchange.shtml"
+    },
+    {
         "Name": "Thick Fat",
         "GameText": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
         "EffectDetail": "Fire and Ice-type moves deal 50% damage.",
@@ -1417,6 +1565,11 @@
         "GameText": "Powers up physical attacks when the Pokémon is poisoned.",
         "EffectDetail": "Attack stat increased by 50% when Poisoned",
         "Link": "https://www.serebii.net/abilitydex/toxicboost.shtml"
+    },
+    {
+        "Name": "Toxic Debris",
+        "GameText": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+        "Link": "https://www.serebii.net/abilitydex/toxicdebris.shtml"
     },
     {
         "Name": "Trace",
@@ -1469,6 +1622,11 @@
         "Name": "Unseen Fist",
         "GameText": "The Pokémon can deal damage with moves that make physical contact, even if the target is protected.",
         "Link": "https://www.serebii.net/abilitydex/unseenfist.shtml"
+    },
+    {
+        "Name": "Vessel of Ruin",
+        "GameText": "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.",
+        "Link": "https://www.serebii.net/abilitydex/vesselofruin.shtml"
     },
     {
         "Name": "Victory Star",
@@ -1525,6 +1683,12 @@
         "Link": "https://www.serebii.net/abilitydex/weakarmor.shtml"
     },
     {
+        "Name": "Well-Baked Body",
+        "GameText": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted.",
+        "EffectDetail": "This Pokémon receives no damage when hit by Fire-type moves and boosts its Defense stat by 2 stages",
+        "Link": "https://www.serebii.net/abilitydex/well-bakedbody.shtml"
+    },
+    {
         "Name": "White Smoke",
         "GameText": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats.",
         "EffectDetail": "Opponents’ moves which lower this Pokémon’s stats have no effect. However this Pokémon may lower its own stats with its own moves.",
@@ -1536,6 +1700,16 @@
         "GameText": "The Pokémon cowardly switches out when its HP becomes half or less.",
         "EffectDetail": "When the Pokémon's Hit Points hit 50% or less, the Pokémon will switch out. Works once per battle. The Pokémon will not switch out if it drops below 50% due to Confusion, Weather, use of Substitute or when the damage inflicted is by a Pokémon with the Sheer Force ability. It will not activate if health is brought back up above 50% due to a hold item",
         "Link": "https://www.serebii.net/abilitydex/wimpout.shtml"
+    },
+    {
+        "Name": "Wind Power\n\t\tAir Cutter\n\t\t",
+        "GameText": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses.",
+        "Link": "https://www.serebii.net/abilitydex/windpower.shtml"
+    },
+    {
+        "Name": "Wind Rider\n\t\tAir Cutter\n\t\t",
+        "GameText": "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves.",
+        "Link": "https://www.serebii.net/abilitydex/windrider.shtml"
     },
     {
         "Name": "Wonder Guard",
@@ -1554,5 +1728,10 @@
         "GameText": "Changes the Pokémon's shape when HP is half or less.",
         "EffectDetail": "When Hit Points get to 50% of maximum, the Pokémon changes form. The Pokémon reverts back to its standard form if it loses this ability or returns to over 50% of its Hit Points",
         "Link": "https://www.serebii.net/abilitydex/zenmode.shtml"
+    },
+    {
+        "Name": "Zero to Hero",
+        "GameText": "The Pokémon transforms into its Hero Form when it switches out.",
+        "Link": "https://www.serebii.net/abilitydex/zerotohero.shtml"
     }
 ]
