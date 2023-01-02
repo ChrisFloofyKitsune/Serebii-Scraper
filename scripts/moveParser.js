@@ -88,7 +88,7 @@ async function parseFile(pathFragment, genIndex, bar) {
      * Finds a header with the given text and adds the result of the callback to the entry (if the header exists)
      * @param {string} headerText 
      * @param {PropertyKey} prop 
-     * @param {($cell: cheerio.Cheerio<cheerio.Element>) => string} extractCallback 
+     * @param {($cell: cheerio.Cheerio<cheerio.Element>) => string | number} extractCallback
      * @returns 
      */
     function addInfoByHeader(headerText, prop, extractCallback = ($cell) => $cell.text().trim()) {        

@@ -11,7 +11,8 @@ const outputPath = path.resolve(__dirname, '../rawHTML/attackdex/');
 
 const mainPages = {
     7: 'https://www.serebii.net/attackdex-sm/',
-    8: 'https://www.serebii.net/attackdex-swsh/'
+    8: 'https://www.serebii.net/attackdex-swsh/',
+    9: 'https://www.serebii.net/attackdex-sv/'
 }
 
 const multiBar = new cliProgress.MultiBar({

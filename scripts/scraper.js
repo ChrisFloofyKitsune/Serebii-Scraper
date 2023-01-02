@@ -6,17 +6,18 @@ const async = require("async");
 const cliProgress = require("cli-progress");
 const { throttledPageGet } = require("../src/util");
 
-const outputPath = "./rawHTML"
+const outputPath = path.resolve(__dirname, '../rawHTML/')
 
 const generationDexMainPages = [
-    { index: 1, link: "https://www.serebii.net/pokedex/" },
-    { index: 2, link: "https://www.serebii.net/pokedex-gs/"},
-    { index: 3, link: "https://www.serebii.net/pokedex-rs/"},
-    { index: 4, link: "https://www.serebii.net/pokedex-dp/"},
-    { index: 5, link: "https://www.serebii.net/pokedex-bw/"},
-    { index: 6, link: "https://www.serebii.net/pokedex-xy/"},
-    { index: 7, link: "https://www.serebii.net/pokedex-sm/"},
-    { index: 8, link: "https://www.serebii.net/pokedex-swsh/" }
+    // { index: 1, link: "https://www.serebii.net/pokedex/" },
+    // { index: 2, link: "https://www.serebii.net/pokedex-gs/"},
+    // { index: 3, link: "https://www.serebii.net/pokedex-rs/"},
+    // { index: 4, link: "https://www.serebii.net/pokedex-dp/"},
+    // { index: 5, link: "https://www.serebii.net/pokedex-bw/"},
+    // { index: 6, link: "https://www.serebii.net/pokedex-xy/"},
+    // { index: 7, link: "https://www.serebii.net/pokedex-sm/"},
+    // { index: 8, link: "https://www.serebii.net/pokedex-swsh/"},
+    { index: 9, link: "https://www.serebii.net/pokedex-sv/"}
 ];
 
 if (!fs.existsSync(outputPath))

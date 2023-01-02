@@ -15,7 +15,8 @@ const generationPaths = [
     { index: 5, path: "generation5" },
     { index: 6, path: "generation6" },
     { index: 7, path: "generation7" },
-    { index: 8, path: "generation8" }
+    { index: 8, path: "generation8" },
+    { index: 9, path: "generation9" },
 ];
 
 /* 
@@ -38,7 +39,7 @@ for (let genPath of generationPaths) {
         format: `{bar} {percentage}% | ETA: {eta}s | {value}/{total} | Gen${genPath.index}: {current}`
     }, cliProgress.Presets.shades_classic);
 
-    var files = fs.readdirSync(folderPath).filter(file => file != "mainPage.html");
+    var files = fs.readdirSync(folderPath).filter(file => file !== "mainPage.html");
 
     //files = files.slice(200,201);
 
@@ -70,14 +71,15 @@ function ParsePage(filePath, genIndex) {
  * @param {number} pokeData.DexNum
  * @param {string} pokeData.DefaultForm
  * @param {string[]} pokeData.Forms
- * @param {*} genIndex 
- * @param {*} filePath 
+ * @param {number} genIndex
+ * @param {string} filePath
  */
 function CreateOrAddGenIndex(pokeData, genIndex, filePath) {
-    let entry = {};
-    entry[genIndex] = filePath;
-    entry["Forms"] = pokeData.Forms;
-
+    let entry = {
+        Gen: genIndex,
+        Path: filePath.replace(inputPath, ""),
+        Forms: pokeData.Forms
+    };
 
     if (!output[pokeData.DexNum]) {
         output[pokeData.DexNum] = [];

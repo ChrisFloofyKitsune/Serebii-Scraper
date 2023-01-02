@@ -1,9 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const { PokeParser } = require("../src/PokeParser.js");
-const { AbilityNameFix } = require("../src/util");
-
+const {PokeParser} = require("../src/PokeParser.js");
+const {AbilityNameFix} = require("../src/util");
+/** @type {Record<number, { Gen: number, Path: string, Forms: string[]}[]>} */
 const pokemonGenIndex = require("../data/pokemonGenIndex.json");
 const extraPokemonInfo = require("../data/extraPokeFormInfo.json");
 const evolutionChains = require("../data/evolutionChains.json");
@@ -14,6 +14,7 @@ const fizzyDexCustom = require("../data/fizzyDexCustom.json");
 // DECLARATIONS
 ////////////////////////
 
+const inputPath = path.resolve(__dirname, "../rawHTML/");
 const outputPath = path.resolve(__dirname, "../output/pokemonList.json");
 
 //Detect if the current form (or Pokemon in general) has a unique moveset and mark it as such.
@@ -22,6 +23,7 @@ const moveSetFormRegex = new RegExp([
     /Alolan$/,
     /Galarian$/,
     /Hisuian$/,
+    /Paldean$/,
     /Low Key$/,
     /Amped$/,
     /Midday$/,
@@ -56,7 +58,8 @@ const pokemonNameRegex = new RegExp([
     /Deoxys$/,
     /Wormadam$/,
     /Indeedee$/,
-    /Meowstic$/
+    /Meowstic$/,
+    /Oinkologne$/
 ].map(r => r.source).join('|'));
 
 //Layout
@@ -89,8 +92,19 @@ const pokemonNameRegex = new RegExp([
 */
 
 class PokeInfoParser extends PokeParser {
-    GetPokemonData() {
+    GetPokemonInfoData() {
         let [GenderRatioM, GenderRatioF] = this.GetGenderRatios();
+        /** @type {{
+         * Name: string,
+         * DexNum: number,
+         * Forms: ReturnType<PokeInfoParser["GetFormInfos"]>,
+         * DefaultFormName: string,
+         * GenderRatioM: number,
+         * GenderRatioF: number,
+         * EggGroups: string[],
+         * EvolutionChains: any[],
+         * FormChanges: any[],
+         * }}*/
         let output = {
             Name: this.GetName(),
             DexNum: this.GetDexNum(),
@@ -98,12 +112,12 @@ class PokeInfoParser extends PokeParser {
             DefaultFormName: this.GetDefaultForm(),
             GenderRatioM,
             GenderRatioF,
-            EggGroups: this.GetEggGroups()
+            EggGroups: this.GetEggGroups(),
         }
 
         let evoChains = evolutionChains.filter(ec => ec.Stage1.DexNum === output.DexNum || ec.Stage2.DexNum === output.DexNum || (ec.Stage3 && ec.Stage3.DexNum === output.DexNum));
         if (evoChains.length > 0) {
-            evoChains = evoChains.map(ec => { 
+            evoChains = evoChains.map(ec => {
                 const result = {
                     Stage1DexNum: ec.Stage1.DexNum,
                     Stage1Form: ec.Stage1.Form,
@@ -119,21 +133,23 @@ class PokeInfoParser extends PokeParser {
                         Stage3Form: ec.Stage3.Form
                     })
                 }
-                
+
                 return result;
             });
 
-            output["EvolutionChains"] = evoChains;
+            output.EvolutionChains = evoChains;
         }
 
         let _formChanges = formChanges.filter(fc => fc.DexNum === output.DexNum);
         if (_formChanges.length > 0) {
-            _formChanges = _formChanges.map(fc => { return {
-                StartForm: fc.StartForm,
-                ChangeMethod: fc.ChangeMethod,
-                EndForm: fc.EndForm
-            }});
-            output["FormChanges"] = _formChanges;
+            _formChanges = _formChanges.map(fc => {
+                return {
+                    StartForm: fc.StartForm,
+                    ChangeMethod: fc.ChangeMethod,
+                    EndForm: fc.EndForm
+                }
+            });
+            output.FormChanges = _formChanges;
         }
 
         this.AttachExtraInfo(output);
@@ -162,9 +178,18 @@ class PokeInfoParser extends PokeParser {
         let $abilities = this.$("table.dextable").eq(2).find("tr").eq(1).find("td");
 
         return forms.map(form => {
+            /** @type {{
+             * FormName: string,
+             * PrimaryType: string,
+             * SecondaryType?: string,
+             * Ability1: string,
+             * Ability2?: string,
+             * HiddenAbility?: string,
+             * MoveSet?: string,
+            }} */
             let output = {};
 
-            output["FormName"] = form;
+            output.FormName = form;
 
             let [primaryType, secondaryType] = this.GetTypesForForm($types, form);
             if (primaryType === undefined) {
@@ -175,9 +200,9 @@ class PokeInfoParser extends PokeParser {
                 }
             }
 
-            output["PrimaryType"] = primaryType;
+            output.PrimaryType = primaryType;
             if (secondaryType != null) {
-                output["SecondaryType"] = secondaryType;
+                output.SecondaryType = secondaryType;
             }
 
 
@@ -190,16 +215,16 @@ class PokeInfoParser extends PokeParser {
                 }
             }
 
-            output["Ability1"] = ability1;
+            output.Ability1 = ability1;
             if (ability2 != null) {
-                output["Ability2"] = ability2;
+                output.Ability2 = ability2;
             }
             if (hiddenAbility != null) {
-                output["HiddenAbility"] = hiddenAbility;
+                output.HiddenAbility = hiddenAbility;
             }
 
             if (form === this.GetDefaultForm() || form.match(moveSetFormRegex) || this.GetName().match(pokemonNameRegex)) {
-                output["MoveSet"] = form;
+                output.MoveSet = form;
             }
 
             return output;
@@ -227,6 +252,16 @@ class PokeInfoParser extends PokeParser {
             return [form, null];
         }
 
+        if (this.GetName() === "Tauros" && form === "Paldean Combat Breed") {
+            return ["Fighting", null];
+        }
+        if (this.GetName() === "Tauros" && form === "Paldean Blaze Breed") {
+            return ["Fighting", "Fire"];
+        }
+        if (this.GetName() === "Tauros" && form === "Paldean Aqua Breed") {
+            return ["Fighting", "Water"];
+        }
+
         if ($types.find("table").length == 0) {
             return ExtractTypeNames($types.find("img"));
         }
@@ -247,17 +282,19 @@ class PokeInfoParser extends PokeParser {
     GetAbilitiesForForm($abilities, form) {
 
         const specialCases = [
-            { Name: "Darmanitan", FormIncludes: "Zen Mode", Result: ["Zen Mode", null, null] },
-            { Name: "Zygarde", FormIncludes: "Complete Forme", Result: ["Power Construct"] },
-            { Name: "Meowstic", FormIncludes: "Female", Result: ["Keen Eye", "Infiltrator", "Competitive"] },
-            { Name: "Meowstic", FormIncludes: "Male", Result: ["Keen Eye", "Infiltrator", "Prankster"] },
-            { Name: "Basculin", FormIncludes: "Red", Result: ["Reckless", "Adaptability", "Mold Breaker"] },
-            { Name: "Basculin", FormIncludes: "Blue", Result: ["Rock Head", "Adaptability", "Mold Breaker"] },
-            { Name: "Basculin", FormIncludes: "White", Result: ["Rattled", "Adaptability", "Mold Breaker"] },
-            { Name: "Rockruff", FormIncludes: "Own Tempo", Result: ["Own Tempo", null, null] },
-            { Name: "Greninja", FormIncludes: "Battle Bond", Result: ["Battle Bond", null, null] },
-            { Name: "Gengar", FormIncludes: "Normal", Result: ["Cursed Body", "Levitate", null] },
-            { Name: "Gengar", FormIncludes: "Gigantamax", Result: ["Cursed Body", "Levitate", null] },
+            {Name: "Darmanitan", FormIncludes: "Zen Mode", Result: ["Zen Mode", null, null]},
+            {Name: "Zygarde", FormIncludes: "Complete Forme", Result: ["Power Construct"]},
+            {Name: "Meowstic", FormIncludes: "Female", Result: ["Keen Eye", "Infiltrator", "Competitive"]},
+            {Name: "Meowstic", FormIncludes: "Male", Result: ["Keen Eye", "Infiltrator", "Prankster"]},
+            {Name: "Basculin", FormIncludes: "Red", Result: ["Reckless", "Adaptability", "Mold Breaker"]},
+            {Name: "Basculin", FormIncludes: "Blue", Result: ["Rock Head", "Adaptability", "Mold Breaker"]},
+            {Name: "Basculin", FormIncludes: "White", Result: ["Rattled", "Adaptability", "Mold Breaker"]},
+            {Name: "Rockruff", FormIncludes: "Own Tempo", Result: ["Own Tempo", null, null]},
+            {Name: "Greninja", FormIncludes: "Battle Bond", Result: ["Battle Bond", null, null]},
+            {Name: "Gengar", FormIncludes: "Normal", Result: ["Cursed Body", "Levitate", null]},
+            {Name: "Gengar", FormIncludes: "Gigantamax", Result: ["Cursed Body", "Levitate", null]},
+            {Name: "Oinkologne", FormIncludes: "Male", Result: ["Lingering Aroma", "Gluttony", "Thick Fat"]},
+            {Name: "Oinkologne", FormIncludes: "Female", Result: ["Aroma Veil", "Gluttony", "Thick Fat"]},
         ];
 
         let specialCase = specialCases.find(sc => sc.Name == this.GetName() && form.includes(sc.FormIncludes))
@@ -347,7 +384,7 @@ class MegaInfoParser extends PokeInfoParser {
         return this.GetForms().some(this.IsMegaForm);
     }
 
-    GetPokemonData() {
+    GetPokemonMegaInfoData() {
 
         if (!this.PageHasMegaForm()) {
             return null;
@@ -409,12 +446,12 @@ class MegaInfoParser extends PokeInfoParser {
 
 function PatchPokemonFormEntry(baseEntry, patchEntry) {
     patchEntry.Forms.forEach(patchForm => {
-        let baseForm = baseEntry.Forms.find(f => f.FormName == patchForm.FormName);
+        let baseForm = baseEntry.Forms.find(f => f.FormName === patchForm.FormName);
         if (!baseForm) {
             baseForm = {};
             baseEntry.Forms.push(baseForm);
         } else {
-            for (var prop in baseForm) {
+            for (const prop in baseForm) {
                 delete baseForm[prop];
             }
         }
@@ -463,18 +500,27 @@ function SuperFormComparer(a, b) {
 //////////////////
 
 const parser = new PokeInfoParser();
-let paths = Object.values(pokemonGenIndex).map(array => {
-    //hacky patch to get the gen7 page instead for select pokemon
-    let path = Object.values(array[array.length - 1])[0];
-    if (path.match(/rattata|raticate|geodude|graveler|golem|grimer|muk/)) {
-        path = array.find(v => Object.keys(v).includes("7"))["7"];
+let paths = Object.values(pokemonGenIndex).map(indexList => {
+
+    indexList.sort((a, b) => b.Gen - a.Gen);
+    /** @type {Record<string, { Gen: number, Path: string, Forms: string[]}>} */
+    const matchedFormsMap = {};
+
+    for (const index of indexList) {
+        // note which forms are found in which gen
+        for (const form of index.Forms) {
+            const prev = matchedFormsMap[form];
+            if ((!prev && (form !== "Normal" || Object.values(matchedFormsMap).length === 0)) || (form !== "Normal" && !prev.Forms.includes(form))) {
+                matchedFormsMap[form] = index;
+            }
+        }
     }
 
-    return path;
+    const result = Object.values(matchedFormsMap)
+        .filter((value, index, array) => array.indexOf(value) === index);
 
-    //TODO: Dexit proof this by figuring what exact pages we need to read to get info for the pokemon's forms
+    return result.map(r => inputPath + r.Path);
 });
-// console.log(paths);
 
 console.log("PARSING POKEMON PAGES");
 
@@ -482,41 +528,54 @@ let bar = new cliProgress.SingleBar({
     format: `{bar} {percentage}% | ETA: {eta}s | {value}/{total} | {current}`
 }, cliProgress.Presets.shades_classic);
 
-bar.start(paths.length, 0, { current: "" });
+bar.start(paths.length, 0, {current: ""});
 
-let infoOutput = [];
+/** @type {Map<number, ReturnType<PokeInfoParser['GetPokemonInfoData']>>} */
+let infoMap = new Map();
 
 //DEBUG
 //paths = paths.filter((p, i) => (i + 1) % 100 == 0);
 //paths = paths.filter((p, i) => i == 36 || i == 37 || i == 554 || i == 645);
 //paths = paths.filter((p, i) => i <= 50);
 
-for (let path of paths) {
+for (const pathList of paths) {
 
-    if (!fs.existsSync(path))
-        console.error(`Path: ${path} doesn't exist`);
+    for (const path of pathList) {
+        if (!fs.existsSync(path))
+            console.error(`Path: ${path} doesn't exist`);
 
-    try {
-        parser.LoadPage(path);
-        infoOutput.push(parser.GetPokemonData());
-    } catch (e) {
-        console.error(`\n\nError on parsing file ${path}`);
-        throw e;
+        try {
+            parser.LoadPage(path);
+            const data = parser.GetPokemonInfoData();
+            const existing = infoMap.get(data.DexNum);
+            if (!existing) {
+                infoMap.set(data.DexNum, data);
+            } else {
+                const missingForms = data.Forms.filter(f => !existing.Forms.some(ef => ef.FormName === f.FormName));
+                existing.Forms.push(
+                    ...missingForms
+                );
+                console.log(`\nAdded missing form(s): [${missingForms.map(f => f.FormName).join(", ")}] to ${existing.Name}`)
+            }
+        } catch (e) {
+            console.error(`\n\nError on parsing file ${path}`);
+            throw e;
+        }
     }
-    bar.increment(1, { current: `${parser.GetName()} - ${parser.GetDexNum()}` });
+    bar.increment(1, {current: `${parser.GetName()} - ${parser.GetDexNum()}`});
 }
-
 bar.stop();
+
+/** @type {ReturnType<PokeInfoParser['GetPokemonInfoData']>[]} */
+let infoOutput = Array.from(infoMap.values());
 
 //Parse Mega Forms
 
 let megaFormsPatch = [];
 const megaFormParser = new MegaInfoParser();
-
-paths = Object.values(pokemonGenIndex)
-    .map(indexArray => indexArray.find(entry => entry["7"] !== undefined))
-    .filter(entry => entry !== undefined)
-    .map(entry => entry["7"]);
+const megaPaths = Object.values(pokemonGenIndex)
+    .map(indexList => indexList.find(entry => entry.Gen === 7)?.Path)
+    .filter(path => !!path).map(p => inputPath + p);
 
 //DEBUG
 //paths = paths.filter((p, i) => i <= 50);
@@ -525,9 +584,9 @@ console.log("PARSING GENERATION 7 FOR MEGA FORMS");
 bar = new cliProgress.SingleBar({
     format: `{bar} {percentage}% | ETA: {eta}s | {value}/{total} | {current}`
 }, cliProgress.Presets.shades_classic);
-bar.start(paths.length, 0, { current: "" });
+bar.start(megaPaths.length, 0, {current: ""});
 
-for (let path of paths) {
+for (let path of megaPaths) {
 
     if (!fs.existsSync(path)) {
         console.error(`Path: ${path} doesn't exist`);
@@ -536,7 +595,7 @@ for (let path of paths) {
 
     try {
         megaFormParser.LoadPage(path);
-        let data = megaFormParser.GetPokemonData();
+        const data = megaFormParser.GetPokemonMegaInfoData();
         if (data !== null) {
             megaFormsPatch.push(data);
         }
@@ -545,7 +604,7 @@ for (let path of paths) {
         throw e;
     }
 
-    bar.increment(1, { current: `${megaFormParser.GetName()} - ${megaFormParser.GetDexNum()}` });
+    bar.increment(1, {current: `${megaFormParser.GetName()} - ${megaFormParser.GetDexNum()}`});
 }
 
 bar.stop();
@@ -595,11 +654,11 @@ fizzyDexCustom.forEach(customEntry => {
 
         // console.log(formPatch);
 
-        PatchPokemonFormEntry(baseEntry, { DexNum: dexNum, Forms: [formPatch] });
+        PatchPokemonFormEntry(baseEntry, {DexNum: dexNum, Forms: [formPatch]});
 
         const ARRAY_PROPS_TO_COPY = [
-            { Prop: "EvolutionChain", Target: "EvolutionChains" },
-            { Prop: "FormChange", Target: "FormChanges" },
+            {Prop: "EvolutionChain", Target: "EvolutionChains"},
+            {Prop: "FormChange", Target: "FormChanges"},
         ];
 
         ARRAY_PROPS_TO_COPY.forEach(item => {
@@ -621,7 +680,7 @@ console.log("CHECKING DATA AGAINST LAST VERSION OF POKEMON LIST");
 const oldPokemonList = require("../old/pokemonList.old.json") ?? require("../output/pokemonList.json");
 
 if (oldPokemonList) {
-    const { diff } = require("just-diff");
+    const {diff} = require("just-diff");
 
     for (let entry of infoOutput) {
 
@@ -648,7 +707,7 @@ if (oldPokemonList) {
             ...entry,
             Forms: forms
         }
-        
+
         oldEntry.Forms.sort(sortForms)
 
         let diffs = diff(oldEntry, tempEntry);
