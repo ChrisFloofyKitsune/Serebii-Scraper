@@ -427,6 +427,12 @@
       "Name": "Primeape",
       "DexNum": 57,
       "Form": "Normal"
+    },
+    "Stage3Method": "Learn Rage Fist",
+    "Stage3": {
+      "Name": "Annihilape",
+      "DexNum": 979,
+      "Form": "Normal"
     }
   },
   {

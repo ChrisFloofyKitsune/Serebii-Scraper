@@ -2334,7 +2334,10 @@
                 "Stage1Form": "Normal",
                 "Stage2Method": "Level 28",
                 "Stage2DexNum": 57,
-                "Stage2Form": "Normal"
+                "Stage2Form": "Normal",
+                "Stage3Method": "Learn Rage Fist",
+                "Stage3DexNum": 979,
+                "Stage3Form": "Normal"
             }
         ]
     },
@@ -2363,7 +2366,10 @@
                 "Stage1Form": "Normal",
                 "Stage2Method": "Level 28",
                 "Stage2DexNum": 57,
-                "Stage2Form": "Normal"
+                "Stage2Form": "Normal",
+                "Stage3Method": "Learn Rage Fist",
+                "Stage3DexNum": 979,
+                "Stage3Form": "Normal"
             }
         ]
     },
@@ -33697,6 +33703,18 @@
         "GenderRatioF": 50,
         "EggGroups": [
             "Field"
+        ],
+        "EvolutionChains": [
+            {
+                "Stage1DexNum": 56,
+                "Stage1Form": "Normal",
+                "Stage2Method": "Level 28",
+                "Stage2DexNum": 57,
+                "Stage2Form": "Normal",
+                "Stage3Method": "Learn Rage Fist",
+                "Stage3DexNum": 979,
+                "Stage3Form": "Normal"
+            }
         ]
     },
     {
