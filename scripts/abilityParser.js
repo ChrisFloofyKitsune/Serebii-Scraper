@@ -47,7 +47,7 @@ async function parseFile(pathFragment) {
 
     /** @type {AbilityEntry} */
     const entry = {
-        Name: $table.find(rowAfterHeader('Name')).text(),
+        Name: $table.find(rowAfterHeader('Name')).first().text(),
         GameText: $table.find(rowAfterHeader(`Game's Text`)).text()
     }
 

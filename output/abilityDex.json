@@ -133,7 +133,7 @@
         "Link": "https://www.serebii.net/abilitydex/blaze.shtml"
     },
     {
-        "Name": "Bulletproof\n\t\tAcid Spray\n\t\t",
+        "Name": "Bulletproof",
         "GameText": "Protects the Pokémon from some ball and bomb moves.",
         "Link": "https://www.serebii.net/abilitydex/bulletproof.shtml"
     },
@@ -247,7 +247,7 @@
         "Link": "https://www.serebii.net/abilitydex/damp.shtml"
     },
     {
-        "Name": "Dancer\n\t\tAqua Step\n\t\t",
+        "Name": "Dancer",
         "GameText": "When another Pokémon uses a dance move, it can use a dance move following it regardless of its Speed.",
         "Link": "https://www.serebii.net/abilitydex/dancer.shtml"
     },
@@ -662,7 +662,7 @@
         "Link": "https://www.serebii.net/abilitydex/ironbarbs.shtml"
     },
     {
-        "Name": "Iron Fist\n\t\tBullet Punch\n\t\t",
+        "Name": "Iron Fist",
         "GameText": "Powers up punching moves.",
         "EffectDetail": "The power of punching moves is increased by 20%.",
         "Link": "https://www.serebii.net/abilitydex/ironfist.shtml"
@@ -744,13 +744,13 @@
         "Link": "https://www.serebii.net/abilitydex/longreach.shtml"
     },
     {
-        "Name": "Magic Bounce\n\t\tAttract\n\t\t",
+        "Name": "Magic Bounce",
         "GameText": "Reflects status moves, instead of getting hit by them.",
         "EffectDetail": "Reflects non-attacking moves used on the Pokémon back to the attacking Pokémon",
         "Link": "https://www.serebii.net/abilitydex/magicbounce.shtml"
     },
     {
-        "Name": "Magic Guard\n\t\tBelly Drum\n\t\t",
+        "Name": "Magic Guard",
         "GameText": "The Pokémon only takes damage from attacks.",
         "EffectDetail": "Prevents all no damage except from direct-attack moves, excluding damage self inflicted from Substitute, Belly Drum, Curse & Pain Split.",
         "Link": "https://www.serebii.net/abilitydex/magicguard.shtml"
@@ -781,7 +781,7 @@
         "Link": "https://www.serebii.net/abilitydex/marvelscale.shtml"
     },
     {
-        "Name": "Mega Launcher\n\t\tAura Sphere\n\t\t",
+        "Name": "Mega Launcher",
         "GameText": "Powers up aura and pulse moves.",
         "EffectDetail": "Increases the power of Aura and Pulse moves by 50%",
         "Link": "https://www.serebii.net/abilitydex/megalauncher.shtml"
@@ -1240,7 +1240,7 @@
         "Link": "https://www.serebii.net/abilitydex/shadowtag.shtml"
     },
     {
-        "Name": "Sharpness\n\t\tAerial Ace\n\t\t",
+        "Name": "Sharpness",
         "GameText": "Powers up slicing moves.",
         "EffectDetail": "Increases the power of Slicing moves used by this Pokémon by 50%",
         "Link": "https://www.serebii.net/abilitydex/sharpness.shtml"
@@ -1252,7 +1252,7 @@
         "Link": "https://www.serebii.net/abilitydex/shedskin.shtml"
     },
     {
-        "Name": "Sheer ForceAcid",
+        "Name": "Sheer Force",
         "GameText": "Removes additional effects to increase the power of moves when attacking.",
         "EffectDetail": "Moves with a secondary effect are increased in power by 30% but lose their secondary effect",
         "Link": "https://www.serebii.net/abilitydex/sheerforce.shtml"
@@ -1336,7 +1336,7 @@
         "Link": "https://www.serebii.net/abilitydex/soul-heart.shtml"
     },
     {
-        "Name": "Soundproof\n\t\tBoomburst\n\t\t",
+        "Name": "Soundproof",
         "GameText": "Soundproofing of the Pokémon itself gives full  immunity to all sound-based moves.",
         "EffectDetail": "Unaffected by sound moves. If this Pokémon switches out with Baton Pass, Perish Song against the switched out will not be nullified.",
         "Link": "https://www.serebii.net/abilitydex/soundproof.shtml"
@@ -1427,7 +1427,7 @@
         "Link": "https://www.serebii.net/abilitydex/stormdrain.shtml"
     },
     {
-        "Name": "Strong Jaw\n\t\tBite\n\t\t",
+        "Name": "Strong Jaw",
         "GameText": "The Pokémon's strong jaw boosts the power of its biting moves.",
         "EffectDetail": "Increases the power of biting moves by 50%",
         "Link": "https://www.serebii.net/abilitydex/strongjaw.shtml"
@@ -1584,7 +1584,7 @@
         "Link": "https://www.serebii.net/abilitydex/transistor.shtml"
     },
     {
-        "Name": "Triage\n\t\tAbsorb\n\t\t",
+        "Name": "Triage",
         "GameText": "Gives priority to a healing move.",
         "EffectDetail": "Healing moves have +3 Priority when used by this Pokémon.",
         "Link": "https://www.serebii.net/abilitydex/triage.shtml"
@@ -1702,12 +1702,12 @@
         "Link": "https://www.serebii.net/abilitydex/wimpout.shtml"
     },
     {
-        "Name": "Wind Power\n\t\tAir Cutter\n\t\t",
+        "Name": "Wind Power",
         "GameText": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses.",
         "Link": "https://www.serebii.net/abilitydex/windpower.shtml"
     },
     {
-        "Name": "Wind Rider\n\t\tAir Cutter\n\t\t",
+        "Name": "Wind Rider",
         "GameText": "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves.",
         "Link": "https://www.serebii.net/abilitydex/windrider.shtml"
     },
