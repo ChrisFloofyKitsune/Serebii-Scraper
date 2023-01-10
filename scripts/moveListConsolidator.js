@@ -52,7 +52,7 @@ function CheckAndFixNames(entryData, pokemonData) {
 
     for (let move of movesToCheck) {
         if (!move.Forms.some(f => pokemonDataMoveSetsToCheck.includes(f)))
-            console.log(`Move Form Error for ${entryData.Name}. Did not find any of thes forms ${move.Forms.join(", ")} for move ${move.Name} with forms in the pokemon's unique MoveSet list.`);
+            console.log(`Move Form Error for ${entryData.Name}. Did not find any of these forms ${move.Forms.join(", ")} for move ${move.Name} with forms in the pokemon's unique MoveSet list.`);
     }
 }
 

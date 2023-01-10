@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const { MoveNameFix } = require("../src/util.js");
-const { PokeParser } = require("../src/PokeParser.js");
+const {MoveNameFix} = require("../src/util.js");
+const {PokeParser} = require("../src/PokeParser.js");
 
 const inputPath = path.resolve(__dirname, "../rawHTML");
 const outputPath = path.resolve(__dirname, "../genMoveLists");
@@ -48,8 +48,8 @@ class PokeMoveParser extends PokeParser {
             let $table = this.$(table);
             let headerText = $table.find('td:contains("Level Up")').text();
 
-            headerText = headerText.replace(/.*?Level Up - /,"");
-            headerText = headerText.replace(/Ultra/g,"");
+            headerText = headerText.replace(/.*?Level Up - /, "");
+            headerText = headerText.replace(/Ultra/g, "");
 
             if (headerText === "Shadow Rid")
                 headerText = "Shadow Rider";
@@ -115,6 +115,29 @@ class PokeMoveParser extends PokeParser {
 
         });
 
+        const moveReminderMoves = this.GetNonLevelUpMoves(this.$('table.dextable').has('td:contains("Move Reminder")'));
+        /** @type {Map<string, {Name: string, Level: "—"}[]>} */
+        const formMoveMap = moveReminderMoves.reduce(
+            /** @param formMap {Map<string, {Name: string, Level: "—"}[]>}
+             @param entry {any}*/
+            (formMap, entry) => {
+                for (const form of entry.Forms) {
+                    const formList = formMap.get(form) ?? [];
+                    formList.push({
+                        Name: entry.Name,
+                        Level: "—"
+                    })
+                    formMap.set(form, formList);
+                }
+                return formMap;
+            }, new Map());
+
+        for (const [Form, LevelUpMoves] of formMoveMap.entries()) {
+            result.push({
+                Form, LevelUpMoves
+            });
+        }
+
         return result;
     }
 
@@ -161,7 +184,7 @@ class PokeMoveParser extends PokeParser {
                 }).get().map(f => this.FormNameFix(f));
 
                 //console.log(forms);
-                
+
                 // No specific form info found, assume that the move belongs to ALL the pokemon's forms!
                 if (forms.length === 0) {
                     // Unless it's Gen8, then we exclude the Hisuian form if we're not on the PLA listing
@@ -183,8 +206,7 @@ class PokeMoveParser extends PokeParser {
                         Name: name,
                         Forms: forms
                     });
-                }
-                else {
+                } else {
                     existing.Forms.push(...forms.filter(f => !existing.Forms.includes(f)));
                 }
             })
@@ -295,8 +317,7 @@ class Gen3MoveParser extends PokeMoveParser {
                         Name: name,
                         Forms: forms
                     });
-                }
-                else {
+                } else {
                     existing.Forms.push(...forms.filter(f => !existing.Forms.includes(f)));
                 }
             })
@@ -343,7 +364,7 @@ const GenParsers = [
     // { index: 6, parser: defaultParser },
     // { index: 7, parser: defaultParser },
     // { index: 8, parser: defaultParser },
-    { index: 9, parser: defaultParser },
+    {index: 9, parser: defaultParser},
 ];
 
 const generationPaths = [
@@ -355,7 +376,7 @@ const generationPaths = [
     // { index: 6, path: "generation6" },
     // { index: 7, path: "generation7" },
     // { index: 8, path: "generation8" },
-    { index: 9, path: "generation9" },
+    {index: 9, path: "generation9"},
 ];
 
 if (!fs.existsSync(outputPath))
@@ -378,7 +399,7 @@ for (let genPath of generationPaths) {
 
     //files = files.slice(200,201);
 
-    bar.start(files.length, 0, { current: " - " });
+    bar.start(files.length, 0, {current: " - "});
 
     const pokemonData = files.map(file => path.join(folderPath, file))
         .filter(filePath => fs.lstatSync(filePath).isFile())

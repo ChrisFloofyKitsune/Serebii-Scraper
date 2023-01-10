@@ -16889,6 +16889,15 @@
             "Level": "91"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [],
@@ -20698,6 +20707,27 @@
           {
             "Name": "Flare Blitz",
             "Level": "62"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Night Slash",
+            "Level": "—"
+          },
+          {
+            "Name": "Shadow Sneak",
+            "Level": "—"
+          },
+          {
+            "Name": "Quick Guard",
+            "Level": "—"
+          },
+          {
+            "Name": "Solar Blade",
+            "Level": "—"
           }
         ]
       }
@@ -51853,6 +51883,15 @@
             "Level": "91"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [],
@@ -78603,6 +78642,15 @@
             "Level": "91"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Electric Terrain",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [],
@@ -78892,6 +78940,15 @@
           {
             "Name": "Focus Punch",
             "Level": "91"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Electric Terrain",
+            "Level": "—"
           }
         ]
       }
@@ -79560,6 +79617,15 @@
             "Level": "91"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Electric Terrain",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [],
@@ -79885,6 +79951,15 @@
           {
             "Name": "Giga Impact",
             "Level": "91"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Electric Terrain",
+            "Level": "—"
           }
         ]
       }
@@ -80647,6 +80722,15 @@
           {
             "Name": "Spirit Break",
             "Level": "91"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Electric Terrain",
+            "Level": "—"
           }
         ]
       }
@@ -98064,6 +98148,19 @@
           {
             "Name": "Leaf Storm",
             "Level": "64"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Double Team",
+            "Level": "—"
+          },
+          {
+            "Name": "Trick",
+            "Level": "—"
           }
         ]
       }
@@ -118426,6 +118523,15 @@
             "Level": "64"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Counter",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [
@@ -120786,6 +120892,19 @@
           {
             "Name": "Psychic",
             "Level": "50"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Safeguard",
+            "Level": "—"
+          },
+          {
+            "Name": "Psych Up",
+            "Level": "—"
           }
         ]
       }
@@ -124362,6 +124481,27 @@
           {
             "Name": "Double-Edge",
             "Level": "91"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
+          },
+          {
+            "Name": "Jaw Lock",
+            "Level": "—"
+          },
+          {
+            "Name": "Breaking Swipe",
+            "Level": "—"
+          },
+          {
+            "Name": "Scale Shot",
+            "Level": "—"
           }
         ]
       }
@@ -129694,6 +129834,15 @@
             "Level": "91"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [],
@@ -131516,6 +131665,15 @@
           {
             "Name": "Boomburst",
             "Level": "91"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
           }
         ]
       }
@@ -135366,6 +135524,15 @@
             "Level": "64"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sing",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [
@@ -138559,6 +138726,15 @@
             "Level": "91"
           }
         ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
+          }
+        ]
       }
     ],
     "EggMoves": [],
@@ -138958,6 +139134,15 @@
           {
             "Name": "Heal Pulse",
             "Level": "45"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Future Sight",
+            "Level": "—"
           }
         ]
       }
@@ -139638,6 +139823,36 @@
           {
             "Name": "Heal Pulse",
             "Level": "45"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Future Sight",
+            "Level": "—"
+          },
+          {
+            "Name": "Chilly Reception",
+            "Level": "—"
+          }
+        ]
+      },
+      {
+        "Form": "Galarian",
+        "LevelUpMoves": [
+          {
+            "Name": "Future Sight",
+            "Level": "—"
+          },
+          {
+            "Name": "Chilly Reception",
+            "Level": "—"
+          },
+          {
+            "Name": "Toxic",
+            "Level": "—"
           }
         ]
       }
@@ -169697,6 +169912,59 @@
           {
             "Name": "Close Combat",
             "Level": "50"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Double Kick",
+            "Level": "—"
+          },
+          {
+            "Name": "Disable",
+            "Level": "—"
+          },
+          {
+            "Name": "Counter",
+            "Level": "—"
+          },
+          {
+            "Name": "Fury Swipes",
+            "Level": "—"
+          },
+          {
+            "Name": "Curse",
+            "Level": "—"
+          },
+          {
+            "Name": "Flail",
+            "Level": "—"
+          },
+          {
+            "Name": "Belly Drum",
+            "Level": "—"
+          },
+          {
+            "Name": "Feint",
+            "Level": "—"
+          },
+          {
+            "Name": "Night Slash",
+            "Level": "—"
+          },
+          {
+            "Name": "Double Hit",
+            "Level": "—"
+          },
+          {
+            "Name": "Quick Guard",
+            "Level": "—"
+          },
+          {
+            "Name": "Final Gambit",
+            "Level": "—"
           }
         ]
       }
