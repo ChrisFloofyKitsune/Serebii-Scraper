@@ -3,6 +3,7 @@ const path = require("path");
 const cliProgress = require("cli-progress");
 const {MoveNameFix} = require("../src/util.js");
 const {PokeParser} = require("../src/PokeParser.js");
+const genIndex = require("../data/pokemonGenIndex.json");
 
 const inputPath = path.resolve(__dirname, "../rawHTML");
 const outputPath = path.resolve(__dirname, "../genMoveLists");
@@ -168,8 +169,17 @@ class PokeMoveParser extends PokeParser {
         let results = [];
 
         $tables.each((i, e) => {
-            let $e = this.$(e);
-            $e.find('tr~tr:nth-child(2n-1)').each((i, tr) => {
+            let $table = this.$(e);
+            let bdspSpecialFormHandling = false;
+
+            if (this.generation === 8) {
+                if ($table.find('tr:first-child .fooevo:contains("BDSP")').length > 0) {
+                    // BDSP has its own labeled TM sections
+                    bdspSpecialFormHandling = true;
+                }
+            }
+
+            $table.find('tr~tr:nth-child(2n-1)').each((i, tr) => {
                 let $tr = this.$(tr);
 
                 let name = MoveNameFix($tr.find(`td:nth-child(${nameCol})`).first().text());
@@ -183,19 +193,38 @@ class PokeMoveParser extends PokeParser {
                     return form;
                 }).get().map(f => this.FormNameFix(f));
 
+                if (forms.length > 0 && this.generation === 8) {
+                    if ($table.find('tr:first-child .fooevo:contains("Egg")').length > 0) {
+                        // BDSP has egg moves thrown in with no images at the end of the Egg Moves table.
+                        bdspSpecialFormHandling = true;
+                    }
+                }
+
                 //console.log(forms);
 
                 // No specific form info found, assume that the move belongs to ALL the pokemon's forms!
                 if (forms.length === 0) {
-                    // Unless it's Gen8, then we exclude the Hisuian form if we're not on the PLA listing
+
                     if (this.generation === 8) {
-                        let subpageId = $e.parent('div[id*="swsh"], div[id*="legends"]').attr('id');
-                        if (subpageId && !subpageId.includes('legends')) {
-                            forms = this.GetForms().filter(f => f !== 'Hisuian');
+                        if (bdspSpecialFormHandling) {
+                            // reee serebii why are you like this with BDSP stuff!
+                            // anyhow, get forms that only existed in Gen 4
+                            const gen4IndexEntry = genIndex[this.GetDexNum().toString()].find(genEntry => genEntry.Gen === 4);
+                            if (!gen4IndexEntry) {
+                                console.error(`Could not find gen4 entry for ${this.GetName()}`);
+                            }
+                            forms = gen4IndexEntry.Forms;
                         } else {
-                            forms = this.GetForms();
+                            // Also unless it's Gen8, then we exclude the Hisuian form if we're not on the PLA listing
+                            let subpageId = $table.parent('div[id*="swsh"], div[id*="legends"]').attr('id');
+                            if (subpageId && !subpageId.includes('legends')) {
+                                forms = this.GetForms().filter(f => f !== 'Hisuian');
+                            }
                         }
-                    } else {
+                    }
+
+                    if (forms.length === 0) {
+                        // if no special cases kicked in, just assume all forms
                         forms = this.GetForms();
                     }
                 }
@@ -356,14 +385,14 @@ class Gen3MoveParser extends PokeMoveParser {
 const defaultParser = new PokeMoveParser();
 
 const GenParsers = [
-    // { index: 1, parser: defaultParser },
-    // { index: 2, parser: defaultParser },
-    // { index: 3, parser: new Gen3MoveParser() },
-    // { index: 4, parser: defaultParser },
-    // { index: 5, parser: defaultParser },
-    // { index: 6, parser: defaultParser },
-    // { index: 7, parser: defaultParser },
-    // { index: 8, parser: defaultParser },
+    {index: 1, parser: defaultParser},
+    {index: 2, parser: defaultParser},
+    {index: 3, parser: new Gen3MoveParser()},
+    {index: 4, parser: defaultParser},
+    {index: 5, parser: defaultParser},
+    {index: 6, parser: defaultParser},
+    {index: 7, parser: defaultParser},
+    {index: 8, parser: defaultParser},
     {index: 9, parser: defaultParser},
 ];
 
@@ -375,7 +404,7 @@ const generationPaths = [
     // { index: 5, path: "generation5" },
     // { index: 6, path: "generation6" },
     // { index: 7, path: "generation7" },
-    // { index: 8, path: "generation8" },
+    {index: 8, path: "generation8"},
     {index: 9, path: "generation9"},
 ];
 
