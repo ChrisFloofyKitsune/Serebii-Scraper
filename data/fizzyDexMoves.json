@@ -60,6 +60,13 @@
         "ZMovePowerOrEffect": "180"
     },
     {
+        "Name": "Downy Layer",
+        "Type": "Ice",
+        "Category": "Status",
+        "BattleEffect": "The user coats itself or an ally in a thick layer of down, granting them resistance to Ice and Fire attacks for three rounds.",
+        "ZMovePowerOrEffect": "Raises the Defense of all allies by 1 stage after use."
+    },
+    {
         "Name": "Dynamic Duo",
         "Type": "Normal",
         "Category": "Status",
