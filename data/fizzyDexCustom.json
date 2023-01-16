@@ -9,8 +9,8 @@
     "SecondaryType": "Poison",
     "GenderRatioM": "88.14",
     "GenderRatioF": "11.86",
-    "HumpySpriteCode": "https://i.imgur.com/9t1Jv28.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/zAjpWTi.gif",
+    "HumpySpriteURL": "https://i.imgur.com/9t1Jv28.gif",
+    "HumpyShinyURL": "https://i.imgur.com/zAjpWTi.gif",
     "ArtworkURL": "https://i.imgur.com/vzB96zv.png",
     "EvolutionChain": {
         "Stage1DexNum": "1",
@@ -46,8 +46,8 @@
     "SecondaryType": "Ghost",
     "GenderRatioM": "88.14",
     "GenderRatioF": "11.86",
-    "HumpySpriteCode": "https://i.imgur.com/PhRNPCA.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/bOSoVYC.gif",
+    "HumpySpriteURL": "https://i.imgur.com/PhRNPCA.gif",
+    "HumpyShinyURL": "https://i.imgur.com/bOSoVYC.gif",
     "ArtworkURL": "https://i.imgur.com/WZ2qhgd.png",
     "EvolutionChain": {
         "Stage1DexNum": "1",
@@ -83,8 +83,8 @@
     "SecondaryType": "Ghost",
     "GenderRatioM": "88.14",
     "GenderRatioF": "11.86",
-    "HumpySpriteCode": "https://i.imgur.com/H2SqSm8.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/JxIomll.gif",
+    "HumpySpriteURL": "https://i.imgur.com/H2SqSm8.gif",
+    "HumpyShinyURL": "https://i.imgur.com/JxIomll.gif",
     "ArtworkURL": "https://i.imgur.com/czBvSEW.png",
     "EvolutionChain": {
         "Stage1DexNum": "1",
@@ -121,8 +121,8 @@
     "SecondaryType": "Ghost",
     "GenderRatioM": "50.2",
     "GenderRatioF": "49.8",
-    "HumpySpriteCode": "https://i.imgur.com/J0f2SN1.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/iVEaQ1R.gif",
+    "HumpySpriteURL": "https://i.imgur.com/J0f2SN1.gif",
+    "HumpyShinyURL": "https://i.imgur.com/iVEaQ1R.gif",
     "EvolutionChain": {
         "Stage1DexNum": "568",
         "Stage1Form": "Fizzytopian",
@@ -155,8 +155,8 @@
     "SecondaryType": "Ghost",
     "GenderRatioM": "50.2",
     "GenderRatioF": "49.8",
-    "HumpySpriteCode": "https://i.imgur.com/OgPktTQ.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/N2jQNPq.gif",
+    "HumpySpriteURL": "https://i.imgur.com/OgPktTQ.gif",
+    "HumpyShinyURL": "https://i.imgur.com/N2jQNPq.gif",
     "EvolutionChain": {
         "Stage1DexNum": "568",
         "Stage1Form": "Fizzytopian",
@@ -188,8 +188,8 @@
     "SecondaryType": "Poison",
     "GenderRatioM": "50.2",
     "GenderRatioF": "49.8",
-    "HumpySpriteCode": "https://i.imgur.com/sN3LZww.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/leBbPmf.gif",
+    "HumpySpriteURL": "https://i.imgur.com/sN3LZww.gif",
+    "HumpyShinyURL": "https://i.imgur.com/leBbPmf.gif",
     "LevelUpMoves": [
         {"Name": "Confuse Ray", "Level": 1}, {"Name": "Ancient Power", "Level": 1}, {"Name": "Astonish", "Level": 1}, {"Name": "Belch", "Level": 1}, {"Name": "Lick", "Level": 1}, {"Name": "Scratch", "Level": 1}, {"Name": "Tail Whip", "Level": 1}, {"Name": "Thief", "Level": 1}, {"Name": "Covet", "Level": 4}, {"Name": "Feint Attack", "Level": 7}, {"Name": "Shadow Sneak", "Level": 7}, {"Name": "Feint", "Level": 10}, {"Name": "Fury Swipes", "Level": 10}, {"Name": "Poison Tail", "Level": 15}, {"Name": "Screech", "Level": 24}, {"Name": "Slash", "Level": 25}, {"Name": "Camouflage", "Level": 30}, {"Name": "Night Slash", "Level": 33}, {"Name": "Sucker Punch", "Level": 37}, {"Name": "Present", "Level": 43}
     ],
@@ -215,8 +215,8 @@
     "SecondaryType": "Normal",
     "GenderRatioM": null,
     "GenderRatioF": null,
-    "HumpySpriteCode": "https://i.imgur.com/dtacDFm.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/5ws7AGn.gif",
+    "HumpySpriteURL": "https://i.imgur.com/dtacDFm.gif",
+    "HumpyShinyURL": "https://i.imgur.com/5ws7AGn.gif",
     "LevelUpMoves": [
         {"Name": "Thunder Shock", "Level": 1}, {"Name": "Metronome", "Level": 1}, {"Name": "Follow Me", "Level": 1}, {"Name": "Sing", "Level": 1}, {"Name": "Thunder Wave", "Level": 5}, {"Name": "Flash", "Level": 10}, {"Name": "Sparkling Hymn", "Level": 15}, {"Name": "Echoed Voice", "Level": 20}, {"Name": "Spark", "Level": 25}, {"Name": "Round", "Level": 30}, {"Name": "Parabolic Charge", "Level": 35}, {"Name": "Dazzling Gleam", "Level": 40}, {"Name": "Spotlight", "Level": 45}, {"Name": "Lucky Chant", "Level": 50}, {"Name": "Perish Song", "Level": 55}, {"Name": "Wish", "Level": 60}
     ],
@@ -242,8 +242,8 @@
     "SecondaryType": "Flying",
     "GenderRatioM": "88.14",
     "GenderRatioF": "11.86",
-    "HumpySpriteCode": "https://i.imgur.com/DsFljNE.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/joxG2yu.gif",
+    "HumpySpriteURL": "https://i.imgur.com/DsFljNE.gif",
+    "HumpyShinyURL": "https://i.imgur.com/joxG2yu.gif",
     "EvolutionChain": {
         "Stage1DexNum": "722",
         "Stage1Form": "Fizzytopian",
@@ -279,8 +279,8 @@
     "SecondaryType": "Flying",
     "GenderRatioM": "88.14",
     "GenderRatioF": "11.86",
-    "HumpySpriteCode": "https://i.imgur.com/t5RQOon.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/JTsKXGh.gif",
+    "HumpySpriteURL": "https://i.imgur.com/t5RQOon.gif",
+    "HumpyShinyURL": "https://i.imgur.com/JTsKXGh.gif",
     "EvolutionChain": {
         "Stage1DexNum": "722",
         "Stage1Form": "Fizzytopian",
@@ -316,8 +316,8 @@
     "SecondaryType": "Steel",
     "GenderRatioM": "88.14",
     "GenderRatioF": "11.86",
-    "HumpySpriteCode": "https://i.imgur.com/ySulxyM.gif",
-    "ShinyHumpyCode": "https://i.imgur.com/GlibLFb.gif",
+    "HumpySpriteURL": "https://i.imgur.com/ySulxyM.gif",
+    "HumpyShinyURL": "https://i.imgur.com/GlibLFb.gif",
     "EvolutionChain": {
         "Stage1DexNum": "722",
         "Stage1Form": "Fizzytopian",
