@@ -1,675 +1,343 @@
-[
-    {
-        "Name": "Bulbasaur",
-        "Form": "Fizzytopian",
-        "DexNum": "1",
-        "Alias": "Pumpkasaur",
-        "Ability1": "Overgrow",
-        "Ability2": "Cursed Body",
-        "PrimaryType": "Grass",
-        "SecondaryType": "Poison",
-        "GenderRatioM": "88.14",
-        "GenderRatioF": "11.86",
-        "ExtraMove": "Pumpkin Bomb",
-        "HumpySpriteURL": "https://i.imgur.com/9t1Jv28.gif",
-        "HumpyShinyURL": "https://i.imgur.com/zAjpWTi.gif",
-        "ArtworkURL": "https://i.imgur.com/vzB96zv.png",
-        "EvolutionChain": {
-            "Stage1DexNum": "1",
-            "Stage1Form": "Fizzytopian",
-            "Stage2Method": "Level 16 (night)",
-            "Stage2DexNum": "2",
-            "Stage2Form": "Fizzytopian",
-            "Stage3Method": "Level 32 (night)",
-            "Stage3DexNum": "3",
-            "Stage3Form": "Fizzytopian"
-        },
-        "LevelUpMoves": [
-            {
-                "Name": "Growl",
-                "Level": 1
-            },
-            {
-                "Name": "Tackle",
-                "Level": 1
-            },
-            {
-                "Name": "Vine Whip",
-                "Level": 3
-            },
-            {
-                "Name": "Growth",
-                "Level": 6
-            },
-            {
-                "Name": "Leech Seed",
-                "Level": 7
-            },
-            {
-                "Name": "Razor Leaf",
-                "Level": 12
-            },
-            {
-                "Name": "Poison Powder",
-                "Level": 13
-            },
-            {
-                "Name": "Sleep Powder",
-                "Level": 13
-            },
-            {
-                "Name": "Take Down",
-                "Level": 15
-            },
-            {
-                "Name": "Seed Bomb",
-                "Level": 18
-            },
-            {
-                "Name": "Sweet Scent",
-                "Level": 21
-            },
-            {
-                "Name": "Double-Edge",
-                "Level": 27
-            },
-            {
-                "Name": "Moonlight",
-                "Level": 27
-            },
-            {
-                "Name": "Worry Seed",
-                "Level": 30
-            },
-            {
-                "Name": "Solar Beam",
-                "Level": 36
-            }
-        ],
-        "EggMoves": [
-            "Amnesia",
-            "Charm",
-            "Curse",
-            "Endure",
-            "Giga Drain",
-            "Grass Whistle",
-            "Grassy Terrain",
-            "Ingrain",
-            "Leaf Storm",
-            "Light Screen",
-            "Magical Leaf",
-            "Nature Power",
-            "Petal Dance",
-            "Power Whip",
-            "Razor Wind",
-            "Safeguard",
-            "Skull Bash",
-            "Sludge",
-            "Toxic",
-            "Trick-or-Treat"
-        ],
-        "TutorMoves": [
-            "Bind",
-            "Body Slam",
-            "Defense Curl",
-            "Double-Edge",
-            "Endure",
-            "Fury Cutter",
-            "Giga Drain",
-            "Grass Pledge",
-            "Grassy Glide",
-            "Headbutt",
-            "Knock Off",
-            "Mimic",
-            "Mud-Slap",
-            "Seed Bomb",
-            "Sleep Talk",
-            "Snore",
-            "String Shot",
-            "Substitute",
-            "Swagger",
-            "Swords Dance",
-            "Synthesis",
-            "Worry Seed"
-        ],
-        "MachineMoves": [
-            "Amnesia",
-            "Attract",
-            "Bide",
-            "Body Slam",
-            "Bullet Seed",
-            "Captivate",
-            "Charm",
-            "Confide",
-            "Curse",
-            "Cut",
-            "Defense Curl",
-            "Double Team",
-            "Double-Edge",
-            "Echoed Voice",
-            "Endure",
-            "Energy Ball",
-            "Facade",
-            "False Swipe",
-            "Flash",
-            "Frustration",
-            "Fury Cutter",
-            "Giga Drain",
-            "Grass Knot",
-            "Grassy Terrain",
-            "Headbutt",
-            "Helping Hand",
-            "Hidden Power",
-            "Leaf Storm",
-            "Light Screen",
-            "Magical Leaf",
-            "Mega Drain",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Nature Power",
-            "Outrage",
-            "Power Whip",
-            "Protect",
-            "Rage",
-            "Razor Wind",
-            "Reflect",
-            "Rest",
-            "Return",
-            "Rock Smash",
-            "Round",
-            "Safeguard",
-            "Secret Power",
-            "Seed Bomb",
-            "Skull Bash",
-            "Sleep Talk",
-            "Sludge Bomb",
-            "Snore",
-            "Solar Beam",
-            "Strength",
-            "Substitute",
-            "Sunny Day",
-            "Swagger",
-            "Sweet Scent",
-            "Swords Dance",
-            "Take Down",
-            "Toxic",
-            "Venoshock",
-            "Weather Ball",
-            "Work Up"
-        ]
+[{
+    "Name": "Bulbasaur",
+    "Form": "Fizzytopian",
+    "DexNum": "1",
+    "Alias": "Pumpkasaur",
+    "Ability1": "Overgrow",
+    "Ability2": "Cursed Body",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "GenderRatioM": "88.14",
+    "GenderRatioF": "11.86",
+    "HumpySpriteCode": "https://i.imgur.com/9t1Jv28.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/zAjpWTi.gif",
+    "ArtworkURL": "https://i.imgur.com/vzB96zv.png",
+    "EvolutionChain": {
+        "Stage1DexNum": "1",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 16 (night)",
+        "Stage2DexNum": "2",
+        "Stage2Form": "Fizzytopian",
+        "Stage3Method": "Level 32 (night)",
+        "Stage3DexNum": "3",
+        "Stage3Form": "Fizzytopian"
     },
-    {
-        "Name": "Ivysaur",
-        "Form": "Fizzytopian",
-        "DexNum": "2",
-        "Alias": "Squashsaur",
-        "Ability1": "Overgrow",
-        "Ability2": "Cursed Body",
-        "PrimaryType": "Grass",
-        "SecondaryType": "Ghost",
-        "GenderRatioM": "88.14",
-        "GenderRatioF": "11.86",
-        "ExtraMove": "Pumpkin Bomb",
-        "HumpySpriteURL": "https://i.imgur.com/PhRNPCA.gif",
-        "HumpyShinyURL": "https://i.imgur.com/bOSoVYC.gif",
-        "ArtworkURL": "https://i.imgur.com/WZ2qhgd.png",
-        "EvolutionChain": {
-            "Stage1DexNum": "1",
-            "Stage1Form": "Fizzytopian",
-            "Stage2Method": "Level 16 (night)",
-            "Stage2DexNum": "2",
-            "Stage2Form": "Fizzytopian",
-            "Stage3Method": "Level 32 (night)",
-            "Stage3DexNum": "3",
-            "Stage3Form": "Fizzytopian"
-        },
-        "LevelUpMoves": [
-            {
-                "Name": "Amnesia",
-                "Level": 1
-            },
-            {
-                "Name": "Growl",
-                "Level": 1
-            },
-            {
-                "Name": "Growth",
-                "Level": 1
-            },
-            {
-                "Name": "Leech Seed",
-                "Level": 1
-            },
-            {
-                "Name": "Petal Blizzard",
-                "Level": 1
-            },
-            {
-                "Name": "Petal Dance",
-                "Level": 1
-            },
-            {
-                "Name": "Power Whip",
-                "Level": 1
-            },
-            {
-                "Name": "Solar Beam",
-                "Level": 1
-            },
-            {
-                "Name": "Sweet Scent",
-                "Level": 1
-            },
-            {
-                "Name": "Tackle",
-                "Level": 1
-            },
-            {
-                "Name": "Vine Whip",
-                "Level": 1
-            },
-            {
-                "Name": "Razor Leaf",
-                "Level": 12
-            },
-            {
-                "Name": "Poison Powder",
-                "Level": 13
-            },
-            {
-                "Name": "Sleep Powder",
-                "Level": 13
-            },
-            {
-                "Name": "Take Down",
-                "Level": 15
-            },
-            {
-                "Name": "Seed Bomb",
-                "Level": 20
-            },
-            {
-                "Name": "Will-O-Wisp",
-                "Level": 23
-            },
-            {
-                "Name": "Double-Edge",
-                "Level": 31
-            },
-            {
-                "Name": "Moonlight",
-                "Level": 37
-            },
-            {
-                "Name": "Worry Seed",
-                "Level": 39
-            },
-            {
-                "Name": "Phantom Force",
-                "Level": 53
-            }
-        ],
-        "EggMoves": [
-            "Amnesia",
-            "Charm",
-            "Curse",
-            "Endure",
-            "Giga Drain",
-            "Grass Whistle",
-            "Grassy Terrain",
-            "Ingrain",
-            "Leaf Storm",
-            "Light Screen",
-            "Magical Leaf",
-            "Nature Power",
-            "Petal Dance",
-            "Power Whip",
-            "Razor Wind",
-            "Safeguard",
-            "Skull Bash",
-            "Sludge",
-            "Toxic",
-            "Trick-or-Treat"
-        ],
-        "TutorMoves": [
-            "Bind",
-            "Body Slam",
-            "Defense Curl",
-            "Double-Edge",
-            "Endure",
-            "Fury Cutter",
-            "Giga Drain",
-            "Grass Pledge",
-            "Grassy Glide",
-            "Headbutt",
-            "Helping Hand",
-            "Knock Off",
-            "Mimic",
-            "Mud-Slap",
-            "Nightmare",
-            "Outrage",
-            "Seed Bomb",
-            "Sleep Talk",
-            "Snore",
-            "String Shot",
-            "Substitute",
-            "Swagger",
-            "Swords Dance",
-            "Synthesis",
-            "Worry Seed"
-        ],
-        "MachineMoves": [
-            "Amnesia",
-            "Attract",
-            "Bide",
-            "Body Slam",
-            "Bullet Seed",
-            "Captivate",
-            "Charm",
-            "Confide",
-            "Curse",
-            "Cut",
-            "Defense Curl",
-            "Double Team",
-            "Double-Edge",
-            "Echoed Voice",
-            "Endure",
-            "Energy Ball",
-            "Facade",
-            "False Swipe",
-            "Flash",
-            "Frustration",
-            "Fury Cutter",
-            "Giga Drain",
-            "Grass Knot",
-            "Grassy Terrain",
-            "Headbutt",
-            "Helping Hand",
-            "Hex",
-            "Hidden Power",
-            "Leaf Storm",
-            "Light Screen",
-            "Magical Leaf",
-            "Mega Drain",
-            "Mimic",
-            "Mud-Slap",
-            "Natural Gift",
-            "Nature Power",
-            "Nightmare",
-            "Outrage",
-            "Phantom Force",
-            "Power Whip",
-            "Protect",
-            "Rage",
-            "Razor Wind",
-            "Reflect",
-            "Rest",
-            "Return",
-            "Rock Smash",
-            "Round",
-            "Safeguard",
-            "Secret Power",
-            "Seed Bomb",
-            "Shadow Ball",
-            "Skull Bash",
-            "Sleep Talk",
-            "Sludge Bomb",
-            "Snore",
-            "Solar Beam",
-            "Strength",
-            "Substitute",
-            "Sunny Day",
-            "Swagger",
-            "Sweet Scent",
-            "Swords Dance",
-            "Take Down",
-            "Toxic",
-            "Venoshock",
-            "Weather Ball",
-            "Will-O-Wisp",
-            "Work Up"
-        ]
+    "LevelUpMoves": [
+        {"Name": "Pumpkin Bomb", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "Vine Whip", "Level": 3}, {"Name": "Growth", "Level": 6}, {"Name": "Leech Seed", "Level": 7}, {"Name": "Razor Leaf", "Level": 12}, {"Name": "Poison Powder", "Level": 13}, {"Name": "Sleep Powder", "Level": 13}, {"Name": "Take Down", "Level": 15}, {"Name": "Seed Bomb", "Level": 18}, {"Name": "Sweet Scent", "Level": 21}, {"Name": "Double-Edge", "Level": 27}, {"Name": "Moonlight", "Level": 27}, {"Name": "Worry Seed", "Level": 30}, {"Name": "Solar Beam", "Level": 36}
+    ],
+    "EggMoves": [
+        "Amnesia", "Charm", "Curse", "Endure", "Giga Drain", "Grass Whistle", "Grassy Terrain", "Ingrain", "Leaf Storm", "Light Screen", "Magical Leaf", "Nature Power", "Petal Dance", "Power Whip", "Razor Wind", "Safeguard", "Skull Bash", "Sludge", "Toxic", "Trick-or-Treat"
+    ],
+    "TutorMoves": [
+        "Bind", "Body Slam", "Defense Curl", "Double-Edge", "Endure", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Knock Off", "Mimic", "Mud-Slap", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
+    ],
+    "MachineMoves": [
+        "Amnesia", "Attract", "Bide", "Body Slam", "Bullet Seed", "Captivate", "Charm", "Confide", "Curse", "Cut", "Defense Curl", "Double Team", "Double-Edge", "Echoed Voice", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Frustration", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Terrain", "Headbutt", "Helping Hand", "Hidden Power", "Leaf Storm", "Light Screen", "Magical Leaf", "Mega Drain", "Mimic", "Mud-Slap", "Natural Gift", "Nature Power", "Outrage", "Power Whip", "Protect", "Rage", "Razor Wind", "Reflect", "Rest", "Return", "Rock Smash", "Round", "Safeguard", "Secret Power", "Seed Bomb", "Skull Bash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Substitute", "Sunny Day", "Swagger", "Sweet Scent", "Swords Dance", "Take Down", "Toxic", "Venoshock", "Weather Ball", "Work Up"
+    ]
+}, 
+{
+    "Name": "Ivysaur",
+    "Form": "Fizzytopian",
+    "DexNum": "2",
+    "Alias": "Squashsaur",
+    "Ability1": "Overgrow",
+    "Ability2": "Cursed Body",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Ghost",
+    "GenderRatioM": "88.14",
+    "GenderRatioF": "11.86",
+    "HumpySpriteCode": "https://i.imgur.com/PhRNPCA.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/bOSoVYC.gif",
+    "ArtworkURL": "https://i.imgur.com/WZ2qhgd.png",
+    "EvolutionChain": {
+        "Stage1DexNum": "1",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 16 (night)",
+        "Stage2DexNum": "2",
+        "Stage2Form": "Fizzytopian",
+        "Stage3Method": "Level 32 (night)",
+        "Stage3DexNum": "3",
+        "Stage3Form": "Fizzytopian"
     },
-    {
-        "Name": "Venusaur",
-        "Form": "Fizzytopian",
-        "DexNum": "3",
-        "Alias": "Gourdasaur",
-        "Ability1": "Overgrow",
-        "Ability2": "Cursed Body",
-        "PrimaryType": "Grass",
-        "SecondaryType": "Ghost",
-        "GenderRatioM": "88.14",
-        "GenderRatioF": "11.86",
-        "ExtraMove": "Pumpkin Bomb",
-        "HumpySpriteURL": "https://i.imgur.com/H2SqSm8.gif",
-        "HumpyShinyURL": "https://i.imgur.com/JxIomll.gif",
-        "ArtworkURL": "https://i.imgur.com/czBvSEW.png",
-        "EvolutionChain": {
-            "Stage1DexNum": "1",
-            "Stage1Form": "Fizzytopian",
-            "Stage2Method": "Level 16 (night)",
-            "Stage2DexNum": "2",
-            "Stage2Form": "Fizzytopian",
-            "Stage3Method": "Level 32 (night)",
-            "Stage3DexNum": "3",
-            "Stage3Form": "Fizzytopian"
-        },
-        "LevelUpMoves": [
-            {
-                "Name": "Amnesia",
-                "Level": 1
-            },
-            {
-                "Name": "Growl",
-                "Level": 1
-            },
-            {
-                "Name": "Growth",
-                "Level": 1
-            },
-            {
-                "Name": "Leech Seed",
-                "Level": 1
-            },
-            {
-                "Name": "Petal Blizzard",
-                "Level": 1
-            },
-            {
-                "Name": "Petal Dance",
-                "Level": 1
-            },
-            {
-                "Name": "Power Whip",
-                "Level": 1
-            },
-            {
-                "Name": "Solar Beam",
-                "Level": 1
-            },
-            {
-                "Name": "Sweet Scent",
-                "Level": 1
-            },
-            {
-                "Name": "Tackle",
-                "Level": 1
-            },
-            {
-                "Name": "Vine Whip",
-                "Level": 1
-            },
-            {
-                "Name": "Razor Leaf",
-                "Level": 12
-            },
-            {
-                "Name": "Poison Powder",
-                "Level": 13
-            },
-            {
-                "Name": "Sleep Powder",
-                "Level": 13
-            },
-            {
-                "Name": "Take Down",
-                "Level": 15
-            },
-            {
-                "Name": "Seed Bomb",
-                "Level": 20
-            },
-            {
-                "Name": "Will-O-Wisp",
-                "Level": 23
-            },
-            {
-                "Name": "Double-Edge",
-                "Level": 31
-            },
-            {
-                "Name": "Moonlight",
-                "Level": 37
-            },
-            {
-                "Name": "Worry Seed",
-                "Level": 39
-            },
-            {
-                "Name": "Phantom Force",
-                "Level": 53
-            }
-        ],
-        "EggMoves": [
-            "Amnesia",
-            "Charm",
-            "Curse",
-            "Endure",
-            "Giga Drain",
-            "Grass Whistle",
-            "Grassy Terrain",
-            "Ingrain",
-            "Leaf Storm",
-            "Light Screen",
-            "Magical Leaf",
-            "Nature Power",
-            "Petal Dance",
-            "Power Whip",
-            "Razor Wind",
-            "Safeguard",
-            "Skull Bash",
-            "Sludge",
-            "Toxic",
-            "Trick-or-Treat"
-        ],
-        "TutorMoves": [
-            "Bind",
-            "Block",
-            "Body Slam",
-            "Dark Pulse",
-            "Defense Curl",
-            "Double-Edge",
-            "Endure",
-            "Frenzy Plant",
-            "Fury Cutter",
-            "Giga Drain",
-            "Grass Pledge",
-            "Grassy Glide",
-            "Headbutt",
-            "Helping Hand",
-            "Knock Off",
-            "Mimic",
-            "Mud-Slap",
-            "Nightmare",
-            "Outrage",
-            "Poltergeist",
-            "Seed Bomb",
-            "Sleep Talk",
-            "Snore",
-            "String Shot",
-            "Substitute",
-            "Swagger",
-            "Swords Dance",
-            "Synthesis",
-            "Worry Seed"
-        ],
-        "MachineMoves": [
-            "Amnesia",
-            "Attract",
-            "Bide",
-            "Body Slam",
-            "Bullet Seed",
-            "Captivate",
-            "Charm",
-            "Confide",
-            "Curse",
-            "Cut",
-            "Dark Pulse",
-            "Defense Curl",
-            "Double Team",
-            "Double-Edge",
-            "Echoed Voice",
-            "Endure",
-            "Energy Ball",
-            "Facade",
-            "False Swipe",
-            "Flash",
-            "Frustration",
-            "Fury Cutter",
-            "Giga Drain",
-            "Giga Impact",
-            "Grass Knot",
-            "Grassy Terrain",
-            "Headbutt",
-            "Helping Hand",
-            "Hex",
-            "Hidden Power",
-            "Hyper Beam",
-            "Leaf Storm",
-            "Light Screen",
-            "Magical Leaf",
-            "Mega Drain",
-            "Mimic",
-            "Mud-Slap",
-            "Mystical Fire",
-            "Natural Gift",
-            "Nature Power",
-            "Nightmare",
-            "Outrage",
-            "Phantom Force",
-            "Power Whip",
-            "Protect",
-            "Rage",
-            "Razor Wind",
-            "Reflect",
-            "Rest",
-            "Return",
-            "Roar",
-            "Rock Smash",
-            "Round",
-            "Safeguard",
-            "Secret Power",
-            "Seed Bomb",
-            "Shadow Ball",
-            "Skull Bash",
-            "Sleep Talk",
-            "Sludge Bomb",
-            "Snore",
-            "Solar Beam",
-            "Strength",
-            "Substitute",
-            "Sunny Day",
-            "Swagger",
-            "Sweet Scent",
-            "Swords Dance",
-            "Take Down",
-            "Toxic",
-            "Venoshock",
-            "Weather Ball",
-            "Will-O-Wisp",
-            "Work Up"
-        ]
-    }
-]
+    "LevelUpMoves": [
+        {"Name": "Pumpkin Bomb", "Level": 1}, {"Name": "Amnesia", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Growth", "Level": 1}, {"Name": "Leech Seed", "Level": 1}, {"Name": "Petal Blizzard", "Level": 1}, {"Name": "Petal Dance", "Level": 1}, {"Name": "Power Whip", "Level": 1}, {"Name": "Solar Beam", "Level": 1}, {"Name": "Sweet Scent", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "Vine Whip", "Level": 1}, {"Name": "Razor Leaf", "Level": 12}, {"Name": "Poison Powder", "Level": 13}, {"Name": "Sleep Powder", "Level": 13}, {"Name": "Take Down", "Level": 15}, {"Name": "Seed Bomb", "Level": 20}, {"Name": "Will-O-Wisp", "Level": 23}, {"Name": "Double-Edge", "Level": 31}, {"Name": "Moonlight", "Level": 37}, {"Name": "Worry Seed", "Level": 39}, {"Name": "Phantom Force", "Level": 53}
+    ],
+    "EggMoves": [
+        "Amnesia", "Charm", "Curse", "Endure", "Giga Drain", "Grass Whistle", "Grassy Terrain", "Ingrain", "Leaf Storm", "Light Screen", "Magical Leaf", "Nature Power", "Petal Dance", "Power Whip", "Razor Wind", "Safeguard", "Skull Bash", "Sludge", "Toxic", "Trick-or-Treat"
+    ],
+    "TutorMoves": [
+        "Bind", "Body Slam", "Defense Curl", "Double-Edge", "Endure", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Helping Hand", "Knock Off", "Mimic", "Mud-slap", "Mud-Slap", "Nightmare", "Outrage", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
+    ],
+    "MachineMoves": [
+        "Amnesia", "Attract", "Bide", "Body Slam", "Bullet Seed", "Captivate", "Charm", "Confide", "Curse", "Cut", "Defense Curl", "Double Team", "Double-Edge", "Echoed Voice", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Frustration", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Terrain", "Headbutt", "Helping Hand", "Hex", "Hidden Power", "Leaf Storm", "Light Screen", "Magical Leaf", "Mega Drain", "Mimic", "Mud-Slap", "Natural Gift", "Nature Power", "Nightmare", "Outrage", "Phantom Force", "Power Whip", "Protect", "Rage", "Razor Wind", "Reflect", "Rest", "Return", "Rock Smash", "Round", "Safeguard", "Secret Power", "Seed Bomb", "Shadow Ball", "Skull Bash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Substitute", "Sunny Day", "Swagger", "Sweet Scent", "Swords Dance", "Take Down", "Toxic", "Venoshock", "Weather Ball", "Will-O-Wisp", "Work Up"
+    ]
+}, 
+{
+    "Name": "Venusaur",
+    "Form": "Fizzytopian",
+    "DexNum": "3",
+    "Alias": "Gourdasaur",
+    "Ability1": "Overgrow",
+    "Ability2": "Cursed Body",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Ghost",
+    "GenderRatioM": "88.14",
+    "GenderRatioF": "11.86",
+    "HumpySpriteCode": "https://i.imgur.com/H2SqSm8.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/JxIomll.gif",
+    "ArtworkURL": "https://i.imgur.com/czBvSEW.png",
+    "EvolutionChain": {
+        "Stage1DexNum": "1",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 16 (night)",
+        "Stage2DexNum": "2",
+        "Stage2Form": "Fizzytopian",
+        "Stage3Method": "Level 32 (night)",
+        "Stage3DexNum": "3",
+        "Stage3Form": "Fizzytopian"
+    },
+    "LevelUpMoves": [
+        {"Name": "Pumpkin Bomb", "Level": 1}, {"Name": "Amnesia", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Growth", "Level": 1}, {"Name": "Leech Seed", "Level": 1}, {"Name": "Petal Blizzard", "Level": 1}, {"Name": "Petal Dance", "Level": 1}, {"Name": "Power Whip", "Level": 1}, {"Name": "Solar Beam", "Level": 1}, {"Name": "Sweet Scent", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "Vine Whip", "Level": 1}, {"Name": "Razor Leaf", "Level": 12}, {"Name": "Poison Powder", "Level": 13}, {"Name": "Sleep Powder", "Level": 13}, {"Name": "Take Down", "Level": 15}, {"Name": "Seed Bomb", "Level": 20}, {"Name": "Will-O-Wisp", "Level": 23}, {"Name": "Double-Edge", "Level": 31}, {"Name": "Moonlight", "Level": 37}, {"Name": "Worry Seed", "Level": 39}, {"Name": "Phantom Force", "Level": 53}
+    ],
+    "EggMoves": [
+        "Amnesia", "Charm", "Curse", "Endure", "Giga Drain", "Grass Whistle", "Grassy Terrain", "Ingrain", "Leaf Storm", "Light Screen", "Magical Leaf", "Nature Power", "Petal Dance", "Power Whip", "Razor Wind", "Safeguard", "Skull Bash", "Sludge", "Toxic", "Trick-or-Treat"
+    ],
+    "TutorMoves": [
+        "Bind", "Block", "Body Slam", "Dark Pulse", "Defense Curl", "Double-Edge", "Endure", "Frenzy Plant", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Helping Hand", "Knock Off", "Mimic", "Mud-slap", "Mud-Slap", "Nightmare", "Outrage", "Poltergeist", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
+    ],
+    "MachineMoves": [
+        "Amnesia", "Attract", "Bide", "Body Slam", "Bullet Seed", "Captivate", "Charm", "Confide", "Curse", "Cut", "Dark Pulse", "Defense Curl", "Double Team", "Double-Edge", "Echoed Voice", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Frustration", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Terrain", "Headbutt", "Helping Hand", "Hex", "Hidden Power", "Hyper Beam", "Leaf Storm", "Light Screen", "Magical Leaf", "Mega Drain", "Mimic", "Mud-Slap", "Mystical Fire", "Natural Gift", "Nature Power", "Nightmare", "Outrage", "Phantom Force", "Power Whip", "Protect", "Rage", "Razor Wind", "Reflect", "Rest", "Return", "Roar", "Rock Smash", "Round", "Safeguard", "Secret Power", "Seed Bomb", "Shadow Ball", "Skull Bash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Substitute", "Sunny Day", "Swagger", "Sweet Scent", "Swords Dance", "Take Down", "Toxic", "Venoshock", "Weather Ball", "Will-O-Wisp", "Work Up"
+    ]
+},
+{
+    "Name": "Trubbish",
+    "Form": "Fizzytopian",
+    "DexNum": "568",
+    "Alias": "Trubbfish",
+    "Ability1": "Rattled",
+    "Ability2": "Water Absorb",
+    "HiddenAbility": "Clear Body",
+    "PrimaryType": "Water",
+    "SecondaryType": "Ghost",
+    "GenderRatioM": "50.2",
+    "GenderRatioF": "49.8",
+    "HumpySpriteCode": "https://i.imgur.com/J0f2SN1.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/iVEaQ1R.gif",
+    "EvolutionChain": {
+        "Stage1DexNum": "568",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 36 (body of water)",
+        "Stage2DexNum": "569",
+        "Stage2Form": "Fizzytopian"
+    },
+    "LevelUpMoves": [
+        {"Name": "Confuse Ray", "Level": 1}, {"Name": "Astonish", "Level": 1}, {"Name": "Soak", "Level": 3}, {"Name": "Water Gun", "Level": 6}, {"Name": "Spite", "Level": 7}, {"Name": "Amnesia", "Level": 9}, {"Name": "Mist", "Level": 12}, {"Name": "Lick", "Level": 14}, {"Name": "Water Pulse", "Level": 18}, {"Name": "Stockpile", "Level": 21}, {"Name": "Swallow", "Level": 21}, {"Name": "Shadow Punch", "Level": 24}, {"Name": "Liquidation", "Level": 27}, {"Name": "Curse", "Level": 30}, {"Name": "Destiny Bond", "Level": 33}, {"Name": "Pain Split", "Level": 37}, {"Name": "Shadow Ball", "Level": 39}, {"Name": "Hydro Pump", "Level": 42}
+    ],
+    "EggMoves": [
+        "Acid Armor", "Curse", "Haze", "Mirror Coat", "Spikes", "Steamroller", "Tearful Look"
+    ],
+    "TutorMoves": [
+        "Poltergeist"
+    ],
+    "MachineMoves": [
+        "Ally Switch", "Amnesia", "Attract", "Blizzard", "Brine", "Confide", "Curse", "Dive", "Facade", "Giga Drain", "Hail", "Helping Hand", "Hex", "Hydro Pump", "Hyper Voice", "Ice Beam", "Icy Wind", "Nasty Plot", "Payback", "Pin Missile", "Protect", "Rain Dance", "Razor Shell", "Rest", "Round", "Scald", "Self-Destruct", "Shadow Ball", "Shadow Claw", "Sludge Bomb", "Sludge Wave", "Snore", "Surf", "Thief", "Weather Ball", "Whirlpool", "Will-O-Wisp", "Work Up"
+    ]
+},
+{
+    "Name": "Garbodor",
+    "Form": "Fizzytopian",
+    "DexNum": "569",
+    "Alias": "Garboquarium",
+    "Ability1": "Weak Armor",
+    "Ability2": "Storm Drain",
+    "HiddenAbility": "Cursed Body",
+    "PrimaryType": "Water",
+    "SecondaryType": "Ghost",
+    "GenderRatioM": "50.2",
+    "GenderRatioF": "49.8",
+    "HumpySpriteCode": "https://i.imgur.com/OgPktTQ.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/N2jQNPq.gif",
+    "EvolutionChain": {
+        "Stage1DexNum": "568",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 36 (body of water)",
+        "Stage2DexNum": "569",
+        "Stage2Form": "Fizzytopian"
+    },
+    "LevelUpMoves": [
+        {"Name": "Soul Spatter", "Level": 1}, {"Name": "Water Gun", "Level": 1}, {"Name": "Shadow Claw", "Level": 1}, {"Name": "Confuse Ray", "Level": 1}, {"Name": "Astonish", "Level": 1}, {"Name": "Soak", "Level": 1}, {"Name": "Shadow Punch", "Level": 1}, {"Name": "Spite", "Level": 1}, {"Name": "Amnesia", "Level": 9}, {"Name": "Mist", "Level": 12}, {"Name": "Lick", "Level": 14}, {"Name": "Water Pulse", "Level": 18}, {"Name": "Stockpile", "Level": 21}, {"Name": "Swallow", "Level": 21}, {"Name": "Spit Up", "Level": 24}, {"Name": "Liquidation", "Level": 27}, {"Name": "Curse", "Level": 30}, {"Name": "Destiny Bond", "Level": 33}, {"Name": "Pain Split", "Level": 39}, {"Name": "Shadow Bone", "Level": 43}, {"Name": "Water Spout", "Level": 48}
+    ],
+    "EggMoves": [
+        "Acid Armor", "Curse", "Haze", "Mirror Coat", "Spikes", "Steamroller", "Tearful Look"
+    ],
+    "TutorMoves": [
+        "Poltergeist"
+    ],
+    "MachineMoves": [
+        "Ally Switch", "Amnesia", "Attract", "Blizzard", "Brine", "Bulk Up", "Calm Mind", "Confide", "Curse", "Dive", "Facade", "Flash Cannon", "Giga Drain", "Grass Knot", "Hail", "Helping Hand", "Hex", "Hydro Pump", "Hyper Voice", "Ice Beam", "Icy Wind", "Liquidation", "Muddy Water", "Nasty Plot", "Payback", "Phantom Force", "Pin Missile", "Protect", "Psychic", "Rain Dance", "Razor Shell", "Rest", "Round", "Scald", "Scary Face", "Self-Destruct", "Shadow Ball", "Shadow Claw", "Sludge Bomb", "Sludge Wave", "Snore", "Spikes", "Surf", "Thief", "Toxic", "Toxic Spikes", "Trick", "Waterfall", "Weather Ball", "Whirlpool", "Will-O-Wisp", "Work Up"
+    ]
+},
+{
+    "Name": "Kecleon",
+    "Form": "Fizzytopian",
+    "DexNum": "352",
+    "Alias": "Grinchleon",
+    "Ability1": "Pick Pocket",
+    "Ability2": "Sheer Force",
+    "PrimaryType": "Dark",
+    "SecondaryType": "Poison",
+    "GenderRatioM": "50.2",
+    "GenderRatioF": "49.8",
+    "HumpySpriteCode": "https://i.imgur.com/sN3LZww.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/leBbPmf.gif",
+    "LevelUpMoves": [
+        {"Name": "Confuse Ray", "Level": 1}, {"Name": "Ancient Power", "Level": 1}, {"Name": "Astonish", "Level": 1}, {"Name": "Belch", "Level": 1}, {"Name": "Lick", "Level": 1}, {"Name": "Scratch", "Level": 1}, {"Name": "Tail Whip", "Level": 1}, {"Name": "Thief", "Level": 1}, {"Name": "Covet", "Level": 4}, {"Name": "Feint Attack", "Level": 7}, {"Name": "Shadow Sneak", "Level": 7}, {"Name": "Feint", "Level": 10}, {"Name": "Fury Swipes", "Level": 10}, {"Name": "Poison Tail", "Level": 15}, {"Name": "Screech", "Level": 24}, {"Name": "Slash", "Level": 25}, {"Name": "Camouflage", "Level": 30}, {"Name": "Night Slash", "Level": 33}, {"Name": "Sucker Punch", "Level": 37}, {"Name": "Present", "Level": 43}
+    ],
+    "EggMoves": [
+        "Camouflage", "Disable", "Dizzy Punch", "Fake Out", "Foul Play", "Nasty Plot", "Poison Gas", "Power-Up Punch", "Punishment", "Smelling Salts", "Snatch", "Toxic Thread", "Trick"
+    ],
+    "TutorMoves": [
+        "Ancient Power", "Aqua Tail", "Body Slam", "Burning Jealousy", "Corrosive Gas", "Covet", "Dark Pulse", "Defense Curl", "Double-Edge", "Endure", "Fake Out", "Feint Attack", "Foul Play", "Fury Cutter", "Headbutt", "Icy Wind", "Iron Tail", "Knock Off", "Lash Out", "Last Resort", "Low Kick", "Magic Room", "Mega Kick", "Mega Punch", "Metronome", "Mud-Slap", "Outrage", "Psych Up", "Recycle", "Rock Slide", "Role Play", "Seismic Toss", "Shock Wave", "Skitter Smack", "Sleep Talk", "Snatch", "Snore", "Spite", "Stomping Tantrum", "Sucker Punch", "Swift", "Thunder Wave", "Thunderbolt", "Trick", "Water Pulse"
+    ],
+    "MachineMoves": [
+        "Acrobatics", "Aerial Ace", "Avalanche", "Beat Up", "Blizzard", "Body Slam", "Brick Break", "Charge Beam", "Counter", "Cut", "Dark Pulse", "Defense Curl", "Dig", "Double Team", "Double-Edge", "Echoed Voice", "Embargo", "Endure", "Facade", "Flash", "Fling", "Foul Play", "Frustration", "Fury Cutter", "Headbutt", "Hidden Power", "Hone Claws", "Icy Wind", "Infestation", "Iron Tail", "Low Kick", "Magic Room", "Mega Kick", "Mega Punch", "Metronome", "Mud-Slap", "Muddy Water", "Nasty Plot", "Natural Gift", "Payback", "Pluck", "Poison Jab", "Power-Up Punch", "Protect", "Psych Up", "Rage", "Rain Dance", "Recycle", "Rest", "Retaliate", "Return", "Revenge", "Rock Slide", "Rock Smash", "Rock Tomb", "Round", "Scary Face", "Screech", "Secret Power", "Seismic Toss", "Shock Wave", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snarl", "Snatch", "Snore", "Strength", "Swift", "Taunt", "Thief", "Thunder", "Thunder Wave", "Thunderbolt", "Toxic", "Trick", "Trick Room", "Venom Drench", "Venoshock"
+    ]
+},
+{
+    "Name": "Falinks",
+    "Form": "Fizzytopian",
+    "DexNum": "870",
+    "Alias": "Falalalinks",
+    "Ability1": "Own Tempo",
+    "Ability2": "Illuminate",
+    "HiddenAbility": "Dazzling",
+    "PrimaryType": "Electric",
+    "SecondaryType": "Normal",
+    "GenderRatioM": null,
+    "GenderRatioF": null,
+    "HumpySpriteCode": "https://i.imgur.com/dtacDFm.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/5ws7AGn.gif",
+    "LevelUpMoves": [
+        {"Name": "Thunder Shock", "Level": 1}, {"Name": "Metronome", "Level": 1}, {"Name": "Follow Me", "Level": 1}, {"Name": "Sing", "Level": 1}, {"Name": "Thunder Wave", "Level": 5}, {"Name": "Flash", "Level": 10}, {"Name": "Sparkling Hymn", "Level": 15}, {"Name": "Echoed Voice", "Level": 20}, {"Name": "Spark", "Level": 25}, {"Name": "Round", "Level": 30}, {"Name": "Parabolic Charge", "Level": 35}, {"Name": "Dazzling Gleam", "Level": 40}, {"Name": "Spotlight", "Level": 45}, {"Name": "Lucky Chant", "Level": 50}, {"Name": "Perish Song", "Level": 55}, {"Name": "Wish", "Level": 60}
+    ],
+    "EggMoves": [
+
+    ],
+    "TutorMoves": [
+        "Coaching", "Heal Bell", "Hyper Voice", "Laser Focus", "Metronome", "Shock Wave", "Signal Beam", "Sleep Talk", "Swift", "Uproar"
+    ],
+    "MachineMoves": [
+        "Acrobatics", "Bide", "Calm Mind", "Captivate", "Charge Beam", "Confide", "Curse", "Double Team", "Eerie Impulse", "Echoed Voice", "Electric Terrain", "Electro Ball", "Encore", "Endure", "Facade", "Flash", "Flash Cannon", "Focus Energy", "Frustration", "Hail", "Helping Hand", "Hidden Power", "Horn Drill", "Hyper Voice", "Light Screen", "Megahorn", "Metronome", "Mimic", "Natural Gift", "Power Gem", "Play Rough", "Protect", "Psych Up", "Rage", "Reflect", "Rest", "Return", "Roar", "Round", "Screech", "Secret Power", "Sleep Talk", "Sandstorm", "Smart Strike", "Snore", "Solar Beam", "Substitute", "Swagger", "Take Down", "Taunt", "Thunderbolt", "Thunder", "Torment", "Toxic", "Tri Attack", "Uproar", "Volt Switch", "Wild Charge", "Will-O-Wisp", "Wonder Room"
+    ]
+},
+{
+    "Name": "Rowlet",
+    "Form": "Fizzytopian",
+    "DexNum": "722",
+    "Alias": "Snowlet",
+    "Ability1": "Snow Cloak",
+    "Ability2": "Fluffy",
+    "HiddenAbility": "Ice Body",
+    "PrimaryType": "Ice",
+    "SecondaryType": "Flying",
+    "GenderRatioM": "88.14",
+    "GenderRatioF": "11.86",
+    "HumpySpriteCode": "https://i.imgur.com/DsFljNE.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/joxG2yu.gif",
+    "EvolutionChain": {
+        "Stage1DexNum": "722",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 17",
+        "Stage2DexNum": "723",
+        "Stage2Form": "Fizzytopian",
+        "Stage3Method": "Level 34",
+        "Stage3DexNum": "724",
+        "Stage3Form": "Fizzytopian"
+    },
+    "LevelUpMoves": [
+        {"Name": "Downy Layer", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Powder Snow", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "Astonish", "Level": 6}, {"Name": "Peck", "Level": 8}, {"Name": "Iron Defense", "Level": 12}, {"Name": "Ice Ball", "Level": 12}, {"Name": "Gyro Ball", "Level": 16}, {"Name": "Foresight", "Level": 18}, {"Name": "Freeze-Dry", "Level": 18}, {"Name": "Pluck", "Level": 21}, {"Name": "Swords Dance", "Level": 24}, {"Name": "Sucker Punch", "Level": 27}, {"Name": "Fury Attack", "Level": 29}, {"Name": "Leaf Blade", "Level": 30}, {"Name": "Feather Dance", "Level": 33}, {"Name": "Brave Bird", "Level": 36}
+    ],
+    "EggMoves": [
+        "Baton Pass", "Confuse Ray", "Curse", "Defog", "Double Team", "Haze", "Knock Off", "Metal Claw"
+    ],
+    "TutorMoves": [
+        "Covet", "Defog", "Dual Wingbeat", "Hail", "Ice Punch", "Icy Wind", "Sky Attack", "Snore", "Worry Seed"
+    ],
+    "MachineMoves": [
+        "Attract", "Baton Pass", "Bide", "Blizzard", "Brave Bird", "Confide", "Echoed Voice", "Endure", "Facade", "False Swipe", "Frost Breath", "Frustration", "Grass Knot", "Hail", "Hidden Power", "Hone Claws", "Ice Beam", "Icicle Spear", "Leaf Blade", "Nasty Plot", "Nature Power", "Protect", "Rest", "Return", "Roost", "Round", "Safeguard", "Screech", "Shadow Claw", "Sleep Talk", "Snore", "Steel Wing", "Substitute", "Swagger", "Swords Dance", "Toxic", "Work Up"
+    ]
+},
+{
+    "Name": "Dartrix",
+    "Form": "Fizzytopian",
+    "DexNum": "723",
+    "Alias": "Frostrix",
+    "Ability1": "Snow Cloak",
+    "Ability2": "Fluffy",
+    "HiddenAbility": "Ice Body",
+    "PrimaryType": "Ice",
+    "SecondaryType": "Flying",
+    "GenderRatioM": "88.14",
+    "GenderRatioF": "11.86",
+    "HumpySpriteCode": "https://i.imgur.com/t5RQOon.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/JTsKXGh.gif",
+    "EvolutionChain": {
+        "Stage1DexNum": "722",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 17",
+        "Stage2DexNum": "723",
+        "Stage2Form": "Fizzytopian",
+        "Stage3Method": "Level 34",
+        "Stage3DexNum": "724",
+        "Stage3Form": "Fizzytopian"
+    },
+    "LevelUpMoves": [
+        {"Name": "Astonish", "Level": 1}, {"Name": "Downy Layer", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Powder Snow", "Level": 1}, {"Name": "Peck", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "Iron Defense", "Level": 12}, {"Name": "Ice Ball", "Level": 14}, {"Name": "Gyro Ball", "Level": 16}, {"Name": "Foresight", "Level": 19}, {"Name": "Freeze-Dry", "Level": 20}, {"Name": "Pluck", "Level": 24}, {"Name": "Swords Dance", "Level": 30}, {"Name": "Fury Attack", "Level": 33}, {"Name": "Sucker Punch", "Level": 35}, {"Name": "Leaf Blade", "Level": 40}, {"Name": "Feather Dance", "Level": 45}, {"Name": "Brave Bird", "Level": 50}
+    ],
+    "EggMoves": [
+        "Baton Pass", "Confuse Ray", "Curse", "Defog", "Double Team", "Haze", "Knock Off", "Metal Claw"
+    ],
+    "TutorMoves": [
+        "Covet", "Defog", "Dual Wingbeat", "Hail", "Ice Punch", "Icy Wind", "Sky Attack", "Snore", "Worry Seed"
+    ],
+    "MachineMoves": [
+        "Attract", "Baton Pass", "Bide", "Blizzard", "Brave Bird", "Confide", "Echoed Voice", "Endure", "Facade", "False Swipe", "Frost Breath", "Frustration", "Grass Knot", "Hail", "Hidden Power", "Hone Claws", "Ice Beam", "Icicle Spear", "Leaf Blade", "Nasty Plot", "Nature Power", "Protect", "Rest", "Return", "Roost", "Round", "Safeguard", "Screech", "Shadow Claw", "Sleep Talk", "Snore", "Steel Wing", "Substitute", "Swagger", "Swords Dance", "Toxic", "Work Up"
+    ]
+},
+{
+    "Name": "Decidueye",
+    "Form": "Fizzytopian",
+    "DexNum": "724",
+    "Alias": "Deciduice",
+    "Ability1": "Snow Warning",
+    "Ability2": "Refrigerate",
+    "HiddenAbility": "Steely Spirit",
+    "PrimaryType": "Ice",
+    "SecondaryType": "Steel",
+    "GenderRatioM": "88.14",
+    "GenderRatioF": "11.86",
+    "HumpySpriteCode": "https://i.imgur.com/ySulxyM.gif",
+    "ShinyHumpyCode": "https://i.imgur.com/GlibLFb.gif",
+    "EvolutionChain": {
+        "Stage1DexNum": "722",
+        "Stage1Form": "Fizzytopian",
+        "Stage2Method": "Level 17",
+        "Stage2DexNum": "723",
+        "Stage2Form": "Fizzytopian",
+        "Stage3Method": "Level 34",
+        "Stage3DexNum": "724",
+        "Stage3Form": "Fizzytopian"
+    },
+    "LevelUpMoves": [
+        {"Name": "Sacred Sword", "Level": 0}, {"Name": "Astonish", "Level": 1}, {"Name": "Downy Layer", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Blizzard", "Level": 1}, {"Name": "Powder Snow", "Level": 1}, {"Name": "Peck", "Level": 1}, {"Name": "Smart Strike", "Level": 1}, {"Name": "Iron Defense", "Level": 1}, {"Name": "Metal Sound", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "U-Turn", "Level": 1}, {"Name": "Ice Ball", "Level": 14}, {"Name": "Gyro Ball", "Level": 16}, {"Name": "Foresight", "Level": 19}, {"Name": "Freeze-Dry", "Level": 20}, {"Name": "Pluck", "Level": 24}, {"Name": "Swords Dance", "Level": 30}, {"Name": "Fury Attack", "Level": 33}, {"Name": "Sucker Punch", "Level": 37}, {"Name": "Leaf Blade", "Level": 44}, {"Name": "Feather Dance", "Level": 49}, {"Name": "Brave Bird", "Level": 55}
+    ],
+    "EggMoves": [
+        "Baton Pass", "Confuse Ray", "Curse", "Defog", "Double Team", "Haze", "Knock Off", "Metal Claw"
+    ],
+    "TutorMoves": [
+        "Covet", "Defog", "Dual Wingbeat", "Hail", "Ice Punch", "Icy Wind", "Laser Focus", "Skitter Smack", "Sky Attack", "Snore", "Steel Beam", "Tailwind", "Triple Axel", "Water Pulse", "Worry Seed"
+    ],
+    "MachineMoves": [
+        "Air Slash", "Attact", "Aurora Veil", "Avalanche", "Baton Pass", "Bide", "Blizzard", "Brave Bird", "Confide", "Cross Poison", "Echoed Voice", "Endure", "Facade", "False Swipe", "Flash Cannon", "Frost Breath", "Frustration", "Giga Impact", "Grass Knot", "Hail", "Hex", "Hidden Power", "Hone Claws", "Hyper Beam", "Ice Beam", "Icicle Spear", "Leaf Blade", "Low Sweep", "Nasty Plot", "Nature Power", "Protect", "Psycho Cut", "Razor Shell", "Rest", "Return", "Roost", "Round", "Safeguard", "Screech", "Shadow Claw", "Sleep Talk", "Smack Down", "Smart Strike", "Snore", "Solar Blade", "Steel Wing", "Stone Edge", "Substitute", "Swagger", "Swords Dance", "Toxic", "Work Up"
+    ]
+}]
