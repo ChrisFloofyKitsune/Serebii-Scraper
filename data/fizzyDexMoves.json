@@ -163,6 +163,23 @@
         "ZMovePowerOrEffect": "100"
     },
     {
+        "Name": "Pumpkin Bomb",
+        "Type": "Grass",
+        "Category": "Physical",
+        "BasePower": 100,
+        "Accuracy": 100,
+        "BattleEffect": "The user launches a Pumpkin seed into the air, upon falling the seed plants itself onto the opponent’s side of the arena, upon the end of the second round of battle a large pumpkin finishes growing. The pumpkin immediately begins flashing, and after the third round the pumpkin explodes, dealing spread damage that hits all opponents and Burns them.",
+        "SecondaryEffect": "Damage delays 2 turns. Damages and burns all opponents.",
+        "EffectRate": "100%",
+        "SpeedPriority": 0,
+        "CriticalHitRate": "4.17%",
+        "Target": "All Adjacent Foes",
+        "MakesPhysicalContact": "No",
+        "IsSuperMove": "No",
+        "MaxMovePower": 130,
+        "ZMovePowerOrEffect": "180"
+    },
+    {
         "Name": "Psysplit",
         "Type": "Psychic",
         "Category": "Status",
@@ -186,6 +203,32 @@
         "BattleEffect": "The user strikes the opponent with a sharp appendage, if this move critically strikes the opponent, the user's Attack is raised one stage.",
         "MakesPhysicalContact": "Yes",
         "ZMovePowerOrEffect": "140"
+    },
+    {
+        "Name": "Soul Spatter",
+        "Type": "Ghost",
+        "Category": "Special",
+        "BasePower": 150,
+        "Accuracy": 100,
+        "BattleEffect": "The user fires fishy souls at the opposing Pokémon. The lower the user's HP, the lower the move's power.",
+        "SecondaryEffect": "No effect.",
+        "EffectRate": "-- %",
+        "SpeedPriority": 0,
+        "CriticalHitRate": "4.17%",
+        "Target": "All Adjacent Foes",
+        "MakesPhysicalContact": "No",
+        "IsSuperMove": "No",
+        "MaxMovePower": 150,
+        "ZMovePowerOrEffect": "200"
+    },
+    {
+        "Name": "Sparkling Hymn",
+        "Type": "Electric",
+        "Category": "Special",
+        "BasePower": 60,
+        "BattleEffect": "A spectacular show of sparks and cheerful singing. Attacks all opponents, and has a 20% chance raising the user’s and its allies' Special Attack by one stage.",
+        "EffectRate": "20 %",
+        "ZMovePowerOrEffect": "120"
     },
     {
         "Name": "Sunblock",
