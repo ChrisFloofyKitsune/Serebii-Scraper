@@ -206,7 +206,7 @@ class PokeMoveParser extends PokeParser {
                 if (forms.length === 0) {
 
                     if (this.generation === 8) {
-                        if (bdspSpecialFormHandling) {
+                        if (bdspSpecialFormHandling && this.name !== "Arceus") {
                             // reee serebii why are you like this with BDSP stuff!
                             // anyhow, get forms that only existed in Gen 4
                             const gen4IndexEntry = genIndex[this.GetDexNum().toString()].find(genEntry => genEntry.Gen === 4);
