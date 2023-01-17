@@ -68,7 +68,7 @@ function MoveNameFix(moveName) {
 function AbilityNameFix(abilityName) {
     abilityName = abilityName.trim();
 
-    let nameChange = abilityNameChanges.find(nc => nc.Old.toUpperCase() == abilityName.toUpperCase());
+    let nameChange = abilityNameChanges.find(nc => nc.Old.toUpperCase() === abilityName.toUpperCase());
 
     if (nameChange)
         abilityName = nameChange.New;

@@ -66,7 +66,7 @@
         "Amnesia", "Charm", "Curse", "Endure", "Giga Drain", "Grass Whistle", "Grassy Terrain", "Ingrain", "Leaf Storm", "Light Screen", "Magical Leaf", "Nature Power", "Petal Dance", "Power Whip", "Razor Wind", "Safeguard", "Skull Bash", "Sludge", "Toxic", "Trick-or-Treat"
     ],
     "TutorMoves": [
-        "Bind", "Body Slam", "Defense Curl", "Double-Edge", "Endure", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Helping Hand", "Knock Off", "Mimic", "Mud-slap", "Mud-Slap", "Nightmare", "Outrage", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
+        "Bind", "Body Slam", "Defense Curl", "Double-Edge", "Endure", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Helping Hand", "Knock Off", "Mimic", "Mud-Slap", "Nightmare", "Outrage", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
     ],
     "MachineMoves": [
         "Amnesia", "Attract", "Bide", "Body Slam", "Bullet Seed", "Captivate", "Charm", "Confide", "Curse", "Cut", "Defense Curl", "Double Team", "Double-Edge", "Echoed Voice", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Frustration", "Fury Cutter", "Giga Drain", "Grass Knot", "Grassy Terrain", "Headbutt", "Helping Hand", "Hex", "Hidden Power", "Leaf Storm", "Light Screen", "Magical Leaf", "Mega Drain", "Mimic", "Mud-Slap", "Natural Gift", "Nature Power", "Nightmare", "Outrage", "Phantom Force", "Power Whip", "Protect", "Rage", "Razor Wind", "Reflect", "Rest", "Return", "Rock Smash", "Round", "Safeguard", "Secret Power", "Seed Bomb", "Shadow Ball", "Skull Bash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Substitute", "Sunny Day", "Swagger", "Sweet Scent", "Swords Dance", "Take Down", "Toxic", "Venoshock", "Weather Ball", "Will-O-Wisp", "Work Up"
@@ -103,7 +103,7 @@
         "Amnesia", "Charm", "Curse", "Endure", "Giga Drain", "Grass Whistle", "Grassy Terrain", "Ingrain", "Leaf Storm", "Light Screen", "Magical Leaf", "Nature Power", "Petal Dance", "Power Whip", "Razor Wind", "Safeguard", "Skull Bash", "Sludge", "Toxic", "Trick-or-Treat"
     ],
     "TutorMoves": [
-        "Bind", "Block", "Body Slam", "Dark Pulse", "Defense Curl", "Double-Edge", "Endure", "Frenzy Plant", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Helping Hand", "Knock Off", "Mimic", "Mud-slap", "Mud-Slap", "Nightmare", "Outrage", "Poltergeist", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
+        "Bind", "Block", "Body Slam", "Dark Pulse", "Defense Curl", "Double-Edge", "Endure", "Frenzy Plant", "Fury Cutter", "Giga Drain", "Grass Pledge", "Grassy Glide", "Headbutt", "Helping Hand", "Knock Off", "Mimic", "Mud-Slap", "Nightmare", "Outrage", "Poltergeist", "Seed Bomb", "Sleep Talk", "Snore", "String Shot", "Substitute", "Swagger", "Swords Dance", "Synthesis", "Worry Seed"
     ],
     "MachineMoves": [
         "Amnesia", "Attract", "Bide", "Body Slam", "Bullet Seed", "Captivate", "Charm", "Confide", "Curse", "Cut", "Dark Pulse", "Defense Curl", "Double Team", "Double-Edge", "Echoed Voice", "Endure", "Energy Ball", "Facade", "False Swipe", "Flash", "Frustration", "Fury Cutter", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Terrain", "Headbutt", "Helping Hand", "Hex", "Hidden Power", "Hyper Beam", "Leaf Storm", "Light Screen", "Magical Leaf", "Mega Drain", "Mimic", "Mud-Slap", "Mystical Fire", "Natural Gift", "Nature Power", "Nightmare", "Outrage", "Phantom Force", "Power Whip", "Protect", "Rage", "Razor Wind", "Reflect", "Rest", "Return", "Roar", "Rock Smash", "Round", "Safeguard", "Secret Power", "Seed Bomb", "Shadow Ball", "Skull Bash", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Strength", "Substitute", "Sunny Day", "Swagger", "Sweet Scent", "Swords Dance", "Take Down", "Toxic", "Venoshock", "Weather Ball", "Will-O-Wisp", "Work Up"
@@ -182,7 +182,7 @@
     "Form": "Fizzytopian",
     "DexNum": "352",
     "Alias": "Grinchleon",
-    "Ability1": "Pick Pocket",
+    "Ability1": "Pickpocket",
     "Ability2": "Sheer Force",
     "PrimaryType": "Dark",
     "SecondaryType": "Poison",
@@ -329,7 +329,7 @@
         "Stage3Form": "Fizzytopian"
     },
     "LevelUpMoves": [
-        {"Name": "Sacred Sword", "Level": 0}, {"Name": "Astonish", "Level": 1}, {"Name": "Downy Layer", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Blizzard", "Level": 1}, {"Name": "Powder Snow", "Level": 1}, {"Name": "Peck", "Level": 1}, {"Name": "Smart Strike", "Level": 1}, {"Name": "Iron Defense", "Level": 1}, {"Name": "Metal Sound", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "U-Turn", "Level": 1}, {"Name": "Ice Ball", "Level": 14}, {"Name": "Gyro Ball", "Level": 16}, {"Name": "Foresight", "Level": 19}, {"Name": "Freeze-Dry", "Level": 20}, {"Name": "Pluck", "Level": 24}, {"Name": "Swords Dance", "Level": 30}, {"Name": "Fury Attack", "Level": 33}, {"Name": "Sucker Punch", "Level": 37}, {"Name": "Leaf Blade", "Level": 44}, {"Name": "Feather Dance", "Level": 49}, {"Name": "Brave Bird", "Level": 55}
+        {"Name": "Sacred Sword", "Level": 0}, {"Name": "Astonish", "Level": 1}, {"Name": "Downy Layer", "Level": 1}, {"Name": "Growl", "Level": 1}, {"Name": "Blizzard", "Level": 1}, {"Name": "Powder Snow", "Level": 1}, {"Name": "Peck", "Level": 1}, {"Name": "Smart Strike", "Level": 1}, {"Name": "Iron Defense", "Level": 1}, {"Name": "Metal Sound", "Level": 1}, {"Name": "Tackle", "Level": 1}, {"Name": "U-turn", "Level": 1}, {"Name": "Ice Ball", "Level": 14}, {"Name": "Gyro Ball", "Level": 16}, {"Name": "Foresight", "Level": 19}, {"Name": "Freeze-Dry", "Level": 20}, {"Name": "Pluck", "Level": 24}, {"Name": "Swords Dance", "Level": 30}, {"Name": "Fury Attack", "Level": 33}, {"Name": "Sucker Punch", "Level": 37}, {"Name": "Leaf Blade", "Level": 44}, {"Name": "Feather Dance", "Level": 49}, {"Name": "Brave Bird", "Level": 55}
     ],
     "EggMoves": [
         "Baton Pass", "Confuse Ray", "Curse", "Defog", "Double Team", "Haze", "Knock Off", "Metal Claw"

@@ -306,6 +306,10 @@ class PokeInfoParser extends PokeParser {
             {Name: "Gengar", FormIncludes: "Gigantamax", Result: ["Cursed Body", "Levitate", null]},
             {Name: "Oinkologne", FormIncludes: "Male", Result: ["Lingering Aroma", "Gluttony", "Thick Fat"]},
             {Name: "Oinkologne", FormIncludes: "Female", Result: ["Aroma Veil", "Gluttony", "Thick Fat"]},
+            {Name: "Squawkabilly", FormIncludes: "Green ", Result: ["Intimidate", "Hustle", "Guts"]},
+            {Name: "Squawkabilly", FormIncludes: "Blue ", Result: ["Intimidate", "Hustle", "Guts"]},
+            {Name: "Squawkabilly", FormIncludes: "Yellow ", Result: ["Intimidate", "Hustle", "Sheer Force"]},
+            {Name: "Squawkabilly", FormIncludes: "White ", Result: ["Intimidate", "Hustle", "Sheer Force"]},
         ];
 
         let specialCase = specialCases.find(sc => sc.Name == this.GetName() && form.includes(sc.FormIncludes))
@@ -566,7 +570,7 @@ for (const pathList of paths) {
                 existing.Forms.push(
                     ...missingForms
                 );
-                console.log(`\nAdded missing form(s): [${missingForms.map(f => f.FormName).join(", ")}] to ${existing.Name}`)
+                // console.log(`\nAdded missing form(s): [${missingForms.map(f => f.FormName).join(", ")}] to ${existing.Name}`)
             }
         } catch (e) {
             console.error(`\n\nError on parsing file ${path}`);

@@ -54,60 +54,55 @@ class PokeParser {
         if (formName === "Alola")
             formName = "Alolan";
 
-        if (this.name === "Burmy" && formName === "No Cloak")
-            formName = "Plant Cloak";
-        else if (this.name === "Wormadam" && formName && !formName.includes("Cloak"))
-            formName = formName + " Cloak";
-        else if (this.name === "Arceus")
-            formName = formName.replace("-type", "");
-        else if (this.name === "Silvally")
-            formName = formName.replace("Type: ", "");
-        else if (this.name === "Vivillon")
-            formName = formName.replace(" Pattern", "").replace("é", "e");
-        else if (this.name === "Darmanitan")
-            formName = formName.replace("Standard Mode", "").trim();
-        else if (this.name === "Wishiwashi" && formName === "School")
-            formName = "Schooling";
-        else if (this.name === "Furfrou" && formName === "Deputante Trim")
-            formName = "Debutante Trim";
-        else if (this.name === "Greninja" && formName === "Ash-")
-            formName = "Ash";
-        else if (this.name === "Unown" && formName === "Normal")
-            formName = "A";
-        else if (this.name === "Pikachu" && formName === "Ph. D.")
-            formName = "Ph. D";
-        else if (this.name === "Pikachu" && (formName === "Cosplay" || formName === "Partner  Only"))
-            formName = "Normal";
-        else if (this.name === "Eevee" && formName === "Partner  Only")
-            formName = "Normal";
-        else if (this.name === "Keldeo" && formName === "Ordinary")
-            formName = "Normal";
-        else if (this.name === "Xerneas" && formName === "Neutral Mode")
-            formName = "Normal";
-        else if (this.name === "Xerneas" && formName === "Active Mode")
-            formName = "Active";
-        else if (this.name === "Zygarde" && formName === "Normal")
-            formName = "50% Forme"
-        else if (this.name === "Sinistea" || this.name === "Polteageist")
-            formName = "Normal";
-        else if (this.name === "Genesect")
-            formName = "Normal";
-        else if (this.name === "Morpeko")
-            formName = formName.replace(" Mode", "");
-        else if (this.name === "Tauros" && /Paldean\S/.test(formName))
-            formName = formName.replace("Paldean", "Paldean ");
-        else if (this.name === "Tauros" && formName === "Regular")
-            formName = "Normal";
-        else if (this.name === "Tauros" && formName === "Paldean")
-            formName = "Paldean Combat Breed";
-        else if (this.name === "Tauros" && formName === "Blaze Breed")
-            formName = "Paldean Blaze Breed";
-        else if (this.name === "Tauros" && formName === "Aqua Breed")
-            formName = "Paldean Aqua Breed";
+        /** @type {{
+         *    name: string,
+         *    form: (string | true | function(f:string):boolean),
+         *    result: (string | function(f:string):string)
+         *  }[]}*/
+        const fixesList = [
+            {name: "Burmy", form: "No Cloak", result: "Plant Cloak"},
+            {name: "Wormadam", form: f => f && !f.includes("Cloak"), result: f => f + " Cloak"},
+            {name: "Arceus", form: true, result: f => f.replace("-type", "")},
+            {name: "Silvally", form: true, result: f => f.replace("Type: ", "")},
+            {name: "Vivillon", form: true, result: f => f.replace(" Pattern", "").replace("é", "e")},
+            {name: "Darmanitan", form: true, result: f => f.replace("Standard Mode", "").trim()},
+            {name: "Wishiwashi", form: "School", result: "Schooling"},
+            {name: "Furfrou", form: "Deputante Trim", result: "Debutante Trim"},
+            {name: "Greninja", form: "Ash-", result: "Ash"},
+            {name: "Unown", form: "Normal", result: "A"},
+            {name: "Pikachu", form: "Ph. D.", result: "Ph. D"},
+            {name: "Pikachu", form: "Cosplay", result: "Normal"},
+            {name: "Pikachu", form: "Partner  Only", result: "Normal"},
+            {name: "Eevee", form: "Partner  Only", result: "Normal"},
+            {name: "Keldeo", form: "Ordinary", result: "Normal"},
+            {name: "Xerneas", form: "Neutral Mode", result: "Normal"},
+            {name: "Xerneas", form: "Active Mode", result: "Active"},
+            {name: "Zygarde", form: "Normal", result: "50% Forme"},
+            {name: "Sinistea", form: true, result: "Normal"},
+            {name: "Polteageist", form: true, result: "Normal"},
+            {name: "Genesect", form: true, result: "Normal"},
+            {name: "Morpeko", form: true, result: f => f.replace(" Mode", "")},
+            {name: "Tauros", form: f => /Paldean\S/.test(f), result: f => f.replace("Paldean", "Paldean ")},
+            {name: "Tauros", form: "Regular", result: "Normal"},
+            {name: "Tauros", form: "Paldean", result: "Paldean Combat Breed"},
+            {name: "Tauros", form: "Blaze Breed", result: "Paldean Blaze Breed"},
+            {name: "Tauros", form: "Aqua Breed", result: "Paldean Aqua Breed"},
+            {name: "Decidueye", form: "Alolan", result: "Normal"}
+        ]
+
+        const fix = fixesList.find(f =>
+            this.name === f.name &&
+            (typeof f.form === "function" ?
+                f.form(formName) : (formName === f.form || f.form === true))
+        );
+
+        if (!!fix) {
+            // console.log("Applying fix: ", fix, " to pokemon: ", this.name, " form:", formName);
+            formName = (typeof fix.result === "function" ? fix.result(formName) : fix.result);
+        }
 
         if (formName === "")
             formName = "Normal";
-
 
         if (this.forms.length !== 0 && formName === "Normal")
             return this.GetDefaultForm();

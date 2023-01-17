@@ -12294,7 +12294,7 @@
                 "Alias": "Grinchleon",
                 "PrimaryType": "Dark",
                 "SecondaryType": "Poison",
-                "Ability1": "Pick Pocket",
+                "Ability1": "Pickpocket",
                 "Ability2": "Sheer Force",
                 "HumpySpriteURL": "https://i.imgur.com/sN3LZww.gif",
                 "HumpyShinyURL": "https://i.imgur.com/leBbPmf.gif",
@@ -25419,12 +25419,12 @@
         "DexNum": 724,
         "Forms": [
             {
-                "FormName": "Alolan",
+                "FormName": "Normal",
                 "PrimaryType": "Grass",
                 "SecondaryType": "Ghost",
                 "Ability1": "Overgrow",
                 "HiddenAbility": "Long Reach",
-                "MoveSet": "Alolan",
+                "MoveSet": "Normal",
                 "SignatureSuperMove": "Sinister Arrow Raid"
             },
             {
@@ -25448,7 +25448,7 @@
                 "MoveSet": "Fizzytopian"
             }
         ],
-        "DefaultFormName": "Alolan",
+        "DefaultFormName": "Normal",
         "GenderRatioM": 87.5,
         "GenderRatioF": 12.5,
         "EggGroups": [
@@ -32426,7 +32426,7 @@
                 "FormName": "Green Plumage",
                 "PrimaryType": "Normal",
                 "SecondaryType": "Flying",
-                "Ability1": "Green & Blue Plumage Abilities",
+                "Ability1": "Intimidate",
                 "Ability2": "Hustle",
                 "HiddenAbility": "Guts",
                 "MoveSet": "Green Plumage"
@@ -32443,9 +32443,9 @@
                 "FormName": "Yellow Plumage",
                 "PrimaryType": "Normal",
                 "SecondaryType": "Flying",
-                "Ability1": "Green & Blue Plumage Abilities",
+                "Ability1": "Intimidate",
                 "Ability2": "Hustle",
-                "HiddenAbility": "Guts"
+                "HiddenAbility": "Sheer Force"
             },
             {
                 "FormName": "White Plumage",

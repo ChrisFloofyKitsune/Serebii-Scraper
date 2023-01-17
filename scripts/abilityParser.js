@@ -2,6 +2,7 @@ const { readdir, readFile, writeFile } = require('fs/promises');
 const cheerio = require('cheerio');
 const { Bar, Presets } = require('cli-progress');
 const path = require('path');
+const {AbilityNameFix} = require('../src/util');
 
 const htmlDir = path.resolve(__dirname, '../rawHTML/abilities/');
 const progressBar = new Bar({ format: '{bar} {percentage}% | ETA: {eta}s | {value}/{total} | {current}' }, Presets.shades_classic );
@@ -47,7 +48,7 @@ async function parseFile(pathFragment) {
 
     /** @type {AbilityEntry} */
     const entry = {
-        Name: $table.find(rowAfterHeader('Name')).first().text(),
+        Name: AbilityNameFix($table.find(rowAfterHeader('Name')).first().text()),
         GameText: $table.find(rowAfterHeader(`Game's Text`)).text()
     }
 

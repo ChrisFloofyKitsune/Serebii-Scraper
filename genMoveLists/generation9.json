@@ -32023,14 +32023,14 @@
   {
     "Name": "Decidueye",
     "DexNum": 724,
-    "DefaultForm": "Alolan",
+    "DefaultForm": "Normal",
     "Forms": [
-      "Alolan",
+      "Normal",
       "Hisuian"
     ],
     "LevelUpMoveLists": [
       {
-        "Form": "Alolan",
+        "Form": "Normal",
         "LevelUpMoves": [
           {
             "Name": "Spirit Shackle",
@@ -32184,35 +32184,35 @@
       {
         "Name": "Double Team",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Confuse Ray",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Knock Off",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Roost",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Defog",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       }
@@ -32222,7 +32222,7 @@
       {
         "Name": "Take Down",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32235,67 +32235,67 @@
       {
         "Name": "Protect",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Low Kick",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Acrobatics",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Confuse Ray",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Trailblaze",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Facade",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Aerial Ace",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Hex",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Swift",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Magical Leaf",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32308,55 +32308,55 @@
       {
         "Name": "Low Sweep",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Air Cutter",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Night Shade",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Endure",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Sunny Day",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Rain Dance",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Bullet Seed",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "False Swipe",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32369,14 +32369,14 @@
       {
         "Name": "U-turn",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Shadow Claw",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32389,41 +32389,41 @@
       {
         "Name": "Air Slash",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Sleep Talk",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Seed Bomb",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Light Screen",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Grass Knot",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Rest",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32436,27 +32436,27 @@
       {
         "Name": "Swords Dance",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Imprison",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Substitute",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Giga Drain",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32469,34 +32469,34 @@
       {
         "Name": "Tailwind",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Shadow Ball",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Energy Ball",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Helping Hand",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Baton Pass",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32509,41 +32509,41 @@
       {
         "Name": "Grassy Terrain",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Nasty Plot",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Grass Pledge",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Phantom Force",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Giga Impact",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Frenzy Plant",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32556,27 +32556,27 @@
       {
         "Name": "Leaf Storm",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Hurricane",
         "Forms": [
-          "Alolan"
+          "Normal"
         ]
       },
       {
         "Name": "Hyper Beam",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Brave Bird",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
@@ -32589,14 +32589,14 @@
       {
         "Name": "Solar Beam",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       },
       {
         "Name": "Tera Blast",
         "Forms": [
-          "Alolan",
+          "Normal",
           "Hisuian"
         ]
       }
