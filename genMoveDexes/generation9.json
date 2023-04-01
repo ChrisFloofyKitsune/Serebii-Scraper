@@ -296,6 +296,7 @@
     {
         "Name": "Aqua Step",
         "Type": "Water",
+        "Category": "Physical",
         "BasePower": 80,
         "Accuracy": 100,
         "BattleEffect": "The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat.",
@@ -505,6 +506,7 @@
     {
         "Name": "Axe Kick",
         "Type": "Fighting",
+        "Category": "Physical",
         "BasePower": 120,
         "Accuracy": 90,
         "BattleEffect": "The user attacks by kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead.",
@@ -1246,6 +1248,7 @@
     {
         "Name": "Chilly Reception",
         "Type": "Ice",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user tells a chillingly bad joke before switching places with a party Pokémon in waiting. This summons a snowstorm lasting five turns.",
@@ -1370,6 +1373,7 @@
     {
         "Name": "Collision Course",
         "Type": "Fighting",
+        "Category": "Physical",
         "BasePower": 100,
         "Accuracy": 100,
         "BattleEffect": "The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move's power is boosted more than usual if it's a supereffective hit.",
@@ -1386,8 +1390,8 @@
         "Category": "Physical",
         "BasePower": 100,
         "Accuracy": 100,
-        "BattleEffect": "This move is only used by a Starmobile. It may lower the opponent's Defense",
-        "SecondaryEffect": "Lowers opponent's Defense one stage.",
+        "BattleEffect": "This move is only used by a Starmobile. It may paralyze the opponent",
+        "SecondaryEffect": "May induce paralysis.",
         "EffectRate": "30 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
@@ -1957,6 +1961,7 @@
     {
         "Name": "Doodle",
         "Type": "Normal",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 100,
         "BattleEffect": "The user captures the very essence of the target in a sketch. This changes the Abilities of the user and its ally Pokémon to that of the target.",
@@ -2432,6 +2437,7 @@
     {
         "Name": "Electro Drift",
         "Type": "Electric",
+        "Category": "Special",
         "BasePower": 100,
         "Accuracy": 100,
         "BattleEffect": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move's power is boosted more than usual if it's a supereffective hit.",
@@ -2795,6 +2801,7 @@
     {
         "Name": "Fillet Away",
         "Type": "Normal",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP.",
@@ -3101,6 +3108,7 @@
     {
         "Name": "Flower Trick",
         "Type": "Grass",
+        "Category": "Physical",
         "BasePower": 70,
         "Accuracy": 101,
         "BattleEffect": "The user throws a rigged bouquet of flowers at the target. This attack never misses and always lands a critical hit.",
@@ -3504,6 +3512,7 @@
     {
         "Name": "Glaive Rush",
         "Type": "Dragon",
+        "Category": "Physical",
         "BasePower": 120,
         "Accuracy": 100,
         "BattleEffect": "The user throws its entire body into a reckless charge. Attacks from opposing Pokémon during the next turn cannot miss and will inflict double damage.",
@@ -3609,8 +3618,7 @@
         "EffectRate": "-- %",
         "SpeedPriority": "0",
         "CriticalHitRate": "None",
-        "Target": "Field",
-        "MakesPhysicalContact": "No"
+        "Target": "Field"
     },
     {
         "Name": "Growl",
@@ -4115,6 +4123,20 @@
         "MakesPhysicalContact": "No"
     },
     {
+        "Name": "Hydro Steam",
+        "Type": "Water",
+        "Category": "Special",
+        "BasePower": 80,
+        "Accuracy": 100,
+        "BattleEffect": "The user blasts the target with boiling-hot water. This moves power is not lowered in harsh sunlight but rather boosted by 50 percent",
+        "SecondaryEffect": "No effect.",
+        "EffectRate": "-- %",
+        "SpeedPriority": "0",
+        "CriticalHitRate": "4.17%",
+        "Target": "Selected Target",
+        "MakesPhysicalContact": "No"
+    },
+    {
         "Name": "Hyper Beam",
         "Type": "Normal",
         "Category": "Special",
@@ -4285,6 +4307,7 @@
     {
         "Name": "Ice Spinner",
         "Type": "Ice",
+        "Category": "Physical",
         "BasePower": 80,
         "Accuracy": 100,
         "BattleEffect": "The user covers its feet in thin ice and twirls around, slamming into the target. This move's spinning motion also destroys the terrain.",
@@ -4494,6 +4517,7 @@
     {
         "Name": "Jet Punch",
         "Type": "Water",
+        "Category": "Physical",
         "BasePower": 60,
         "Accuracy": 100,
         "BattleEffect": "The user summons a torrent around its fist and punches at blinding speed. This move always goes first.",
@@ -4577,6 +4601,7 @@
     {
         "Name": "Kowtow Cleave",
         "Type": "Dark",
+        "Category": "Physical",
         "BasePower": 85,
         "Accuracy": 101,
         "BattleEffect": "The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses.",
@@ -4632,6 +4657,7 @@
     {
         "Name": "Last Respects",
         "Type": "Ghost",
+        "Category": "Physical",
         "BasePower": 50,
         "Accuracy": 100,
         "BattleEffect": "The user attacks to avenge its allies. The more defeated allies there are in the user's party, the greater the move's power.",
@@ -4869,6 +4895,7 @@
     {
         "Name": "Lumina Crash",
         "Type": "Psychic",
+        "Category": "Special",
         "BasePower": 80,
         "Accuracy": 100,
         "BattleEffect": "The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat.",
@@ -4998,6 +5025,7 @@
         "BasePower": 100,
         "Accuracy": 100,
         "BattleEffect": "This move is only used by a Starmobile. It may confuse the opponent",
+        "SecondaryEffect": "May induce Confusion",
         "EffectRate": "30 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
@@ -5049,6 +5077,7 @@
     {
         "Name": "Make It Rain",
         "Type": "Steel",
+        "Category": "Special",
         "BasePower": 120,
         "Accuracy": 100,
         "BattleEffect": "The user attacks by throwing out a mass of coins. This also lowers the user's Sp. Atk stat. Money is earned after the battle.",
@@ -5062,6 +5091,7 @@
     {
         "Name": "Max Airstream",
         "Type": "Flying",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Flying-type attack Dynamax Pokémon use. This boosts ally Pokémon's Speed stats.",
@@ -5075,6 +5105,7 @@
     {
         "Name": "Max Darkness",
         "Type": "Dark",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Dark-type attack Dynamax Pokémon use. This lowers the target's Sp. Def stat.",
@@ -5088,6 +5119,7 @@
     {
         "Name": "Max Flare",
         "Type": "Fire",
+        "Category": "Physical",
         "BasePower": 100,
         "Accuracy": 101,
         "BattleEffect": "This is a Fire-type attack Dynamax Pokémon use. The user intensifies the sun for five turns.",
@@ -5101,6 +5133,7 @@
     {
         "Name": "Max Flutterby",
         "Type": "Bug",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Bug-type attack Dynamax Pokémon use. This lowers the target's Sp. Atk stat.",
@@ -5114,6 +5147,7 @@
     {
         "Name": "Max Geyser",
         "Type": "Water",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Water-type attack Dynamax Pokémon use. The user summons a heavy rain that falls for five turns.",
@@ -5127,6 +5161,7 @@
     {
         "Name": "Max Guard",
         "Type": "Normal",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
@@ -5140,6 +5175,7 @@
     {
         "Name": "Max Hailstorm",
         "Type": "Ice",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is an Ice-type attack Dynamax Pokémon use. The user summons a snowstorm lasting five turns.",
@@ -5153,6 +5189,7 @@
     {
         "Name": "Max Knuckle",
         "Type": "Fighting",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Fighting-type attack Dynamax Pokémon use. This boosts ally Pokémon's Attack stats.",
@@ -5166,6 +5203,7 @@
     {
         "Name": "Max Lightning",
         "Type": "Electric",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is an Electric-type attack Dynamax Pokémon use. The user turns the ground into Electric Terrain for five turns.",
@@ -5179,6 +5217,7 @@
     {
         "Name": "Max Mindstorm",
         "Type": "Psychic",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Psychic-type attack Dynamax Pokémon use. The user turns the ground into Psychic Terrain for five turns.",
@@ -5192,6 +5231,7 @@
     {
         "Name": "Max Ooze",
         "Type": "Poison",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Poison-type attack Dynamax Pokémon use. This boosts ally Pokémon's Sp. Atk stats.",
@@ -5205,6 +5245,7 @@
     {
         "Name": "Max Overgrowth",
         "Type": "Grass",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Grass-type attack Dynamax Pokémon use. The user turns the ground into Grassy Terrain for five turns.",
@@ -5218,6 +5259,7 @@
     {
         "Name": "Max Phantasm",
         "Type": "Ghost",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Ghost-type attack Dynamax Pokémon use. This lowers the target's Defense stat.",
@@ -5231,6 +5273,7 @@
     {
         "Name": "Max Quake",
         "Type": "Ground",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Ground-type attack Dynamax Pokémon use. This boosts ally Pokémon's Sp. Def stats.",
@@ -5244,6 +5287,7 @@
     {
         "Name": "Max Rockfall",
         "Type": "Rock",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Rock-type attack Dynamax Pokémon use. The user summons a sandstorm lasting five turns.",
@@ -5257,6 +5301,7 @@
     {
         "Name": "Max Starfall",
         "Type": "Fairy",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Fairy-type attack Dynamax Pokémon use. The user turns the ground into Misty Terrain for five turns.",
@@ -5270,6 +5315,7 @@
     {
         "Name": "Max Steelspike",
         "Type": "Steel",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Steel-type attack Dynamax Pokémon use. This boosts ally Pokémon's Defense stats.",
@@ -5283,6 +5329,7 @@
     {
         "Name": "Max Strike",
         "Type": "Normal",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Normal-type attack Dynamax Pokémon use. This lowers the target's Speed stat.",
@@ -5296,6 +5343,7 @@
     {
         "Name": "Max Wyrmwind",
         "Type": "Dragon",
+        "Category": "Physical",
         "BasePower": 10,
         "Accuracy": 101,
         "BattleEffect": "This is a Dragon-type attack Dynamax Pokémon use. This lowers the target's Attack stat.",
@@ -5673,6 +5721,7 @@
     {
         "Name": "Mortal Spin",
         "Type": "Poison",
+        "Category": "Physical",
         "BasePower": 30,
         "Accuracy": 100,
         "BattleEffect": "The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also poisons opposing Pokémon.",
@@ -5966,6 +6015,7 @@
     {
         "Name": "Order Up",
         "Type": "Dragon",
+        "Category": "Physical",
         "BasePower": 80,
         "Accuracy": 100,
         "BattleEffect": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user's stats based on the Tatsugiri's form.",
@@ -6371,6 +6421,7 @@
     {
         "Name": "Population Bomb",
         "Type": "Normal",
+        "Category": "Physical",
         "BasePower": 20,
         "Accuracy": 90,
         "BattleEffect": "The user's fellows gather in droves to perform a combo attack that hits the target one to ten times in a row.",
@@ -6590,6 +6641,20 @@
         "CriticalHitRate": "4.17%",
         "Target": "Selected Target",
         "MakesPhysicalContact": "No"
+    },
+    {
+        "Name": "Psyblade",
+        "Type": "Psychic",
+        "Category": "Physical",
+        "BasePower": 80,
+        "Accuracy": 100,
+        "BattleEffect": "The user rends the target with an etheral blade. This move's power is boosted by 50 percent if the user is on Electric Terrain",
+        "SecondaryEffect": "No effect.",
+        "EffectRate": "-- %",
+        "SpeedPriority": "0",
+        "CriticalHitRate": "4.17%",
+        "Target": "Selected Target",
+        "MakesPhysicalContact": "Yes"
     },
     {
         "Name": "Psych Up",
@@ -6818,6 +6883,7 @@
     {
         "Name": "Raging Bull",
         "Type": "Normal",
+        "Category": "Physical",
         "BasePower": 90,
         "Accuracy": 100,
         "BattleEffect": "The user performs a tackle like a raging bull. This move's type depends on the user's form. It can also break barriers, such as Light Screen and Reflect.",
@@ -7027,6 +7093,7 @@
     {
         "Name": "Revival Blessing",
         "Type": "Normal",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon's max HP.",
@@ -7129,7 +7196,7 @@
         "Accuracy": 100,
         "BattleEffect": "The user attacks with a punch. This may also lower the target's Defense stat.",
         "SecondaryEffect": "May lower opponent's Defense one stage.",
-        "EffectRate": "-- %",
+        "EffectRate": "50 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
         "Target": "Selected Target",
@@ -7236,6 +7303,7 @@
     {
         "Name": "Ruination",
         "Type": "Dark",
+        "Category": "Special",
         "BasePower": 1,
         "Accuracy": 90,
         "BattleEffect": "The user summons a ruinous disaster. This cuts the target's HP in half.",
@@ -7291,6 +7359,7 @@
     {
         "Name": "Salt Cure",
         "Type": "Rock",
+        "Category": "Physical",
         "BasePower": 40,
         "Accuracy": 100,
         "BattleEffect": "The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move.",
@@ -7612,6 +7681,7 @@
     {
         "Name": "Shed Tail",
         "Type": "Normal",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user creates a substitute for itself using its own HP before switching places with a party Pokémon in waiting.",
@@ -7737,6 +7807,7 @@
     {
         "Name": "Silk Trap",
         "Type": "Bug",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact.",
@@ -8058,6 +8129,7 @@
     {
         "Name": "Snowscape",
         "Type": "Ice",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types.",
@@ -8197,6 +8269,7 @@
     {
         "Name": "Spicy Extract",
         "Type": "Grass",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user emits an incredibly spicy extract, sharply boosting the target's Attack stat and harshly lowering the target's Defense stat.",
@@ -8238,10 +8311,11 @@
     {
         "Name": "Spin Out",
         "Type": "Steel",
+        "Category": "Physical",
         "BasePower": 100,
         "Accuracy": 100,
         "BattleEffect": "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user's Speed stat.",
-        "SecondaryEffect": "Lowers opponent's Speed two stages.",
+        "SecondaryEffect": "Lowers user's Speed two stages",
         "EffectRate": "-- %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
@@ -9062,6 +9136,7 @@
     {
         "Name": "Tera Blast",
         "Type": "Normal",
+        "Category": "Special",
         "BasePower": 80,
         "Accuracy": 100,
         "BattleEffect": "If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user.",
@@ -9285,6 +9360,7 @@
     {
         "Name": "Tidy Up",
         "Type": "Normal",
+        "Category": "Status",
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user's Attack and Speed stats.",
@@ -9312,6 +9388,7 @@
     {
         "Name": "Torch Song",
         "Type": "Fire",
+        "Category": "Special",
         "BasePower": 80,
         "Accuracy": 100,
         "BattleEffect": "The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat.",
@@ -9441,7 +9518,7 @@
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
-        "SecondaryEffect": "Inverts the turn order in each Speed Priority bracked for 5 turns.",
+        "SecondaryEffect": "Inverts the turn order in each Speed Priority bracket for 5 turns.",
         "EffectRate": "-- %",
         "SpeedPriority": "-7",
         "CriticalHitRate": "None",
@@ -9493,6 +9570,7 @@
     {
         "Name": "Triple Dive",
         "Type": "Water",
+        "Category": "Physical",
         "BasePower": 30,
         "Accuracy": 95,
         "BattleEffect": "The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row.",
@@ -9859,8 +9937,8 @@
         "Category": "Physical",
         "BasePower": 80,
         "Accuracy": 100,
-        "BattleEffect": "This move is only used by a Starmobile.",
-        "SecondaryEffect": "Lowers opponent's Sp. Def one stage",
+        "BattleEffect": "This move is only used by a Starmobile. It may cause the opponent to fall asleep",
+        "SecondaryEffect": "May put target to sleep",
         "EffectRate": "10 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",

@@ -1900,7 +1900,8 @@
         "CriticalHitRate": "None",
         "Target": "Field",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Chip Away",
@@ -2139,8 +2140,8 @@
         "Category": "Physical",
         "BasePower": 100,
         "Accuracy": 100,
-        "BattleEffect": "This move is only used by a Starmobile. It may lower the opponent's Defense",
-        "SecondaryEffect": "Lowers opponent's Defense one stage.",
+        "BattleEffect": "This move is only used by a Starmobile. It may paralyze the opponent",
+        "SecondaryEffect": "May induce paralysis.",
         "EffectRate": "30 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
@@ -2967,7 +2968,8 @@
         "CriticalHitRate": "None",
         "Target": "Target and Self",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Doom Desire",
@@ -4221,7 +4223,8 @@
         "CriticalHitRate": "None",
         "Target": "Self",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Final Gambit",
@@ -6697,6 +6700,23 @@
         "ZMovePowerOrEffect": "185"
     },
     {
+        "Name": "Hydro Steam",
+        "Type": "Water",
+        "Category": "Special",
+        "BasePower": 80,
+        "Accuracy": 100,
+        "BattleEffect": "The user blasts the target with boiling-hot water. This moves power is not lowered in harsh sunlight but rather boosted by 50 percent",
+        "SecondaryEffect": "No effect.",
+        "EffectRate": "-- %",
+        "SpeedPriority": "0",
+        "CriticalHitRate": "4.17%",
+        "Target": "Selected Target",
+        "MakesPhysicalContact": "No",
+        "IsSuperMove": "No",
+        "MaxMovePower": 130,
+        "ZMovePowerOrEffect": "160"
+    },
+    {
         "Name": "Hydro Vortex",
         "Type": "Water",
         "Category": "Physical",
@@ -7995,7 +8015,7 @@
         "BasePower": 100,
         "Accuracy": 100,
         "BattleEffect": "This move is only used by a Starmobile. It may confuse the opponent",
-        "SecondaryEffect": "No effect.",
+        "SecondaryEffect": "May induce Confusion",
         "EffectRate": "30 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
@@ -8169,7 +8189,7 @@
     {
         "Name": "Max Flare",
         "Type": "Fire",
-        "Category": "Status",
+        "Category": "Physical",
         "BasePower": 100,
         "Accuracy": 101,
         "BattleEffect": "This is a Fire-type attack Dynamax Pokémon use. The user intensifies the sun for five turns.",
@@ -10360,6 +10380,23 @@
         "ZMovePowerOrEffect": "120"
     },
     {
+        "Name": "Psyblade",
+        "Type": "Psychic",
+        "Category": "Physical",
+        "BasePower": 80,
+        "Accuracy": 100,
+        "BattleEffect": "The user rends the target with an etheral blade. This move's power is boosted by 50 percent if the user is on Electric Terrain",
+        "SecondaryEffect": "No effect.",
+        "EffectRate": "-- %",
+        "SpeedPriority": "0",
+        "CriticalHitRate": "4.17%",
+        "Target": "Selected Target",
+        "MakesPhysicalContact": "Yes",
+        "IsSuperMove": "No",
+        "MaxMovePower": 130,
+        "ZMovePowerOrEffect": "160"
+    },
+    {
         "Name": "Psych Up",
         "Type": "Normal",
         "Category": "Status",
@@ -11115,7 +11152,8 @@
         "CriticalHitRate": "None",
         "Target": "Self",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Rising Voltage",
@@ -11259,7 +11297,7 @@
         "Accuracy": 100,
         "BattleEffect": "The user attacks with a punch. This may also lower the target's Defense stat.",
         "SecondaryEffect": "May lower opponent's Defense one stage.",
-        "EffectRate": "-- %",
+        "EffectRate": "50 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
         "Target": "Selected Target",
@@ -11995,7 +12033,8 @@
         "CriticalHitRate": "None",
         "Target": "Self",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Sheer Cold",
@@ -12158,7 +12197,8 @@
         "CriticalHitRate": "None",
         "Target": "Self",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Silver Wind",
@@ -12672,7 +12712,8 @@
         "CriticalHitRate": "None",
         "Target": "Field",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Soak",
@@ -12935,7 +12976,8 @@
         "CriticalHitRate": "None",
         "Target": "Selected Target",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Spider Web",
@@ -13009,7 +13051,7 @@
         "BasePower": 100,
         "Accuracy": 100,
         "BattleEffect": "The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user's Speed stat.",
-        "SecondaryEffect": "Lowers opponent's Speed two stages.",
+        "SecondaryEffect": "Lowers user's Speed two stages",
         "EffectRate": "-- %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
@@ -14494,7 +14536,8 @@
         "CriticalHitRate": "None",
         "Target": "Self",
         "MakesPhysicalContact": "No",
-        "IsSuperMove": "No"
+        "IsSuperMove": "No",
+        "ZMovePowerOrEffect": "No extra effect"
     },
     {
         "Name": "Topsy-Turvy",
@@ -14666,7 +14709,7 @@
         "BasePower": 0,
         "Accuracy": 101,
         "BattleEffect": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
-        "SecondaryEffect": "Inverts the turn order in each Speed Priority bracked for 5 turns.",
+        "SecondaryEffect": "Inverts the turn order in each Speed Priority bracket for 5 turns.",
         "EffectRate": "-- %",
         "SpeedPriority": "-7",
         "CriticalHitRate": "None",
@@ -15347,8 +15390,8 @@
         "Category": "Physical",
         "BasePower": 80,
         "Accuracy": 100,
-        "BattleEffect": "This move is only used by a Starmobile.",
-        "SecondaryEffect": "Lowers opponent's Sp. Def one stage",
+        "BattleEffect": "This move is only used by a Starmobile. It may cause the opponent to fall asleep",
+        "SecondaryEffect": "May put target to sleep",
         "EffectRate": "10 %",
         "SpeedPriority": "0",
         "CriticalHitRate": "4.17%",
