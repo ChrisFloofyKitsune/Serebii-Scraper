@@ -10912,6 +10912,75 @@
             "Level": "56"
           }
         ]
+      },
+      {
+        "Form": "White-Striped",
+        "LevelUpMoves": [
+          {
+            "Name": "Tail Whip",
+            "Level": "—"
+          },
+          {
+            "Name": "Water Gun",
+            "Level": "—"
+          },
+          {
+            "Name": "Tackle",
+            "Level": "4"
+          },
+          {
+            "Name": "Flail",
+            "Level": "8"
+          },
+          {
+            "Name": "Aqua Jet",
+            "Level": "12"
+          },
+          {
+            "Name": "Bite",
+            "Level": "16"
+          },
+          {
+            "Name": "Scary Face",
+            "Level": "20"
+          },
+          {
+            "Name": "Headbutt",
+            "Level": "24"
+          },
+          {
+            "Name": "Soak",
+            "Level": "28"
+          },
+          {
+            "Name": "Crunch",
+            "Level": "32"
+          },
+          {
+            "Name": "Take Down",
+            "Level": "36"
+          },
+          {
+            "Name": "Uproar",
+            "Level": "40"
+          },
+          {
+            "Name": "Wave Crash",
+            "Level": "44"
+          },
+          {
+            "Name": "Thrash",
+            "Level": "48"
+          },
+          {
+            "Name": "Double-Edge",
+            "Level": "52"
+          },
+          {
+            "Name": "Head Smash",
+            "Level": "56"
+          }
+        ]
       }
     ],
     "EggMoves": [
@@ -10928,6 +10997,12 @@
         "Forms": [
           "Red-Striped",
           "Blue-Striped",
+          "White-Striped"
+        ]
+      },
+      {
+        "Name": "Last Respects",
+        "Forms": [
           "White-Striped"
         ]
       }
@@ -79525,6 +79600,340 @@
       },
       {
         "Name": "Hyper Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Tera Blast",
+        "Forms": [
+          "Normal"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Iron Leaves",
+    "DexNum": 1010,
+    "DefaultForm": "Normal",
+    "Forms": [
+      "Normal"
+    ],
+    "LevelUpMoveLists": [
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Leer",
+            "Level": "—"
+          },
+          {
+            "Name": "Quick Attack",
+            "Level": "—"
+          },
+          {
+            "Name": "Helping Hand",
+            "Level": "—"
+          },
+          {
+            "Name": "Work Up",
+            "Level": "—"
+          },
+          {
+            "Name": "Magical Leaf",
+            "Level": "7"
+          },
+          {
+            "Name": "Retaliate",
+            "Level": "14"
+          },
+          {
+            "Name": "Quick Guard",
+            "Level": "21"
+          },
+          {
+            "Name": "Night Slash",
+            "Level": "28"
+          },
+          {
+            "Name": "Swords Dance",
+            "Level": "35"
+          },
+          {
+            "Name": "Sacred Sword",
+            "Level": "42"
+          },
+          {
+            "Name": "Leaf Blade",
+            "Level": "49"
+          },
+          {
+            "Name": "Psyblade",
+            "Level": "56"
+          },
+          {
+            "Name": "Close Combat",
+            "Level": "63"
+          },
+          {
+            "Name": "Imprison",
+            "Level": "70"
+          },
+          {
+            "Name": "Megahorn",
+            "Level": "77"
+          },
+          {
+            "Name": "Ally Switch",
+            "Level": "84"
+          },
+          {
+            "Name": "Solar Blade",
+            "Level": "91"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Quash",
+            "Level": "—"
+          },
+          {
+            "Name": "Electric Terrain",
+            "Level": "—"
+          }
+        ]
+      }
+    ],
+    "EggMoves": [],
+    "TutorMoves": [],
+    "MachineMoves": [
+      {
+        "Name": "Take Down",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Agility",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Scary Face",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Protect",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Trailblaze",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Facade",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Aerial Ace",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Swift",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Magical Leaf",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Endure",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Smart Strike",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "False Swipe",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Brick Break",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Air Slash",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Sleep Talk",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Grass Knot",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Rest",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Taunt",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Swords Dance",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Imprison",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Substitute",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Iron Defense",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "X-Scissor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Giga Drain",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Energy Ball",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Calm Mind",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Helping Hand",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Reversal",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Electric Terrain",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Grassy Terrain",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Psychic Terrain",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Wild Charge",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Giga Impact",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Focus Blast",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Leaf Storm",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Hyper Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Close Combat",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Solar Beam",
         "Forms": [
           "Normal"
         ]
@@ -165107,6 +165516,308 @@
         "Forms": [
           "Normal",
           "Hisuian"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Walking Wake",
+    "DexNum": 1009,
+    "DefaultForm": "Normal",
+    "Forms": [
+      "Normal"
+    ],
+    "LevelUpMoveLists": [
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Leer",
+            "Level": "—"
+          },
+          {
+            "Name": "Roar",
+            "Level": "—"
+          },
+          {
+            "Name": "Twister",
+            "Level": "—"
+          },
+          {
+            "Name": "Aqua Jet",
+            "Level": "—"
+          },
+          {
+            "Name": "Bite",
+            "Level": "7"
+          },
+          {
+            "Name": "Water Pulse",
+            "Level": "14"
+          },
+          {
+            "Name": "Noble Roar",
+            "Level": "21"
+          },
+          {
+            "Name": "Dragon Breath",
+            "Level": "28"
+          },
+          {
+            "Name": "Breaking Swipe",
+            "Level": "35"
+          },
+          {
+            "Name": "Dragon Rush",
+            "Level": "42"
+          },
+          {
+            "Name": "Hydro Steam",
+            "Level": "56"
+          },
+          {
+            "Name": "Dragon Pulse",
+            "Level": "63"
+          },
+          {
+            "Name": "Outrage",
+            "Level": "70"
+          },
+          {
+            "Name": "Flamethrower",
+            "Level": "77"
+          },
+          {
+            "Name": "Hydro Pump",
+            "Level": "84"
+          }
+        ]
+      },
+      {
+        "Form": "Normal",
+        "LevelUpMoves": [
+          {
+            "Name": "Sunny Day",
+            "Level": "—"
+          },
+          {
+            "Name": "Hone Claws",
+            "Level": "—"
+          }
+        ]
+      }
+    ],
+    "EggMoves": [],
+    "TutorMoves": [],
+    "MachineMoves": [
+      {
+        "Name": "Take Down",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Agility",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Scary Face",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Protect",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Fire Fang",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Water Pulse",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Low Kick",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Chilling Water",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Facade",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Snarl",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Swift",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Mud Shot",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Dragon Tail",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Endure",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Sunny Day",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Rain Dance",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Body Slam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Sleep Talk",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Waterfall",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Dragon Claw",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Rest",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Dragon Dance",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Substitute",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Crunch",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Liquidation",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Dragon Pulse",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Surf",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Flamethrower",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Hydro Pump",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Giga Impact",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Outrage",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Hurricane",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Hyper Beam",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Draco Meteor",
+        "Forms": [
+          "Normal"
+        ]
+      },
+      {
+        "Name": "Tera Blast",
+        "Forms": [
+          "Normal"
         ]
       }
     ]

@@ -36445,5 +36445,23 @@
                 "Normal"
             ]
         }
+    ],
+    "1009": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\walkingwake.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1010": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ironleaves.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
     ]
 }

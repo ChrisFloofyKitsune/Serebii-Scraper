@@ -385,26 +385,26 @@ class Gen3MoveParser extends PokeMoveParser {
 const defaultParser = new PokeMoveParser();
 
 const GenParsers = [
-    {index: 1, parser: defaultParser},
-    {index: 2, parser: defaultParser},
-    {index: 3, parser: new Gen3MoveParser()},
-    {index: 4, parser: defaultParser},
-    {index: 5, parser: defaultParser},
-    {index: 6, parser: defaultParser},
-    {index: 7, parser: defaultParser},
-    {index: 8, parser: defaultParser},
+    // {index: 1, parser: defaultParser},
+    // {index: 2, parser: defaultParser},
+    // {index: 3, parser: new Gen3MoveParser()},
+    // {index: 4, parser: defaultParser},
+    // {index: 5, parser: defaultParser},
+    // {index: 6, parser: defaultParser},
+    // {index: 7, parser: defaultParser},
+    // {index: 8, parser: defaultParser},
     {index: 9, parser: defaultParser},
 ];
 
 const generationPaths = [
-    { index: 1, path: "generation1" },
-    { index: 2, path: "generation2" },
-    { index: 3, path: "generation3" },
-    { index: 4, path: "generation4" },
-    { index: 5, path: "generation5" },
-    { index: 6, path: "generation6" },
-    { index: 7, path: "generation7" },
-    {index: 8, path: "generation8"},
+    // { index: 1, path: "generation1" },
+    // { index: 2, path: "generation2" },
+    // { index: 3, path: "generation3" },
+    // { index: 4, path: "generation4" },
+    // { index: 5, path: "generation5" },
+    // { index: 6, path: "generation6" },
+    // { index: 7, path: "generation7" },
+    // {index: 8, path: "generation8"},
     {index: 9, path: "generation9"},
 ];
 
@@ -433,10 +433,16 @@ for (let genPath of generationPaths) {
     const pokemonData = files.map(file => path.join(folderPath, file))
         .filter(filePath => fs.lstatSync(filePath).isFile())
         .map(filePath => {
-            parser.LoadPage(filePath);
-            bar.increment(1, {current: `${parser.GetName()} - ${parser.GetDexNum()}`});
-            return parser.GetPokemonData();
-        });
+            try {
+                parser.LoadPage(filePath);
+                bar.increment(1, {current: `${parser.GetName()} - ${parser.GetDexNum()}`});
+                return parser.GetPokemonData();
+            } catch (err) {
+                console.error(`\nCould not parse page: ${filePath}, skipping`)
+                return null
+            }
+
+        }).filter(item => !!item);
 
     bar.stop();
 

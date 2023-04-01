@@ -2,21 +2,21 @@ const fs = require("fs");
 const cheerio = require("cheerio");
 const path = require("path");
 const cliProgress = require("cli-progress");
-const { PokeParser } = require("../src/PokeParser");
+const {PokeParser} = require("../src/PokeParser");
 
 const inputPath = path.resolve(__dirname, "../rawHTML");
 const outputPath = path.resolve(__dirname, "../data/pokemonGenIndex.json");
 
 const generationPaths = [
-    { index: 1, path: "generation1" },
-    { index: 2, path: "generation2" },
-    { index: 3, path: "generation3" },
-    { index: 4, path: "generation4" },
-    { index: 5, path: "generation5" },
-    { index: 6, path: "generation6" },
-    { index: 7, path: "generation7" },
-    { index: 8, path: "generation8" },
-    { index: 9, path: "generation9" },
+    {index: 1, path: "generation1"},
+    {index: 2, path: "generation2"},
+    {index: 3, path: "generation3"},
+    {index: 4, path: "generation4"},
+    {index: 5, path: "generation5"},
+    {index: 6, path: "generation6"},
+    {index: 7, path: "generation7"},
+    {index: 8, path: "generation8"},
+    {index: 9, path: "generation9"},
 ];
 
 /* 
@@ -27,7 +27,7 @@ const generationPaths = [
 */
 
 const pokeParser = new PokeParser();
-let output = { };
+let output = {};
 
 for (let genPath of generationPaths) {
     let folderPath = path.join(inputPath, genPath.path);
@@ -43,29 +43,34 @@ for (let genPath of generationPaths) {
 
     //files = files.slice(200,201);
 
-    bar.start(files.length, 0, { current: " - " });
+    bar.start(files.length, 0, {current: " - "});
 
     files.map(file => path.join(folderPath, file))
         .filter(filePath => fs.lstatSync(filePath).isFile())
         .forEach(filePath => {
             let dexNum = ParsePage(filePath, genPath.index);
-            bar.increment(1, { current: `#${dexNum}` });
+            bar.increment(1, {current: `#${dexNum}`});
         });
 
     bar.stop();
 }
 
 function ParsePage(filePath, genIndex) {
-    pokeParser.LoadPage(filePath);
-    const data = pokeParser.GetPokemonData();
+    try {
+        pokeParser.LoadPage(filePath);
+        const data = pokeParser.GetPokemonData();
 
-    CreateOrAddGenIndex(data, genIndex, filePath);
 
-    return data.DexNum;
+        CreateOrAddGenIndex(data, genIndex, filePath);
+
+        return data.DexNum;
+    } catch (err) {
+        console.error(`Could not parse page: ${filePath}, skipping`)
+    }
 }
 
 /**
- * 
+ *
  * @param {object} pokeData
  * @param {string} pokeData.Name
  * @param {number} pokeData.DexNum

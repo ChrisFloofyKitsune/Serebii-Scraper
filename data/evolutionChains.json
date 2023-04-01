@@ -1621,6 +1621,19 @@
   },
   {
     "Stage1": {
+      "Name": "Girafarig",
+      "DexNum": 203,
+      "Form": "Normal"
+    },
+    "Stage2Method": "",
+    "Stage2": {
+      "Name": "Farigiraf",
+      "DexNum": 981,
+      "Form": "Normal"
+    }
+  },
+  {
+    "Stage1": {
       "Name": "Pineco",
       "DexNum": 204,
       "Form": "Normal"
