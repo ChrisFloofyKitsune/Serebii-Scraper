@@ -25,8 +25,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -80,8 +80,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -151,8 +151,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -344,8 +344,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -376,8 +376,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -422,8 +422,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -946,8 +946,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Dragon"
@@ -976,8 +976,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Dragon"
@@ -1255,8 +1255,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -1298,8 +1298,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -1534,8 +1534,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Fairy"
         ],
@@ -1566,8 +1566,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Fairy"
         ],
@@ -1604,8 +1604,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Field"
         ],
@@ -1647,8 +1647,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Field"
         ],
@@ -1813,8 +1813,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -1855,8 +1855,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -1897,8 +1897,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -2474,8 +2474,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1"
         ],
@@ -2516,8 +2516,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1"
         ],
@@ -2559,8 +2559,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1"
         ],
@@ -2812,8 +2812,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -2844,8 +2844,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -2876,8 +2876,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -2909,8 +2909,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 3"
         ],
@@ -2939,8 +2939,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 3"
         ],
@@ -2978,8 +2978,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Mineral"
         ],
@@ -3030,8 +3030,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Mineral"
         ],
@@ -3082,8 +3082,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Mineral"
         ],
@@ -3439,8 +3439,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Flying"
         ],
@@ -3469,8 +3469,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Flying"
         ],
@@ -3498,8 +3498,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -3529,8 +3529,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -4082,8 +4082,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -4126,8 +4126,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -4330,8 +4330,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -4375,8 +4375,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -4412,8 +4412,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Monster",
             "Field"
@@ -4446,8 +4446,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Monster",
             "Field"
@@ -4573,8 +4573,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Dragon"
@@ -4606,8 +4606,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Dragon"
@@ -4871,8 +4871,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -4902,8 +4902,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -5098,8 +5098,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -5525,8 +5525,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster"
         ],
@@ -5803,8 +5803,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -5835,8 +5835,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -5867,8 +5867,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -6030,8 +6030,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -6062,8 +6062,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -6094,8 +6094,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -6127,8 +6127,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -6156,8 +6156,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -6186,8 +6186,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Flying"
         ],
@@ -6216,8 +6216,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Flying"
         ],
@@ -6306,8 +6306,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -6336,8 +6336,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -6398,8 +6398,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 2"
         ],
@@ -6428,8 +6428,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 2"
         ],
@@ -6505,8 +6505,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Unbreedable"
         ],
@@ -6805,8 +6805,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass"
         ],
@@ -6934,8 +6934,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1"
         ],
@@ -7068,8 +7068,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -7156,8 +7156,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -7731,8 +7731,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -7804,8 +7804,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Field",
             "Fairy"
@@ -7834,8 +7834,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Field",
             "Fairy"
@@ -8113,8 +8113,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -8143,8 +8143,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -8173,8 +8173,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -8206,8 +8206,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -8389,8 +8389,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Flying"
         ]
@@ -8484,8 +8484,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Dragon"
@@ -8634,8 +8634,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ]
@@ -8755,8 +8755,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Unbreedable"
         ],
@@ -8786,8 +8786,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Unbreedable"
         ],
@@ -9094,8 +9094,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Dragon"
@@ -9126,8 +9126,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Dragon"
@@ -9165,8 +9165,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Dragon"
@@ -9204,8 +9204,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -9236,8 +9236,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -9275,8 +9275,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -9313,8 +9313,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -9346,8 +9346,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -9386,8 +9386,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Water 1"
@@ -9426,8 +9426,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -9455,8 +9455,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -9746,8 +9746,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Grass"
@@ -9780,8 +9780,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Grass"
@@ -9814,8 +9814,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Grass"
@@ -9847,8 +9847,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Grass"
@@ -9881,8 +9881,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Grass"
@@ -9909,14 +9909,14 @@
                 "PrimaryType": "Grass",
                 "SecondaryType": "Dark",
                 "Ability1": "Chlorophyll",
-                "Ability2": "Early Bird",
+                "Ability2": "Wind Rider",
                 "HiddenAbility": "Pickpocket",
                 "MoveSet": "Normal"
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Grass"
@@ -10695,8 +10695,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Mineral"
         ],
@@ -11109,8 +11109,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Fairy"
         ]
@@ -11128,8 +11128,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Fairy"
         ]
@@ -11587,8 +11587,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug",
             "Dragon"
@@ -11619,8 +11619,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug",
             "Dragon"
@@ -11651,8 +11651,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug",
             "Dragon"
@@ -11954,8 +11954,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Water 3"
@@ -11985,8 +11985,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Water 3"
@@ -12187,8 +12187,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Dragon"
@@ -12217,8 +12217,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Dragon"
@@ -12401,8 +12401,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -12432,8 +12432,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -12484,8 +12484,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -13377,8 +13377,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -13409,8 +13409,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -13442,8 +13442,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster",
             "Grass"
@@ -13474,8 +13474,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field",
             "Human-like"
@@ -13507,8 +13507,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field",
             "Human-like"
@@ -13540,8 +13540,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field",
             "Human-like"
@@ -13567,13 +13567,13 @@
                 "FormName": "Normal",
                 "PrimaryType": "Water",
                 "Ability1": "Torrent",
-                "HiddenAbility": "Defiant",
+                "HiddenAbility": "Competitive",
                 "MoveSet": "Normal"
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -13599,13 +13599,13 @@
                 "FormName": "Normal",
                 "PrimaryType": "Water",
                 "Ability1": "Torrent",
-                "HiddenAbility": "Defiant",
+                "HiddenAbility": "Competitive",
                 "MoveSet": "Normal"
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -13632,13 +13632,13 @@
                 "PrimaryType": "Water",
                 "SecondaryType": "Steel",
                 "Ability1": "Torrent",
-                "HiddenAbility": "Defiant",
+                "HiddenAbility": "Competitive",
                 "MoveSet": "Normal"
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -14045,8 +14045,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster"
         ],
@@ -14073,8 +14073,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster"
         ],
@@ -14102,8 +14102,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster"
         ],
@@ -14131,8 +14131,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Monster"
         ],
@@ -14627,8 +14627,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -14903,8 +14903,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Unbreedable"
         ],
@@ -15307,8 +15307,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Unbreedable"
         ],
@@ -15860,8 +15860,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Monster",
             "Field"
@@ -15921,8 +15921,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -15952,8 +15952,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -16019,8 +16019,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -16105,8 +16105,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -16135,8 +16135,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -16249,8 +16249,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Mineral"
         ],
@@ -16277,8 +16277,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -16939,8 +16939,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.1,
-        "GenderRatioF": 11.9,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field",
             "Grass"
@@ -16971,8 +16971,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.1,
-        "GenderRatioF": 11.9,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field",
             "Grass"
@@ -17003,8 +17003,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.1,
-        "GenderRatioF": 11.9,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field",
             "Grass"
@@ -17035,8 +17035,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.1,
-        "GenderRatioF": 11.9,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -17067,8 +17067,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.1,
-        "GenderRatioF": 11.9,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -17099,8 +17099,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.1,
-        "GenderRatioF": 11.9,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -18015,8 +18015,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -18045,8 +18045,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -18108,8 +18108,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -18140,8 +18140,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -18172,8 +18172,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 75.49,
-        "GenderRatioF": 24.51,
+        "GenderRatioM": 75,
+        "GenderRatioF": 25,
         "EggGroups": [
             "Human-like"
         ],
@@ -18541,8 +18541,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass",
             "Fairy"
@@ -18572,8 +18572,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass",
             "Fairy"
@@ -19027,8 +19027,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Dragon"
@@ -19058,8 +19058,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Dragon"
@@ -19493,8 +19493,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Field"
         ],
@@ -19522,8 +19522,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Field"
         ],
@@ -19647,8 +19647,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -19679,8 +19679,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -19711,8 +19711,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -20270,8 +20270,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -20300,8 +20300,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -20633,8 +20633,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -20666,8 +20666,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -20699,8 +20699,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Amorphous"
         ],
@@ -20993,8 +20993,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Human-like"
@@ -21023,8 +21023,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Human-like"
@@ -23791,8 +23791,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field"
         ],
@@ -24092,8 +24092,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Water 2"
@@ -24123,8 +24123,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Water 2"
@@ -24769,8 +24769,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass",
             "Amorphous"
@@ -24800,8 +24800,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Grass",
             "Amorphous"
@@ -25345,7 +25345,7 @@
                 "Stage2Form": "Normal",
                 "Stage3Method": "Level 34",
                 "Stage3DexNum": 724,
-                "Stage3Form": "Alolan"
+                "Stage3Form": "Normal"
             },
             {
                 "Stage1DexNum": "722",
@@ -25409,7 +25409,7 @@
                 "Stage2Form": "Normal",
                 "Stage3Method": "Level 34",
                 "Stage3DexNum": 724,
-                "Stage3Form": "Alolan"
+                "Stage3Form": "Normal"
             },
             {
                 "Stage1DexNum": "722",
@@ -25428,12 +25428,12 @@
         "DexNum": 724,
         "Forms": [
             {
-                "FormName": "Alolan",
+                "FormName": "Normal",
                 "PrimaryType": "Grass",
                 "SecondaryType": "Ghost",
                 "Ability1": "Overgrow",
                 "HiddenAbility": "Long Reach",
-                "MoveSet": "Alolan",
+                "MoveSet": "Normal",
                 "SignatureSuperMove": "Sinister Arrow Raid"
             },
             {
@@ -25457,7 +25457,7 @@
                 "MoveSet": "Fizzytopian"
             }
         ],
-        "DefaultFormName": "Alolan",
+        "DefaultFormName": "Normal",
         "GenderRatioM": 88,
         "GenderRatioF": 12,
         "EggGroups": [
@@ -25482,7 +25482,7 @@
                 "Stage2Form": "Normal",
                 "Stage3Method": "Level 34",
                 "Stage3DexNum": 724,
-                "Stage3Form": "Alolan"
+                "Stage3Form": "Normal"
             },
             {
                 "Stage1DexNum": "722",
@@ -25509,8 +25509,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -25540,8 +25540,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -25573,8 +25573,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Field"
         ],
@@ -25604,8 +25604,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -25636,8 +25636,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -25670,8 +25670,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 88.14,
-        "GenderRatioF": 11.86,
+        "GenderRatioM": 88,
+        "GenderRatioF": 12,
         "EggGroups": [
             "Water 1",
             "Field"
@@ -25858,8 +25858,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -25889,8 +25889,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -25920,8 +25920,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug"
         ],
@@ -26053,8 +26053,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug",
             "Fairy"
@@ -26084,8 +26084,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Bug",
             "Fairy"
@@ -26372,8 +26372,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Bug"
@@ -26402,8 +26402,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Bug"
@@ -26764,8 +26764,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 24.9,
-        "GenderRatioF": 75.1,
+        "GenderRatioM": 25,
+        "GenderRatioF": 75,
         "EggGroups": [
             "Grass"
         ]
@@ -27244,8 +27244,8 @@
             }
         ],
         "DefaultFormName": "Meteor",
-        "GenderRatioM": 0,
-        "GenderRatioF": 0,
+        "GenderRatioM": null,
+        "GenderRatioF": null,
         "EggGroups": [
             "Mineral"
         ],
@@ -27459,8 +27459,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Dragon"
         ],
@@ -27492,8 +27492,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Dragon"
         ],
@@ -27527,8 +27527,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Dragon"
         ],
@@ -29474,8 +29474,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Water 1",
             "Flying"
@@ -30716,8 +30716,8 @@
             }
         ],
         "DefaultFormName": "Full Belly",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Field",
             "Fairy"
@@ -30912,8 +30912,8 @@
             }
         ],
         "DefaultFormName": "Normal",
-        "GenderRatioM": 50.2,
-        "GenderRatioF": 49.8,
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
         "EggGroups": [
             "Mineral",
             "Dragon"
@@ -31445,18 +31445,25 @@
         "DexNum": 901,
         "Forms": [
             {
-                "FormName": "Normal",
+                "FormName": "Hisuian",
                 "PrimaryType": "Ground",
                 "SecondaryType": "Normal",
                 "Ability1": "Guts",
                 "Ability2": "Bulletproof",
                 "HiddenAbility": "Unnerve",
-                "MoveSet": "Normal"
+                "MoveSet": "Hisuian"
+            },
+            {
+                "FormName": "Bloodmoon",
+                "PrimaryType": "Ground",
+                "SecondaryType": "Normal",
+                "Ability1": "Mind's Eye",
+                "MoveSet": "Bloodmoon"
             }
         ],
-        "DefaultFormName": "Normal",
-        "GenderRatioM": 50,
-        "GenderRatioF": 50,
+        "DefaultFormName": "Hisuian",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
         "EggGroups": [
             "Field"
         ],
@@ -34492,14 +34499,38 @@
         "DexNum": 1007,
         "Forms": [
             {
-                "FormName": "Normal",
+                "FormName": "Apex Build",
                 "PrimaryType": "Fighting",
                 "SecondaryType": "Dragon",
                 "Ability1": "Orichalcum Pulse",
-                "MoveSet": "Normal"
+                "MoveSet": "Apex Build"
+            },
+            {
+                "FormName": "Limited Build",
+                "PrimaryType": "Fighting",
+                "SecondaryType": "Dragon",
+                "Ability1": "Orichalcum Pulse"
+            },
+            {
+                "FormName": "Sprinting Build",
+                "PrimaryType": "Fighting",
+                "SecondaryType": "Dragon",
+                "Ability1": "Orichalcum Pulse"
+            },
+            {
+                "FormName": "Swimming Build",
+                "PrimaryType": "Fighting",
+                "SecondaryType": "Dragon",
+                "Ability1": "Orichalcum Pulse"
+            },
+            {
+                "FormName": "Gliding Build",
+                "PrimaryType": "Fighting",
+                "SecondaryType": "Dragon",
+                "Ability1": "Orichalcum Pulse"
             }
         ],
-        "DefaultFormName": "Normal",
+        "DefaultFormName": "Apex Build",
         "GenderRatioM": null,
         "GenderRatioF": null,
         "EggGroups": [
@@ -34511,14 +34542,38 @@
         "DexNum": 1008,
         "Forms": [
             {
-                "FormName": "Normal",
+                "FormName": "Ultimate Mode",
                 "PrimaryType": "Electric",
                 "SecondaryType": "Dragon",
                 "Ability1": "Hadron Engine",
-                "MoveSet": "Normal"
+                "MoveSet": "Ultimate Mode"
+            },
+            {
+                "FormName": "Low-Power Mode",
+                "PrimaryType": "Electric",
+                "SecondaryType": "Dragon",
+                "Ability1": "Hadron Engine"
+            },
+            {
+                "FormName": "Drive Mode",
+                "PrimaryType": "Electric",
+                "SecondaryType": "Dragon",
+                "Ability1": "Hadron Engine"
+            },
+            {
+                "FormName": "Aquatic Mode",
+                "PrimaryType": "Electric",
+                "SecondaryType": "Dragon",
+                "Ability1": "Hadron Engine"
+            },
+            {
+                "FormName": "Glide Mode",
+                "PrimaryType": "Electric",
+                "SecondaryType": "Dragon",
+                "Ability1": "Hadron Engine"
             }
         ],
-        "DefaultFormName": "Normal",
+        "DefaultFormName": "Ultimate Mode",
         "GenderRatioM": null,
         "GenderRatioF": null,
         "EggGroups": [
@@ -34553,6 +34608,372 @@
                 "PrimaryType": "Grass",
                 "SecondaryType": "Psychic",
                 "Ability1": "Quark Drive",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Dipplin",
+        "DexNum": 1011,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Dragon",
+                "Ability1": "Supersweet Syrup",
+                "Ability2": "Gluttony",
+                "HiddenAbility": "Sticky Hold",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
+        "EggGroups": [
+            "Grass",
+            "Dragon"
+        ]
+    },
+    {
+        "Name": "Poltchageist",
+        "DexNum": 1012,
+        "Forms": [
+            {
+                "FormName": "Counterfeit",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Ghost",
+                "Ability1": "Hospitality",
+                "HiddenAbility": "Heatproof",
+                "MoveSet": "Counterfeit"
+            },
+            {
+                "FormName": "Artisan",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Ghost",
+                "Ability1": "Hospitality",
+                "HiddenAbility": "Heatproof"
+            }
+        ],
+        "DefaultFormName": "Counterfeit",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Mineral",
+            "Amorphous"
+        ]
+    },
+    {
+        "Name": "Sinistcha",
+        "DexNum": 1013,
+        "Forms": [
+            {
+                "FormName": "Unremarkable",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Ghost",
+                "Ability1": "Hospitality",
+                "HiddenAbility": "Heatproof",
+                "MoveSet": "Unremarkable"
+            },
+            {
+                "FormName": "Masterpiece",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Ghost",
+                "Ability1": "Hospitality",
+                "HiddenAbility": "Heatproof"
+            }
+        ],
+        "DefaultFormName": "Unremarkable",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Mineral",
+            "Amorphous"
+        ]
+    },
+    {
+        "Name": "Okidogi",
+        "DexNum": 1014,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Poison",
+                "SecondaryType": "Fighting",
+                "Ability1": "Toxic Chain",
+                "HiddenAbility": "Guard Dog",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 100,
+        "GenderRatioF": 0,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Munkidori",
+        "DexNum": 1015,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Poison",
+                "SecondaryType": "Psychic",
+                "Ability1": "Toxic Chain",
+                "HiddenAbility": "Frisk",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 100,
+        "GenderRatioF": 0,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Fezandipiti",
+        "DexNum": 1016,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Poison",
+                "SecondaryType": "Fairy",
+                "Ability1": "Toxic Chain",
+                "HiddenAbility": "Technician",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 100,
+        "GenderRatioF": 0,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Ogerpon",
+        "DexNum": 1017,
+        "Forms": [
+            {
+                "FormName": "Teal Mask",
+                "PrimaryType": "Grass",
+                "Ability1": "Defiant",
+                "MoveSet": "Teal Mask"
+            },
+            {
+                "FormName": "Wellspring Mask",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Water",
+                "Ability1": "Water Absorb"
+            },
+            {
+                "FormName": "Hearthflame Mask",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Fire",
+                "Ability1": "Mold Breaker"
+            },
+            {
+                "FormName": "Cornerstone Mask",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Rock",
+                "Ability1": "Sturdy"
+            },
+            {
+                "FormName": "Teal MaskTera",
+                "Ability1": "Teal Mask Abilities",
+                "Ability2": "Defiant"
+            },
+            {
+                "FormName": "Wellspring MaskTera",
+                "Ability1": "Teal Mask Abilities",
+                "Ability2": "Defiant"
+            },
+            {
+                "FormName": "Hearthflame MaskTera",
+                "Ability1": "Teal Mask Abilities",
+                "Ability2": "Defiant"
+            },
+            {
+                "FormName": "Cornerstone MaskTera",
+                "Ability1": "Teal Mask Abilities",
+                "Ability2": "Defiant"
+            },
+            {
+                "FormName": "Tera Type",
+                "Ability1": "Teal Mask Abilities",
+                "Ability2": "Defiant"
+            }
+        ],
+        "DefaultFormName": "Teal Mask",
+        "GenderRatioM": 0,
+        "GenderRatioF": 100,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Archaludon",
+        "DexNum": 1018,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Steel",
+                "SecondaryType": "Dragon",
+                "Ability1": "Stamina",
+                "Ability2": "Sturdy",
+                "HiddenAbility": "Stalwart",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
+        "EggGroups": [
+            "Mineral",
+            "Dragon"
+        ]
+    },
+    {
+        "Name": "Hydrapple",
+        "DexNum": 1019,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Grass",
+                "SecondaryType": "Dragon",
+                "Ability1": "Supersweet Syrup",
+                "Ability2": "Regenerator",
+                "HiddenAbility": "Sticky Hold",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
+        "EggGroups": [
+            "Grass",
+            "Dragon"
+        ]
+    },
+    {
+        "Name": "Gouging Fire",
+        "DexNum": 1020,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Fire",
+                "SecondaryType": "Dragon",
+                "Ability1": "Protosynthesis",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Raging Bolt",
+        "DexNum": 1021,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Electric",
+                "SecondaryType": "Dragon",
+                "Ability1": "Protosynthesis",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Iron Boulder",
+        "DexNum": 1022,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Rock",
+                "SecondaryType": "Psychic",
+                "Ability1": "Quark Drive",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Iron Crown",
+        "DexNum": 1023,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Steel",
+                "SecondaryType": "Psychic",
+                "Ability1": "Quark Drive",
+                "MoveSet": "Normal"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": null,
+        "GenderRatioF": null,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Terapagos",
+        "DexNum": 1024,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Normal",
+                "Ability1": "Tera Shift",
+                "MoveSet": "Normal"
+            },
+            {
+                "FormName": "Terastal",
+                "PrimaryType": "Normal",
+                "Ability1": "Tera Shell"
+            },
+            {
+                "FormName": "Stellar",
+                "PrimaryType": "Normal",
+                "Ability1": "Teraform Zero"
+            }
+        ],
+        "DefaultFormName": "Normal",
+        "GenderRatioM": 50,
+        "GenderRatioF": 50,
+        "EggGroups": [
+            "Unbreedable"
+        ]
+    },
+    {
+        "Name": "Pecharunt",
+        "DexNum": 1025,
+        "Forms": [
+            {
+                "FormName": "Normal",
+                "PrimaryType": "Poison",
+                "SecondaryType": "Ghost",
+                "Ability1": "Poison Puppeteer",
                 "MoveSet": "Normal"
             }
         ],

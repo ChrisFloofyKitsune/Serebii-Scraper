@@ -55,6 +55,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\bulbasaur.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "2": [
@@ -110,6 +117,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\ivysaur.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ivysaur.html",
             "Forms": [
                 "Normal"
             ]
@@ -173,6 +187,13 @@
             "Forms": [
                 "Normal",
                 "Gigantamax"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\venusaur.html",
+            "Forms": [
+                "Normal"
             ]
         }
     ],
@@ -432,6 +453,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\squirtle.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "8": [
@@ -487,6 +515,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\wartortle.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\wartortle.html",
             "Forms": [
                 "Normal"
             ]
@@ -550,6 +585,13 @@
             "Forms": [
                 "Normal",
                 "Gigantamax"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\blastoise.html",
+            "Forms": [
+                "Normal"
             ]
         }
     ],
@@ -1370,6 +1412,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ekans.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "24": [
@@ -1425,6 +1474,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\arbok.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\arbok.html",
             "Forms": [
                 "Normal"
             ]
@@ -1665,6 +1721,14 @@
                 "Normal",
                 "Alolan"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\sandshrew.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
         }
     ],
     "28": [
@@ -1721,6 +1785,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\sandslash.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\sandslash.html",
             "Forms": [
                 "Normal",
                 "Alolan"
@@ -2131,6 +2203,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\clefairy.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "36": [
@@ -2186,6 +2265,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\clefable.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\clefable.html",
             "Forms": [
                 "Normal"
             ]
@@ -2249,6 +2335,14 @@
                 "Normal",
                 "Alolan"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\vulpix.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
         }
     ],
     "38": [
@@ -2305,6 +2399,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\ninetales.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ninetales.html",
             "Forms": [
                 "Normal",
                 "Alolan"
@@ -2613,6 +2715,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\oddish.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "44": [
@@ -2671,6 +2780,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\gloom.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "45": [
@@ -2726,6 +2842,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\vileplume.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\vileplume.html",
             "Forms": [
                 "Normal"
             ]
@@ -3702,6 +3825,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\poliwag.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "61": [
@@ -3760,6 +3890,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\poliwhirl.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "62": [
@@ -3815,6 +3952,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\poliwrath.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\poliwrath.html",
             "Forms": [
                 "Normal"
             ]
@@ -4227,6 +4371,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\bellsprout.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "70": [
@@ -4282,6 +4433,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\weepinbell.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\weepinbell.html",
             "Forms": [
                 "Normal"
             ]
@@ -4343,6 +4501,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\victreebel.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "72": [
@@ -4401,6 +4566,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\tentacool.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "73": [
@@ -4456,6 +4628,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\tentacruel.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\tentacruel.html",
             "Forms": [
                 "Normal"
             ]
@@ -4518,6 +4697,14 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\geodude.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
         }
     ],
     "75": [
@@ -4577,6 +4764,14 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\graveler.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
         }
     ],
     "76": [
@@ -4635,6 +4830,14 @@
             "Path": "\\generation8\\golem.html",
             "Forms": [
                 "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\golem.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
             ]
         }
     ],
@@ -5137,6 +5340,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\doduo.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "85": [
@@ -5192,6 +5402,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\dodrio.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\dodrio.html",
             "Forms": [
                 "Normal"
             ]
@@ -5253,6 +5470,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\seel.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "87": [
@@ -5308,6 +5532,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\dewgong.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\dewgong.html",
             "Forms": [
                 "Normal"
             ]
@@ -6270,6 +6501,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\exeggcute.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "103": [
@@ -6326,6 +6564,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\exeggutor.html",
+            "Forms": [
+                "Normal",
+                "Alolan"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\exeggutor.html",
             "Forms": [
                 "Normal",
                 "Alolan"
@@ -6506,6 +6752,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\hitmonlee.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "107": [
@@ -6561,6 +6814,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\hitmonchan.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\hitmonchan.html",
             "Forms": [
                 "Normal"
             ]
@@ -6680,6 +6940,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\koffing.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "110": [
@@ -6735,6 +7002,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\weezing.html",
+            "Forms": [
+                "Normal",
+                "Galarian"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\weezing.html",
             "Forms": [
                 "Normal",
                 "Galarian"
@@ -6797,6 +7072,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\rhyhorn.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "112": [
@@ -6852,6 +7134,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\rhydon.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\rhydon.html",
             "Forms": [
                 "Normal"
             ]
@@ -7096,6 +7385,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\horsea.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "117": [
@@ -7151,6 +7447,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\seadra.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\seadra.html",
             "Forms": [
                 "Normal"
             ]
@@ -7626,6 +7929,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\electabuzz.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "126": [
@@ -7681,6 +7991,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\magmar.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\magmar.html",
             "Forms": [
                 "Normal"
             ]
@@ -8002,6 +8319,13 @@
             "Forms": [
                 "Normal",
                 "Gigantamax"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lapras.html",
+            "Forms": [
+                "Normal"
             ]
         }
     ],
@@ -8387,6 +8711,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\porygon.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "138": [
@@ -8737,6 +9068,13 @@
             "Forms": [
                 "Normal",
                 "Gigantamax"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\snorlax.html",
+            "Forms": [
+                "Normal"
             ]
         }
     ],
@@ -9319,6 +9657,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\chikorita.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "153": [
@@ -9370,6 +9715,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\bayleef.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "154": [
@@ -9418,6 +9770,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\meganium.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\meganium.html",
             "Forms": [
                 "Normal"
             ]
@@ -9648,6 +10007,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\totodile.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "159": [
@@ -9696,6 +10062,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\croconaw.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\croconaw.html",
             "Forms": [
                 "Normal"
             ]
@@ -9750,6 +10123,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\feraligatr.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "161": [
@@ -9798,6 +10178,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\sentret.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\sentret.html",
             "Forms": [
                 "Normal"
             ]
@@ -9852,6 +10239,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\furret.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "163": [
@@ -9903,6 +10297,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\hoothoot.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "164": [
@@ -9951,6 +10352,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\noctowl.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\noctowl.html",
             "Forms": [
                 "Normal"
             ]
@@ -10107,6 +10515,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\spinarak.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "168": [
@@ -10155,6 +10570,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\ariados.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ariados.html",
             "Forms": [
                 "Normal"
             ]
@@ -10260,6 +10682,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\chinchou.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "171": [
@@ -10308,6 +10737,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\lanturn.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lanturn.html",
             "Forms": [
                 "Normal"
             ]
@@ -10423,6 +10859,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\cleffa.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cleffa.html",
             "Forms": [
                 "Normal"
             ]
@@ -10915,6 +11358,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\bellossom.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "183": [
@@ -11137,6 +11587,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\politoed.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\politoed.html",
             "Forms": [
                 "Normal"
             ]
@@ -11365,6 +11822,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\aipom.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "191": [
@@ -11529,6 +11993,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\yanma.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\yanma.html",
             "Forms": [
                 "Normal"
             ]
@@ -12461,6 +12932,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\gligar.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "208": [
@@ -12565,6 +13043,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\snubbull.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "210": [
@@ -12613,6 +13098,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\granbull.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\granbull.html",
             "Forms": [
                 "Normal"
             ]
@@ -13074,6 +13566,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\slugma.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "219": [
@@ -13122,6 +13621,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\magcargo.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\magcargo.html",
             "Forms": [
                 "Normal"
             ]
@@ -13176,6 +13682,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\swinub.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "221": [
@@ -13224,6 +13737,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\piloswine.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\piloswine.html",
             "Forms": [
                 "Normal"
             ]
@@ -13541,6 +14061,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\skarmory.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "228": [
@@ -13707,6 +14234,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\kingdra.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\kingdra.html",
             "Forms": [
                 "Normal"
             ]
@@ -13877,6 +14411,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\porygon2.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "234": [
@@ -13986,6 +14527,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\smeargle.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "236": [
@@ -14037,6 +14585,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\tyrogue.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "237": [
@@ -14085,6 +14640,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\hitmontop.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\hitmontop.html",
             "Forms": [
                 "Normal"
             ]
@@ -14190,6 +14752,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\elekid.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "240": [
@@ -14238,6 +14807,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\magby.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\magby.html",
             "Forms": [
                 "Normal"
             ]
@@ -14401,6 +14977,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\raikou.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "244": [
@@ -14452,6 +15035,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\entei.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "245": [
@@ -14500,6 +15090,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\suicune.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\suicune.html",
             "Forms": [
                 "Normal"
             ]
@@ -14730,6 +15327,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lugia.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "250": [
@@ -14778,6 +15382,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\ho-oh.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ho-oh.html",
             "Forms": [
                 "Normal"
             ]
@@ -14876,6 +15487,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\treecko.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "253": [
@@ -14917,6 +15535,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\grovyle.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\grovyle.html",
             "Forms": [
                 "Normal"
             ]
@@ -14966,6 +15591,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\sceptile.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "255": [
@@ -15010,6 +15642,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\torchic.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "256": [
@@ -15051,6 +15690,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\combusken.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\combusken.html",
             "Forms": [
                 "Normal"
             ]
@@ -15100,6 +15746,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\blaziken.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "258": [
@@ -15144,6 +15797,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\mudkip.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "259": [
@@ -15185,6 +15845,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\marshtomp.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\marshtomp.html",
             "Forms": [
                 "Normal"
             ]
@@ -15234,6 +15901,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\swampert.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "261": [
@@ -15278,6 +15952,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\poochyena.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "262": [
@@ -15319,6 +16000,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\mightyena.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\mightyena.html",
             "Forms": [
                 "Normal"
             ]
@@ -15676,6 +16364,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lotad.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "271": [
@@ -15717,6 +16412,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\lombre.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lombre.html",
             "Forms": [
                 "Normal"
             ]
@@ -15764,6 +16466,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ludicolo.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "273": [
@@ -15805,6 +16514,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\seedot.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\seedot.html",
             "Forms": [
                 "Normal"
             ]
@@ -15852,6 +16568,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\nuzleaf.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "275": [
@@ -15893,6 +16616,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\shiftry.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\shiftry.html",
             "Forms": [
                 "Normal"
             ]
@@ -17059,6 +17789,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\nosepass.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "300": [
@@ -17618,6 +18355,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\plusle.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "312": [
@@ -17659,6 +18403,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\minun.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\minun.html",
             "Forms": [
                 "Normal"
             ]
@@ -17706,6 +18457,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\volbeat.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "314": [
@@ -17747,6 +18505,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\illumise.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\illumise.html",
             "Forms": [
                 "Normal"
             ]
@@ -18419,6 +19184,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\trapinch.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "329": [
@@ -18463,6 +19235,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\vibrava.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "330": [
@@ -18504,6 +19283,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\flygon.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\flygon.html",
             "Forms": [
                 "Normal"
             ]
@@ -19049,6 +19835,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\corphish.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "342": [
@@ -19090,6 +19883,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\crawdaunt.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\crawdaunt.html",
             "Forms": [
                 "Normal"
             ]
@@ -19401,6 +20201,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\feebas.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "350": [
@@ -19442,6 +20249,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\milotic.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\milotic.html",
             "Forms": [
                 "Normal"
             ]
@@ -19696,6 +20510,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\duskull.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "356": [
@@ -19737,6 +20558,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\dusclops.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\dusclops.html",
             "Forms": [
                 "Normal"
             ]
@@ -19832,6 +20660,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\chimecho.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\chimecho.html",
             "Forms": [
                 "Normal"
             ]
@@ -20587,6 +21422,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\beldum.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "375": [
@@ -20628,6 +21470,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\metang.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\metang.html",
             "Forms": [
                 "Normal"
             ]
@@ -20677,6 +21526,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\metagross.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "377": [
@@ -20718,6 +21574,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\regirock.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\regirock.html",
             "Forms": [
                 "Normal"
             ]
@@ -20765,6 +21628,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\regice.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "379": [
@@ -20806,6 +21676,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\registeel.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\registeel.html",
             "Forms": [
                 "Normal"
             ]
@@ -20855,6 +21732,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\latias.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "381": [
@@ -20898,6 +21782,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\latios.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\latios.html",
             "Forms": [
                 "Normal"
             ]
@@ -21104,6 +21995,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\jirachi.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "386": [
@@ -21166,6 +22064,16 @@
                 "Defense Forme",
                 "Speed Forme"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\deoxys.html",
+            "Forms": [
+                "Normal Forme",
+                "Attack Forme",
+                "Defense Forme",
+                "Speed Forme"
+            ]
         }
     ],
     "387": [
@@ -21200,6 +22108,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\turtwig.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\turtwig.html",
             "Forms": [
                 "Normal"
             ]
@@ -21240,6 +22155,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\grotle.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "389": [
@@ -21274,6 +22196,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\torterra.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\torterra.html",
             "Forms": [
                 "Normal"
             ]
@@ -21314,6 +22243,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\chimchar.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "391": [
@@ -21348,6 +22284,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\monferno.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\monferno.html",
             "Forms": [
                 "Normal"
             ]
@@ -21388,6 +22331,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\infernape.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "393": [
@@ -21422,6 +22372,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\piplup.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\piplup.html",
             "Forms": [
                 "Normal"
             ]
@@ -21462,6 +22419,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\prinplup.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "395": [
@@ -21496,6 +22460,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\empoleon.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\empoleon.html",
             "Forms": [
                 "Normal"
             ]
@@ -22036,6 +23007,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cranidos.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "409": [
@@ -22070,6 +23048,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\rampardos.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\rampardos.html",
             "Forms": [
                 "Normal"
             ]
@@ -22110,6 +23095,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\shieldon.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "411": [
@@ -22144,6 +23136,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\bastiodon.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\bastiodon.html",
             "Forms": [
                 "Normal"
             ]
@@ -22714,6 +23713,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ambipom.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "425": [
@@ -23074,6 +24080,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\chingling.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\chingling.html",
             "Forms": [
                 "Normal"
             ]
@@ -23627,6 +24640,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\munchlax.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\munchlax.html",
             "Forms": [
                 "Normal"
             ]
@@ -24384,6 +25404,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\rhyperior.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "465": [
@@ -24458,6 +25485,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\electivire.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "467": [
@@ -24492,6 +25526,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\magmortar.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\magmortar.html",
             "Forms": [
                 "Normal"
             ]
@@ -24566,6 +25607,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\yanmega.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\yanmega.html",
             "Forms": [
                 "Normal"
             ]
@@ -24694,6 +25742,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\gliscor.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "473": [
@@ -24731,6 +25786,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\mamoswine.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "474": [
@@ -24765,6 +25827,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\porygon-z.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\porygon-z.html",
             "Forms": [
                 "Normal"
             ]
@@ -24851,6 +25920,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\probopass.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "477": [
@@ -24885,6 +25961,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\dusknoir.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\dusknoir.html",
             "Forms": [
                 "Normal"
             ]
@@ -25311,6 +26394,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\regigigas.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "487": [
@@ -25442,6 +26532,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\phione.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "490": [
@@ -25479,6 +26576,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\manaphy.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "491": [
@@ -25513,6 +26617,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\darkrai.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\darkrai.html",
             "Forms": [
                 "Normal"
             ]
@@ -25554,6 +26665,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\shaymin.html",
+            "Forms": [
+                "Land Forme",
+                "Sky Forme"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\shaymin.html",
             "Forms": [
                 "Land Forme",
                 "Sky Forme"
@@ -25755,6 +26874,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\snivy.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "496": [
@@ -25775,6 +26901,13 @@
         {
             "Gen": 7,
             "Path": "\\generation7\\496.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\servine.html",
             "Forms": [
                 "Normal"
             ]
@@ -25801,6 +26934,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\serperior.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "498": [
@@ -25821,6 +26961,13 @@
         {
             "Gen": 7,
             "Path": "\\generation7\\498.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\tepig.html",
             "Forms": [
                 "Normal"
             ]
@@ -25847,6 +26994,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\pignite.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "500": [
@@ -25867,6 +27021,13 @@
         {
             "Gen": 7,
             "Path": "\\generation7\\500.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\emboar.html",
             "Forms": [
                 "Normal"
             ]
@@ -26490,6 +27651,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\blitzle.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "523": [
@@ -26510,6 +27678,13 @@
         {
             "Gen": 7,
             "Path": "\\generation7\\523.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\zebstrika.html",
             "Forms": [
                 "Normal"
             ]
@@ -26693,6 +27868,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\drilbur.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "530": [
@@ -26720,6 +27902,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\excadrill.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\excadrill.html",
             "Forms": [
                 "Normal"
             ]
@@ -26785,6 +27974,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\timburr.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "533": [
@@ -26815,6 +28011,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\gurdurr.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "534": [
@@ -26842,6 +28045,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\conkeldurr.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\conkeldurr.html",
             "Forms": [
                 "Normal"
             ]
@@ -27018,6 +28228,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\sewaddle.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "541": [
@@ -27041,6 +28258,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\swadloon.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "542": [
@@ -27061,6 +28285,13 @@
         {
             "Gen": 7,
             "Path": "\\generation7\\542.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\leavanny.html",
             "Forms": [
                 "Normal"
             ]
@@ -27184,6 +28415,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cottonee.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "547": [
@@ -27211,6 +28449,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\whimsicott.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\whimsicott.html",
             "Forms": [
                 "Normal"
             ]
@@ -27632,6 +28877,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\scraggy.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "560": [
@@ -27659,6 +28911,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\scrafty.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\scrafty.html",
             "Forms": [
                 "Normal"
             ]
@@ -28042,6 +29301,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\minccino.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "573": [
@@ -28069,6 +29335,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\cinccino.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cinccino.html",
             "Forms": [
                 "Normal"
             ]
@@ -28213,6 +29486,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\solosis.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "578": [
@@ -28240,6 +29520,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\duosion.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\duosion.html",
             "Forms": [
                 "Normal"
             ]
@@ -28273,6 +29560,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\reuniclus.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "580": [
@@ -28296,6 +29590,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ducklett.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "581": [
@@ -28316,6 +29617,13 @@
         {
             "Gen": 7,
             "Path": "\\generation7\\581.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\swanna.html",
             "Forms": [
                 "Normal"
             ]
@@ -28777,6 +30085,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\joltik.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "596": [
@@ -28804,6 +30119,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\galvantula.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\galvantula.html",
             "Forms": [
                 "Normal"
             ]
@@ -29137,6 +30459,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\litwick.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "608": [
@@ -29167,6 +30496,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lampent.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "609": [
@@ -29194,6 +30530,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\chandelure.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\chandelure.html",
             "Forms": [
                 "Normal"
             ]
@@ -29540,6 +30883,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\mienfoo.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "620": [
@@ -29567,6 +30917,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\mienshao.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\mienshao.html",
             "Forms": [
                 "Normal"
             ]
@@ -29630,6 +30987,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\golett.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "623": [
@@ -29657,6 +31021,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\golurk.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\golurk.html",
             "Forms": [
                 "Normal"
             ]
@@ -29870,6 +31241,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\vullaby.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "630": [
@@ -29897,6 +31275,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\mandibuzz.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\mandibuzz.html",
             "Forms": [
                 "Normal"
             ]
@@ -30175,6 +31560,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cobalion.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "639": [
@@ -30205,6 +31597,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\terrakion.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "640": [
@@ -30232,6 +31631,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\virizion.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\virizion.html",
             "Forms": [
                 "Normal"
             ]
@@ -30349,6 +31755,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\reshiram.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "644": [
@@ -30376,6 +31789,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\zekrom.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\zekrom.html",
             "Forms": [
                 "Normal"
             ]
@@ -30459,6 +31879,15 @@
                 "Black",
                 "White"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\kyurem.html",
+            "Forms": [
+                "Normal",
+                "Black",
+                "White"
+            ]
         }
     ],
     "647": [
@@ -30489,6 +31918,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\keldeo.html",
+            "Forms": [
+                "Normal",
+                "Resolute"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\keldeo.html",
             "Forms": [
                 "Normal",
                 "Resolute"
@@ -31335,6 +32772,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\espurr.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "678": [
@@ -31357,6 +32801,14 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\meowstic.html",
+            "Forms": [
+                "Male",
+                "Female"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\meowstic.html",
             "Forms": [
                 "Male",
                 "Female"
@@ -31548,6 +33000,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\inkay.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "687": [
@@ -31568,6 +33027,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\malamar.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\malamar.html",
             "Forms": [
                 "Normal"
             ]
@@ -32142,6 +33608,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\phantump.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "709": [
@@ -32162,6 +33635,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\trevenant.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\trevenant.html",
             "Forms": [
                 "Normal"
             ]
@@ -32602,6 +34082,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\litten.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "726": [
@@ -32615,6 +34102,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\torracat.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\torracat.html",
             "Forms": [
                 "Normal"
             ]
@@ -32634,6 +34128,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\incineroar.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "728": [
@@ -32647,6 +34148,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\popplio.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\popplio.html",
             "Forms": [
                 "Normal"
             ]
@@ -32666,6 +34174,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\brionne.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "730": [
@@ -32682,12 +34197,26 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\primarina.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "731": [
         {
             "Gen": 7,
             "Path": "\\generation7\\731.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\pikipek.html",
             "Forms": [
                 "Normal"
             ]
@@ -32700,12 +34229,26 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\trumbeak.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "733": [
         {
             "Gen": 7,
             "Path": "\\generation7\\733.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\toucannon.html",
             "Forms": [
                 "Normal"
             ]
@@ -32757,6 +34300,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\grubbin.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "737": [
@@ -32773,6 +34323,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\charjabug.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "738": [
@@ -32786,6 +34343,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\vikavolt.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\vikavolt.html",
             "Forms": [
                 "Normal"
             ]
@@ -32859,6 +34423,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cutiefly.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "743": [
@@ -32872,6 +34443,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\ribombee.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ribombee.html",
             "Forms": [
                 "Normal"
             ]
@@ -33056,6 +34634,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\dewpider.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "752": [
@@ -33069,6 +34654,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\araquanid.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\araquanid.html",
             "Forms": [
                 "Normal"
             ]
@@ -33313,6 +34905,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\comfey.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "765": [
@@ -33535,6 +35134,20 @@
                 "Violet Core",
                 "Yellow Core"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\minior.html",
+            "Forms": [
+                "Meteor",
+                "Blue Core",
+                "Green Core",
+                "Indigo Core",
+                "Orange Core",
+                "Red Core",
+                "Violet Core",
+                "Yellow Core"
+            ]
         }
     ],
     "775": [
@@ -33673,6 +35286,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\jangmo-o.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "783": [
@@ -33689,6 +35309,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\hakamo-o.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "784": [
@@ -33702,6 +35329,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\kommo-o.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\kommo-o.html",
             "Forms": [
                 "Normal"
             ]
@@ -33785,6 +35419,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cosmog.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "790": [
@@ -33798,6 +35439,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\cosmoem.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cosmoem.html",
             "Forms": [
                 "Normal"
             ]
@@ -33817,6 +35465,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\solgaleo.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "792": [
@@ -33830,6 +35485,13 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\lunala.html",
+            "Forms": [
+                "Normal"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\lunala.html",
             "Forms": [
                 "Normal"
             ]
@@ -33961,6 +35623,15 @@
         {
             "Gen": 8,
             "Path": "\\generation8\\necrozma.html",
+            "Forms": [
+                "Normal",
+                "Dusk Mane",
+                "Dawn Wings"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\necrozma.html",
             "Forms": [
                 "Normal",
                 "Dusk Mane",
@@ -34625,6 +36296,15 @@
                 "Gulping",
                 "Gorging"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\cramorant.html",
+            "Forms": [
+                "Normal",
+                "Gulping",
+                "Gorging"
+            ]
         }
     ],
     "846": [
@@ -34929,6 +36609,13 @@
             "Forms": [
                 "Normal"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\milcery.html",
+            "Forms": [
+                "Normal"
+            ]
         }
     ],
     "869": [
@@ -34946,6 +36633,21 @@
                 "Caramel Swirl",
                 "Rainbow Swirl",
                 "Gigantamax"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\alcremie.html",
+            "Forms": [
+                "Vanilla Cream",
+                "Ruby Cream",
+                "Matcha Cream",
+                "Mint Cream",
+                "Lemon Cream",
+                "Salted Cream",
+                "Ruby Swirl",
+                "Caramel Swirl",
+                "Rainbow Swirl"
             ]
         }
     ],
@@ -35073,6 +36775,14 @@
                 "Full Belly",
                 "Hangry"
             ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\morpeko.html",
+            "Forms": [
+                "Full Belly",
+                "Hangry"
+            ]
         }
     ],
     "878": [
@@ -35151,6 +36861,13 @@
             "Forms": [
                 "Normal",
                 "Gigantamax"
+            ]
+        },
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\duraludon.html",
+            "Forms": [
+                "Normal"
             ]
         }
     ],
@@ -35437,7 +37154,8 @@
             "Gen": 9,
             "Path": "\\generation9\\ursaluna.html",
             "Forms": [
-                "Normal"
+                "Hisuian",
+                "Bloodmoon"
             ]
         }
     ],
@@ -36433,7 +38151,11 @@
             "Gen": 9,
             "Path": "\\generation9\\koraidon.html",
             "Forms": [
-                "Normal"
+                "Apex Build",
+                "Limited Build",
+                "Sprinting Build",
+                "Swimming Build",
+                "Gliding Build"
             ]
         }
     ],
@@ -36442,7 +38164,11 @@
             "Gen": 9,
             "Path": "\\generation9\\miraidon.html",
             "Forms": [
-                "Normal"
+                "Ultimate Mode",
+                "Low-Power Mode",
+                "Drive Mode",
+                "Aquatic Mode",
+                "Glide Mode"
             ]
         }
     ],
@@ -36459,6 +38185,153 @@
         {
             "Gen": 9,
             "Path": "\\generation9\\ironleaves.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1011": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\dipplin.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1012": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\poltchageist.html",
+            "Forms": [
+                "Counterfeit",
+                "Artisan"
+            ]
+        }
+    ],
+    "1013": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\sinistcha.html",
+            "Forms": [
+                "Unremarkable",
+                "Masterpiece"
+            ]
+        }
+    ],
+    "1014": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\okidogi.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1015": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\munkidori.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1016": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\fezandipiti.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1017": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ogerpon.html",
+            "Forms": [
+                "Teal Mask",
+                "Wellspring Mask",
+                "Hearthflame Mask",
+                "Cornerstone Mask",
+                "Teal MaskTera",
+                "Wellspring MaskTera",
+                "Hearthflame MaskTera",
+                "Cornerstone MaskTera",
+                "Tera Type"
+            ]
+        }
+    ],
+    "1018": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\archaludon.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1019": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\hydrapple.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1020": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\gougingfire.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1021": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ragingbolt.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1022": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ironboulder.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1023": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\ironcrown.html",
+            "Forms": [
+                "Normal"
+            ]
+        }
+    ],
+    "1024": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\terapagos.html",
+            "Forms": [
+                "Normal",
+                "Terastal",
+                "Stellar"
+            ]
+        }
+    ],
+    "1025": [
+        {
+            "Gen": 9,
+            "Path": "\\generation9\\pecharunt.html",
             "Forms": [
                 "Normal"
             ]

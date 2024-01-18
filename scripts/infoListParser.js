@@ -54,6 +54,7 @@ const moveSetFormRegex = new RegExp([
     /Paldean Combat Breed$/,
     /Paldean Blaze Breed$/,
     /Paldean Aqua Breed$/,
+    /Blood ?[Mm]oon/,
 ].map(r => r.source).join('|'));
 
 const pokemonNameRegex = new RegExp([
@@ -327,6 +328,9 @@ class PokeInfoParser extends PokeParser {
         // console.log(textLines);
 
         let index = textLines.findIndex(textLine => textLine.includes(form) && textLine.includes("Abilit"));
+        if (form === this.GetDefaultForm() && textLines[0].includes('Regular Form')) {
+            index++;
+        }
 
         let ability1 = AbilityNameFix(textLines[++index]);
         let ability2 = null;

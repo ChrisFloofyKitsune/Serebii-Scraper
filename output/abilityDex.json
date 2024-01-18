@@ -50,7 +50,7 @@
         "Name": "Arena Trap",
         "GameText": "Prevents opposing Pokémon from fleeing.",
         "EffectDetail": "The opponent cannot run nor switch. Flying-type Pokémon and Pokémon with the Levitate special ability are unaffected. If this Pokémon switches, the opponent is still trapped for that turn. The opponent may still switch by using Baton Pass.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%. This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/arenatrap.shtml"
     },
     {
@@ -102,12 +102,12 @@
     {
         "Name": "Battle Bond",
         "GameText": "Defeating an opposing Pokémon strengthens the Pokémon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.In Scarlet & Violet, changes to boost Attack, Speed and Special Attack when opponents are knocked out.",
-        "EffectDetail": "When the user knocks out a target, its Attack, Sp. Attack and Speed stats are boosted by 1 stage",
+        "EffectDetail": "When the user knocks out a target, its Attack, Sp. Attack and Speed stats are boosted by 1 stage once per battle",
         "Link": "https://www.serebii.net/abilitydex/battlebond.shtml"
     },
     {
         "Name": "Beads of Ruin",
-        "GameText": "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself.",
+        "GameText": "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself by 25%. It is also not affected by other Beads of Ruin abilities.",
         "Link": "https://www.serebii.net/abilitydex/beadsofruin.shtml"
     },
     {
@@ -193,7 +193,7 @@
         "Name": "Compound Eyes",
         "GameText": "The Pokémon's compound eyes boost its accuracy.",
         "EffectDetail": "Raises the Pokémon’s accuracy by 30%.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon holding an item increases.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon holding an item increases from 50% to 60% or 5% to 20%. ",
         "Link": "https://www.serebii.net/abilitydex/compoundeyes.shtml"
     },
     {
@@ -237,7 +237,7 @@
         "Name": "Cute Charm",
         "GameText": "Contact with the Pokémon may cause infatuation.",
         "EffectDetail": "The opponent has a 30% chance of being induced with Attract when using an attack, that requires physical contact, against this Pokémon.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon of the opposite gender will be 66.6%. Does not effect swarming Pokémon.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon of the opposite gender will be 66.6%. Does not effect swarming Pokémon. .  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/cutecharm.shtml"
     },
     {
@@ -265,7 +265,7 @@
     {
         "Name": "Dazzling",
         "GameText": "Surprises the opposing Pokémon, making it unable to attack using priority moves.",
-        "EffectDetail": "Prevents the opponent from using moves with increased Speed Priority on this Pokémon.",
+        "EffectDetail": "Prevents the opponent from using moves with increased Speed Priority on this Pokémon and its allies.",
         "Link": "https://www.serebii.net/abilitydex/dazzling.shtml"
     },
     {
@@ -358,6 +358,26 @@
         "Link": "https://www.serebii.net/abilitydex/electromorphosis.shtml"
     },
     {
+        "Name": "Embody Aspect - Cornerstone Mask",
+        "GameText": "The Pokémon's heart fills with memories, causing the Cornerstone Mask to shine and the Pokémon's Defense stat to be boosted.",
+        "Link": "https://www.serebii.net/abilitydex/embodyaspect-cornerstonemask.shtml"
+    },
+    {
+        "Name": "Embody Aspect - Hearthflame Mask",
+        "GameText": "The Pokémon's heart fills with memories, causing the Hearthflame Mask to shine and the Pokémon's Attack  stat to be boosted.",
+        "Link": "https://www.serebii.net/abilitydex/embodyaspect-hearthflamemask.shtml"
+    },
+    {
+        "Name": "Embody Aspect - Teal Mask",
+        "GameText": "The Pokémon's heart fills with memories, causing the Teal Mask to shine and the Pokémon's Speed stat to be boosted.",
+        "Link": "https://www.serebii.net/abilitydex/embodyaspect-tealmask.shtml"
+    },
+    {
+        "Name": "Embody Aspect - Wellspring Mask",
+        "GameText": "The Pokémon's heart fills with memories, causing the Wellspring Mask to shine and the Pokémon's Sp. Def stat to be boosted.",
+        "Link": "https://www.serebii.net/abilitydex/embodyaspect-wellspringmask.shtml"
+    },
+    {
         "Name": "Emergency Exit",
         "GameText": "The Pokémon, sensing danger, switches out when its HP becomes half or less.",
         "EffectDetail": "When the Pokémon's Hit Points hit 50% or less, the Pokémon will switch out. Works once per battle. The Pokémon will not switch out if it drops below 50% due to Confusion, Weather, use of Substitute or when the damage inflicted is by a Pokémon with the Sheer Force ability. It will not activate if health is brought back up above 50% due to a hold item",
@@ -391,8 +411,8 @@
     {
         "Name": "Flash Fire",
         "GameText": "Powers up the Pokémon's Fire-type moves if it's hit by one.",
-        "EffectDetail": "Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokémon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokémon with this ability, Will-O-Wisp activates this ability without having an effect. If a non-Fire-type Pokémon has this ability, Will-O-Wisp will activate the ability and will have an effect.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Fire-type wild Pokémon increases severely.",
+        "EffectDetail": "Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokémon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokémon with this ability, Will-O-Wisp activates this ability without having an effect.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Fire-type wild Pokémon increases severely. .  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/flashfire.shtml"
     },
     {
@@ -426,7 +446,7 @@
     {
         "Name": "Friend Guard",
         "GameText": "Reduces damage done to allies.",
-        "EffectDetail": "In Double & Triple battles, the damage that ally Pokémon receive from attacks is reduced by 25%.",
+        "EffectDetail": "In Double  battles, the damage that ally Pokémon receive from attacks is reduced by 25%.",
         "Link": "https://www.serebii.net/abilitydex/friendguard.shtml"
     },
     {
@@ -523,7 +543,7 @@
         "Name": "Harvest",
         "GameText": "May create another Berry after one is used.",
         "EffectDetail": "The Pokémon has a 50% chance of restoring a consumed berry. During sunshine, this chance increases to 100%",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Grass-type wild Pokémon increases severely.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Grass-type wild Pokémon increases severely..  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/harvest.shtml"
     },
     {
@@ -550,6 +570,12 @@
         "Link": "https://www.serebii.net/abilitydex/honeygather.shtml"
     },
     {
+        "Name": "Hospitality",
+        "GameText": "When the Pokémon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP.",
+        "EffectDetail": "Heals up to 25% of its partner Pokémon's Maximum Hit Points when it enters battle",
+        "Link": "https://www.serebii.net/abilitydex/hospitality.shtml"
+    },
+    {
         "Name": "Huge Power",
         "GameText": "Doubles the Pokémon's Attack stat.",
         "EffectDetail": "The Pokémon's Attack stat is doubled while it has this ability.",
@@ -564,7 +590,7 @@
         "Name": "Hustle",
         "GameText": "Boosts the Attack stat, but lowers accuracy.",
         "EffectDetail": "Damage from physical attacks is increased by 50%, but average accuracy is only 80%.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon increases by 50%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon increases by 50%.. This does not work in Pokémon Sword & Shield onwards",
         "Link": "https://www.serebii.net/abilitydex/hustle.shtml"
     },
     {
@@ -599,7 +625,8 @@
     {
         "Name": "Illuminate",
         "GameText": "Raises the likelihood of meeting wild Pokémon by illuminating the surroundings.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%.",
+        "EffectDetail": "By Iluminating its surroundings, the Pokémon prevents its accuracy from being lowered",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%. In Pokémon Sword & Shield, this only works on Random encounters. This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/illuminate.shtml"
     },
     {
@@ -624,6 +651,7 @@
         "Name": "Infiltrator",
         "GameText": "Passes through the opposing Pokémon's barrier, substitute, and the like and strikes.",
         "EffectDetail": "The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%. In Pokémon Sword & Shield this reduces to 12.5%.  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/infiltrator.shtml"
     },
     {
@@ -646,8 +674,8 @@
     {
         "Name": "Intimidate",
         "GameText": "The Pokémon intimidates opposing Pokémon upon entering battle, lowering their Attack stat.",
-        "EffectDetail": "Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokémon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokémon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokémon switches. ",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a low level wild Pokémon decreases by 50%. This applies to Pokémon five levels lower than or below the level of the lead Pokémon.",
+        "EffectDetail": "Upon entering battle or receiving the ability, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokémon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokémon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokémon switches. ",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a low level wild Pokémon decreases by 50%. This applies to Pokémon five levels lower than or below the level of the lead Pokémon. This doesn't workf rom Pokémon Sword & Shield onwards",
         "Link": "https://www.serebii.net/abilitydex/intimidate.shtml"
     },
     {
@@ -664,7 +692,7 @@
     {
         "Name": "Iron Fist",
         "GameText": "Powers up punching moves.",
-        "EffectDetail": "The power of punching moves is increased by 20%.",
+        "EffectDetail": "The power of punching moves is increased by 20%. This stacks with Punching Glove.",
         "Link": "https://www.serebii.net/abilitydex/ironfist.shtml"
     },
     {
@@ -713,7 +741,7 @@
         "Name": "Lightning Rod",
         "GameText": "The Pokémon draws in all Electric-type moves.  Instead of being hit by Electric-type moves,  it boosts its Sp. Atk.",
         "EffectDetail": "Electric-type moves are drawn to this Pokémon. Electric-type moves will do no damage and the Pokémon's SP ATK is raised one stage.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering an Electric-type wild Pokémon increases severely.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering an Electric-type wild Pokémon increases severely. This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/lightningrod.shtml"
     },
     {
@@ -771,7 +799,7 @@
         "Name": "Magnet Pull",
         "GameText": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
         "EffectDetail": "Steel types cannot run nor switch while this Pokémon is in battle. Because the opponent’s switching is blocked, the opponent cannot switch on the turn this Pokémon switches out of battle. The opponent may still switch with Baton Pass.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Steel-type wild Pokémon increases severely.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Steel-type wild Pokémon increases severely. .  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/magnetpull.shtml"
     },
     {
@@ -796,6 +824,11 @@
         "GameText": "Changes the Pokémon's type depending on the terrain.",
         "EffectDetail": "Changes to Electric-type in Electric Terrain, Psychic-type in Psychic Terrain, Grass-type in Grassy Terrain  and Fairy type in Fairy-terrain. The type reverts to normal when the terrain ends.",
         "Link": "https://www.serebii.net/abilitydex/mimicry.shtml"
+    },
+    {
+        "Name": "Mind's Eye",
+        "GameText": "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.",
+        "Link": "https://www.serebii.net/abilitydex/mind'seye.shtml"
     },
     {
         "Name": "Minus",
@@ -881,7 +914,7 @@
         "Name": "No Guard",
         "GameText": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
         "EffectDetail": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases by 100%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases by 100%.  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/noguard.shtml"
     },
     {
@@ -975,6 +1008,11 @@
         "GameText": "Contact with the Pokémon may poison the attacker.",
         "EffectDetail": "The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokémon.",
         "Link": "https://www.serebii.net/abilitydex/poisonpoint.shtml"
+    },
+    {
+        "Name": "Poison Puppeteer",
+        "GameText": "Pokémon poisoned by Pecharunt's moves will also become confused.",
+        "Link": "https://www.serebii.net/abilitydex/poisonpuppeteer.shtml"
     },
     {
         "Name": "Poison Touch",
@@ -1085,7 +1123,7 @@
         "Name": "Quick Feet",
         "GameText": "Boosts the Speed stat if the Pokémon has a status condition.",
         "EffectDetail": "Speed is increased by 50% when induced with a status (Burn, Poison, Sleep, Frozen & Paralysis). If Paralysed, the speed drop is ignored.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%. In Pokémon Sword & Shield this reduces to 12.5%.  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/quickfeet.shtml"
     },
     {
@@ -1190,7 +1228,7 @@
         "Name": "Sand Veil",
         "GameText": "Boosts the Pokémon's evasion in a sandstorm.",
         "EffectDetail": "Raises the Pokémon’s evasion during a sandstorm by one level.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon during a sandstorm decreases to 50%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon during a sandstorm decreases to 50%. This does not work in Pokémon Sword & Shield onwards",
         "Link": "https://www.serebii.net/abilitydex/sandveil.shtml"
     },
     {
@@ -1409,7 +1447,7 @@
         "Name": "Stench",
         "GameText": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
         "EffectDetail": "If the Pokémon uses a move that deals damage on the opponent, there is a chance the opponent flinches",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%. In Battle Pyramid, it decreases to 75%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%. In Pokémon Sword & Shield this reduces to 12.5%.  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/stench.shtml"
     },
     {
@@ -1423,7 +1461,7 @@
         "Name": "Storm Drain",
         "GameText": "Draws in all Water-type moves. Instead of being hit  by Water-type moves, it boosts its Sp. Atk.",
         "EffectDetail": "Water-type moves are drawn to this Pokémon. Water-type moves will do no damage and the Pokémon's SP ATK is raised one stage",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Water-type wild Pokémon increases severely.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a Water-type wild Pokémon increases severely. .  This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/stormdrain.shtml"
     },
     {
@@ -1453,8 +1491,14 @@
         "Link": "https://www.serebii.net/abilitydex/superluck.shtml"
     },
     {
+        "Name": "Supersweet Syrup",
+        "GameText": "A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon.",
+        "EffectDetail": "Lowers the evasion of opposing Pokémon by 1 stage when first sent into battle",
+        "Link": "https://www.serebii.net/abilitydex/supersweetsyrup.shtml"
+    },
+    {
         "Name": "Supreme Overlord",
-        "GameText": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.",
+        "GameText": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are boosted by 10% for each of the allies in its party that have already been defeated.",
         "Link": "https://www.serebii.net/abilitydex/supremeoverlord.shtml"
     },
     {
@@ -1482,7 +1526,7 @@
     },
     {
         "Name": "Sword of Ruin",
-        "GameText": "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself.",
+        "GameText": "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself by 25%. It is also not affected by other Sword of Ruin abilities.",
         "Link": "https://www.serebii.net/abilitydex/swordofruin.shtml"
     },
     {
@@ -1499,7 +1543,7 @@
     },
     {
         "Name": "Tablets of Ruin",
-        "GameText": "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself.",
+        "GameText": "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself by 25%. It is also not affected by other Tablets of Ruin abilities.",
         "Link": "https://www.serebii.net/abilitydex/tabletsofruin.shtml"
     },
     {
@@ -1523,8 +1567,23 @@
     {
         "Name": "Telepathy",
         "GameText": "Anticipates an ally's attack and dodges it.",
-        "EffectDetail": "Prevents damage from team-mates during Double and Triple battles",
+        "EffectDetail": "Prevents damage from team-mates during Double battles",
         "Link": "https://www.serebii.net/abilitydex/telepathy.shtml"
+    },
+    {
+        "Name": "Tera Shell",
+        "GameText": "The Pokémon's shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.",
+        "Link": "https://www.serebii.net/abilitydex/terashell.shtml"
+    },
+    {
+        "Name": "Tera Shift",
+        "GameText": "When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form.",
+        "Link": "https://www.serebii.net/abilitydex/terashift.shtml"
+    },
+    {
+        "Name": "Teraform Zero",
+        "GameText": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero.",
+        "Link": "https://www.serebii.net/abilitydex/teraformzero.shtml"
     },
     {
         "Name": "Teravolt",
@@ -1567,6 +1626,11 @@
         "Link": "https://www.serebii.net/abilitydex/toxicboost.shtml"
     },
     {
+        "Name": "Toxic Chain",
+        "GameText": "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move.",
+        "Link": "https://www.serebii.net/abilitydex/toxicchain.shtml"
+    },
+    {
         "Name": "Toxic Debris",
         "GameText": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.",
         "Link": "https://www.serebii.net/abilitydex/toxicdebris.shtml"
@@ -1574,13 +1638,13 @@
     {
         "Name": "Trace",
         "GameText": "When it enters a battle, the Pokémon copies an opposing Pokémon's Ability.",
-        "EffectDetail": "Ability becomes the same as that of the opponent. Switching this Pokémon out of battle restores its original ability. In a Double/Triple Battle, a random opponent’s ability will be copied.",
+        "EffectDetail": "Ability becomes the same as that of the opponent. Switching this Pokémon out of battle restores its original ability. In a Double Battle, a random opponent’s ability will be copied.",
         "Link": "https://www.serebii.net/abilitydex/trace.shtml"
     },
     {
         "Name": "Transistor",
         "GameText": "Powers up Electric-type moves.",
-        "EffectDetail": "Increases the damage inflicted by Electric-type moves by 50%",
+        "EffectDetail": "Increases the damage inflicted by Electric-type moves by 30%",
         "Link": "https://www.serebii.net/abilitydex/transistor.shtml"
     },
     {
@@ -1625,7 +1689,7 @@
     },
     {
         "Name": "Vessel of Ruin",
-        "GameText": "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.",
+        "GameText": "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself by 25%. It is also not affected by other Vessel of Ruin abilities.",
         "Link": "https://www.serebii.net/abilitydex/vesselofruin.shtml"
     },
     {
@@ -1638,7 +1702,7 @@
         "Name": "Vital Spirit",
         "GameText": "The Pokémon is full of vitality, and that prevents it from falling asleep.",
         "EffectDetail": "The Pokémon cannot be Asleep while having this ability.",
-        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon increases by 50%.",
+        "OverworldEffect": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon increases by 50%. In Pokémon Sword & Shield, this only works on Random encounters. This doesn't work in Pokémon Scarlet & Violet onwards",
         "Link": "https://www.serebii.net/abilitydex/vitalspirit.shtml"
     },
     {

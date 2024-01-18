@@ -87,7 +87,8 @@ class PokeParser {
             {name: "Tauros", form: "Paldean", result: "Paldean Combat Breed"},
             {name: "Tauros", form: "Blaze Breed", result: "Paldean Blaze Breed"},
             {name: "Tauros", form: "Aqua Breed", result: "Paldean Aqua Breed"},
-            {name: "Decidueye", form: "Alolan", result: "Normal"}
+            {name: "Decidueye", form: "Alolan", result: "Normal"},
+            {name: "Ursaluna", form: "Blood Moon", result: "Bloodmoon"},
         ]
 
         const fix = fixesList.find(f =>
